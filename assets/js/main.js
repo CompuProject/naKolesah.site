@@ -162,6 +162,8 @@
     }, {}]
 }, {}, [1]);
 $(document).ready(function () {
+
+
     if ($(window).width() < 850) {
         $('#node848_meta img').click(function () {
             srcPath = $(this).attr('src');
@@ -203,10 +205,3 @@ $(document).ready(function () {
     }
     $('input[name=phone]').mask('+7 (999) 999-99-99');
 });
-/*******карта******************/
-
-if ($(window).width() > 768) {
-    $('._maps').html('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A414e14fc8682eb7396f6441a39b86933843a693d39507368696b1c873df16cea&amp;width=426&amp;height=390&amp;lang=ru_RU&amp;scroll=false"></script>');
-} else {
-    $('._maps').html('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A414e14fc8682eb7396f6441a39b86933843a693d39507368696b1c873df16cea&amp;width=290&amp;height=240&amp;lang=ru_RU&amp;scroll=false"></script>');
-};

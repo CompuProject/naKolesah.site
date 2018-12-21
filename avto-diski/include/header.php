@@ -12,7 +12,6 @@ function isMobile()
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/main1.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700&amp;subset=cyrillic" rel="stylesheet">
     <title>Сеть из 22-х автоцентров по всей Москве</title>
@@ -28,6 +27,27 @@ function isMobile()
             var js = d.createElement(s); js.charset="UTF-8"; js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
         })(window, document, 'script', 'cloud.roistat.com', 'cb5eaad87366afa54f53f0b311781e73');
     </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        var siteUrl = location.href.replace('http://nakolesah.site/','').replace('/','');
+        var yaID = [];
+        yaID['avto-diski']='51444733';
+        yaID['diski-avto']='51463640';
+
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym")
+
+        ym(Number(yaID[siteUrl]), "init", {
+            id:Number(yaID[siteUrl]),
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/51352711" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </head>
 <body>
 <header class="header">
@@ -71,11 +91,11 @@ function isMobile()
             </div>
             <div class="header__top-phone">
                 <div class="header__top-phone-number">
-				<span class="text">8 (800) 550-63-94</span>
+				<span class="text">8 (800) 222-09-86</span>
                     <p>Бесплатный звонок по РФ</p>
                 </div>
                 <div class="header__top-phone-callback">
-                    <button class="btn_modal" id="modal1" onclick="yaCounter51352711.reachGoal('ZAKAZ_ZVONKA'); return true;">
+                    <button class="btn_modal" id="modal1" onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('PZ');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('PZ');return true;}">
 						<span class="text">
                                 Перезвоните мне
                                 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span>
