@@ -1,0 +1,222 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  div.area.screen-lg{
+    min-width: 100%;
+
+    .slider3-root{
+      .grid.xs-wrap>.gridwrap{
+        display: flex !important;
+        .col{
+          width: 70% !important;
+        }
+      }
+    }
+
+    #node621_meta .slider3-pagination{
+      .slider3-page{
+        &.is-active{
+          background-color: rgb(235, 43, 48) !important;
+        }
+      }
+    }
+
+    .xs-hidden{
+      display: block !important;
+    }
+    .lg-screen{
+      display: block !important;
+    }
+    .desktop{
+      display: none !important;
+    }
+    .mobile{
+      &-nav>.wrapper1>.wrapper2{
+          padding-top: 14px;
+          padding-bottom: 3px;
+        }
+
+      display: block !important;
+      &-nav>.wrapper1{
+        background: url("/assets/images/first-screen-bg.png") no-repeat;
+        background-size: cover;
+      }
+      &-nav>.wrapper1>.wrapper2{
+        background-color: rgba(35, 35, 35, 0.98);
+      }
+    }
+    .node253{
+      .separatorbottom{
+        display: none;
+      }
+      .padding{
+        display: none;
+      }
+      &>.wrapper1{
+        background-image: url("/assets/images/bg-2.jpg") !important;
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #FFF;
+        &>.wrapper2{
+          padding-bottom: 30px;
+        }
+      }
+      .top-title{
+        margin: 20px 0;
+        p{
+          span{
+            font-family: "Open Sans", sans-serif !important;
+            font-size: 22px !important;
+            line-height: 1.2;
+            font-weight: 700!important;
+          }
+        }
+      }
+      //&>.wrapper1>.wrapper2{
+      //  background-color: rgba(35, 35, 35, 0.98);
+      //}
+    }
+    .macros-button{
+      .btn-out.right{
+        text-align: center;
+      }
+      .btn-out.left{
+        text-align: center;
+      }
+    }
+    @for $i from 1 through 300{
+      @if($i != 117 and $i != 116 and $i != 115 and $i != 114 and $i != 113 and $i != 112) {
+        #uid#{$i}{
+          padding: 15px 31px;
+          margin-bottom: 20px;
+          font-size: 13px;
+        }
+      }
+    }
+    .node323, .node1002{
+      &>.wrapper1>.wrapper2{
+        padding: 16px 5px 5px 0;
+      }
+    }
+    .node400{
+      .gridwrap{
+        .col{
+          &:first-child{
+            display: none;
+          }
+          &:last-child{
+            width: 100% !important;
+          }
+        }
+      }
+      #ymaps1542225719224168272 {
+        width: 100% !important;
+        .ymaps-2-1-69-map{
+          width: 100% !important;
+        }
+      }
+      &>.wrapper1>.wrapper2{
+        padding-top: 30px;
+        padding-bottom: 40px;
+      }
+    }
+
+    .node363, .node618, .node721, .node755, .node845, .node942{
+      &>.wrapper1>.wrapper2{
+        padding-top: 30px;
+        padding-bottom: 40px;
+      }
+      p{
+        margin: 1px 0;
+        span{
+          font-family: "Open Sans", sans-serif;
+          font-size: 19px !important;
+          line-height: 20px;
+        }
+      }
+    }
+    .node721{
+      &>.wrapper1{
+        background: rgb(238, 238, 238);
+      }
+    }
+    .node724{
+      .widget-imagedtext .tbl{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        font-size: 10px;
+        .icon{
+          width: 100% !important;
+        }
+        .text{
+          p{
+            span{
+              font-size: 16px !important;
+            }
+          }
+        }
+      }
+    }
+    .node755{
+      .text, .textable{
+        p{
+          span{
+            font-size: 16px !important;
+          }
+        }
+      }
+    }
+    .node344, .node345, .node346{
+      p{
+        padding-right: 10px;
+        span{
+          font-size: 14px !important;
+        }
+      }
+    }
+    .node401{
+      p{
+        line-height: 0.7!important;
+        margin: 1px 0;
+        span{
+          display: block;
+          font-family: "Open Sans", sans-serif !important;
+          font-size: 20px !important;
+        }
+      }
+    }
+    .node259{
+      p{
+        line-height: 0.7!important;
+        margin: 1px 0;
+        span{
+          font-family: "Open Sans", sans-serif !important;
+          font-size: 16px !important;
+          line-height: normal;
+        }
+      }
+    }
+    .node1055{
+      text-align: center!important;
+      .bgimage{
+        background-position: center center !important;
+      }
+    }
+    .hamburger1-menu{
+      &.is-collapsed{
+        .widget-menu{
+          display: none;
+        }
+      }
+    }
+  }
+  .node1{
+    display: none;
+  }
+  div.area.screen-xs{
+    .container{
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,1173 @@
+@charset "UTF-8";
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+
+@-webkit-keyframes rippleDrop {
+    to {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        opacity: 0
+    }
+}
+
+@keyframes rippleDrop {
+    to {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        opacity: 0
+    }
+}
+
+.modalOverlay {
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(87, 91, 113, .4);
+    display: none
+}
+
+.modal3 {
+    width: 35% !important;
+    left: 35% !important;
+    text-align: center
+}
+
+.modal-brake, .modal-common, .modal-hood, .modal-liquid, .modal-reviews, .modal-tire, .modal-under {
+    width: 50% !important;
+    left: calc(50% - 380px) !important
+}
+
+.modal-reviews .callBackModal_content {
+    padding: 50px
+}
+
+.modal-reviews .modalText {
+    display: flex;
+    justify-content: space-between
+}
+
+.modal-reviews .modalText * {
+    display: block
+}
+
+.modal-reviews .modalText label {
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 5px
+}
+
+.modal-reviews .modalText input, .modal-reviews .modalText select, .modal-reviews .modalText textarea {
+    width: 100%;
+    padding: 10px
+}
+
+.modal-reviews__left, .modal-reviews__right {
+    width: 45%
+}
+
+.modal-reviews__right button {
+    margin: 20px auto;
+    padding: 20px 48px
+}
+
+.modalWindow {
+    position: fixed;
+    left: 40%;
+    top: 15%;
+    width: 25%;
+    z-index: 2001;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    display: none
+}
+
+.modalWindow h4 {
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 24px
+}
+
+.header__top-company p, .modal3 .step, .modal_header h4, .modal_header p {
+    margin: 0
+}
+
+.modal_header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 16.42857143px;
+    text-align: right
+}
+
+.nofonts {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2
+}
+
+.callBackModal_content {
+    padding: 45px
+}
+
+.modalName {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .05em
+}
+
+.modalText {
+    padding-top: 25px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif
+}
+
+.modalText__row {
+    display: flex;
+    justify-content: space-around
+}
+
+.modalText__item {
+    width: 30%
+}
+
+.modalInputName {
+    padding-top: 25px;
+    font-weight: 400;
+    font-family: Open Sans;
+    opacity: .8;
+    margin-bottom: 6.5px;
+    font-size: 13px;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    letter-spacing: .1em
+}
+
+.modalInput, .modalSelect {
+    height: auto;
+    line-height: 1.2;
+    box-shadow: none;
+    position: relative;
+    background-color: #fff;
+    color: rgba(0, 0, 0, .5);
+    border: 1px solid rgba(0, 0, 0, .25);
+    border-radius: 0;
+    padding: 12px 9.6px;
+    font-size: 14px;
+    cursor: initial;
+    width: 100%
+}
+
+.modalBtnBlock {
+    padding: 25px 20px 0
+}
+
+.modalBtnBlock button {
+    background-color: #e6d800;
+    border-color: #946f0f;
+    color: #222;
+    font-weight: 600;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0;
+    padding: 23px 45px;
+    font-size: 15px;
+    width: 100%;
+    display: block;
+    outline: 0 !important;
+    box-shadow: none;
+    position: relative;
+    overflow: hidden;
+    white-space: normal;
+    word-wrap: break-word;
+    transition-property: box-shadow, transform, color, background-color, border-color !important;
+    transition-property: box-shadow, transform, color, background-color, border-color, -webkit-transform !important;
+    transition-timing-function: cubic-bezier(.2, 1, .3, 1);
+    font-family: 'Open Sans', sans-serif
+}
+
+.modalWindow .js-prev-step {
+    background-color: transparent;
+    border-color: #000;
+    color: #000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 28px 48px;
+    font-size: 15px;
+    font-family: "TTNorms Bold"
+}
+
+#step8 button {
+    margin: auto 0
+}
+
+.leftModalBtn {
+    position: fixed;
+    top: 200px;
+    left: 5px;
+    z-index: 99999;
+    cursor: pointer
+}
+
+.leftModalBtn img {
+    width: 74.16px
+}
+
+.leftModalBtn:hover img {
+    width: 90px
+}
+
+.ripple {
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .77);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    position: absolute
+}
+
+.rippleEffect {
+    -webkit-animation: rippleDrop 1.6s infinite linear;
+    animation: rippleDrop 1.6s infinite linear
+}
+
+button.big-yellow-button, button.btn_modal {
+    outline: 0 !important;
+    overflow: hidden !important;
+    position: relative !important
+}
+
+.container .hamburger1-header {
+    display: flex;
+    align-items: center;
+    width: 100%
+}
+
+.container .hamburger1 {
+    display: none
+}
+
+.errMsg {
+    color: red;
+    font-size: 12px
+}
+
+.asRange, .asRange-scale {
+    position: relative;
+    height: 8px;
+    background-color: #cfcdc7;
+    border-radius: 8px
+}
+
+.asRange {
+    margin: 45px auto;
+    display: inline-flex;
+    width: 50%
+}
+
+.asRange .asRange-pointer, .asRange .asRange-selected {
+    position: absolute;
+    left: 30%;
+    height: 8px;
+    border-radius: 9px
+}
+
+.asRange .asRange-pointer {
+    margin-left: -4px;
+    z-index: 2;
+    width: 8px;
+    background-color: #fff
+}
+
+.asRange .asRange-pointer:before {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: "";
+    background: #fff100;
+    border-radius: inherit
+}
+
+.asRange .asRange-pointer:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background: #fff;
+    border-radius: inherit
+}
+
+.asRange .asRange-pointer.start {
+    left: 0;
+    margin-left: 4px
+}
+
+.asRange .asRange-pointer.stop {
+    left: 100%;
+    margin-left: -12px
+}
+
+.asRange .asRange-pointer .asRange-tip {
+    position: absolute;
+    top: -33px;
+    left: 0;
+    width: 50px;
+    height: 20px;
+    margin-left: -21px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #fff100;
+    border: 1px solid #5d5c58;
+    border-radius: 3px;
+    transition: opacity .3s ease-in-out 0s
+}
+
+.asRange .asRange-selected {
+    z-index: 1;
+    width: 40%;
+    background-color: #fff100
+}
+
+.asRange .asRange-scale {
+    display: none
+}
+
+.asRange-scale {
+    width: 331px
+}
+
+.asRange-scale .asRange-pointer {
+    position: absolute;
+    left: 30%;
+    z-index: 2;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    background-color: #fff;
+    border-radius: 9px
+}
+
+.asRange-scale .asRange-pointer:before {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: "";
+    background: #fff100;
+    border-radius: inherit
+}
+
+.asRange-scale .asRange-pointer:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background: #fff;
+    border-radius: inherit
+}
+
+.asRange-scale .asRange-pointer.start {
+    left: 0;
+    margin-left: 4px
+}
+
+.asRange-scale .asRange-pointer.stop {
+    left: 100%;
+    margin-left: -12px
+}
+
+.asRange-scale .asRange-pointer .asRange-tip {
+    position: absolute;
+    top: -33px;
+    left: 0;
+    width: 36px;
+    height: 20px;
+    margin-left: -15px;
+    font-family: Bpreplay;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #5d5c58;
+    border: 1px solid #5d5c58;
+    border-radius: 3px;
+    transition: opacity .3s ease-in-out 0s
+}
+
+.asRange-scale .asRange-pointer .asRange-tip:before {
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    content: "";
+    background-color: #5d5c58;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.asRange-scale .asRange-selected {
+    position: absolute;
+    left: 30%;
+    z-index: 1;
+    width: 40%;
+    height: 8px;
+    background-color: #7ebdcb;
+    border-radius: 9px
+}
+
+.asRange-scale .asRange-scale {
+    position: absolute;
+    bottom: -22px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: url(../image/scale.png) no-repeat 0 center
+}
+
+.asRange-scale .asRange-scale li {
+    position: absolute;
+    top: 18px;
+    width: 30px;
+    height: 20px;
+    padding: 0;
+    margin: 0 0 0 -15px;
+    text-align: center
+}
+
+.asRange-scale .asRange-scale li:first-child {
+    left: 0
+}
+
+.asRange-scale .asRange-scale li:nth-child(2) {
+    left: 33.3%
+}
+
+.asRange-scale .asRange-scale li:nth-child(3) {
+    left: 66.6%
+}
+
+.asRange-scale .asRange-scale li:last-child {
+    left: 100%
+}
+
+.h2, .h3, .h4, .h5, .h6, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto" !important
+}
+
+h2 {
+    color: #111;
+    font-size: 36px;
+    margin: 50px 0;
+    font-weight: 600
+}
+
+.back-button, .big-yellow-button {
+    font-size: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 800
+}
+
+.big-yellow-button {
+    border-radius: 50px;
+    margin-bottom: 10px;
+    background-color: #e6d800;
+    padding: 32px 48px;
+    color: #000;
+    border: 0;
+    transition-duration: .3s;
+    outline: 0 !important;
+    overflow: hidden !important;
+    position: relative !important
+}
+
+.big-yellow-button:hover, .footer__phone--callback button:hover, .header--mobile #modal1:hover, .header__top-phone-callback button:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.back-button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 18px 48px;
+    color: #fff;
+    margin-right: 50px !important
+}
+
+.header {
+    position: fixed;
+    background-color: #282828;
+    height: 135px;
+    width: 100%;
+    top: 0;
+    z-index: 100
+}
+
+.header--mobile {
+    display: none
+}
+
+.header--mobile .header__top-phone-callback {
+    text-align: center;
+    margin: 5px
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-top: 15px
+}
+
+.header__top-company {
+    margin-right: 20%;
+    font-size: 18px
+}
+
+.header__top-phone {
+    display: flex;
+    align-items: center
+}
+
+.header__top-phone-number {
+    margin-right: 20px;
+    text-align: right
+}
+
+.header__top-phone-number p {
+    margin: 0;
+    font-size: 16px
+}
+
+.footer__phone--callback button, .header--mobile #modal1, .header__top-phone-callback button {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #00ad4d;
+    border-radius: 50px;
+    padding: 17px 32px;
+    border: 0;
+    transition-duration: .3s
+}
+
+.header__menu {
+    text-align: center;
+    margin-top: 20px
+}
+
+.header__menu ul li {
+    margin: 0 25px
+}
+
+.header__menu ul li:last-child a {
+    color: #fff100
+}
+
+.header__menu ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    transition-duration: .5s
+}
+
+.header__menu ul li a:hover {
+    color: #fff100;
+    text-decoration: none
+}
+
+.inclusive h2, .online-selection__form-step span {
+    color: #fff
+}
+
+.firstscreen {
+    margin-top: 135px;
+    background: url(/diagnostika/assets/img/diagnostika-firstscreen.jpg) fixed;
+    color: #fff;
+    background-attachment: fixed!important;
+    background-position: center center!important;
+    background-size: cover!important;
+    background-repeat: repeat!important;
+}
+
+.firstscreen .wrapper {
+    padding-top: 130px;
+    padding-bottom: 68px
+}
+
+.firstscreen h1 {
+    font-size: 52px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+.appointment h2 span, .firstscreen h1 span, .firstscreen__freeuntil span, .freeuntil span, .inclusive__button--freeuntil span, .installment h2 span, .installment__circs-list ul li span, .online-selection__form-info span {
+    color: #fff100
+}
+
+.firstscreen__mobile-part {
+    display: none;
+    margin-top: 120px;
+    padding: 10px 0;
+    background: #282828;
+    color: #fff;
+    text-align: center;
+    font-size: 18px
+}
+
+.firstscreen__freeuntil, .firstscreen__subtitle {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.firstscreen__freeuntil {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+.firstscreen h1, .firstscreen__button {
+    text-align: center
+}
+
+.firstscreen__advantages {
+    margin-top: 40px
+}
+
+.firstscreen__advantages-text p {
+    font-size: 18px;
+    width: 65%;
+    display: block;
+    margin: auto
+}
+
+.mapblock__button {
+    margin: 50px
+}
+
+.inclusive__button button, .mapblock__button button {
+    margin: auto;
+    display: block
+}
+
+.freeuntil {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase
+}
+
+.brandsblock__image {
+    text-align: center;
+    margin-bottom: 40px
+}
+
+.tabsblock__button {
+    margin: 40px
+}
+
+.inclusive {
+    background: url(/diagnostika/assets/img/diagnostika-inclusive.jpg);
+    background-attachment: fixed!important;
+    background-position: center center!important;
+    background-size: cover!important;
+    background-repeat: repeat!important;
+}
+
+.firstscreen .wrapper, .inclusive .wrapper {
+    background-color: rgba(52, 52, 52, .8)
+}
+
+.inclusive__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.inclusive__item {
+    color: #fff;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    padding: 25px 0
+}
+
+.inclusive__item p {
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+.inclusive__item a {
+    color: #fff;
+    text-decoration: underline;
+    transition-duration: .3s
+}
+
+.inclusive__item a:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: #fff100
+}
+
+.inclusive__button {
+    margin: 50px
+}
+
+.inclusive__button--freeuntil {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase
+}
+
+.review {
+    margin-bottom: 70px;
+    height: 460px
+}
+
+.review .carousel .item img {
+    margin: auto
+}
+
+.review .carousel-control-next, .review .carousel-control-prev {
+    position: absolute;
+    bottom: 40%
+}
+
+.review .carousel-control-next:focus, .review .carousel-control-next:hover, .review .carousel-control-prev:focus, .review .carousel-control-prev:hover {
+    color: transparent
+}
+
+.review .carousel-control-next:after, .review .carousel-control-prev:after {
+    font-size: 42px;
+    color: #444;
+    font-family: "FontAwesome"
+}
+
+.review .carousel-control-prev {
+    left: 0
+}
+
+.review .carousel-control-prev:after {
+    content: ""
+}
+
+.review .carousel-control-next {
+    right: 0
+}
+
+.review .carousel-control-next:after {
+    content: ""
+}
+
+.review__send {
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 18px;
+    display: block;
+    color: #222;
+    margin-top: 10px;
+    text-transform: uppercase
+}
+
+.appointment {
+    background: url(/diagnostika/assets/img/diagnostika-appointment.jpg);
+    background-size: cover
+}
+
+.appointment .wrapper {
+    background-color: rgba(52, 52, 52, .8);
+    padding: 10px 0 60px
+}
+
+.appointment .freeuntil {
+    margin: 30px
+}
+
+.appointment h2, .appointment__subtitle {
+    color: #fff;
+    text-align: center
+}
+
+.appointment__subtitle {
+    font-size: 22px;
+    width: 80%;
+    display: block;
+    margin: auto
+}
+
+.appointment form {
+    width: 50%;
+    display: block;
+    margin: auto
+}
+
+.appointment form * {
+    display: block;
+    width: 100%
+}
+
+.appointment form label {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px
+}
+
+.appointment form input {
+    padding: 10px;
+    color: #222;
+    margin-bottom: 20px
+}
+
+.footer {
+    background: #282828;
+    color: #fff;
+    justify-content: space-around;
+    height: 80px
+}
+
+.footer, .footer__phone {
+    display: flex;
+    align-items: center
+}
+
+.footer__phone--number {
+    margin-right: 20px
+}
+.modalImg {
+    position: fixed;
+    top: 20%;
+    width: 100%;
+    height: auto;
+    z-index: 2100;
+}
+.modalImg img{
+    width: 100%;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    h2 {
+        font-size: 28px;
+        margin: 30px 0
+    }
+
+    .header__menu .list-inline li {
+        display: block
+    }
+
+    .header__menu .list-inline li a {
+        display: block;
+        padding: 10px 0
+    }
+
+    #modal5 {
+        display: none
+    }
+
+    .header {
+        height: 120px
+    }
+
+    .firstscreen {
+        margin-top: 0
+    }
+
+    .container .hamburger1, .firstscreen__mobile-part {
+        display: block
+    }
+
+    .firstscreen h1 {
+        font-size: 30px
+    }
+
+    .firstscreen__subtitle {
+        font-size: 20px
+    }
+
+    .header__top-company, .header__top-logo, .header__top-phone {
+        display: none
+    }
+
+    .hamburger1-header {
+        display: flex;
+        align-items: center
+    }
+
+    .header--mobile, .header__menu.mobile {
+        display: block
+    }
+
+    .header--mobile p {
+        color: #fff
+    }
+
+    .header--mobile p:first-child {
+        font-size: 24px;
+        font-weight: 900;
+        margin-bottom: 0
+    }
+
+    .header__menu {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #282828;
+        display: none;
+        width: 100% !important;
+        padding: 20px 10px !important;
+        margin: 0 !important
+    }
+
+    .container .hamburger1-altmenu {
+        flex-grow: 1;
+        order: 1
+    }
+
+    .container .hamburger1-toggle {
+        width: 32px;
+        height: 19.2px;
+        flex: 0 0 32px;
+        cursor: pointer;
+        margin: 0 5px 5px;
+        order: 2;
+        position: relative
+    }
+
+    .container .hamburger1-toggle span {
+        display: block;
+        position: absolute;
+        height: 5px;
+        width: 100%;
+        background: #fff;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        transition: .3s ease-in-out
+    }
+
+    .container .hamburger1-toggle span:nth-child(1) {
+        top: 0
+    }
+
+    .container .hamburger1-toggle span:nth-child(2), .container .hamburger1-toggle span:nth-child(3) {
+        top: 10px
+    }
+
+    .container .hamburger1-toggle span:nth-child(4) {
+        top: 19px
+    }
+
+    .container .hamburger1-toggle.is-expanded span:nth-child(1) {
+        top: 10px;
+        width: 0%;
+        left: 50%
+    }
+
+    .container .hamburger1-toggle.is-expanded span:nth-child(2) {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg)
+    }
+
+    .container .hamburger1-toggle.is-expanded span:nth-child(3) {
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg)
+    }
+
+    .container .hamburger1-toggle.is-expanded span:nth-child(4) {
+        top: 9.6px;
+        width: 0%;
+        left: 50%
+    }
+
+    .tabsblock__tabs li.nav-item {
+        display: block;
+        width: 100%
+    }
+
+    .installment__circs {
+        display: block
+    }
+
+    .installment__circs-video {
+        width: 100%
+    }
+
+    .footer, .review {
+        height: auto
+    }
+
+    .online-selection__form input, .online-selection__form select {
+        width: auto
+    }
+
+    .footer {
+        display: block;
+        padding: 30px 0
+    }
+
+    .footer__company, .footer__phone {
+        text-align: center
+    }
+
+    .footer__company img {
+        display: block;
+        margin: 0 auto
+    }
+
+    .footer__phone {
+        display: block
+    }
+
+    .firstscreen .wrapper {
+        padding: 50px 0
+    }
+
+    .freeuntil {
+        font-size: 18px
+    }
+
+    .mapblock__image img, .tab-content img, .tabsblock .nav {
+        width: 100%
+    }
+
+    mapblock__button {
+        margin: 50px 10px
+    }
+
+    div.modalWindow {
+        top: 0 !important;
+        bottom: 0 !important
+    }
+
+    .modal3, div.modalWindow {
+        left: 0 !important
+    }
+
+    .modal-common, .modal3, div.modalWindow {
+        width: 100% !important
+    }
+
+    .modal-reviews__left, .modal-reviews__right {
+        width: 100%
+    }
+
+    .modal-reviews .modalText, .modalText__row {
+        flex-direction: column
+    }
+
+    .callBackModal_content, .modalText__item, .online-selection__form #step4 button, .online-selection__form #step4 label {
+        width: 100%
+    }
+
+    .modalText__item img {
+        display: none
+    }
+
+    .modalOverlay {
+        background: #fff
+    }
+
+    .form-buttons {
+        display: block !important
+    }
+
+    .modalWindow .js-prev-step {
+        background: #fff;
+        margin: 20px auto 0 !important
+    }
+
+    .online-selection__form .step {
+        margin: 0 !important
+    }
+
+    .brandsblock__image img {
+        width: 100%
+    }
+
+    .inclusive__row {
+        flex-direction: column
+    }
+
+    .inclusive__item {
+        width: 95%
+    }
+
+    .inclusive__button {
+        margin: 5px 0 30px
+    }
+
+    .appointment form {
+        width: 98%
+    }
+
+    .featherlight-content {
+        max-width: 100%
+    }
+
+    .featherlight-close-icon {
+        position: fixed !important;
+        line-height: 45px !important;
+        width: 45px !important
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1400px) {
+    .modalWindow {
+        left: 32% !important;
+        width: 36% !important
+    }
+
+    .modal-brake, .modal-common, .modal-hood, .modal-liquid, .modal-reviews, .modal-tire, .modal-under {
+        left: 22% !important;
+        width: 56% !important
+    }
+}

@@ -1,0 +1,645 @@
+@font-face {
+    font-family: 'Russo One';
+    src: url('/sceplenie-zamena/assets/fonts/russo_one.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    color: #111111;
+    line-height: 1;
+}
+.headerText {
+    font-size: 18px;
+    font-family: "Open Sans";
+}
+.btn {
+    width: 100%;
+    position: relative;
+    border-radius: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #d44831;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition-property: -webkit-transform,-ms-transform,transform;
+    transition-duration: .10s;
+    overflow: hidden;
+}
+.btn.back-button {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    color: #000000;
+}
+.btn:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.successMsg_header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    opacity: 1;
+    color: #d44831;
+}
+.successMsg_text {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 1;
+    color: #000;
+}
+
+div.successMsg {
+    border: 2px solid #d44831;
+    border-radius: 18px;
+    top: 25% !important;
+    left: 25% !important;
+    width: 45% !important;
+    background-color: rgb(255, 255, 255) !important;
+    padding: 40px 25px;
+}
+.popup-window {
+    position: relative;
+    max-width: 442px;
+    width: 100%;
+    margin: 50px auto 0;
+    background: #fff;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5)
+}
+#modal1 {
+    font-size: 11px;
+}
+.module1Overlay {
+    background-image: url("/sceplenie-zamena/assets/img/firstScreenOverlay.png");
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.module1 {
+    padding-top: 135px;
+    padding-bottom: 60px;
+}
+.module1_mainText {
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.3;
+}
+.orangeText {
+    color: #fd6732;
+}
+.module1_descriptionText {
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+.module1_pinText {
+    font-family: "Open Sans";
+    font-size: 18px;
+}
+.ripple {
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .4);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    position: absolute;
+}
+.rippleEffect {
+    -webkit-animation: rippleDrop 1.6s infinite linear;
+    animation: rippleDrop 1.6s infinite linear;
+}
+@-webkit-keyframes rippleDrop {
+    to {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        opacity: 0
+    }
+}
+@keyframes rippleDrop {
+    to {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        opacity: 0
+    }
+}
+.module2 {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.module2_header {
+    font-weight: 700;
+    font-size: 32px;
+    color: rgb(51, 51, 51);
+}
+.module2_headerDescription {
+    font-size: 18px;
+}
+.module2_videoBlock img {
+    position: absolute;
+    width: 95%;
+}
+.module2_playIcon {
+    position: relative;
+    background-color: #ffffff;
+    width: 95px;
+    height: 95px;
+    z-index: 900;
+    border-radius: 50%;
+    margin: 105px auto;
+    padding-top: 35px;
+    cursor: pointer;
+}
+.module2_playIcon i {
+    color: #fd6731;
+    font-size: 31px;
+}
+.module2_textUnderVideo {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 18px;
+}
+.module2_listImg img{
+    width: 70px;
+    height: 70px;
+}
+.module2_listHeader {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 20px;
+}
+.module2_listBorder{
+    margin-left: 15px;
+    height: 2px;
+    background-color: #fd6731;
+}
+.module2_listDescription {
+    line-height: 1.2;
+}
+.module3Overlay {
+    background-image: url("/sceplenie-zamena/assets/img/module2Overlay.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.module3 {
+    background-color: rgba(255,255,255,0.52);
+    padding-top: 48px;
+    padding-bottom: 63px;
+}
+.module3_header {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+}
+.module3_listImg img{
+    width: 27px;
+}
+.module4 {
+    padding-top: 48px;
+    padding-bottom: 63px;
+}
+.module4_header {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+}
+.module4_headerDescription {
+    font-family: "Open Sans";
+    font-size: 22px;
+    line-height: 1.2;
+}
+.module5 {
+    background-color: #efefef;
+    padding-top: 48px;
+    padding-bottom: 51px;
+}
+.module5_header {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 32px;
+}
+.module5 img {
+    width: 100%;
+}
+.module6Overlay {
+    background-image: url("/sceplenie-zamena/assets/img/module6Overlay.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.module6 {
+    position: relative;
+    background-color: rgba(255,255,255,0.9);
+    padding-top: 37px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.module6_header {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+}
+.module6_description {
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 1.2;
+}
+.module6_listImg img{
+    width: 37px;
+}
+.module6_form {
+    padding: 0 80px;
+}
+.module6_formHeader {
+    font-family: Roboto;
+    line-height: 1.2;
+}
+.module6_inputName {
+    font-family: Open Sans;
+    font-size: 13px;
+    opacity: 0.8;
+}
+.module6_input {
+    height: auto;
+    width: 100%;
+    line-height: 1.2;
+    box-shadow: none;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.51);
+    border: 1px solid rgba(0, 0, 0, 0.31);
+    border-radius: 0px;
+    padding: 12px 9.6px;
+    font-size: 14px;
+    cursor: initial;
+}
+.module6_input:active {
+    border: 1px solid #fd6731;
+}
+.module6_overflowBlock {
+    position: absolute;
+    margin: -37px -15px -50px -15px;
+    width: 120%;
+    height: 100%;
+}
+.module6_overflowBlockLeft, .module6_overflowBlockRight {
+    -webkit-transform: skewX(15deg);
+    -moz-transform: skewX(15deg);
+    -ms-transform: skewX(15deg);
+    -o-transform: skewX(15deg);
+    transform: skewX(15deg);
+}
+.module6_overflowBlockRight {
+    background-color: #ffffff;
+}
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(40, 40, 40);
+    color: #FFF;
+}
+.footerText {
+    font-family: Open Sans;
+    font-size: 14px;
+    color: rgb(215, 215, 215);
+    line-height: 1.1;
+}
+.footerBtn {
+    font-size: 11px;
+}
+.modalOverlay {
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(87, 91, 113, 0.4);
+    display: none;
+}
+.modalWindow {
+    position: fixed;
+    left: 40%;
+    top: 15%;
+    width: 25%;
+    z-index: 2001;
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    display: none;
+}
+button.close {
+    padding: 5px 10px 0 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2;
+}
+.callBackModal_content {
+    padding: 45px;
+}
+.modalName {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.05em;
+}
+.modalText {
+    padding-top: 25px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.modalInputName {
+    padding-top: 25px;
+    font-weight: 400;
+    font-family: Open Sans;
+    opacity: .8;
+    margin-bottom: 6.5px;
+    font-size: 13px;
+    word-wrap: break-word;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+.modalInput {
+    height: auto;
+    line-height: 1.2;
+    box-shadow: none;
+    position: relative;
+    background-color: #fff;
+    color: rgba(0, 0, 0, .5);
+    border: 1px solid rgba(0, 0, 0, .25);
+    border-radius: 0;
+    padding: 12px 9.6px;
+    font-size: 14px;
+    cursor: initial;
+    width: 100%;
+}
+.modalSelect {
+    height: auto;
+    line-height: 1.2;
+    box-shadow: none;
+    position: relative;
+    background-color: #fff;
+    color: rgba(0, 0, 0, .5);
+    border: 1px solid rgba(0, 0, 0, .25);
+    border-radius: 0;
+    padding: 12px 9.6px;
+    font-size: 14px;
+    cursor: initial;
+    width: 100%;
+}
+.mobileMenu {
+    display: none;
+}
+svg {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+path {
+    fill: none;
+    -webkit-transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
+    -moz-transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
+    -o-transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
+    -ms-transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
+    transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
+    stroke-width: 40px;
+    stroke-linecap: round;
+    stroke: #fd6732;
+    stroke-dashoffset: 0px;
+}
+path#top,
+path#bottom {
+    stroke-dasharray: 240px 950px;
+}
+path#middle {
+    stroke-dasharray: 240px 240px;
+}
+.cross path#top,
+.cross path#bottom {
+    stroke-dashoffset: -650px;
+    stroke-dashoffset: -650px;
+}
+.cross path#middle {
+    stroke-dashoffset: -115px;
+    stroke-dasharray: 1px 220px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+@media screen and (min-width: 500px) and (max-width: 850px) {
+    .hamburgerMenu {
+        text-align: right;
+        margin-top: -10px;
+    }
+    ymaps {
+        width: 100%!important;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 850px) {
+    .descktopMenu {
+        display: none;
+    }
+    .module1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .module1_mainText {
+        font-size: 38px;
+        text-align: center;
+    }
+    .module1_descriptionText {
+        line-height: 1.2;
+        text-align: center;
+    }
+    .module1_imgBlock {
+        text-align: center;
+    }
+    .module1_imgBlock img{
+        width: 55px;
+    }
+    .module1_pinText {
+        text-align: center;
+        padding-top: 5px;
+    }
+    .module2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .module2 img {
+        width: 90%;
+    }
+    .module2_playIcon {
+        margin: 45px auto;
+    }
+    .module2_textUnderVideo {
+        font-size: 22px;
+        padding-top: 20px!important;
+    }
+    .module2_listImg {
+        padding-top: 5px;
+        text-align: center;
+    }
+    .module2_listImg img{
+        width: 70px!important;
+    }
+    .module2_listHeader {
+        text-align: center;
+    }
+    .module2_listBorder {
+        margin-right: 15px;
+    }
+    .module2_listDescription {
+        text-align: center;
+    }
+    .module3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .module3_header {
+        text-align: center;
+    }
+    .module3_listImg {
+        text-align: center;
+    }
+    .module3_listHeader {
+        padding-top: 5px;
+        text-align: center;
+    }
+    #modal4 {
+        font-size: 11px;
+    }
+    .module4 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .module4_listImg {
+        padding-top: 5px;
+        text-align: center;
+    }
+    .module4_listText {
+        text-align: center;
+    }
+    .module5, .module6 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .module6_header {
+        text-align: center;
+    }
+    .module6_description {
+        text-align: center;
+        font-size: 22px;
+    }
+    .module6_listImg {
+        text-align: center;
+    }
+    .module6_listHeader {
+        text-align: center;
+        font-size: 18px;
+    }
+    .module6_form {
+        padding: 0;
+    }
+    .footer {
+        padding-bottom: 10px;
+    }
+    .footer_logo {
+        text-align: center;
+    }
+    .footer_logo img{
+        width: 70%;
+    }
+    .footerText {
+        text-align: center!important;
+        line-height: 1.4;
+    }
+    .btn {
+        width: 100%;
+        font-size: 12px;
+        padding: 1em 1em!important;
+        content: 'Узнать стоимость замены';
+    }
+    /*ymaps {*/
+        /*width: 100%!important;*/
+    /*}*/
+    .mobileMenu {
+        padding-top: 20px;
+        display: block!important;
+    }
+    .mobileMenu_header {
+        font-family: Russo One;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .mobileMenu_description {
+        padding-top: 5px;
+        font-size: 14px;
+        font-family: Roboto;
+    }
+    .mobileMenu_description span {
+        font-weight: 600;
+    }
+    .mobileMenu_list {
+        display: none;
+    }
+    .mobileMenu_element a {
+        color: #111111;
+    }
+    .greenBtn {
+        border-radius: 50px;
+        background-color: rgb(35, 186, 69);
+        border-color: rgb(35, 186, 69);
+        padding: 9px 31px;
+        font-size: 11px;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+    }
+    .modalWindow {
+        width: 100%!important;
+        height: 100%!important;
+        left: 0!important;
+        top:0!important;
+    }
+    .callBackModal_content {
+        padding: 5px 15px!important;
+    }
+    .modalText, .modalInputName {
+        padding-top: 10px!important;
+    }
+    .modalVideo {
+        width: 100%!important;
+        height: 300px!important;
+        top: 15%!important;;
+    }
+}

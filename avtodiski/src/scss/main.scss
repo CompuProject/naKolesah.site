@@ -1,0 +1,440 @@
+@import "variables";
+@import "asrange";
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h2 {
+  color: #111111;
+  font-size: 36px;
+  margin: 50px 0;
+  font-weight: 600;
+}
+
+.big-yellow-button {
+  background-color: $yellow-text-color;
+  padding: 28px 48px;
+  font-size: 15px;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.back-button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 18px 48px;
+  font-size: 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #ffffff;
+  margin-right: 50px!important;
+}
+
+.header {
+  position: fixed;
+  background-color: #282828;
+  height: 135px;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-top: 15px;
+
+    &-company {
+      margin-right: 20%;
+      font-size: 18px;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    &-phone {
+      display: flex;
+      align-items: center;
+
+      &-number {
+        margin-right: 20px;
+        text-align: right;
+
+        p {
+          margin: 0;
+          font-size: 16px;
+        }
+      }
+
+      &-callback {
+        button {
+          color: #222;
+          text-transform: uppercase;
+          font-size: 10px;
+          font-weight: 600;
+          background-color: #eda10c;
+          border-radius: 5px;
+          padding: 17px 32px;
+          border: none;
+        }
+      }
+    }
+  }
+
+  &__menu {
+    text-align: center;
+    margin-top: 25px;
+
+    ul {
+      li {
+        margin: 0 25px;
+
+        a {
+          color: #fff;
+        }
+
+        &:nth-child(2) {
+          a {
+            color: $yellow-text-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.firstscreen {
+  margin-top: 135px;
+  background: url(/diski/assets/img/diski-firstscreen.jpg) fixed;
+  color: #ffffff;
+
+  .mobile__phonenumber {
+    display: none;
+  }
+
+  .wrapper {
+    background-color: rgba(52, 52, 52, 0.8);
+    padding-top: 180px;
+    padding-bottom: 68px;
+  }
+
+  h1 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+
+    span {
+      color: $yellow-text-color;
+    }
+  }
+
+  &__subtitle {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  &__button {
+    text-align: center;
+  }
+
+  &__advantages {
+    margin-top: 40px;
+
+    &-text {
+      p {
+        font-size: 18px;
+        width: 65%;
+        display: block;
+        margin: auto;
+      }
+    }
+  }
+}
+
+.tabsblock {
+  .nav {
+    width: 55%;
+    margin: auto;
+
+    .nav-item {
+      a {
+        color: #111111;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px 20px;
+        margin: 10px 13px;
+        border-bottom: 4px solid #e9e1e1;
+      }
+    }
+
+    .active {
+      a {
+        background-color: $yellow-text-color;
+        border-bottom: 0;
+
+        &:focus {
+          background-color: $yellow-text-color;
+          color: #111111;
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    p {
+      font-size: 18px;
+      margin: 20px 0;
+    }
+  }
+
+  &__button {
+    margin: 50px;
+  }
+}
+
+.installment {
+  background: url(/diski/assets/img/diski-rassrochka.jpg) fixed;
+  color: #ffffff;
+
+  .wrapper {
+    background-color: rgba(39, 39, 39, 0.83);
+    padding: 40px;
+  }
+
+  h2 {
+    color: #fff;
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin: 50px auto 20px auto;
+
+    span {
+      color: $yellow-text-color;
+    }
+  }
+
+  h3 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  &__subtitle {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  &__circs {
+    display: flex;
+
+    &-list {
+      ul {
+        li {
+          margin: 13px 0;
+          font-size: 16px;
+
+          span {
+            color: $yellow-text-color;
+          }
+        }
+      }
+    }
+
+    &-video {
+      width: 40%;
+    }
+  }
+
+  &__button {
+    text-align: center;
+    margin: 30px auto;
+  }
+}
+
+.review {
+  margin-bottom: 70px;
+  height: 600px;
+
+  .carousel {
+    .item {
+      img {
+        margin: auto;
+      }
+    }
+
+    &-control {
+      @each $dir in prev, next {
+        &-#{$dir} {
+          position: absolute;
+          bottom: 40%;
+
+          &:hover, &:focus {
+            color: transparent;
+          }
+
+          &:after {
+            font-size: 42px;
+            color: #444;
+            font-family: "FontAwesome";
+          }
+        }
+        &-prev {
+          left: 0;
+
+          &:after {
+            content: "\f137";
+          }
+        }
+        &-next {
+          right: 0;
+
+          &:after {
+            content: '\f138';
+          }
+        }
+      }
+    }
+  }
+}
+
+.online-selection {
+  background: url(/diski/assets/img/diski-online-selection.jpg) fixed bottom;
+  color: #ffffff;
+
+  .wrapper {
+    background-color: rgba(39, 39, 39, 0.83);
+  }
+
+  h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  &__subtitle {
+    font-size: 22px;
+    text-align: center;
+    width: 73%;
+    margin: auto;
+  }
+
+  &__form {
+    select, input {
+      color: #000000;
+      background-color: #ffffff;
+      display: block;
+      margin: auto;
+      width: 360px;
+      height: 40px;
+      padding-left: 5px;
+    }
+    .form-buttons {
+      display: inline-flex;
+    }
+
+    button[type="submit"] {
+      display: block;
+      margin: auto;
+    }
+
+    input[type="range"] {
+      margin: 40px auto;
+    }
+
+    label {
+      text-transform: uppercase;
+      text-align: left;
+      font-weight: 400;
+      letter-spacing: 2px;
+      font-size: 13px;
+    }
+
+    &-step {
+      margin: 20px 0;
+      text-transform: uppercase;
+      font-size: 16px;
+      color: $yellow-text-color;
+      font-weight: bold;
+
+      span {
+        color: #fff;
+      }
+    }
+
+    .big-yellow-button {
+      display: block;
+      margin: 20px auto;
+    }
+
+    .step {
+      margin: 70px;
+    }
+    .range-border {
+      margin: 0 10px;
+    }
+    &-info {
+      span {
+        color: $yellow-text-color;
+      }
+      font-size: 16px;
+      width: 70%;
+      margin: 20px auto;
+    }
+    &-free {
+      margin-top: 20px;
+    }
+    #step4 {
+      button, label{
+        width: 50%;
+        margin: 12px auto;
+      }
+      input {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.footer {
+  background: #282828;
+  display: flex;
+  color: #ffffff;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+
+  &__phone {
+    display: flex;
+    align-items: center;
+    &--number {
+      margin-right: 20px;
+    }
+    &--callback {
+      button {
+        color: #222;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: 600;
+        background-color: #eda10c;
+        border-radius: 5px;
+        padding: 17px 32px;
+        border: 0;
+      }
+    }
+  }
+}
+
+@import "mobile";

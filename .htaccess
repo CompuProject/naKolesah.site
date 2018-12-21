@@ -1,0 +1,13 @@
+#RedirectMatch http://nakolesah.site/avtodiski$ http://nakolesah.site/diski$1
+
+#
+#RewriteEngine On
+#Options +FollowSymlinks
+#RewriteBase /
+#
+#RewriteRule ^/avtodiski/$ /diski/index.php [L]
+
+#RedirectPermanent /avtodiski/ /diski/
+
+
+#ln -s /www/nakolesah.site/diski /www/nakolesah.site/avtodiski
