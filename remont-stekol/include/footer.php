@@ -5,7 +5,7 @@
     </div>
     <div class="footer__phone">
         <div class="footer__phone--number">
-            <p>8 (800) 550-35-98</p>
+            <p>8 (800) 550-36-95</p>
         </div>
         <div class="footer__phone--callback">
             <button class="btn_modal" id="modal1" onclick="if(siteUrl=='remont-stekol'){yaCounter51444862.reachGoal('POL'); return true;}else if(siteUrl=='remont-stekla'){yaCounter51444874.reachGoal('POL'); return true;}">
@@ -17,6 +17,15 @@
         </div>
     </div>
 </footer>
+<div class="_modal_0">
+    <div class="_modal_form img-rounded">
+        <div class="_modal_content">
+
+        </div>
+    </div>
+    <div class="_modal_overlay">
+    </div>
+</div>
 <div class="modalOverlay"></div>
 <div class="modalWindow modal1" comment="Обратный звонок" modalName="headerCallBack">
     <div class="modal_header">

@@ -97,10 +97,17 @@
 					</div>
 				</div>
 			</div>
-		</div>		
-		<div class="youtube center-block">
-			<iframe  class="center-block" width="auto" height="315" src="https://www.youtube.com/embed/qN9UujO93ws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
+        <div class="col-md-12 col-xs-12 youtube center-block text-center">
+            <!--iframe  class="center-block" width="auto" height="315" src="https://www.youtube.com/embed/qN9UujO93ws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe-->
+            <img class="img-rounded" src="http://u10.filesonload.ru/s/31inh7a061/cc9ef35356d18c722781599f1b8cae78/d8649a2b9ddc21af8cc93450c5f9a6c9.png" width="100%">
+            <div class="_video_button_wrap">
+                <div class="_video-button">
+
+                    <i class="fa fa-play"></i>
+                </div>
+            </div>
+        </div>
 		
 		<div class="dodo">
 			<div class="col-md-4 col-xs-12">

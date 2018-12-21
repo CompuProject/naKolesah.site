@@ -1094,3 +1094,123 @@ margin:15px 0;
 .dodo {
 margin:40px 15px;
 }
+/***********************************/
+.youtube{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.youtube img{
+    max-width: 516px;
+}
+
+._video_button_wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+._video-button{
+    display: inline-block;
+    width: 98px;
+    height: 98px;
+    border-radius: 100%;
+    line-height: 98px;
+    text-align: center;
+    font-size: 32px;
+    padding-left: 6.125px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(213, 56, 56);
+    box-shadow: 0 6px 20px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+._modal_form {
+    width: 726px;
+    height: 415px;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    /*margin-top: -357px;*/
+    margin-left: -363px;
+    display: none;
+
+    z-index: 9999;
+    padding: 3px;
+    background-color: #000;
+}
+
+/* Пoдлoжкa */
+._modal_overlay {
+    z-index:9998;
+    position:fixed;
+    background-color:#000;
+    opacity:0.5;
+    -moz-opacity:0.5;
+    filter:alpha(opacity=80);
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    cursor:pointer;
+    display:none;
+}
+
+._modal_content{
+    display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    ._video-button{
+        width: 68px;
+        height: 68px;
+        line-height: 68px;
+        font-size: 20px;
+
+    }
+
+}
+
+/*Модальные окна*/
+.popup-overlay {
+    position: fixed;
+    z-index: 1050;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.popup-window {
+    position: relative;
+    max-width: 442px;
+    width: 100%;
+    margin: 50px auto 0;
+    background: #fff;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5)
+}
+
+.popup-window__header {
+    color: #333;
+    height: 40px;
+    padding: 8px 20px 0;
+    text-align: right;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.popup-window__header .close {
+    float: none;
+    text-align: right
+}
+
+.popup-window__body {
+    padding: 20px
+}

@@ -90,7 +90,7 @@ function isMobile()
             </div>
             <div class="header__top-phone">
                 <div class="header__top-phone-number">
-				<span class="text">8 (800) 222-31-96</span>
+				<span class="text">8 (800) 550-36-95</span>
                     <p>Бесплатный звонок по РФ</p>
                 </div>
                 <div class="header__top-phone-callback">
