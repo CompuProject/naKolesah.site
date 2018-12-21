@@ -97,6 +97,7 @@ $(document).ready(function () {
                         data: 'modalId='+modalId+'&phone='+phone+'&brand='+brand+'&diameter='+diameter+'&price='+price+'&urlName='+location.href.replace('http://',''),
                         dataType: 'html',
                         success: function (rezult) {
+                            invoice();
                             $('.testBlock').html(rezult);
                             $('body').css('overflow', 'auto');
                             $('.' + modalId).hide();
@@ -136,8 +137,10 @@ $(document).ready(function () {
                 data: 'modalId='+modalId+'&phone='+phone+'&brand='+brand+'&diameter='+diameter+'&price='+price+'&urlName='+location.href.replace('http://',''),
                 dataType: 'html',
                 success: function (rezult) {
+                    invoice();
                     var COMMENT = parentForm.attr('comment');
                     $.ajax({
+
                         url: 'https://wilgood.ru/handler_for_partners/',
                         type: 'GET',
                         data: 'type_partner=generatorprodaj&comment='+COMMENT+'&type_response=html&phone='+phone+'&unique_code='+generateHash()+'&hash=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f',
@@ -176,4 +179,82 @@ $(document).ready(function () {
         });
     }
     getWilgood ();
+
+    /****************************************************/
+    const invoice = () => {
+        const popupWindow = $('<div class="popup-overlay js-window">' +
+            '<div class="popup-window js-popup" style="display: none;">' +
+            '<div class="popup-window__body">' +
+            '<div class="wrapper1">' +
+            '<div class="wrapper1">' +
+            '<div class="check"></div>' +
+            '<p class="invoice">Спасибо!</p>' +
+            '<p class="invoice">Ваша заявка отправлена.</p>' +
+            '<p class="invoice">В ближайшее время мы с Вами свяжемся!</p>' +
+            '</div>' +
+            '</div></div>' +
+            '</div>' +
+            '</div>' +
+            '</div>');
+        $('body').prepend(popupWindow);
+        $('.js-popup').slideDown('slow');
+        $('.js-window').click(function (event) {
+            $(this).remove();
+        })
+    };
+
 });
+
+$(document).ready(function () {
+    /*определение размеров видео*/
+    var videowidth = $('.container').width();
+    if(videowidth>720){videowidth=720};
+    var videoheight=10*videowidth/18;
+    $('._modal_form')
+        .css('width',videowidth+6)
+        .css('height',videoheight+6)
+        /*.css('margin-top',-(videoheight+6)/2)*/
+        .css('margin-left',-(videowidth+6)/2);
+    $('._modal_0 ._modal_content').html('<iframe  class="center-block" id="v_zamena_masla" width="'+videowidth+'" height="'+videoheight+'" src="https://www.youtube.com/embed/GpS4AxjvuF8?rel=0&autoplay=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+
+
+
+
+    function show_video()
+    {
+        $('._modal_overlay').fadeIn(400,
+            function(){
+                $('._modal_form')
+                    .css('display', 'block')
+                    .animate({top: '15%'}, 600,
+                        function() {
+                            $('._modal_content')
+                                .css('display', 'block');
+                            document.getElementById('v_zamena_masla').contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+                        });
+            });
+
+
+        $('._modal_overlay').click( function(){
+            $('._modal_form')
+                .animate({top: '0%'}, 200,
+                    function(){
+                        $('._modal_content')
+                            .css('display', 'none');
+                        $(this).css('display', 'none');
+                        $('._modal_overlay').fadeOut(500);                     }
+                );
+            document.getElementById('v_zamena_masla').contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
+        });
+    }
+
+
+    $('._btn_modal_video').click(function () {
+        console.log('show video');
+        show_video();
+    })
+
+
+
+
+})

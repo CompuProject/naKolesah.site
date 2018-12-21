@@ -13,12 +13,14 @@ function isMobile()
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/zamena-masel/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/zamena-masel/assets/css/main.css">
+    <link rel="stylesheet" href="/zamena-masel/assets/css/jquery.fancybox.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700&amp;subset=cyrillic" rel="stylesheet">
     <title>Сеть из 22-х автоцентров по всей Москве</title>
     <link rel="icon" type="image/png" href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/e5d388c5baafaaab24a32e5bafc0181a.png">
     <script src="/zamena-masel/assets/js/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
     <script src="/zamena-masel/assets/js/bootstrap.min.js"></script>
+    <script src="/zamena-masel/assets/js/jquery.fancybox.min.js"></script>
     <script>
         (function(w, d, s, h, id) {
             w.roistatProjectId = id; w.roistatHost = h;
@@ -91,7 +93,7 @@ function isMobile()
             </div>
             <div class="header__top-phone">
                 <div class="header__top-phone-number">
-				<span class="text">8 (800) 550-85-93</span>
+				<span class="text">8 (800) 550-85-73</span>
                     <p>Звонок по РФ бесплатный</p>
                 </div>
                 <div class="header__top-phone-callback">

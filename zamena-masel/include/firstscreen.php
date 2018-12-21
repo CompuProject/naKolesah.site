@@ -1,5 +1,6 @@
 <div class="firstscreen">	
 	<div class="container">
+
 		<div class="firstscreen__heading">
 			<h1>
 				Заменим масло в любом автомобиле<br/>без очереди, <span>за 30 минут</span>
@@ -49,11 +50,12 @@
 		<div class="firstscreen__advantages text-center">
 			<div class="col-md-6 col-xs-12">
 				<div class="firstscreen__advantages-icon">
-					<a href="" class="btn_modal"><img class="img-responsive" src="assets/img/img32.png" alt=""></a>
+					<span class="_btn_modal_video"><img class="img-responsive" src="assets/img/img32.png" alt=""></span>
 				</div>
 				
 			</div>
 		</div>
+        <div class="row">
 		<div class="col-md-6 col-xs-12">
 			<div class=" modal2 openForm" comment="Наличие дисков в магазинах" modalName="availability_at_the_store">
 				<div class="callBackModal_content">
@@ -105,7 +107,9 @@
 					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
+        </div>
+        <div class="row">
 		<div class="col-md-12">
 			<div class="row">
 				<div class="col-md-4">
@@ -118,8 +122,8 @@
 					<a href="assets/img/img4.jpg" rel="group"><img src="assets/img/img4.jpg"  height="180">	</a>
 				</div>
 			</div>
-		</div>			
-		
+		</div>
+        </div>
 	</div>
 </div>
 </div>
@@ -129,6 +133,9 @@
 			'transitionIn' : 'none',
 			'transitionOut' : 'none',
 			'titlePosition' : 'over',
+            'cyclic' : true,
+            'overlayColor' : '#700',
+            'overlayShow'	:	'true',
 			'titleFormat' : function(title, currentArray, currentIndex, currentOpts) {
 				return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? '   ' + title : '') + '</span>';
 			}
