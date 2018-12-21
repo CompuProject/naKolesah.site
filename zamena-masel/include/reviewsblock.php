@@ -13,7 +13,7 @@
 					<img class="d-block w-100" src="assets/img/reviews/rev13.png" alt="Second slide">
 				</div>
 				<div class="item">
-					<img class="d-block w-100" src="assets/img/reviews/rev14" alt="Third slide">
+					<img class="d-block w-100" src="assets/img/reviews/rev14.png" alt="Third slide">
 				</div>
 				
 				<div class="item">

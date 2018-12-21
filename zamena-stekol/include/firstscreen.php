@@ -7,7 +7,7 @@
 		</div>
 		<p class="firstscreen__subtitle"><span>В ПОДАРОК - СКИДКА 50%</span> НА УСЛУГИ ПО РЕМОНТУ СТЕКЛА, В ТЕЧЕНИЕ 1-ГО ГОДА <img src="assets/img/icons/cart.png" alt=""></p>
 		<div class="firstscreen__advantages text-center">
-			<div class="col-md-6 col-xs-12">
+			<div class="col-md-6 col-xs-12 _video_click">
 				<div class="firstscreen__advantages-icon">
 					<a id="modalvideo" class="btn_modal"><img class="img-responsive" src="assets/img/car.png" alt=""></a>
 				</div>
@@ -23,6 +23,7 @@
 			</div>
 			</div>
 		</div>
+        <div class="row">
 		<div class="col-md-6 col-xs-12">
 			<div class="modal2 openModal" comment="Наличие дисков в магазинах" modalName="availability_at_the_store">
 				<div class="callBackModal_content">
@@ -74,7 +75,9 @@
 						</div>
 					</div>
 				</div>
-			</div>	
+			</div>
+        </div>
+        <div class="row">
 			<div class="col-md-12">
 				<div class="row">
 					<div class="col-md-4">
@@ -87,8 +90,8 @@
 						<a href="assets/img/3.jpg" rel="group"><img src="assets/img/3.jpg"  height="180">	</a>
 					</div>
 				</div>
-			</div>			
-		
+			</div>
+        </div>
 		</div>
 	</div>
 </div>

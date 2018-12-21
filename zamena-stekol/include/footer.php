@@ -5,7 +5,7 @@
     </div>
     <div class="footer__phone">
         <div class="footer__phone--number">
-            <p>8 (800) 550-35-98</p>
+            <p>8 (800) 550-85-94</p>
         </div>
         <div class="footer__phone--callback">
             <button class="btn_modal" id="modal1" onclick="if(siteUrl=='zamena-stekol'){yaCounter51444793.reachGoal('PODV');return true;}else if(siteUrl=='zamena-stekla'){yaCounter51444802.reachGoal('PODV');return true;}">
@@ -17,8 +17,17 @@
         </div>
     </div>
 </footer>
+<div class="_modal_0">
+    <div class="_modal_form img-rounded">
+        <div class="_modal_content">
+
+        </div>
+    </div>
+    <div class="_modal_overlay">
+    </div>
+</div>
 <div class="modalOverlay"></div>
-<div class="modalWindow modalvideo" comment="Видео" modalName="headerCallBack">
+<!--div class="modalWindow modalvideo" comment="Видео" modalName="headerCallBack">
     <div class="modal_header" >
         <button class="close nofonts" data-dismiss="modal">×</button>
         <h4 class="textable">
@@ -26,7 +35,7 @@
         </h4>
     </div>
     <div class="video" id="yt-player"><iframe class="wrap" allowfullscreen="true" src="//www.youtube.com/embed/hV7gPrq71HM?rel=0&amp;autoplay=0" frameborder="0"></iframe></div>
-</div>
+</div-->
 <div class="modalWindow modal1" comment="Обратный звонок" modalName="headerCallBack">
     <div class="modal_header">
         <button class="close nofonts">×</button>
