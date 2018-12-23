@@ -151,7 +151,37 @@ $(document).ready(function () {
                 }
             })
         }
+    });
 
+    $('.fakeRoistat_btn').click(function () {
+        var parentForm = $(this).closest('.fakeRoistat');
+        var phone = parentForm.find('input[name=phone]').val();
+        var modalId = 'modal7';
+        if (phone == '') {
+            parentForm.find('input[type=tel]').css('border-color','red');
+        } else {
+            $.ajax({
+                url: '/remont-stekol/mail.php',
+                type: 'GET',
+                data: 'modalId='+modalId+'&phone='+phone+'&urlName='+location.href.replace('http://',''),
+                dataType: 'html',
+                success: function (rezult) {
+                    $('.fakeRoistat').hide();
+                    $('.modalOverlay').hide();
+                    invoice();
+                    var COMMENT = parentForm.attr('comment');
+                    $.ajax({
+                        url: 'https://wilgood.ru/handler_for_partners/',
+                        type: 'GET',
+                        data: 'type_partner=generatorprodaj&comment='+COMMENT+'&type_response=html&phone='+phone+'&unique_code='+generateHash()+'&hash=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f',
+                    }).done(json => {
+                        if (json) {
+                            console.log(json);
+                        }
+                    });
+                }
+            })
+        }
     });
 
     function generateHash() {
@@ -254,7 +284,34 @@ $(document).ready(function () {
         show_video();
     })
 
+    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+    $('.fakeRoistat').css('left', fakeRoistatWidth);
 
+    setTimeout(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+        }
+    }, 20000);
 
+    $('.fakeRoistat .close').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+    $('.modalOverlay').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+
+    $(document).mouseleave(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('#modal7_phone').mask('+7 (999) 999-99-99');
+            $('.modalOverlay').show();
+            $('.fakeRoistat').addClass('check');
+        }
+    });
 
 })

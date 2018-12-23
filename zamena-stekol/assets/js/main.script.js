@@ -151,7 +151,37 @@ $(document).ready(function () {
                 }
             })
         }
+    });
 
+    $('.fakeRoistat_btn').click(function () {
+        var parentForm = $(this).closest('.openModal');
+        var phone = parentForm.find('input[name=phone]').val();
+        var modalId = 'modal7';
+        if (phone == '') {
+            parentForm.find('input[type=tel]').css('border-color','red');
+        } else {
+            $.ajax({
+                url: '/zamena-stekol/mail.php',
+                type: 'GET',
+                data: 'modalId='+modalId+'&phone='+phone+'&urlName='+location.href.replace('http://',''),
+                dataType: 'html',
+                success: function (rezult) {
+                    $('.fakeRoistat').hide();
+                    $('.modalOverlay').hide();
+                    invoice();
+                    var COMMENT = parentForm.attr('comment');
+                    $.ajax({
+                        url: 'https://wilgood.ru/handler_for_partners/',
+                        type: 'POST',
+                        data: 'type_partner=generatorprodaj&comment='+COMMENT+'&type_response=html&phone='+phone+'&unique_code='+generateHash()+'&hash=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f',
+                    }).done(json => {
+                        if (json) {
+                            console.log(json);
+                        }
+                    });
+                }
+            })
+        }
     });
 
     function generateHash() {
@@ -201,6 +231,36 @@ $(document).ready(function () {
         })
     };
 
+    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+    $('.fakeRoistat').css('left', fakeRoistatWidth);
+
+    setTimeout(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+        }
+    }, 20000);
+
+    $('.fakeRoistat .close').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+    $('.modalOverlay').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+
+    $(document).mouseleave(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('#modal7_phone').mask('+7 (999) 999-99-99');
+            $('.modalOverlay').show();
+            $('.fakeRoistat').addClass('check');
+        }
+    });
+
 });
 
 $(document).ready(function () {
@@ -218,8 +278,7 @@ $(document).ready(function () {
 
 
 
-    function show_video()
-    {
+    function show_video() {
         $('._modal_overlay').fadeIn(400,
             function(){
                 $('._modal_form')
@@ -234,6 +293,10 @@ $(document).ready(function () {
 
 
         $('._modal_overlay').click( function(){
+            var videoURL = $('#v_zamena_stekol').attr('src');
+            videoURL = videoURL.replace("&autoplay=0", "");
+            $('#v_zamena_stekol').prop('src','');
+            $('#v_zamena_stekol').prop('src',videoURL);
             $('._modal_form')
                 .animate({top: '0%'}, 200,
                     function(){

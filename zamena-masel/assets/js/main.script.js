@@ -152,7 +152,38 @@ $(document).ready(function () {
                 }
             })
         }
+    });
 
+    $('.fakeRoistat_btn').click(function () {
+        var parentForm = $(this).closest('.fakeRoistat');
+        var phone = parentForm.find('input[name=phone]').val();
+        var modalId = 'modal7';
+        if (phone == '') {
+            parentForm.find('input[type=tel]').css('border-color','red');
+        } else {
+            $.ajax({
+                url: '/zamena-masel/mail.php',
+                type: 'GET',
+                data: 'modalId='+modalId+'&phone='+phone+'&urlName='+location.href.replace('http://',''),
+                dataType: 'html',
+                success: function (rezult) {
+                    $('.fakeRoistat').hide();
+                    $('.modalOverlay').hide();
+                    invoice();
+                    var COMMENT = parentForm.attr('comment');
+                    $.ajax({
+
+                        url: 'https://wilgood.ru/handler_for_partners/',
+                        type: 'GET',
+                        data: 'type_partner=generatorprodaj&comment='+COMMENT+'&type_response=html&phone='+phone+'&unique_code='+generateHash()+'&hash=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f',
+                    }).done(json => {
+                        if (json) {
+                            console.log(json);
+                        }
+                    });
+                }
+            })
+        }
     });
 
     function generateHash() {
@@ -203,6 +234,36 @@ $(document).ready(function () {
         })
     };
 
+    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+    $('.fakeRoistat').css('left', fakeRoistatWidth);
+
+    setTimeout(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+        }
+    }, 20000);
+
+    $('.fakeRoistat .close').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+    $('.modalOverlay').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+
+    $(document).mouseleave(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('#modal7_phone').mask('+7 (999) 999-99-99');
+            $('.modalOverlay').show();
+            $('.fakeRoistat').addClass('check');
+        }
+    });
+
 });
 
 $(document).ready(function () {
@@ -215,19 +276,18 @@ $(document).ready(function () {
         .css('height',videoheight+6)
         /*.css('margin-top',-(videoheight+6)/2)*/
         .css('margin-left',-(videowidth+6)/2);
-    $('._modal_0 ._modal_content').html('<iframe  class="center-block" id="v_zamena_masla" width="'+videowidth+'" height="'+videoheight+'" src="https://www.youtube.com/embed/GpS4AxjvuF8?rel=0&autoplay=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+    $('._modal_0 ._modal_content').html('<iframe  class="center-block" id="v_zamena_masla" width="'+videowidth+'" height="'+videoheight+'" src="https://www.youtube.com/embed/GpS4AxjvuF8?rel=0&autoplay=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
 
 
 
 
-    function show_video()
-    {
+    function show_video() {
         $('._modal_overlay').fadeIn(400,
-            function(){
+            function () {
                 $('._modal_form')
                     .css('display', 'block')
                     .animate({top: '15%'}, 600,
-                        function() {
+                        function () {
                             $('._modal_content')
                                 .css('display', 'block');
                             document.getElementById('v_zamena_masla').contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
@@ -236,6 +296,10 @@ $(document).ready(function () {
 
 
         $('._modal_overlay').click( function(){
+            var videoURL = $('#v_zamena_masla').attr('src');
+            videoURL = videoURL.replace("&autoplay=0", "");
+            $('#v_zamena_masla').prop('src','');
+            $('#v_zamena_masla').prop('src',videoURL);
             $('._modal_form')
                 .animate({top: '0%'}, 200,
                     function(){
@@ -252,9 +316,10 @@ $(document).ready(function () {
     $('._btn_modal_video').click(function () {
         console.log('show video');
         show_video();
-    })
+    });
 
 
 
 
-})
+
+});

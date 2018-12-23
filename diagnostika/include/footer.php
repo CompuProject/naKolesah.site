@@ -19,7 +19,9 @@
         </div>
     </div>
 </footer>
-
+<div class="leftBottomBtn btn_modal" id="modal7">
+    <img src="/sceplenie-zamena/assets/img/button.png">
+</div>
 <div class="leftModalBtn btn_modal" id="modal5" onclick="yaCounter51444706.reachGoal('VIDJET'); return true;">
     <img src="/diagnostika/assets/img/widget-left.png">
 </div>

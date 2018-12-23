@@ -77,6 +77,9 @@ $(document).ready(function () {
     function getModal() {
         $('.btn_modal').click(function () {
             var modalId = $(this).attr('id');
+            if ($('.' + modalId).hasClass('fakeRoistat')) {
+                $('.fakeRoistat').addClass('check');
+            }
             $('.modalOverlay').show();
             $('.' + modalId).show();
             $('body').css('overflow', 'hidden');
@@ -95,7 +98,7 @@ $(document).ready(function () {
                     $.ajax({
                         url: '/avto-diski/mail.php',
                         type: 'GET',
-                        data: 'modalId='+modalId+'&phone='+phone+'&brand='+brand+'&diameter='+diameter+'&price='+price,
+                        data: 'modalId='+modalId+'&phone='+phone+'&brand='+brand+'&diameter='+diameter+'&price='+price+'&urlName='+location.href.replace('http://', ''),
                         dataType: 'html',
                         success: function (rezult) {
                             invoice();
@@ -122,7 +125,7 @@ $(document).ready(function () {
     getModal();
     $('#step4 input').mask('+7 (999) 999-99-99');
 
-    $('.modal2 .big-red-button, #modal6').click(function () {
+    $('.modal2 .big-red-button').click(function () {
         var parentForm = $(this).closest('.openWindow');
         var phone = parentForm.find('input[name=phone]').val();
         var brand = parentForm.find('select[name=brand]').val();
@@ -135,12 +138,14 @@ $(document).ready(function () {
             $.ajax({
                 url: '/avto-diski/mail.php',
                 type: 'GET',
-                data: 'modalId='+modalId+'&phone='+phone+'&brand='+brand+'&diameter='+diameter+'&price='+price,
+                data: 'modalId='+modalId+'&phone='+phone+'&brand='+brand+'&diameter='+diameter+'&price='+price+'&urlName='+location.href.replace('http://', ''),
                 dataType: 'html',
                 success: function (rezult) {
                     if (modalId == 'modal6') {
                         alert('Спасибо! Ваша заявка отправлена. В ближайшее время мы с Вами свяжемся!');
                     }
+                    $('.modal6').hide();
+                    $('.modalOverlay').hide();
                     invoice();
                     var COMMENT = parentForm.attr('comment');
                     $.ajax({
@@ -201,6 +206,35 @@ $(document).ready(function () {
             $('body').css('overflow', 'auto');
             $('.modalImg').remove();
         });
+
+    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+    $('.fakeRoistat').css('left', fakeRoistatWidth);
+
+    setTimeout(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+        }
+    }, 20000);
+
+    $('.fakeRoistat .close').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+    $('.modalOverlay').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+
+    $(document).mouseleave(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+            $('.fakeRoistat').addClass('check');
+        }
+    });
 });
 
 const invoice = () => {

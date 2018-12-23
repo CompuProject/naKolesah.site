@@ -466,8 +466,8 @@ path#middle {
     cursor: pointer;
 }
 .leftBottomBtn img{
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
 }
 .fakeRoistat {
     width: 770px!important;
@@ -681,5 +681,8 @@ path#middle {
         width: 100%!important;
         height: 300px!important;
         top: 15%!important;;
+    }
+    .fakeRoistatBtnBlock {
+        padding-top: 10px;
     }
 }

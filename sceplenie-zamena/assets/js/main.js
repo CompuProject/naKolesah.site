@@ -25,10 +25,12 @@ $(document).ready(function () {
     function getModal() {
         $('.btn_modal').click(function () {
             var modalId = $(this).attr('id');
+            if ($('.' + modalId).hasClass('fakeRoistat')) {
+                $('.fakeRoistat').addClass('check');
+            }
             $('.modalOverlay').show();
             $('.' + modalId).show();
             $('body').css('overflow', 'hidden');
-            // $('.' + modalId + ' #' + modalId + '_phone').mask('+7 (999) 999-99-99');
             sendModal();
             $('.' + modalId + ' .close').click(function () {
                 $('body').css('overflow', 'auto');
@@ -68,11 +70,10 @@ $(document).ready(function () {
                         if (parentId.hasClass('modalWindow')) {
                             parentId.hide();
                         }
-                        $('.modalOverlay').show();
-                        $('.successMsg').show();
-                        $('.modalOverlay').delay(3000).fadeOut();
-                        $('.successMsg').delay(3000).fadeOut();
+                        $('.modalOverlay').show().delay(3000).fadeOut();
+                        $('.successMsg').show().delay(3000).fadeOut();
                         $('body').css('overflow', 'auto');
+                        parentId.find('input').val('');
                         $('.modalOverlay').click(function () {
                             $('.modalOverlay').hide();
                             $('.successMsg').hide();
@@ -173,14 +174,16 @@ $(document).ready(function () {
     }
     $(window).resize(function () {
         if ($(window).width() < 1600 && $(window).width() > 850) {
-            var currentWidth = '500';
+            var currentWidth = $('.modalWindow').width();
             console.log($(window).width());
             var leftWidth = ($(window).width() - currentWidth) / 2 + 'px';
             $('.modalWindow').css('width', currentWidth + 'px');
             $('.modalWindow').css('left', leftWidth);
         } else if ($(window).width() > 1500) {
-            $('.modalWindow').css('width', '25%');
-            $('.modalWindow').css('left', '40%');
+            if (!$('.modalWindow').hasClass('fakeRoistat')) {
+                $('.modalWindow').css('width', '25%');
+                $('.modalWindow').css('left', '40%');
+            }
         }
     });
 
@@ -189,8 +192,8 @@ $(document).ready(function () {
         $('.modalOverlay').show();
         $('body').css('overflow', 'hidden');
         $('.modalOverlay').after(
-            '<div class="modalWindow modalVideo" style="display: block;width: 560px; height: 315px">'+
-            '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Q2YcxH1LcMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+
+            '<div class="modalWindow modalVideo" style="display: block;width: 560px; height: 315px">' +
+            '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Q2YcxH1LcMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' +
             '</div>'
         );
         $('.modalOverlay').click(function () {
@@ -200,6 +203,32 @@ $(document).ready(function () {
         });
     });
 
-    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width())/2;
-    $('.fakeRoistat').css('left',fakeRoistatWidth);
+    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+    $('.fakeRoistat').css('left', fakeRoistatWidth);
+    
+    setTimeout(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+        }
+    }, 20000);
+
+    $('.fakeRoistat .close').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+    $('.modalOverlay').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+
+    $(document).mouseleave(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+            $('.fakeRoistat').addClass('check');
+        }
+    });
 });

@@ -47,13 +47,19 @@ switch ($post_data['modalId']) {
 //        echo json_encode(['callback' => true]);
         break;
     case 'modal6':
-        $subject = "\"Диагностика\" Сообщение с Лендинга - 'Подобрать диски внизу страницы'";
+        $subject = "\"Диагностика\" Сообщение с Лендинга - 'Записаться на дигностику внизу страницы'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         $message .= '<p>Бренд авто: <b>'.$post_data['brand'].'</b></p>';
         $message .= '<p>Диаметр диска: <b>'.$post_data['diameter'].'</b></p>';
         $message .= '<p>Предполагаемая цена: <b>'.$post_data['price'].'</b></p>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('Подобрать диски внизу страницы',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Записаться на дигностику внизу страницы',$post_data['phone'],$post_data['urlName']);
 //        echo json_encode(['callback' => true]);
+        break;
+    case 'modal7':
+        $subject = "\"Диски\" Сообщение с Лендинга - 'Lovec'";
+        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
+        mail($to, $subject, $message, $headers);
+        addFormDataToTheDatabase('Lovec',$post_data['phone'],$post_data['urlName']);
         break;
 }

@@ -56,4 +56,10 @@ switch ($post_data['modalName']) {
         addFormDataToTheDatabase('Записаться на удобное время',$post_data['phone'],$post_data['urlName']);
 //        echo json_encode(['callback' => true]);
         break;
+    case 'fakeRoistat_modal':
+        $subject = "\"Замена сцепления\" Сообщение с Лендинга - 'Lovec'";
+        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
+        mail($to, $subject, $message, $headers);
+        addFormDataToTheDatabase('Lovec',$post_data['phone'],$post_data['urlName']);
+        break;
 }

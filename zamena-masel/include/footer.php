@@ -250,6 +250,38 @@
         </div>
     </div>
 </div>
+<div class="modalWindow fakeRoistat modal7 inputForm" modalId="fakeRoistat_modal" comment="Обратный звонок">
+    <div class="container-fluid px-4 pb-4">
+        <div class="row">
+            <div class="col-12 modal_header text-right">
+                <button class="close nofonts">×</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 fakeRoistat_header pt-2">У Вас есть вопросы? Мы можем позвонить Вам абсолютно бесплатно!</div>
+        </div>
+        <div class="row">
+            <div class="col-12 pt-2 fakeRoistat_text">Мы свяжемся с Вами и ответим на любые возникшие вопросы!</div>
+        </div>
+        <div class="row pt-4 justify-content-start">
+            <div class="col-12 col-lg-6 col-xl-6">
+                <div class="row">
+                    <div class="col-12 fakeRoistat_inputName">Ваш телефон:</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 pt-2"><input name="phone" class="modalInput" id="modal7_phone"></div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-6 align-self-end fakeRoistatBtnBlock">
+                <button class="fakeRoistat_btn px-5">Позвоните мне</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="leftBottomBtn btn_modal" id="modal7">
+    <img src="/sceplenie-zamena/assets/img/button.png">
+</div>
 <div class="leftModalBtn btn_modal" id="modal5" onclick="if(siteUrl=='zamena-masel'){yaCounter51444757.reachGoal('VB_Z');return true;}else if(siteUrl=='zamena-masla'){yaCounter51444766.reachGoal('VB_Z');return true;}">
     <img src="//u10.filesonload.ru/s/46opna051/cc9ef35356d18c722781599f1b8cae78/97ebe47d8061d19fd63064e56e15bb36.png">
 </div>

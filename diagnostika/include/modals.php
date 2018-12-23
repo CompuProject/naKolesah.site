@@ -504,3 +504,32 @@
     </div>
 </div>
 
+<div class="modalWindow fakeRoistat modal7 inputForm openForm" id="fakeRoistat_modal" comment="Обратный звонок">
+    <div class="container-fluid px-4 pb-4">
+        <div class="row">
+            <div class="col-12 modal_header text-right">
+                <button class="close nofonts">×</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 fakeRoistat_header pt-2">У Вас есть вопросы? Мы можем позвонить Вам абсолютно бесплатно!</div>
+        </div>
+        <div class="row">
+            <div class="col-12 pt-2 fakeRoistat_text">Мы свяжемся с Вами и ответим на любые возникшие вопросы!</div>
+        </div>
+        <div class="row pt-4 justify-content-start">
+            <div class="col-12 col-lg-6 col-xl-6">
+                <div class="row">
+                    <div class="col-12 fakeRoistat_inputName">Ваш телефон:</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 pt-2"><input type="tel" name="phone" class="modalInput" id="modal7_phone"></div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-6 align-self-end fakeRoistatBtnBlock modalBtnBlock">
+                <button class="fakeRoistat_btn px-5">Позвоните мне</button>
+            </div>
+        </div>
+    </div>
+</div>

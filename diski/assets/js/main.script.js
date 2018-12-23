@@ -76,11 +76,13 @@ $(document).ready(function () {
     function getModal() {
         $('.btn_modal').click(function () {
             var modalId = $(this).attr('id');
+            if ($('.' + modalId).hasClass('fakeRoistat')) {
+                $('.fakeRoistat').addClass('check');
+            }
             $('.modalOverlay').show();
             $('.' + modalId).show();
             $('body').css('overflow', 'hidden');
             $('.' + modalId + ' #' + modalId + '_phone').mask('+7 (999) 999-99-99');
-
             $('.' + modalId + ' .modalBtnBlock button').click(function () {
                 var phone = $('.' + modalId + ' #' + modalId + '_phone').val();
                 var brand = $('.' + modalId + ' #' + modalId + '_brand').val();
@@ -190,6 +192,35 @@ $(document).ready(function () {
             $('.modalImg').remove();
         });
     }
+
+    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+    $('.fakeRoistat').css('left', fakeRoistatWidth);
+
+    setTimeout(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+        }
+    }, 20000);
+
+    $('.fakeRoistat .close').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+    $('.modalOverlay').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+
+    $(document).mouseleave(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+            $('.fakeRoistat').addClass('check');
+        }
+    });
 });
 const invoice = () => {
     const popupWindow = $('<div class="popup-overlay js-window">' +

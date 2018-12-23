@@ -124,7 +124,7 @@
 					</p>
 
 					<label>Номер телефона *<input type="tel" required></label>
-					<button class="big-yellow-button" id="modal6" onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('PLDDA');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('PLDDA');return true;}">
+					<button class="big-yellow-button" id="modal7" onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('PLDDA');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('PLDDA');return true;}">
                         <span class="text">
                             Посмотреть лучшие диски для моего авто
                             <span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span>

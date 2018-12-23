@@ -36,6 +36,9 @@
             }), function () {
                 $(".btn_modal").click(function () {
                     var t = $(this).attr("id");
+                    if ($('.' + t).hasClass('fakeRoistat')) {
+                        $('.fakeRoistat').addClass('check');
+                    }
                     $(".modalOverlay").show(), $("." + t).show(), $("body").css("overflow", "hidden"), $("." + t + " #" + t + "_phone").mask("+7 (999) 999-99-99"), $("." + t + " .modalBtnBlock button").click(function () {
                         var o = $("." + t + " #" + t + "_phone").val(), e = $("." + t + " #" + t + "_brand").val(), n = $("." + t + " #" + t + "_diameter").val(), r = $("." + t + " #" + t + "_price").val();
                         $(".errMsg").hide(), $("#" + t + "_phone").css("border-color", "#00000040"), "" == o ? ($("#" + t + "_phone").after('<div class="errMsg">Не заполнено поле</div>'), $("#" + t + "_phone").css("border-color", "red")) : $.ajax({
@@ -54,12 +57,15 @@
                     })
                 })
             }(), $("#step4 input").mask("+7 (999) 999-99-99"),
-                $("#appointment_btn").click(function () {
-                var t = $(this).closest("form.openForm"), o = t.find("input[type=tel]").val(), e = t.find("select[name=brand]").val(), n = t.find("select[name=diameter]").val(), r = t.find("input[name=price]").val();
+                $("#appointment_btn, .fakeRoistatBtnBlock").click(function () {
+                    console.log(location.href.replace('http://',''));
+                var t = $(this).closest(".openForm"),
+                    p = t.attr('id'),
+                    o = t.find("input[type=tel]").val(), e = t.find("select[name=brand]").val(), n = t.find("select[name=diameter]").val(), r = t.find("input[name=price]").val();
                 "" == o ? t.find("input[type=tel]").css("border-color", "red") : $.ajax({
                         url: "/diagnostika/mail.php",
                         type: "GET",
-                        data: "modalId=modal6&phone=" + o + "&brand=" + e + "&diameter=" + n + "&price=" + r + "&urlName" + location.href.replace('http://',''),
+                        data: "modalId=" + p + "&phone=" + o + "&brand=" + e + "&diameter=" + n + "&price=" + r + "&urlName" + location.href.replace('http://',''),
                         dataType: "html",
                         success: function (t) {
                             alert('Спасибо! Ваша заявка отправлена. В ближайшее время мы с Вами свяжемся!');
@@ -104,4 +110,34 @@ $(document).ready(function () {
             $('.modalImg').remove();
         });
     }
+
+    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+    $('.fakeRoistat').css('left', fakeRoistatWidth);
+
+    setTimeout(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+        }
+    }, 20000);
+
+    $('.fakeRoistat .close').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+    $('.modalOverlay').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+
+    $(document).mouseleave(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('#modal7_phone').mask("+7 (999) 999-99-99");
+            $('.modalOverlay').show();
+            $('.fakeRoistat').addClass('check');
+        }
+    });
 });
