@@ -31,7 +31,7 @@ function isMobile()
     </script>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
-        var siteUrl = location.href.replace('http://nakolesah.site/','').replace('/','');
+        var siteUrl = location.href.replace('https://nakolesah.site/','').replace('/','');
         var yaID = [];
         yaID['zamena-masel']='51444757';
         yaID['zamena-masla']='51444766';

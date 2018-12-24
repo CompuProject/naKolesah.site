@@ -58,6 +58,7 @@ $(document).ready(function () {
         $('.header__top-phone-number .text').html('8 (800) 222-09-86 ');
         $('.footer__phone--number p').html('8 (800) 222-09-86 ');
     }
+
     $('.modalInput').mask('+7 (999) 999-99-99');
     function changeOnlineSelectionSteps1() {
         $('.js-next-step').click(function () {
