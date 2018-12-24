@@ -227,9 +227,9 @@ h2 {
 }
 .back-button {
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #000;
     padding: 18px 48px;
-    color: #fff;
+    color: #000;
     margin-right: 50px !important
 }
 .header {
@@ -642,9 +642,18 @@ button.close {
     padding: 45px;
 }
 .modalName {
+    text-transform: uppercase;
     text-align: center;
     font-weight: 700;
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.05em;
+}
+.modalName-3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.05em;
 }
@@ -763,6 +772,18 @@ button.close {
     padding-right: 48px;
     font-size: 15px;
     font-family: "TTNorms Bold";
+}
+.modalBtnLink {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #000!important;
+    font-family: "Open Sans"!important;
+    font-size: 18px!important;
+    background-color: #ffffff!important;
+    border: none!important;
+    padding: 20px 0 0 0!important;
+    cursor: pointer;
 }
 /*#step8 button {
     margin: auto 0;

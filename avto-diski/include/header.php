@@ -12,6 +12,7 @@ function isMobile()
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main1.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700&amp;subset=cyrillic" rel="stylesheet">
     <title>Сеть из 22-х автоцентров по всей Москве</title>

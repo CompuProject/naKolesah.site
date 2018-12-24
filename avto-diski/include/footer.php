@@ -5,7 +5,7 @@
     </div>
     <div class="footer__phone">
         <div class="footer__phone--number">
-            <p>8 (800) 550-35-98</p>
+            <p>8 (800) 222-09-86</p>
         </div>
         <div class="footer__phone--callback">
             <button class="btn_modal" id="modal1"
@@ -206,7 +206,7 @@
                 </p>
 
 
-                <div class="modalName">
+                <div class="modalName-3">
                     Мы подобрали для вас самые оптимальные варианты:
                 </div>
                 <p class="online-selection__form-info">
@@ -219,7 +219,9 @@
                     <div class="modalInputBlock"><input class="modalInput" name="phone" type="tel" required
                                                         id="modal3_phone"></div>
                 </div>
-
+                                <p class="online-selection__form-free">
+                                    Это бесплатно и ни к чему вас не обязывает*
+                                </p>
                 <div class="modalBtnBlock">
                     <button class="big-yellow-button" type="submit"
                             onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('PLD');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('PLD');return true;}">
@@ -227,9 +229,8 @@
                                                                     style="width:250px; height:250px; left:-180px; top:-77px;"></span>
                     </button>
                 </div>
-                <p class="online-selection__form-free">
-                    Это бесплатно и ни к чему вас не обязывает*
-                </p>
+
+                <div class="modalBtnLink js-prev-step">Вернуться назад</div>
             </div>
         </form>
     </div>

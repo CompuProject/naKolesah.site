@@ -125,7 +125,7 @@ $(document).ready(function () {
     getModal();
     $('#step4 input').mask('+7 (999) 999-99-99');
 
-    $('.modal2 .big-red-button').click(function () {
+    $('.modal2 .big-red-button, #online-selection_btn').click(function () {
         var parentForm = $(this).closest('.openWindow');
         var phone = parentForm.find('input[name=phone]').val();
         var brand = parentForm.find('select[name=brand]').val();
@@ -135,6 +135,7 @@ $(document).ready(function () {
         if (phone == '') {
             parentForm.find('input[type=tel]').css('border-color','red');
         } else {
+            console.log('modalId='+modalId+'&phone='+phone+'&brand='+brand+'&diameter='+diameter+'&price='+price+'&urlName='+location.href.replace('http://', ''));
             $.ajax({
                 url: '/avto-diski/mail.php',
                 type: 'GET',

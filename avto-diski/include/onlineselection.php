@@ -5,7 +5,7 @@
 			<p class="online-selection__subtitle">По заданным параметрам подберем для вас перечень оптимальных
 				вариантов, в желаемой для вас ценовой
 				категории:</p>
-			<form class="online-selection__form openWindow" name="online-selection" comment="Подобрать диски" modalName="pick_up_car_drives">
+			<div class="online-selection__form openWindow" name="online-selection" comment="Подобрать диски" modalName="pick_up_car_drives">
 				<div class="step" id="step1">
 					<p class="online-selection__form-step">
 						<span>Шаг 1</span>/4
@@ -115,26 +115,27 @@
 					<p class="online-selection__form-step">
 						Шаг <span>4/4</span>
 					</p>
-					<strong>
+					<div class="modalName-3">
 						Мы подобрали для вас самые оптимальные варианты:
-					</strong>
+					</div>
 					<p class="online-selection__form-info">
 						Оставьте свой телефон и <span><strong>в течение 5 минут</strong></span><br>
 						с вами свяжется наш менеджер и продемонстрирует вам диски
 					</p>
-
-					<label>Номер телефона *<input type="tel" required></label>
-					<button class="big-yellow-button" id="modal7" onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('PLDDA');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('PLDDA');return true;}">
+                    <p class="online-selection__form-free">
+                        Это бесплатно и ни к чему вас не обязывает*
+                    </p>
+					<label>Номер телефона *<input name="phone" type="tel" required></label>
+					<button class="big-yellow-button" id="online-selection_btn" onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('PLDDA');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('PLDDA');return true;}">
                         <span class="text">
                             Посмотреть лучшие диски для моего авто
                             <span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span>
                         </span>
                     </button>
-					<p class="online-selection__form-free">
-						Это бесплатно и ни к чему вас не обязывает*
-					</p>
+                    <div class="modalBtnLink js-prev-step">Вернуться назад</div>
+
 				</div>
-			</form>
+			</div>
 		</div>
 	</div>
 </div>

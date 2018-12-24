@@ -54,7 +54,7 @@ switch ($post_data['modalId']) {
         mail($to, $subject, $message, $headers);
         addFormDataToTheDatabase('Lovec',$post_data['phone'],$post_data['urlName']);
         break;
-    case 'modal7':
+    case 'online-selection_btn':
         $subject = "\"Авто-Диски\" Сообщение с Лендинга - 'Подобрать диски внизу страницы'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         $message .= '<p>Бренд авто: <b>'.$post_data['brand'].'</b></p>';
