@@ -97,4 +97,10 @@
             </a>
         </div>
     </div>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 pt-2 text-center">Более 14 лет на рынке</div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 pt-2 text-center">8 (800) 550-67-18</div>
+    </div>
 </div>
