@@ -162,8 +162,6 @@
     }, {}]
 }, {}, [1]);
 $(document).ready(function () {
-
-
     if ($(window).width() < 850) {
         $('#node848_meta img').click(function () {
             srcPath = $(this).attr('src');
@@ -204,4 +202,98 @@ $(document).ready(function () {
         });
     }
     $('input[name=phone]').mask('+7 (999) 999-99-99');
+
+    function getModal() {
+        $('.btn_modal').click(function () {
+            var modalId = $(this).attr('id');
+            if ($('.' + modalId).hasClass('fakeRoistat')) {
+                $('.fakeRoistat').addClass('check');
+            }
+            $('.modalOverlay').show();
+            $('.' + modalId).show();
+            $('body').css('overflow', 'hidden');
+            $('.' + modalId + ' .close').click(function () {
+                $('body').css('overflow', 'auto');
+                $('.' + modalId).hide();
+                $('.modalOverlay').hide();
+            });
+            $('.modalOverlay').click(function () {
+                $('body').css('overflow', 'auto');
+                $('.' + modalId).hide();
+                $('.modalOverlay').hide();
+            });
+        });
+    }
+    getModal();
+    function sendModal() {
+        $('.fakeRoistat_btn').click(function () {
+            var parentForm = $(this).closest('.inputForm');
+            var data = [];
+            var phone = $('#modal7_phone').val();
+            var modalName = parentForm.attr('modalName');
+            $('.errMsg').hide();
+            if ($('#modal7_phone').val() == '') {
+                parentForm.find('input[name=phone]').after('<div class="errMsg">Не заполнено поле</div>');
+                parentForm.find('input[name=phone]').css('border-color', 'red');
+            } else {
+                console.log(data);
+                $.ajax({
+                    url: '/hranenie-shin/mail.php',
+                    type: 'POST',
+                    data: 'type=' + modalName + '&phone=' + phone + '&urlName=' + location.href.replace('http://', ''),
+                    // data: data,
+                    // dataType: 'html',
+                    success: function (rezult) {
+                        $('.test').html(rezult);
+                        parentForm.hide();
+                        $('.modalOverlay').show().delay(3000).fadeOut();
+                        $('.successMsg').show().delay(3000).fadeOut();
+                        $('body').css('overflow', 'auto');
+                        $('.modalOverlay').click(function () {
+                            $('.modalOverlay').hide();
+                            $('.successMsg').hide();
+                        });
+                    }
+                });
+            }
+        });
+    }
+    sendModal();
+
+    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+    $('.fakeRoistat').css('left', fakeRoistatWidth);
+
+    setTimeout(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+        }
+    }, 20000);
+
+    $('.fakeRoistat .close').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+    $('.modalOverlay').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+
+    $(document).mouseleave(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('#modal7_phone').mask("+7 (999) 999-99-99");
+            $('.modalOverlay').show();
+            $('.fakeRoistat').addClass('check');
+        }
+    });
 });
+/*******карта******************/
+
+if ($(window).width() > 768) {
+    $('._maps').html('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A414e14fc8682eb7396f6441a39b86933843a693d39507368696b1c873df16cea&amp;width=426&amp;height=390&amp;lang=ru_RU&amp;scroll=false"></script>');
+} else {
+    $('._maps').html('<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A414e14fc8682eb7396f6441a39b86933843a693d39507368696b1c873df16cea&amp;width=290&amp;height=240&amp;lang=ru_RU&amp;scroll=false"></script>');
+};

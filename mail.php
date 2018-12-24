@@ -72,4 +72,10 @@ switch ($post_data['type']) {
         addFormDataToTheDatabase('Заказ обратного звонка из футера',$toBd,'shini');
         echo json_encode(['callback' => true]);
         break;
+    case 'modal7':
+        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Lovec'";
+        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
+        mail($to, $subject, $message, $headers);
+        addFormDataToTheDatabase('Lovec',$post_data['phone'],$post_data['urlName']);
+        break;
 }

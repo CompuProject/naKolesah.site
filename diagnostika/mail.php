@@ -43,7 +43,7 @@ switch ($post_data['modalName']) {
         $subject = "\"Диагностика\" Сообщение с Лендинга - 'Форма заказа обратного звонка, виджет слева'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('Форма заказа обратного звонка',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Форма заказа обратного звонка, виджет слева',$post_data['phone'],$post_data['urlName']);
 //        echo json_encode(['callback' => true]);
         break;
     case 'modal6':

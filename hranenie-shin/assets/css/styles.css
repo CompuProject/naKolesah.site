@@ -12692,6 +12692,107 @@ div.area.screen-xs .container {
     color: #fff;
     font-family: "TTNorms Medium"
 }
+.modalOverlay {
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(87, 91, 113, .4);
+    display: none
+}
+.modalWindow {
+    position: fixed;
+    left: 40%;
+    top: 15%;
+    width: 25%;
+    z-index: 2001;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    display: none
+}
+.leftBottomBtn {
+    position: fixed;
+    right: 35px;
+    bottom: 35px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    z-index: 1000;
+}
+.leftBottomBtn img{
+    width: 75px;
+    height: 75px;
+}
+.fakeRoistat {
+    width: 770px!important;
+    color: #000000;
+    padding: 20px 20px 10px 20px;
+    left: 30%!important;
+}
+.fakeRoistat .close{
+    margin-top: -10px;
+}
+.fakeRoistat_header {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    padding-top: 10px;
+}
+.fakeRoistat_text {
+    font-size: 18px;
+    padding-top: 10px;
+    font-family: "Open Sans";
+}
+.fakeRoistat input {
+    width: 100%;
+    height: 42px;
+}
+.fakeRoistat_inputName {
+    font-size: 14px;
+    font-family: "Open Sans";
+    padding-top: 10px;
+}
+.fakeRoistat_btn {
+    color: #ffffff!important;
+    font-size: 19px!important;
+    font-family: "Open Sans";
+    background: linear-gradient(45deg,#28bd96,#98d58a);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 8px 25px!important;
+}
+.fakeRoistatBtnBlock {
+    padding-top: 30px;
+}
+.successMsg_header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    opacity: 1;
+    color: #f2a40c;
+}
+.successMsg_text {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 1;
+    color: #000;
+}
+
+div.successMsg {
+    border: 2px solid #f2a40c;
+    border-radius: 18px;
+    top: 25% !important;
+    left: 25% !important;
+    width: 45% !important;
+    background-color: rgb(255, 255, 255) !important;
+    padding: 40px 25px;
+}
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
     div.area.screen-lg {
@@ -12740,5 +12841,11 @@ div.area.screen-xs .container {
         padding: 15px 31px;
         margin-bottom: 20px;
         font-size: 13px
+    }
+    div.modalWindow {
+        left: 0!important;
+        top: 0!important;
+        bottom: 0!important;
+        width: 100%!important;
     }
 }

@@ -187,7 +187,7 @@
     </div>
 </div>
 
-<div class="modalWindow modal5" modalName="modal5" comment="Виджет слева">
+<div class="modalWindow modal5 inputForm" modalName="modal5" comment="Виджет слева">
     <div class="modal_header">
         <button class="close nofonts">×</button>
         <h4 class="textable">

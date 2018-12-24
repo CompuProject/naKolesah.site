@@ -170,4 +170,91 @@
 $(document).ready(function () {
     $('input[name=phone]').mask('+7 (999) 999-99-99');
     $('input[autocomplete=tel]').mask('+7 (999) 999-99-99');
+
+    function getModal() {
+        $('.btn_modal').click(function () {
+            var modalId = $(this).attr('id');
+            if ($('.' + modalId).hasClass('fakeRoistat')) {
+                $('.fakeRoistat').addClass('check');
+            }
+            $('.modalOverlay').show();
+            $('.' + modalId).show();
+            $('body').css('overflow', 'hidden');
+            $('.' + modalId + ' .close').click(function () {
+                $('body').css('overflow', 'auto');
+                $('.' + modalId).hide();
+                $('.modalOverlay').hide();
+            });
+            $('.modalOverlay').click(function () {
+                $('body').css('overflow', 'auto');
+                $('.' + modalId).hide();
+                $('.modalOverlay').hide();
+            });
+        });
+    }
+    getModal();
+    function sendModal() {
+        $('.fakeRoistat_btn').click(function () {
+            var parentForm = $(this).closest('.inputForm');
+            var data = [];
+            var phone = $('#modal7_phone').val();
+            var modalName = parentForm.attr('modalName');
+            $('.errMsg').hide();
+            if ($('#modal7_phone').val() == '') {
+                parentForm.find('input[name=phone]').after('<div class="errMsg">Не заполнено поле</div>');
+                parentForm.find('input[name=phone]').css('border-color', 'red');
+            } else {
+                console.log(data);
+                $.ajax({
+                    url: '/hranenie-shin/mail.php',
+                    type: 'POST',
+                    data: 'type=' + modalName + '&phone=' + phone + '&urlName=' + location.href.replace('http://', ''),
+                    // data: data,
+                    // dataType: 'html',
+                    success: function (rezult) {
+                        $('.test').html(rezult);
+                        parentForm.hide();
+                        $('.modalOverlay').show().delay(3000).fadeOut();
+                        $('.successMsg').show().delay(3000).fadeOut();
+                        $('body').css('overflow', 'auto');
+                        $('.modalOverlay').click(function () {
+                            $('.modalOverlay').hide();
+                            $('.successMsg').hide();
+                        });
+                    }
+                });
+            }
+        });
+    }
+    sendModal();
+
+    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+    $('.fakeRoistat').css('left', fakeRoistatWidth);
+
+    setTimeout(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+        }
+    }, 20000);
+
+    $('.fakeRoistat .close').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+    $('.modalOverlay').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+
+    $(document).mouseleave(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('#modal7_phone').mask("+7 (999) 999-99-99");
+            $('.modalOverlay').show();
+            $('.fakeRoistat').addClass('check');
+        }
+    });
 });

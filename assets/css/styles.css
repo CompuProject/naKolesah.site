@@ -26233,8 +26233,108 @@ div.area.screen-xs .container {
 .mobileImg img{
     width: 100%;
 }
+.modalOverlay {
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(87, 91, 113, .4);
+    display: none
+}
+.modalWindow {
+    position: fixed;
+    left: 40%;
+    top: 15%;
+    width: 25%;
+    z-index: 2001;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    display: none
+}
+.leftBottomBtn {
+    position: fixed;
+    right: 35px;
+    bottom: 35px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    z-index: 1000;
+}
+.leftBottomBtn img{
+    width: 75px;
+    height: 75px;
+}
+.fakeRoistat {
+    width: 770px!important;
+    color: #000000;
+    padding: 20px 20px 10px 20px;
+    left: 30%!important;
+}
+.fakeRoistat .close{
+    margin-top: -10px;
+}
+.fakeRoistat_header {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    padding-top: 10px;
+}
+.fakeRoistat_text {
+    font-size: 18px;
+    padding-top: 10px;
+    font-family: "Open Sans";
+}
+.fakeRoistat input {
+    width: 100%;
+    height: 42px;
+}
+.fakeRoistat_inputName {
+    font-size: 14px;
+    font-family: "Open Sans";
+    padding-top: 10px;
+}
+.fakeRoistat_btn {
+    color: #ffffff!important;
+    font-size: 19px!important;
+    font-family: "Open Sans";
+    background: linear-gradient(45deg,#28bd96,#98d58a);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 8px 25px!important;
+}
+.fakeRoistatBtnBlock {
+    padding-top: 30px;
+}
+.successMsg_header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    opacity: 1;
+    color: #f2a40c;
+}
+.successMsg_text {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 1;
+    color: #000;
+}
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+div.successMsg {
+    border: 2px solid #f2a40c;
+    border-radius: 18px;
+    top: 25% !important;
+    left: 25% !important;
+    width: 45% !important;
+    background-color: rgb(255, 255, 255) !important;
+    padding: 40px 25px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
     div.area.screen-lg {
         min-width: 100%
     }
@@ -26316,7 +26416,7 @@ div.area.screen-xs .container {
     div.area.screen-lg .node1002 > .wrapper1 > .wrapper2, div.area.screen-lg .node323 > .wrapper1 > .wrapper2 {
         padding: 16px 5px 5px 0
     }
-
+/*
     div.area.screen-lg .node400 .gridwrap .col:first-child {
         display: none
     }
@@ -26324,7 +26424,7 @@ div.area.screen-xs .container {
     div.area.screen-lg .node400 .gridwrap .col:last-child {
         width: 100% !important
     }
-
+*/
     div.area.screen-lg .node400 #ymaps1542225719224168272, div.area.screen-lg .node400 #ymaps1542225719224168272 .ymaps-2-1-69-map, div.area.screen-lg .node724 .widget-imagedtext .tbl .icon {
         width: 100% !important
     }
@@ -26405,4 +26505,142 @@ div.area.screen-xs .container {
     div.area.screen-xs .container {
         width: 100%
     }
+    div.modalWindow {
+        left: 0!important;
+        top: 0!important;
+        bottom: 0!important;
+        width: 100%!important;
+    }
 }
+
+
+/**************************************************************/
+
+
+.xs-force-center.textable.gray-theme.top-title p{
+    text-align: center;
+    line-height: 0.8;
+}
+
+.xs-force-center.textable.desktop p{
+    line-height: 0.9;
+    text-align:center;
+}
+.node.node265.widget.widget-button{
+    padding: 10px 0 36px 0;}
+.node.node256.widget.widget-text{
+    padding-top: 124px;
+}
+
+.node.node264.widget.widget-grid .col{
+    width: 33%;
+}
+
+
+.node.node344.widget.widget-imagedtext div._img{
+    height: 60px;
+    padding: 5px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat:no-repeat;
+
+}
+.grid.valign-top.paddings-20px.xs-wrap .col:nth-of-type(1) div._img{
+    background-image: url('http://u10.filesonload.ru/s/35g6p0051/cc9ef35356d18c722781599f1b8cae78/d4889648a961a617b8644911a0b12467.png');
+}
+
+.grid.valign-top.paddings-20px.xs-wrap .col:nth-of-type(2) div._img{
+    background-image: url('http://u10.filesonload.ru/s/35g6p0051/cc9ef35356d18c722781599f1b8cae78/be9ae9a25ef428d23c645302c692f44b.png');
+}
+
+.grid.valign-top.paddings-20px.xs-wrap .col:nth-of-type(3) div._img{
+    background-image: url('http://u10.filesonload.ru/s/35g6p0051/cc9ef35356d18c722781599f1b8cae78/b8c6f75ec3bd69972af6a5b330a85474.png');
+}
+
+
+.node.node344.widget.widget-imagedtext div.textable{
+    text-align:center;
+    padding: 5px;
+
+}
+
+._hiden{
+    display: none !important;
+}
+/*
+.node.node400.section.section-clear.xs-hidden .col{
+
+    display: inline-block;
+*/
+
+.node.node400.section.section-clear.xs-hidden .col:first-of-type{
+
+    width: 61%;
+}
+.node.node400.section.section-clear.xs-hidden .col:last-of-type{
+
+    width: 39%;
+}
+.node437 ymaps{
+    margin: 0 auto;
+}
+.node111{
+    display: none;
+}
+/*mobile*/
+@media screen and (max-width: 767px) and (min-width: 320px){
+
+    .node.node264.widget.widget-grid .col{
+        display: block;
+        width: 100%;
+    }
+
+    .node264 .grid.valign-top.paddings-20px.xs-wrap{
+        /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!display: table;*/
+    }
+    .grid.valign-top.paddings-20px.xs-wrap .col div._img{
+        display: table-cell;
+        width: 29px;
+        height: 29px;
+    }
+
+    .grid.valign-top.paddings-20px.xs-wrap .col div.textable{
+        display: table-cell;
+        font-size: 14px;
+        line-height: 0.8;
+        text-align:left;
+        padding: 0px;
+        vertical-align: middle;
+    }
+
+    .grid.valign-top.paddings-20px.xs-wrap .col div.textable p{
+        padding: 0;
+        line-height: 16px;
+        padding-left: 14px;
+    }
+    /*
+    div.area.screen-lg .mobile {
+        text-align: center;
+    }
+*/
+    .node111{
+        display: block !important;
+    }
+    .node256{
+        padding-top: 0px !important;
+    }
+    /*адреса*/
+
+    .node.node400.section.section-clear.xs-hidden .col:first-of-type{
+        display: none !important;
+    }
+    .node.node400.section.section-clear.xs-hidden .col:last-of-type{
+    //display: none !important;
+        width: 100%;
+
+    }
+
+
+}
+
+
