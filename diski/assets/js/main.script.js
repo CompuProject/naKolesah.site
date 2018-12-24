@@ -193,8 +193,10 @@ $(document).ready(function () {
         });
     }
 
-    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
-    $('.fakeRoistat').css('left', fakeRoistatWidth);
+    if ($(document).width() > 1200) {
+        var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+        $('.fakeRoistat').css('left', fakeRoistatWidth);
+    }
 
     setTimeout(function () {
         if (!$('.fakeRoistat').hasClass('check')) {
