@@ -168,6 +168,13 @@
     }, {}]
 }, {}, [1]);
 $(document).ready(function () {
+    var site_url = location.href.replace('https://nakolesah.site/','').replace('/','');
+    if (site_url == 'hranenie') {
+        $('.phone_number').html('8 (800) 550-07-39');
+    } else if (site_url == 'hranenie-shin') {
+        $('.phone_number').html('8 (800) 222-15-98');
+    }
+
     $('input[name=phone]').mask('+7 (999) 999-99-99');
     $('input[autocomplete=tel]').mask('+7 (999) 999-99-99');
 

@@ -22,8 +22,8 @@
     <script type="text/javascript" >
         var siteUrl = location.href.replace('http://nakolesah.site/','').replace('/','');
         var yaID = [];
-        yaID['sceplenie-zamena']='51573023';
-        yaID['sceplenie']='51573182';
+        yaID['sceplenie-zamena']='51599156';
+        yaID['sceplenie']='51599021';
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
