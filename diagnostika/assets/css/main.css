@@ -842,24 +842,24 @@ h2 {
     margin: auto
 }
 
-.appointment form {
+.appointment #appointment_form {
     width: 50%;
     display: block;
     margin: auto
 }
 
-.appointment form * {
+.appointment #appointment_form * {
     display: block;
     width: 100%
 }
 
-.appointment form label {
+.appointment #appointment_form label {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px
 }
 
-.appointment form input {
+.appointment #appointment_form input {
     padding: 10px;
     color: #222;
     margin-bottom: 20px

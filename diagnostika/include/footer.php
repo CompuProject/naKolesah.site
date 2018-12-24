@@ -6,7 +6,7 @@
     </div>
     <div class="footer__phone">
         <div class="footer__phone--number">
-            <p>8 (800) 222-52-34</p>
+            <p>8 (800) 550-82-75</p>
             <p>Бесплатно по России</p>
         </div>
         <div class="footer__phone--callback">
