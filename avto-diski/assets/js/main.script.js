@@ -50,6 +50,14 @@
     }, {}]
 }, {}, [1]);
 $(document).ready(function () {
+    var site_url = location.href.replace('https://nakolesah.site/','').replace('/','');
+    if (site_url == 'avto-diski') {
+        $('.header__top-phone-number span').html('8 (800) 550-63-94');
+        $('.footer__phone--number p').html('8 (800) 550-63-94');
+    } else if (site_url == 'diski-avto') {
+        $('.header__top-phone-number .text').html('8 (800) 222-09-86 ');
+        $('.footer__phone--number p').html('8 (800) 222-09-86 ');
+    }
     $('.modalInput').mask('+7 (999) 999-99-99');
     function changeOnlineSelectionSteps1() {
         $('.js-next-step').click(function () {
