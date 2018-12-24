@@ -8,7 +8,7 @@ $headers .= "Content-type:text/html\r\n";
 $headers .= 'From: <diagnostika@nakolesah.site>' . "\r\n";
 
 
-switch ($post_data['modalId']) {
+switch ($post_data['modalName']) {
     case 'modal1':
         $subject = "\"Диагностика\" Сообщение с Лендинга - 'Форма заказа обратного звонка'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';

@@ -1,6 +1,17 @@
 <div class="modalOverlay"></div>
-
-<div class="modal1 modalWindow" comment="Обратный звонок" modalName="headerCallBack">
+<div class="modalWindow successMsg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm successMsg_header">Спасибо за обращение!</div>
+        </div>
+        <div class="row">
+            <div class="col-sm successMsg_text">Наш специалист свяжется с Вами в ближайшее время и подробно ответит на
+                все интересующие вопросы!
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal1 modalWindow inputForm" modalName="modal1" comment="Обратный звонок">
     <div class="modal_header">
         <button class="close nofonts">×</button>
         <h4 class="textable">
@@ -11,14 +22,14 @@
         <div class="modalName">Обратный звонок</div>
         <div class="modalText">Оставьте свой телефон и мы свяжемся с вами в течение 5 минут:</div>
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
-        <div class="modalInputBlock"><input class="modalInput" id="modal1_phone"></div>
+        <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal1_phone"></div>
         <div class="modalBtnBlock">
             <button onclick="yaCounter51444706.reachGoal('ZK_Z'); return true;">ПЕРЕЗВОНИТЕ МНЕ<span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span></button>
         </div>
     </div>
 </div>
 
-<div class="modalWindow modal2" comment="Записаться на диагностику в удобное время" modalName="appiontment">
+<div class="modalWindow modal2 inputForm" modalName="modal2" comment="Записаться на диагностику в удобное время">
     <div class="modal_header">
         <button class="close nofonts">×</button>
         <h4 class="textable">
@@ -30,14 +41,14 @@
         <div class="modalText">Оставьте свой телефон и мы забронируем удобную для вас дату визита:
         </div>
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
-        <div class="modalInputBlock"><input class="modalInput" id="modal2_phone"></div>
+        <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal2_phone"></div>
         <div class="modalBtnBlock">
             <button onclick="yaCounter51444706.reachGoal('DIAG_Z'); return true;">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ<span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span></button>
         </div>
     </div>
 </div>
 
-<div class="modalWindow modal3" comment="Подобрать диски" modalName="pick_up_car_drives">
+<div class="modalWindow modal3 inputForm" modalName="modal3" comment="Подобрать диски">
     <div class="modal_header">
         <button class="close nofonts">×</button>
         <h4 class="textable">
@@ -145,7 +156,7 @@
                     продемонстрирует самые оптимальные варианты, <span>которые мы для вас подобрали</span>:
                 </p>
 
-                <label>Номер телефона *<input type="tel" required id="modal3_phone"></label>
+                <label>Номер телефона *<input type="tel" name="phone" required id="modal3_phone"></label>
                 <div class="modalBtnBlock">
                     <button class="big-yellow-button" type="submit" onclick="yaCounter51352711.reachGoal('diagnostika_Z'); return true;">Посмотреть лучшие диски для моего авто<span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span></button>
                 </div>
@@ -158,7 +169,7 @@
     </div>
 </div>
 
-<div class="modalWindow modal4" comment="Приобретение дисков в рассрочку">
+<div class="modalWindow modal4 inputForm" modalName="modal4" comment="Приобретение дисков в рассрочку">
     <div class="modal_header">
         <button class="close nofonts">×</button>
         <h4 class="textable">
@@ -169,14 +180,14 @@
         <div class="modalName">Приобретение дисков в рассрочку</div>
         <div class="modalText">Оставьте свой телефон и мы свяжемся с вами для уточнения деталей:</div>
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
-        <div class="modalInputBlock"><input class="modalInput" id="modal4_phone"></div>
+        <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal4_phone"></div>
         <div class="modalBtnBlock">
             <button onclick="yaCounter51352711.reachGoal('RASSROCHKA_Z'); return true;">СВЯЗАТЬСЯ СО СПЕЦИАЛИСТОМ<span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span></button>
         </div>
     </div>
 </div>
 
-<div class="modalWindow modal5" comment="Виджет слева">
+<div class="modalWindow modal5" modalName="modal5" comment="Виджет слева">
     <div class="modal_header">
         <button class="close nofonts">×</button>
         <h4 class="textable">
@@ -187,7 +198,7 @@
         <div class="modalName">Запись на диагностику</div>
         <div class="modalText">Оставьте свой телефон и мы забронируем удобную для вас дату визита:</div>
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
-        <div class="modalInputBlock"><input class="modalInput" id="modal5_phone"></div>
+        <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal5_phone"></div>
         <div class="modalBtnBlock">
             <button onclick="yaCounter51444706.reachGoal('VIDJET_Z'); return true;">ЗАБРОНИРОВАТЬ ВРЕМЯ<span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span></button>
         </div>
@@ -504,7 +515,7 @@
     </div>
 </div>
 
-<div class="modalWindow fakeRoistat modal7 inputForm openForm" id="fakeRoistat_modal" comment="Обратный звонок">
+<div class="modalWindow fakeRoistat modal7 inputForm openForm" modalName="modal7" comment="Обратный звонок">
     <div class="container-fluid px-4 pb-4">
         <div class="row">
             <div class="col-12 modal_header text-right">

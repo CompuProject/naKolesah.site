@@ -939,6 +939,31 @@ h2 {
 .fakeRoistatBtnBlock {
     padding-top: 30px;
 }
+.successMsg_header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    opacity: 1;
+    color: #fff100;
+}
+.successMsg_text {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 1;
+    color: #000;
+}
+
+div.successMsg {
+    border: 2px solid #fff100;
+    border-radius: 18px;
+    top: 25% !important;
+    left: 25% !important;
+    width: 45% !important;
+    background-color: rgb(255, 255, 255) !important;
+    padding: 40px 25px;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
     h2 {
         font-size: 28px;
