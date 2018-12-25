@@ -29,7 +29,7 @@ function isMobile()
     </script>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
-        var siteUrl = location.href.replace('http://nakolesah.site/','').replace('/','');
+        var siteUrl = location.href.replace('https://nakolesah.site/','').replace('/','');
         var yaID = [];
         yaID['zamena-stekol']='51444793';
         yaID['zamena-stekla']='51444802';

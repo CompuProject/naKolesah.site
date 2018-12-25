@@ -217,8 +217,10 @@ $(document).ready(function () {
             $('.modalImg').remove();
         });
 
-    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
-    $('.fakeRoistat').css('left', fakeRoistatWidth);
+        if ($(window).width() > 768) {
+            var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+            $('.fakeRoistat').css('left', fakeRoistatWidth);
+        }
 
     setTimeout(function () {
         if (!$('.fakeRoistat').hasClass('check')) {

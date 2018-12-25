@@ -284,8 +284,13 @@ $(document).ready(function () {
         show_video();
     })
 
-    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
-    $('.fakeRoistat').css('left', fakeRoistatWidth);
+    if ($(window).width() > 768) {
+        var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+        $('.fakeRoistat').css('left', fakeRoistatWidth);
+    } else  if ($(window).width() > 768 && $(window).width() < 1200) {
+        $('.fakeRoistat').css('width', '60%');
+    }
+
 
     setTimeout(function () {
         if (!$('.fakeRoistat').hasClass('check')) {
