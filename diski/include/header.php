@@ -125,6 +125,11 @@ function isMobile()
                 <li><a class="scrollto" href="#addresses">Адреса</a></li>
             </ul>
         </div>
+        <div class="hamburger_menu_btnBlock">
+            <button class="hamburger_menu_btn">Позвонить бесплатно</button>
+        </div>
+        <div class="hamburger_menu_text">Более 14 лет на рынке</div>
+        <div class="hamburger_menu_text phone">8 (800) 222-09-86</div>
     </div>
 
     <script>

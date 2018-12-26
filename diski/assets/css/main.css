@@ -260,7 +260,7 @@ h2 {
 }
 
 .header {
-    position: fixed;
+    position: relative;
     background-color: #282828;
     height: 135px;
     width: 100%;
@@ -967,10 +967,11 @@ button.btn_modal:hover, .modalBtnBlock button:hover, .js-prev-step:hover, .js-ne
         display: none;
     }
     .header {
-        height: 70px;
+        height: auto;
+        padding-bottom: 5px;
     }
     .firstscreen {
-        margin-top: 70px;
+        margin-top: 0
     }
     .header__top-logo,
     .header__top-company,
@@ -995,6 +996,39 @@ button.btn_modal:hover, .modalBtnBlock button:hover, .js-prev-step:hover, .js-ne
     }
     .header__menu.mobile {
         display: block;
+    }
+    .hamburger_menu_btnBlock {
+        text-align: center;
+        padding: 15px 15px 0;
+        width: 100%;
+    }
+    .hamburger_menu_btn {
+        text-transform: uppercase;
+        background-color: rgb(35, 186, 69);
+        border-radius: 50px;
+        border-style: solid;
+        border-width: 0;
+        border-color: rgb(28, 149, 55);
+        padding: 9px 31px;
+        font-size: 11px;
+        color: #fff;
+    }
+    .hamburger_menu_text {
+        color: #fff;
+        width: 100%;
+        padding: 15px 15px 0;
+        font-size: 16px;
+        text-align: center;
+    }
+    .firstscreen__heading h1 {
+        font-size: 26px;
+    }
+    .firstscreen__subtitle {
+        font-size: 16px;
+    }
+    .firstscreen__advantages-text {
+        padding-top: 10px;
+        font-size: 16px;
     }
     .container .hamburger1-altmenu {
         padding-top: 20px;
@@ -1083,6 +1117,9 @@ button.btn_modal:hover, .modalBtnBlock button:hover, .js-prev-step:hover, .js-ne
     .installment__circs-video {
         width: 100%;
     }
+    .installment .wrapper {
+        padding: 20px 0 0;
+    }
     .review {
         height: auto;
     }
@@ -1105,8 +1142,11 @@ button.btn_modal:hover, .modalBtnBlock button:hover, .js-prev-step:hover, .js-ne
         display: block;
         text-align: center;
     }
+    .footer__phone--number {
+        text-align: center;
+    }
     .firstscreen .wrapper {
-        padding: 50px 0;
+        padding: 30px 0;
     }
     .mapblock__image img {
         width: 100%;
@@ -1147,7 +1187,12 @@ button.btn_modal:hover, .modalBtnBlock button:hover, .js-prev-step:hover, .js-ne
     .form-buttons {
         display: block !important;
     }
-    .modalWindow .js-prev-step {
+    .online-selection__form .js-prev-step {
+        color: #000;
+        border: 1px solid #000;
+        margin-right: auto!important;
+    }
+    .modalWindow .js-prev-step.open {
         background: #fff;
         margin: 0 auto !important;
         margin-top: 20px !important;

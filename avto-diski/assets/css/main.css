@@ -901,7 +901,86 @@ button.big-yellow-button{
 .fakeRoistatBtnBlock {
     padding-top: 30px;
 }
+.firstscreen_text {
+    font-size: 16px;
+    text-align: left;
+}
+.firstscreen__advantages.mobile {
+    display: none;
+}
+.hamburger_menu{
+    display: none;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
+    /*Меню*/
+    .hamburger_menu {
+        padding: 5px 15px 0;
+    }
+    .hamburger_menu.active {
+        display: block;
+    }
+    .hamburger_menu_elementHalf, .hamburger_menu_elementFull {
+        font-size: 14px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .hamburger_menu_elementHalf a, .hamburger_menu_elementFull a {
+        color: #000;
+    }
+    .hamburger_menu_elementHalf {
+        padding: 10px 0;
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
+    .hamburger_menu_elementFull{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .hamburger_menu_btnBlock {
+        text-align: center;
+        padding: 15px 15px 0;
+        width: 100%;
+    }
+    .hamburger_menu_btn {
+        text-transform: uppercase;
+        background-color: rgb(35, 186, 69);
+        border-radius: 50px;
+        border-style: solid;
+        border-width: 0;
+        border-color: rgb(28, 149, 55);
+        padding: 9px 31px;
+        font-size: 11px;
+        color: #fff;
+    }
+    .hamburger_menu_text {
+        width: 100%;
+        padding: 15px 15px 0;
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+    }
+
+    .firstscreen_text {
+        text-align: center;
+        font-size: 14px;
+    }
+    .firstscreen__advantages.mobile {
+        display: block;
+        padding-bottom: 20px;
+    }
+    .firstscreen__advantages.desctop {
+        display: none;
+    }
+    .blockb {
+        text-align: center!important;
+    }
+    .back-button {
+        margin-right: auto!important;
+    }
+    .line {
+        margin: 0 auto;
+    }
     .fakeRoistat {
         left: 0!important;
         width: 100%!important;
@@ -921,10 +1000,15 @@ button.big-yellow-button{
         display: none;
     }
     .header {
-        height: 70px;
+        height: auto;
+        position: relative;
     }
     .firstscreen {
-        margin-top: 70px;
+        margin-top: 20px;
+    }
+    .firstscreen__heading h1 {
+        font-size: 20px;
+        font-weight: 700;
     }
     .header__top-logo,
     .header__top-company,
@@ -976,7 +1060,7 @@ button.big-yellow-button{
         position: absolute;
         height: 5px;
         width: 100%;
-        background: #fff;
+        background: #ca0505;
         border-radius: 9px;
         opacity: 1;
         left: 0;
@@ -1072,6 +1156,7 @@ button.big-yellow-button{
         left: 0!important;
     }
     .callBackModal_content {
+        padding: 0!important;
         width: 100%;
     }
     .modalOverlay {
@@ -1091,6 +1176,7 @@ button.big-yellow-button{
     .online-selection__form .step {
         margin: 0 !important;
     }
+
 }
 @media screen and (min-width: 770px) and (max-width: 1400px) {
     div.modalWindow {

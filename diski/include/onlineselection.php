@@ -76,7 +76,7 @@
 						<option value="23">23</option>
 					</select>
 					<div class="form-buttons">
-						<button class="big-yellow-button back-button js-prev-step" type="button">Назад</button>
+						<button class="big-yellow-button back-button js-prev-step open" type="button">Назад</button>
 						<button class="big-yellow-button js-next-step" type="button" onclick="ym(yaID[siteUrl], 'reachGoal', 'DALEE_2'); return true;">
                         <span class="text">
                             Далее
@@ -99,7 +99,7 @@
 						<span class="range-border">80 000</span>
 					</div>
 					<div class="form-buttons">
-						<button class="big-yellow-button back-button js-prev-step" type="button">Назад</button>
+						<button class="big-yellow-button back-button js-prev-step open" type="button">Назад</button>
 						<button class="big-yellow-button js-next-step" type="button" onclick="ym(yaID[siteUrl], 'reachGoal', 'ZAKAZ_ZVONKA'); return true;">
                         <span class="text">
                             Далее

@@ -1,3 +1,4 @@
+<a name="selection"></a>
 <div class="online-selection">
 	<div class="wrapper">
 		<div class="container text-center">

@@ -1,4 +1,5 @@
 <div class="review">
+    <a name="rewies"></a>
 	<div class="container text-center">
 		<h2 id="reviews">Отзывы наших клиентов</h2>
 		<div id="reviews_carousel" class="carousel slide" data-ride="carousel">

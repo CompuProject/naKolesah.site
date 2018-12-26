@@ -50,6 +50,19 @@
     }, {}]
 }, {}, [1]);
 $(document).ready(function () {
+    /*Плавающая шапка*/
+    if ($(window).width() < 850) {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 1) {
+                $('.header').css('position','fixed');
+                $('.hamburger_menu_text').hide();
+            } else {
+                $('.header').css('position','relative');
+                $('.hamburger_menu_text').show();
+            }
+        });
+    }
+
     function changeOnlineSelectionSteps1() {
         $('.js-next-step').click(function () {
             var thisNumber = $(this).closest('.step').attr('id').toString().slice(-1);

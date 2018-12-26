@@ -46,6 +46,7 @@
 				<img src="assets/img/img22.png" alt=""  class="img-responsive">
 			</div>
 		</div>
+        <a name="cost"></a>
 		<div class="col-md-6 col-xs-12">
 			<div class=" modal2 openModal" comment="Наличие дисков в магазинах" modalName="availability_at_the_store">
 				<div class="callBackModal_content">

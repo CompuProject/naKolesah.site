@@ -77,6 +77,16 @@ function isMobile()
                         </div>
                     </div>
                 </div>
+                <div class="hamburger_menu">
+                    <div class="hamburger_menu_elementHalf"><a href="#addres">Адреса</a></div>
+                    <div class="hamburger_menu_elementHalf"><a href="#rewies">Отзывы</a></div>
+                    <div class="hamburger_menu_elementFull"><a href="#cost">Стоимость</a></div>
+                </div>
+                <div class="hamburger_menu_btnBlock">
+                    <button class="hamburger_menu_btn">Позвонить бесплатно</button>
+                </div>
+                <div class="hamburger_menu_text">Более 14 лет на рынке</div>
+                <div class="hamburger_menu_text phone">8 (800) 550-36-95</div>
             </div>
         </div>
         <div class="header__top">
@@ -105,16 +115,13 @@ function isMobile()
         </div>
     </div>
     <script>
-        $(".hamburger1").click(function () {
-            if($(".header__menu").hasClass("mobile")) {
-                $(".header__menu").removeClass("mobile");
+        $(".hamburger1-toggle").click(function () {
+            if ($('.hamburger_menu').hasClass('active')) {
+                $('.hamburger_menu').removeClass('active');
+                $(this).removeClass('is-expanded').addClass('is-collapsed');
             } else {
-                $(".header__menu").addClass("mobile");
-            }
-        });
-        $(".header__menu li a").click(function () {
-            if($(".header__menu").hasClass("mobile")) {
-                $(".header__menu").removeClass("mobile");
+                $('.hamburger_menu').addClass('active');
+                $(this).addClass('is-expanded').removeClass('is-collapsed');
             }
         });
     </script>

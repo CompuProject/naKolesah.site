@@ -56,6 +56,7 @@
 			</div>
 		</div>
         <div class="row">
+            <a name="cost"></a>
 		<div class="col-md-6 col-xs-12">
 			<div class=" modal2 openForm" comment="Наличие дисков в магазинах" modalName="availability_at_the_store">
 				<div class="callBackModal_content">
@@ -110,7 +111,7 @@
 		</div>
         </div>
         <div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12 firstscreen_img">
 			<div class="row">
 				<div class="col-md-4">
 					<a href="assets/img/img2.jpg" rel="group"><img src="assets/img/img2.jpg"  height="180">	</a>

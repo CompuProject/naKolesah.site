@@ -219,7 +219,7 @@ h2 {
     margin-right: 50px !important
 }
 .header {
-    position: fixed;
+    position: relative;
     background-color: #fff;
     height: 89px;
     width: 100%;
@@ -859,7 +859,59 @@ button.big-yellow-button{
 .fakeRoistatBtnBlock {
     padding-top: 30px;
 }
+.hamburger_menu{
+    display: none;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
+    /*Меню*/
+    .hamburger_menu {
+        padding: 5px 15px 0;
+    }
+    .hamburger_menu.active {
+        display: block;
+    }
+    .hamburger_menu_elementHalf, .hamburger_menu_elementFull {
+        font-size: 14px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .hamburger_menu_elementHalf a, .hamburger_menu_elementFull a {
+        color: #000;
+    }
+    .hamburger_menu_elementHalf {
+        padding: 10px 0;
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
+    .hamburger_menu_elementFull{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .hamburger_menu_btnBlock {
+        text-align: center;
+        padding: 15px 15px 0;
+        width: 100%;
+    }
+    .hamburger_menu_btn {
+        text-transform: uppercase;
+        background-color: rgb(35, 186, 69);
+        border-radius: 50px;
+        border-style: solid;
+        border-width: 0;
+        border-color: rgb(28, 149, 55);
+        padding: 9px 31px;
+        font-size: 11px;
+        color: #fff;
+    }
+    .hamburger_menu_text {
+        width: 100%;
+        padding: 15px 15px 0;
+        font-size: 16px;
+        color: #333;
+        text-align: center;
+    }
+
     .fakeRoistat {
         left: 0!important;
         width: 100%!important;
@@ -875,10 +927,19 @@ button.big-yellow-button{
         display: none;
     }
     .header {
-        height: 70px;
+        height: auto;
     }
     .firstscreen {
-        margin-top: 70px;
+        margin-top: 0;
+    }
+    .firstscreen__heading h1 {
+        font-size: 20px;
+    }
+    .firstscreen_img {
+        padding-top: 10px;
+    }
+    .callBackModal_content {
+        padding: 20px 0;
     }
     .header__top-logo,
     .header__top-company,
@@ -930,7 +991,7 @@ button.big-yellow-button{
         position: absolute;
         height: 5px;
         width: 100%;
-        background: #fff;
+        background: rgb(202, 5, 5);
         border-radius: 9px;
         opacity: 1;
         left: 0;
@@ -1003,7 +1064,7 @@ button.big-yellow-button{
         text-align: center;
     }
     .firstscreen .wrapper {
-        padding: 50px 0;
+        padding: 30px 0;
     }
     /*.mapblock__image img {
         width: 100%;

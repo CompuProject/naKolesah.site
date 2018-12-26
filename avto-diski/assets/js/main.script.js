@@ -50,13 +50,28 @@
     }, {}]
 }, {}, [1]);
 $(document).ready(function () {
+    /*Плавающая шапка*/
+    if ($(window).width() < 850) {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 1) {
+                $('.header').css('position','fixed');
+                $('.hamburger_menu_text').hide();
+            } else {
+                $('.header').css('position','relative');
+                $('.hamburger_menu_text').show();
+            }
+        });
+    }
+
     var site_url = location.href.replace('https://nakolesah.site/','').replace('/','');
     if (site_url == 'avto-diski') {
         $('.header__top-phone-number span').html('8 (800) 550-63-94');
         $('.footer__phone--number p').html('8 (800) 550-63-94');
+        $('.hamburger_menu_text.phone').html('8 (800) 550-63-94');
     } else if (site_url == 'diski-avto') {
         $('.header__top-phone-number .text').html('8 (800) 222-09-86 ');
         $('.footer__phone--number p').html('8 (800) 222-09-86 ');
+        $('.hamburger_menu_text.phone').html('8 (800) 222-09-86 ');
     }
 
     $('.modalInput').mask('+7 (999) 999-99-99');

@@ -69,7 +69,7 @@ function isMobile()
                                         <div class="">
                                             <div class="textable">
                                                 <p style="line-height: 0.5;"><span style="font-family: &quot;Russo One&quot;;"><span style="font-size: 20px;"><span style="color: rgb(235, 44, 49);"><strong>НА КОЛЁСАХ</strong></span></span></span></p>
-                                                <p style="text-align: left; line-height: 0.5;"><span style="color: rgb(255, 255, 255);"><span style="font-size: 14px;"><span style="font-family: &quot;Roboto Light&quot;;"><strong>22 автоцентра</strong> в каждом районе</span></span></span></p>
+                                                <p style="text-align: left; line-height: 0.5;"><span style="color: rgb(0, 0, 0);"><span style="font-size: 14px;"><span style="font-family: &quot;Roboto Light&quot;;"><strong>22 автоцентра</strong> в каждом районе</span></span></span></p>
                                             </div>
                                         </div>
                                     </div>
@@ -78,6 +78,16 @@ function isMobile()
                         </div>
                     </div>
                 </div>
+                <div class="hamburger_menu">
+                    <div class="hamburger_menu_elementHalf"><a href="#addres">Адреса</a></div>
+                    <div class="hamburger_menu_elementHalf"><a href="#rewies">Отзывы</a></div>
+                    <div class="hamburger_menu_elementFull"><a href="#selection">Онлайн подбор</a></div>
+                </div>
+                <div class="hamburger_menu_btnBlock">
+                    <a href="+78005508594"><button class="hamburger_menu_btn">Позвонить бесплатно</button></a>
+                </div>
+                <div class="hamburger_menu_text">Более 14 лет на рынке</div>
+                <div class="hamburger_menu_text phone">8 (800) 550-85-94</div>
             </div>
         </div>
         <div class="header__top">
@@ -106,16 +116,13 @@ function isMobile()
         </div>
     </div>
     <script>
-        $(".hamburger1").click(function () {
-            if($(".header__menu").hasClass("mobile")) {
-                $(".header__menu").removeClass("mobile");
+        $(".hamburger1-toggle").click(function () {
+            if ($('.hamburger_menu').hasClass('active')) {
+                $('.hamburger_menu').removeClass('active');
+                $(this).removeClass('is-expanded').addClass('is-collapsed');
             } else {
-                $(".header__menu").addClass("mobile");
-            }
-        });
-        $(".header__menu li a").click(function () {
-            if($(".header__menu").hasClass("mobile")) {
-                $(".header__menu").removeClass("mobile");
+                $('.hamburger_menu').addClass('active');
+                $(this).addClass('is-expanded').removeClass('is-collapsed');
             }
         });
     </script>

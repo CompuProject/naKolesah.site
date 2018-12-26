@@ -1,3 +1,4 @@
+<a name="rewies"></a>
 <div class="tabsblock">
 	<div class="container text-center">
 		<h2 class="text-center2"><span>Более 60 производителей</span> дисков со всего мира</h2>

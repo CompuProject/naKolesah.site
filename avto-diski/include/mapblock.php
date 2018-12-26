@@ -1,4 +1,5 @@
 <div class="mapblock">
+    <a name="addres"></a>
 	<div class="container">
 		<h2 class="text-center2" id="addresses">Приезжайте <span>в ближайший к вам автоцентр</span> или закажите доставку дисков прямо домой</h2>
 		<p class="text-centerP">Работаем ежедневно с 9:00 до 21:00</p>

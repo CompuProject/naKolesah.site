@@ -24,6 +24,7 @@
 			</div>
 		</div>
         <div class="row">
+            <a name="cost"></a>
 		<div class="col-md-6 col-xs-12">
 			<div class="modal2 openModal" comment="Наличие дисков в магазинах" modalName="availability_at_the_store">
 				<div class="callBackModal_content">
@@ -80,13 +81,13 @@
         <div class="row">
 			<div class="col-md-12">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 text-center">
 						<a href="assets/img/1.jpg" rel="group"><img src="assets/img/1.jpg"  height="180">	</a>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 text-center firstscreen_img">
 						<a href="assets/img/2.jpg" rel="group"><img src="assets/img/2.jpg"  height="180">	</a>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 text-center firstscreen_img">
 						<a href="assets/img/3.jpg" rel="group"><img src="assets/img/3.jpg"  height="180">	</a>
 					</div>
 				</div>
