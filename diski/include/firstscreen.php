@@ -13,7 +13,7 @@
 				<p>Проверка займет не более 10 минут*</p>
 			</div>
 			<div class="firstscreen__advantages row text-center">
-				<div class="col-xs-12 col-4">
+				<div class="col-xs-12 col-lg-4 col-xl-4">
 					<div class="firstscreen__advantages-icon">
 						<img src="assets/img/icons/icon-map.png" alt="">
 					</div>
@@ -21,7 +21,7 @@
 						<p>22 автоцентра, в каждом районе Москвы</p>
 					</div>
 				</div>
-				<div class="col-xs-12 col-4">
+				<div class="col-xs-12 col-lg-4 col-xl-4">
 					<div class="firstscreen__advantages-icon">
 						<img src="assets/img/icons/icon-wheel.png" alt="">
 					</div>
@@ -29,7 +29,7 @@
 						<p>Более 60 производителей дисков со всего мира</p>
 					</div>
 				</div>
-				<div class="col-xs-12 col-4">
+				<div class="col-xs-12 col-lg-4 col-xl-4">
 					<div class="firstscreen__advantages-icon">
 						<img src="assets/img/icons/icon-truck.png" alt="">
 					</div>
