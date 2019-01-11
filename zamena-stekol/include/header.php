@@ -87,7 +87,7 @@ function isMobile()
                     <a href="+78005508594"><button class="hamburger_menu_btn">Позвонить бесплатно</button></a>
                 </div>
                 <div class="hamburger_menu_text">Более 14 лет на рынке</div>
-                <div class="hamburger_menu_text phone">8 (800) 550-85-94</div>
+                <div class="hamburger_menu_text phone phoneBlk">8 (800) 550-85-94</div>
             </div>
         </div>
         <div class="header__top">
@@ -100,7 +100,7 @@ function isMobile()
                 <p>Более 14 лет на рынке</p>
             </div>
             <div class="header__top-phone">
-                <div class="header__top-phone-number">
+                <div class="header__top-phone-number phoneBlk">
 				<span class="text">8 (800) 550-85-94</span><br>
                     <a id="modal4" class="btn_modal text1header" >Записаться в ближайший автосервис</a>
                 </div>

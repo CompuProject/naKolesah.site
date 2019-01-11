@@ -4,7 +4,7 @@
     </div>
     </div>
     <div class="footer__phone">
-        <div class="footer__phone--number">
+        <div class="footer__phone--number phoneBlk">
             <p>8 (800) 550-85-73</p>
         </div>
         <div class="footer__phone--callback">

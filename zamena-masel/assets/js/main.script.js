@@ -279,6 +279,11 @@ $(document).ready(function () {
         }
     });
 
+    if (siteUrl == 'zamena-masla') {
+        $('.phoneBlk').html('8 (800) 550-85-73');
+    } else if (siteUrl == 'zamena-masel') {
+        $('.phoneBlk').html('8 (800) 550-85-93');
+    }
 });
 
 $(document).ready(function () {

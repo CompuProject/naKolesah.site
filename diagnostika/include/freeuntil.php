@@ -1,3 +1,3 @@
 <p class="freeuntil">
-    <span>БЕСПЛАТНО</span> ДО 29 ДЕКАБРЯ
+    <span>БЕСПЛАТНО</span> ДО 17 ЯНВАРЯ
 </p>

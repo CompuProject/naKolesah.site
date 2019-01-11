@@ -275,6 +275,11 @@ $(document).ready(function () {
         }
     });
 
+    if (siteUrl == 'zamena-stekol') {
+        $('.phoneBlk').html('8 (800) 550-35-98');
+    } else if (siteUrl == 'zamena-stekla') {
+        $('.phoneBlk').html('8 (800) 550-85-94');
+    }
 });
 
 $(document).ready(function () {

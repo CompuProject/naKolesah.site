@@ -289,6 +289,13 @@ $(document).ready(function () {
             $('.fakeRoistat').addClass('check');
         }
     });
+
+
+    if (siteUrl == 'shini') {
+        $('.phoneBlk').html('8 (800) 550-06-58');
+    } else if (siteUrl == '') {
+        $('.phoneBlk').html('8 (800) 222-31-96');
+    }
 });
 /*******карта******************/
 

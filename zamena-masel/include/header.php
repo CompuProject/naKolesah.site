@@ -89,7 +89,7 @@ function isMobile()
                     <button class="hamburger_menu_btn">Позвонить бесплатно</button>
                 </div>
                 <div class="hamburger_menu_text">Более 14 лет на рынке</div>
-                <div class="hamburger_menu_text phone">8 (800) 222-09-86</div>
+                <div class="hamburger_menu_text phone phoneBlk">8 (800) 222-09-86</div>
             </div>
         </div>
         <div class="header__top">
@@ -103,7 +103,7 @@ function isMobile()
             </div>
             <div class="header__top-phone">
                 <div class="header__top-phone-number">
-				<span class="text">8 (800) 550-85-73</span>
+				<span class="text phoneBlk">8 (800) 550-85-73</span>
                     <p>Звонок по РФ бесплатный</p>
                 </div>
                 <div class="header__top-phone-callback">

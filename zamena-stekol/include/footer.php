@@ -4,8 +4,8 @@
     </div>
     </div>
     <div class="footer__phone">
-        <div class="footer__phone--number">
-            <p>8 (800) 550-85-94</p>
+        <div class="footer__phone--number phoneBlk">
+            <span>8 (800) 550-85-94</span>
         </div>
         <div class="footer__phone--callback">
             <button class="btn_modal" id="modal1" onclick="if(siteUrl=='zamena-stekol'){yaCounter51444793.reachGoal('PODV');return true;}else if(siteUrl=='zamena-stekla'){yaCounter51444802.reachGoal('PODV');return true;}">
