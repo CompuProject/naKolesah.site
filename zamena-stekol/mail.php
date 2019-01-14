@@ -24,7 +24,7 @@ switch ($post_data['modalId']) {
         mail($to, $subject, $message, $headers);
         $toBd = "Номер телефона клиента:".$post_data['phone']."/n";
         $toBd .= "Бренд авто:".$post_data['brand']."/n";
-        addFormDataToTheDatabase('Рассчитать точную стоимость замены',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Рассчитать точную стоимость',$post_data['phone'],$post_data['urlName']);
 //        echo json_encode(['callback' => true]);
         break;
     case 'modal3':

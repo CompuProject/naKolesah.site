@@ -8,7 +8,9 @@
                 <div class="item <?php if ($i == 1) {
                     echo 'active';
                 } ?>">
-                    <img class="d-block w-100" src="assets/img/reviews/review-<?=$i?>.jpg" alt="First slide">
+                    <a href="javascript:void(0)" data-featherlight="#lightbox-<?=$i?>" data-toggle="lightbox">
+                    <img class="d-block w-100" id="lightbox-<?=$i?>" src="assets/img/reviews/review-<?=$i?>.jpg" alt="slide">
+                    </a>
                 </div>
                 <?php
                 }?>

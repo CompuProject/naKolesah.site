@@ -228,7 +228,7 @@
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
         <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal4_phone"></div>
         <div class="modalBtnBlock">
-            <button onclick="ym(yaID[siteUrl], 'reachGoal', 'RASSROCHKA_Z'); return true;"">СВЯЗАТЬСЯ СО СПЕЦИАЛИСТОМ<span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span></button>
+            <button onclick="ym(yaID[siteUrl], 'reachGoal', 'RASSROCHKA_Z'); return true;">СВЯЗАТЬСЯ СО СПЕЦИАЛИСТОМ<span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span></button>
         </div>
     </div>
 </div>

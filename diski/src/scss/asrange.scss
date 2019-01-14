@@ -12,6 +12,7 @@
   background-color: #cfcdc7;
   border-radius: 8px;
   margin: 45px auto;
+  display: inline-flex;
 }
 .asRange .asRange-pointer {
   position: absolute;
@@ -30,7 +31,7 @@
   bottom: -4px;
   left: -4px;
   content: "";
-  background: #6ba1ad;
+  background: $yellow-text-color;
   border-radius: inherit;
 }
 .asRange .asRange-pointer:after {
@@ -55,41 +56,27 @@
   position: absolute;
   top: -33px;
   left: 0;
-  width: 36px;
+  width: 50px;
   height: 20px;
-  margin-left: -15px;
-  font-family: Bpreplay;
-  font-size: 12px;
+  margin-left: -21px;
+  font-size: 14px;
   line-height: 20px;
   color: #fff;
   text-align: center;
-  background-color: #5d5c58;
+  background-color: $yellow-text-color;
   border: 1px solid #5d5c58;
   border-radius: 3px;
   -webkit-transition: opacity .3s ease-in-out 0s;
   transition: opacity .3s ease-in-out 0s;
 }
-.asRange .asRange-pointer .asRange-tip:before {
-  position: absolute;
-  bottom: -3px;
-  left: 50%;
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  margin-left: -3px;
-  content: "";
-  background-color: #5d5c58;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
+
 .asRange .asRange-selected {
   position: absolute;
   left: 30%;
   z-index: 1;
   width: 40%;
   height: 8px;
-  background-color: #7ebdcb;
+  background-color: $yellow-text-color;
   border-radius: 9px;
 }
 .asRange .asRange-scale {
@@ -120,7 +107,7 @@
   bottom: -4px;
   left: -4px;
   content: "";
-  background: #6ba1ad;
+  background: $yellow-text-color;
   border-radius: inherit;
 }
 .asRange-scale .asRange-pointer:after {

@@ -84,7 +84,9 @@ function isMobile()
                     <div class="hamburger_menu_elementFull"><a href="#selection">Онлайн подбор</a></div>
                 </div>
                 <div class="hamburger_menu_btnBlock">
-                    <a href="+78005508594"><button class="hamburger_menu_btn">Позвонить бесплатно</button></a>
+                    <form action="tel:88005508594">
+    <button type="submit" class="hamburger_menu_btn">Позвонить бесплатно</button>
+</form>
                 </div>
                 <div class="hamburger_menu_text">Более 14 лет на рынке</div>
                 <div class="hamburger_menu_text phone phoneBlk">8 (800) 550-85-94</div>

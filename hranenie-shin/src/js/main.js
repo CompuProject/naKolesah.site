@@ -53,7 +53,7 @@
       $.ajax({
         url: 'https://wilgood.ru/handler_for_partners/',
         type: 'POST',
-        data: `type_partner=${generateHash()}&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f`
+        data: `type_partner=sg,&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=${generateHash()}`
       }).done(json => {
         if (json) {
           sgSender({phone: phone.val()}, 'callback-top');
@@ -81,7 +81,7 @@
       $.ajax({
         url: 'https://wilgood.ru/handler_for_partners/',
         type: 'POST',
-        data: `type_partner=${generateHash()}&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f`
+        data: `type_partner=sg,&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=${generateHash()}`
       }).done(json => {
         if (json) {
           sgSender({phone: phone.val()}, 'get-tyres');
@@ -110,7 +110,7 @@
       $.ajax({
         url: 'https://wilgood.ru/handler_for_partners/',
         type: 'POST',
-        data: `type_partner=${generateHash()}&diametr=${diametr.val()}&disk=${disk.val()}&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f`
+        data: `type_partner=sg,&diametr=${diametr.val()}&disk=${disk.val()}&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=${generateHash()}`
       }).done(json => {
         if (json) {
             sgSender({phone: phone.val(), diametr: diametr.val(), disk: disk.val()}, 'left-widget-get-tyres');
@@ -138,7 +138,7 @@
       $.ajax({
         url: 'https://wilgood.ru/handler_for_partners/',
         type: 'POST',
-        data: `type_partner=${generateHash()}&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f`
+        data: `type_partner=sg,&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=${generateHash()}`
       }).done(json => {
         if (json) {
           sgSender({phone: phone.val()}, 'second-get-tyres-form');
@@ -165,7 +165,7 @@
       $.ajax({
         url: 'https://wilgood.ru/handler_for_partners/',
         type: 'POST',
-        data: `type_partner=${generateHash()}&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f`
+        data: `type_partner=sg,&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=${generateHash()}`
       }).done(json => {
         if (json) {
           sgSender({phone: phone.val()}, 'bronirovanie');
@@ -192,7 +192,7 @@
       $.ajax({
         url: 'https://wilgood.ru/handler_for_partners/',
         type: 'POST',
-        data: `type_partner=${generateHash()}&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f`
+        data: `type_partner=sg,&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=${generateHash()}`
       }).done(json => {
         if (json) {
           sgSender({phone: phone.val()}, 'hranenie-shin');
@@ -219,7 +219,7 @@
       $.ajax({
         url: 'https://wilgood.ru/handler_for_partners/',
         type: 'POST',
-        data: `type_partner=${generateHash()}&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f`
+        data: `type_partner=sg,&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=${generateHash()}`
       }).done(json => {
         if (json) {
           sgSender({phone: phone.val()}, 'store-amount');
@@ -246,7 +246,7 @@
       $.ajax({
         url: 'https://wilgood.ru/handler_for_partners/',
         type: 'POST',
-        data: `type_partner=${generateHash()}&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f`
+        data: `type_partner=sg,&comment=${COMMENT}&type_response=html&phone=${phone.val()}&unique_code=${generateHash()}`
       }).done(json => {
         if (json) {
           sgSender({phone: phone.val()}, 'callback-bottom');

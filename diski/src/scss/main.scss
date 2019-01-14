@@ -1,7 +1,12 @@
 @import "variables";
 @import "asrange";
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 h2 {
   color: #111111;
   font-size: 36px;
@@ -19,6 +24,18 @@ h2 {
   text-transform: uppercase;
   font-weight: 800;
   margin-bottom: 10px;
+}
+
+.back-button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 18px 48px;
+  font-size: 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #ffffff;
+  margin-right: 50px!important;
 }
 
 .header {
@@ -98,8 +115,12 @@ h2 {
 
 .firstscreen {
   margin-top: 135px;
-  background-image: url(/assets/img/diski-firstscreen.jpg);
+  background: url(/diski/assets/img/diski-firstscreen.jpg) fixed;
   color: #ffffff;
+
+  .mobile__phonenumber {
+    display: none;
+  }
 
   .wrapper {
     background-color: rgba(52, 52, 52, 0.8);
@@ -185,7 +206,7 @@ h2 {
 }
 
 .installment {
-  background-image: url(/assets/img/diski-rassrochka.jpg);
+  background: url(/diski/assets/img/diski-rassrochka.jpg) fixed;
   color: #ffffff;
 
   .wrapper {
@@ -291,7 +312,7 @@ h2 {
 }
 
 .online-selection {
-  background: url(/assets/img/diski-online-selection.jpg) bottom;
+  background: url(/diski/assets/img/diski-online-selection.jpg) fixed bottom;
   color: #ffffff;
 
   .wrapper {
@@ -320,6 +341,9 @@ h2 {
       height: 40px;
       padding-left: 5px;
     }
+    .form-buttons {
+      display: inline-flex;
+    }
 
     button[type="submit"] {
       display: block;
@@ -343,6 +367,7 @@ h2 {
       text-transform: uppercase;
       font-size: 16px;
       color: $yellow-text-color;
+      font-weight: bold;
 
       span {
         color: #fff;
@@ -356,6 +381,29 @@ h2 {
 
     .step {
       margin: 70px;
+    }
+    .range-border {
+      margin: 0 10px;
+    }
+    &-info {
+      span {
+        color: $yellow-text-color;
+      }
+      font-size: 16px;
+      width: 70%;
+      margin: 20px auto;
+    }
+    &-free {
+      margin-top: 20px;
+    }
+    #step4 {
+      button, label{
+        width: 50%;
+        margin: 12px auto;
+      }
+      input {
+        width: 100%;
+      }
     }
   }
 }
@@ -388,3 +436,5 @@ h2 {
     }
   }
 }
+
+@import "mobile";

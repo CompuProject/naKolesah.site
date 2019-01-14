@@ -36,21 +36,23 @@ $(document).ready(function () {
                 prevButton.on('click', (e) => {
                     console.log('кря');
                     e.preventDefault();
-                    prevStep.fadeIn('slow');
                     currentStep.fadeOut('fast');
+                    prevStep.fadeIn('slow');
                 })
             }
 
             if (nextButton) {
                 nextButton.on('click', (e) => {
                     e.preventDefault();
-                    nextStep.fadeIn('slow');
                     currentStep.fadeOut('fast');
+                    nextStep.fadeIn('slow');
                 })
             }
 
         }
     }
+
+
     changeOnlineSelectionSteps();
 
 });
