@@ -48,7 +48,8 @@
             };
             $("#uid4").click(function (t) {
                 t.preventDefault();
-                var a = $("#callback-form, .modal-body"), r = a.find("input[name=phone]");
+                var a = $("#callback-form, #node10_meta"), r = a.find("input[name=phone]");
+                console.log(r.val());
                 r.val() && $.ajax({
                     url: "https://wilgood.ru/handler_for_partners/",
                     type: "GET",
@@ -57,6 +58,7 @@
                     e && (n({phone: r.val(),urlName: location.href.replace('http://','')}, "callback-top"), $(".area").click(), console.log(e),
                         // o(),
                         r.val(""))
+
                 }).fail(function (e) {
                     return console.log(e)
                 })
@@ -124,7 +126,7 @@
                 })
             }), $("#uid31, #uid83").click(function (t) {
                 t.preventDefault();
-                var a = $("#tire-fitting, #node479_meta"), r = a.find("input[name=phone]");
+                var a = $("#node456_meta, #node482_meta, #tire-fitting, #node479_meta"), r = a.find("input[name=phone]");
                 r.val() && $.ajax({
                     url: "https://wilgood.ru/handler_for_partners/",
                     type: "GET",

@@ -95,7 +95,7 @@
                     <a name="addres"></a>
                     <div class="button12">
                         <p class="other">Оставьте свой телефон и мы уведомим вас о наличии дисков для вашего авто:</p>
-                        <button class="big-red-button"
+                        <button class="big-red-button" id="modal2"
                                 onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('PND');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('PND');return true;}">
                             ПРОВЕРИТЬ НАЛИЧИЕ ДИСКОВ<span class="ripple rippleEffect"
                                                           style="width:250px; height:250px; left:-180px; top:-77px;"></span>
