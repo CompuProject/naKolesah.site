@@ -31,7 +31,7 @@ switch ($post_data['modalName']) {
         $message .= '<p>Диаметр диска: <b>'.$post_data['year'].'</b></p>';
         $message .= '<p>Замена всего узла или отдельной запчасти: <b>'.$post_data['detail'].'</b></p>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('Подобрать диски',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Узнать предварительную стоимость',$post_data['phone'],$post_data['urlName']);
 //        echo json_encode(['callback' => true]);
         break;
     case 'diagnostic':

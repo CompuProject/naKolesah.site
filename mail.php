@@ -12,7 +12,7 @@ switch ($post_data['type']) {
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
         $toBd = 'Номер телефона клиента:'.$post_data['phone'];
-        addFormDataToTheDatabase('Форма заказа обратного звонка',$toBd,'shini');
+        addFormDataToTheDatabase('Форма заказа обратного звонка',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
     case 'get-tyres':
@@ -20,7 +20,7 @@ switch ($post_data['type']) {
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
         $toBd = 'Номер телефона клиента:'.$post_data['phone'];
-        addFormDataToTheDatabase('Форма заказа шин',$toBd,'shini');
+        addFormDataToTheDatabase('Форма заказа шин',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
     case 'left-widget-get-tyres':
@@ -28,7 +28,7 @@ switch ($post_data['type']) {
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
         $toBd = 'Номер телефона клиента:'.$post_data['phone'];
-        addFormDataToTheDatabase('Заказ шин из левого виджета',$toBd,'shini');
+        addFormDataToTheDatabase('Заказ шин из левого виджета',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
     case 'check-variants':
@@ -37,7 +37,7 @@ switch ($post_data['type']) {
         mail($to, $subject, $message, $headers);
         $toBd = 'Номер телефона клиента:'.$post_data['phone'];
         $toBd .= 'Марка автомобиля:'.$post_data['car'];
-        addFormDataToTheDatabase('Подбор дисков по марке авто',$toBd,'shini');
+        addFormDataToTheDatabase('Подбор дисков по марке авто',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
     case 'tire-fitting':
@@ -45,7 +45,7 @@ switch ($post_data['type']) {
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
         $toBd = 'Номер телефона клиента:'.$post_data['phone'];
-        addFormDataToTheDatabase('Заявка на подобор шин',$toBd,'shini');
+        addFormDataToTheDatabase('Записаться на шиномонтаж',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
     case 'store-amount':
@@ -53,7 +53,7 @@ switch ($post_data['type']) {
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
         $toBd = 'Номер телефона клиента:'.$post_data['phone'];
-        addFormDataToTheDatabase('Наличие мест на складе',$toBd,'shini');
+        addFormDataToTheDatabase('Наличие мест на складе',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
     case 'check-variants-two':
@@ -61,7 +61,7 @@ switch ($post_data['type']) {
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
         $toBd = 'Номер телефона клиента:'.$post_data['phone'];
-        addFormDataToTheDatabase('ПОСМОТРЕТЬ ВАРИАНТЫ ДЛЯ АВТО',$toBd,'shini');
+        addFormDataToTheDatabase('ПОСМОТРЕТЬ ВАРИАНТЫ ДЛЯ АВТО',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
     case 'callback-bottom':
@@ -69,7 +69,7 @@ switch ($post_data['type']) {
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
         $toBd = 'Номер телефона клиента:'.$post_data['phone'];
-        addFormDataToTheDatabase('Заказ обратного звонка из футера',$toBd,'shini');
+        addFormDataToTheDatabase('Заказ обратного звонка из футера',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
     case 'modal7':

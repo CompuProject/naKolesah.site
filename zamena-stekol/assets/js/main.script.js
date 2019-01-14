@@ -140,7 +140,7 @@ $(document).ready(function () {
         var brand = parentForm.find('select[name=brand]').val();
         var diameter = parentForm.find('select[name=diameter]').val();
         var price = parentForm.find('input[name=price]').val();
-        var modalId = 'modal6';
+        var modalId = 'modal2';
         if (phone == '') {
             parentForm.find('input[type=tel]').css('border-color','red');
         } else {
