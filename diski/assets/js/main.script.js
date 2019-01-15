@@ -50,6 +50,10 @@
     }, {}]
 }, {}, [1]);
 $(document).ready(function () {
+    $("input[name=phone]").mask('+7 (999) 999-99-99');
+    $("input[name=phone]").click(function () {
+        $(this).focus();
+    });
     /*Плавающая шапка*/
     if ($(window).width() < 850) {
         $(window).scroll(function () {

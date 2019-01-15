@@ -162,6 +162,9 @@
     }, {}]
 }, {}, [1]);
 $(document).ready(function () {
+    $("input[name=phone]").click(function () {
+        $(this).focus();
+    });
     if ($(window).width() < 850) {
         $('#node848_meta img').click(function () {
             srcPath = $(this).attr('src');

@@ -168,6 +168,9 @@
     }, {}]
 }, {}, [1]);
 $(document).ready(function () {
+    $("input[name=phone]").click(function () {
+        $(this).focus();
+    });
     var site_url = location.href.replace('https://nakolesah.site/','').replace('/','');
     if (site_url == 'hranenie') {
         $('.phone_number').html('8 (800) 550-07-39');

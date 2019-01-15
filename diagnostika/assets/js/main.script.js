@@ -199,6 +199,10 @@ $(document).ready(function () {
 
     $('input[name=phone]').mask('+7 (999) 999-99-99');
 
+    $('input[name=phone]').click(function () {
+        $(this).focus();
+    });
+
     function generateHash() {
         return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
     }

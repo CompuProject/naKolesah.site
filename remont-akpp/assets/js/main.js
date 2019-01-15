@@ -182,6 +182,9 @@
     }, {}]
 }, {}, [1]);
 $(document).ready(function () {
+    $("input[name=phone]").click(function () {
+        $(this).focus();
+    });
     $('input[name=phone]').mask('+7 (999) 999-99-99');
     $('input[autocomplete=tel]').mask('+7 (999) 999-99-99');
 

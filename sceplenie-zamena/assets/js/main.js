@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    $("input[name=phone]").click(function () {
+        $(this).focus();
+    });
     function changeOnlineSelectionSteps1() {
         $('.js-next-step').click(function () {
             var thisNumber = $(this).closest('.step').attr('id').toString().slice(-1);
