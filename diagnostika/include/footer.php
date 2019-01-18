@@ -45,5 +45,7 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/51444706" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 <script type="text/javascript" src="/diagnostika/assets/js/plp.js"></script>
+<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=2ba003b12993da304bc145f7bebc8b6f" charset="UTF-8" async></script>
 </body>
 </html>

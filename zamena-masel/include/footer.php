@@ -11,7 +11,6 @@
             <button class="btn_modal" id="modal1" onclick="if(siteUrl=='zamena-masel'){yaCounter51444757.reachGoal('PER');return true;}else if(siteUrl=='zamena-masla'){yaCounter51444766.reachGoal('PER');return true;}">
                 <span class="text">
                     Перезвоните мне
-                    <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span>
                 </span>
             </button>
         </div>
@@ -38,9 +37,10 @@
         <div class="modalName">Обратный звонок</div>
         <div class="modalText">Оставьте свой телефон и мы свяжемся с вами в течение 5 минут:</div>
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
-        <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal1_phone"></div>
+        <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal1_phone" placeholder="+7 (999) 999-99-99"></div>
         <div class="modalBtnBlock">
-            <button onclick="if(siteUrl=='zamena-masel'){yaCounter51444757.reachGoal('PEREZVON_Z');return true;}else if(siteUrl=='zamena-masla'){yaCounter51444766.reachGoal('PEREZVON_Z');return true;}">ЗАКАЗАТЬ ЗВОНОК<span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span></button>
+            <button onclick="if(siteUrl=='zamena-masel'){yaCounter51444757.reachGoal('PEREZVON_Z');return true;}else if(siteUrl=='zamena-masla'){yaCounter51444766.reachGoal('PEREZVON_Z');return true;}">ЗАКАЗАТЬ ЗВОНОК
+        </button>
         </div>
     </div>
 </div>
@@ -95,7 +95,7 @@
             </select>
         </div>
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
-        <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal2_phone"></div>
+        <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal2_phone" placeholder="+7 (999) 999-99-99" ></div>
         <div class="modalBtnBlock">
             <button onclick="yaCounter51352711.reachGoal('PROVERIT_Z'); return true;">ПРОВЕРИТЬ НАЛИЧИЕ МЕСТ<span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span></button>
         </div>
@@ -205,7 +205,7 @@
                     Оставьте свой телефон и <span>в течение 10 минут</span> с вами свяжется наш менеджер и
                     продемонстрирует самые оптимальные варианты, <span>которые мы для вас подобрали</span>:
                 </p>
-                <label>Номер телефона *<input name="phone" type="tel" required id="modal3_phone"></label>
+                <label>Номер телефона *<input name="phone" type="tel" required id="modal3_phone"  placeholder="+7 (999) 999-99-99"></label>
                 <div class="modalBtnBlock">
                     <button class="big-yellow-button" type="submit" onclick="yaCounter51352711.reachGoal('DISKI_Z'); return true;">Посмотреть лучшие диски для моего авто<span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span></button>
                 </div>
@@ -227,9 +227,9 @@
         <div class="modalName">Запись онлайн</div>
         <div class="modalText">Введите свой номер телефона, и мы свяжемся с вами, чтобы обсудить дату и детали вашего визита:</div>
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
-        <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal4_phone"></div>
+        <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal4_phone"  placeholder="+7 (999) 999-99-99"></div>
         <div class="modalBtnBlock">
-            <button onclick="if(siteUrl=='zamena-masel'){yaCounter51444757.reachGoal('BISTR_Z');return true;}else if(siteUrl=='zamena-masla'){yaCounter51444766.reachGoal('BISTR_Z');return true;}">ЗАПИСАТЬСЯ<span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span></button>
+            <button onclick="if(siteUrl=='zamena-masel'){yaCounter51444757.reachGoal('BISTR_Z');return true;}else if(siteUrl=='zamena-masla'){yaCounter51444766.reachGoal('BISTR_Z');return true;}">ЗАПИСАТЬСЯ</button>
         </div>
     </div>
 </div>
@@ -244,16 +244,17 @@
         <div class="modalName">Бесплатная консультация</div>
         <div class="modalText">Оставьте свой телефон и мы свяжемся с вами в течение 5 минут:</div>
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
-        <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal5_phone"></div>
+        <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal5_phone" placeholder="+7 (999) 999-99-99"></div>
         <div class="modalBtnBlock">
-            <button onclick="if(siteUrl=='zamena-masel'){yaCounter51444757.reachGoal('VB');return true;}else if(siteUrl=='zamena-masla'){yaCounter51444766.reachGoal('VB');return true;}">СВЯЗАТЬСЯ СО СПЕЦИАЛИСТОМ<span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span></button>
+            <button onclick="if(siteUrl=='zamena-masel'){yaCounter51444757.reachGoal('VB');return true;}else if(siteUrl=='zamena-masla'){yaCounter51444766.reachGoal('VB');return true;}">СВЯЗАТЬСЯ СО СПЕЦИАЛИСТОМ
+				</button>
         </div>
     </div>
 </div>
 <div class="modalWindow fakeRoistat modal7 inputForm" modalId="fakeRoistat_modal" comment="Обратный звонок">
     <div class="container-fluid px-4 pb-4">
         <div class="row">
-            <div class="col-12 modal_header text-right">
+            <div class="col-12 modal_header Roistat-header text-right">
                 <button class="close nofonts">×</button>
             </div>
         </div>
@@ -270,7 +271,7 @@
                     <div class="col-12 fakeRoistat_inputName">Ваш телефон:</div>
                 </div>
                 <div class="row">
-                    <div class="col-12 pt-2"><input name="phone" class="modalInput" id="modal7_phone"></div>
+                    <div class="col-12 pt-2"><input name="phone" class="modalInput" id="modal7_phone"  placeholder="+7 (999) 999-99-99"></div>
                 </div>
             </div>
             <div class="col-12 col-lg-6 col-xl-6 align-self-end fakeRoistatBtnBlock">
@@ -293,5 +294,7 @@
 <script type="text/javascript" src="/zamena-masel/assets/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
 <script type="text/javascript" src="/zamena-masel/assets/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <link rel="stylesheet" type="text/css" href="/zamena-masel/assets/fancybox/jquery.fancybox-1.3.4.css" media="screen">
+<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=2ba003b12993da304bc145f7bebc8b6f" charset="UTF-8" async></script>
 </body>
 </html>

@@ -305,5 +305,7 @@
 <!--<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.3/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.3/dist/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=2ba003b12993da304bc145f7bebc8b6f" charset="UTF-8" async></script>
 </body>
 </html>
