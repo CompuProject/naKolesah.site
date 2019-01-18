@@ -170,7 +170,7 @@ $(document).ready(function () {
     });
 
     $('.fakeRoistat_btn').click(function () {
-        var parentForm = $(this).closest('.openModal');
+        var parentForm = $(this).closest('.fakeRoistat');
         var phone = parentForm.find('input[name=phone]').val();
         var modalId = 'modal7';
         if (phone == '') {
