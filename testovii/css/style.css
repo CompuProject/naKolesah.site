@@ -23603,7 +23603,7 @@ button.close {
     height: 75px;
 }
 .fakeRoistat {
-    width: 770px!important;
+    width: 770px;
     color: #000000;
     padding: 15px;
 }
@@ -23662,12 +23662,6 @@ button.close {
         top:5% !important;
         left:5% !important;
 
-@media screen and (min-width: 320px) and (max-width: 992px) {
-    div.successMsg{
-        width: 90% !important;
-        top:5% !important;
-        left:5% !important;
-
     }
 
     .successMsg_header {
@@ -23686,9 +23680,6 @@ button.close {
         color: #000;
     }
 
-}
-    }
-
     .successMsg_header {
         text-align: center;
         font-size: 20px;
@@ -23704,5 +23695,13 @@ button.close {
         opacity: 1;
         color: #000;
     }
-
+    .fakeRoistat {
+        width: 100%;
+        height: 100%;
+        left: 0!important;
+        top:0;
+    }
+    .fakeRoistat_inputBlock, .fakeRoistatBtnBlock {
+        width: 100%!important;
+    }
 }
