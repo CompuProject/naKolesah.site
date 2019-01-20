@@ -23576,3 +23576,29 @@ div.successMsg {
     background-color: rgb(255, 255, 255) !important;
     padding: 40px 25px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 992px) {
+    div.successMsg{
+        width: 90% !important;
+        top:5% !important;
+        left:5% !important;
+
+    }
+
+    .successMsg_header {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        opacity: 1;
+        color: #d44831;
+    }
+    .successMsg_text {
+        padding-top: 25px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        opacity: 1;
+        color: #000;
+    }
+
+}

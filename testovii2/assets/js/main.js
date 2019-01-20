@@ -31,9 +31,12 @@ $(document).ready(function () {
             var parentForm = $(this).closest('.form1-cover');
             //var data = [];
             var phone = parentForm.find('input[name=phone]').val();
+            phone = phone.replace(/\s+/g,'');
             var modalName = parentForm.attr('id');
-            var brand = parentForm.find('select[name=brand]').val();
-            var diameter = parentForm.find('select[name=diameter]').val();
+            var brand = parentForm.find('select[name=brand] option:selected').text();
+            brand = brand.replace(/\s+/g,'');
+            var diameter = parentForm.find('select[name=diameter] option:selected').text();
+            diameter = diameter.replace(/\s+/g,'');
             var price = parentForm.find('.irs-single').text();
 
             $('.errMsg').hide();
@@ -52,7 +55,7 @@ $(document).ready(function () {
                     success: function (rezult) {
                         //$('.test').html(rezult);
 
-                        if (modalName != 'onlain-podbor-diskov-form' && modalName != 'onlain-podbor-diskov-form-mobile') {
+                        if (modalName != 'raschet-stoimosti-form' && modalName != 'raschet-stoimosti-form-mobile') {
                             parentForm.hide();
                             //$('.modal-dialog').hide();
                             $('.modal').hide();
