@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Нужно отредактировать test.html, main.js, mail.php
+
+1.) В файле /js/main.js изменить id-ки для форм.
+2.) class="form1-cover" - в верстке поп-ап с формой обернут в div с этим классом. На него повесить id новый, например для формы обратного звонка это id="callback-form"
+3.) Добавить для каждой формы в js файл свой id (т.е.,например как у id="callback-form")
+4.) Проверить на Input-х name, где нет - задать и соответственно в js
+5.) Изменить в js то,что передается ajax.
+6.) mail.php так же изменить
+7.) Изменить номера счётчиков, yaID для этого лендинга
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    var siteUrl = location.href.replace('http://nakolesah.site/','').replace('/','');
+    var yaID = [];
+    yaID['remont-akpp']='51566537';
+    yaID['akpp-remont']='51566771';
+
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(yaID[siteUrl], "init", {
+        id:yaID[siteUrl],
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/51566537" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+</body>
+</html>
