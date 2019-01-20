@@ -57,8 +57,8 @@ switch ($post_data['type']) {
         addFormDataToTheDatabase('ПОЛУЧИТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
-    case 'modal7':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Lovec'";
+    case 'fakeRoistat_modal':
+        $subject = "\"ДИСКИ\" Сообщение с Лендинга - 'Lovec'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
         addFormDataToTheDatabase('Lovec',$post_data['phone'],$post_data['urlName']);

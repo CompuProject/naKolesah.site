@@ -12,13 +12,11 @@ $(document).ready(function () {
 
     //обработка кнопки вызова modal
     function getModal() {
-
         $('.btnModal').click(function (e) {
             e.preventDefault();
             var modalId = $(this).attr('id');
             $('.form1-cover[data-mod=' + modalId + ']').show();
             $('.form1-cover[data-mod=' + modalId + ']').closest('.modal').show();
-
         });
     };
     getModal();
@@ -92,4 +90,33 @@ $(document).ready(function () {
     }
 
     getWilgood();
+
+    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+    $('.fakeRoistat').css('left', fakeRoistatWidth);
+
+    setTimeout(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+        }
+    }, 20000);
+
+    $('.fakeRoistat .close').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+    $('.modalOverlay').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+
+    $(document).mouseleave(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+            $('.fakeRoistat').addClass('check');
+        }
+    });
 });
