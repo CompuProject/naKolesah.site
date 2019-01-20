@@ -17,6 +17,9 @@ $(document).ready(function () {
             var modalId = $(this).attr('id');
             $('.form1-cover[data-mod=' + modalId + ']').show();
             $('.form1-cover[data-mod=' + modalId + ']').closest('.modal').show();
+            if (modalId == "modal6") {
+                $('.modalOverlay').show();
+            }
         });
     };
     getModal();

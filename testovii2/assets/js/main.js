@@ -12,14 +12,14 @@ $(document).ready(function () {
 
     //обработка кнопки вызова modal
     function getModal() {
-
         $('.btnModal').click(function (e) {
             e.preventDefault();
-
             var modalId = $(this).attr('id');
             $('.form1-cover[data-mod=' + modalId + ']').show();
             $('.form1-cover[data-mod=' + modalId + ']').closest('.modal').show();
-
+            if (modalId == "modal6") {
+                $('.modalOverlay').show();
+            }
         });
     };
     getModal();
@@ -29,7 +29,6 @@ $(document).ready(function () {
         $('.form1-cover .modalSubmit').click(function (e) {
             e.preventDefault();
             var parentForm = $(this).closest('.form1-cover');
-            //var data = [];
             var phone = parentForm.find('input[name=phone]').val();
             phone = phone.replace(/\s+/g,'');
             var modalName = parentForm.attr('id');
@@ -38,7 +37,8 @@ $(document).ready(function () {
             var diameter = parentForm.find('select[name=diameter] option:selected').text();
             diameter = diameter.replace(/\s+/g,'');
             var price = parentForm.find('.irs-single').text();
-
+            price = price.replace(/\s+/g,'');
+            $('.errMsg').hide();
             $('.errMsg').hide();
             if (phone == '') {
                 parentForm.find('input[name=phone]').after('<div class="errMsg">Не заполнено поле</div>');
@@ -47,7 +47,7 @@ $(document).ready(function () {
                 console.log('type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&price=' + price + '&urlName=' + location.href.replace('http://', ''));
 
                 $.ajax({
-/*ПОМЕНЯТЬ*/        url: '/testovii2/mail1.php',
+                    url: '/testovii2/mail.php',
                     type: 'POST',
                     data: 'type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&price=' + price + '&urlName=' + location.href.replace('http://', ''),
                     // data: data,
@@ -63,9 +63,10 @@ $(document).ready(function () {
 
                         $('.successMsg').show().delay(3000).fadeOut();
                         $('.modal-backdrop.fade.in').delay(3000).fadeOut();
+                        $('.modalOverlay').delay(3000).fadeOut();
                         $('.successMsg,.modal-backdrop.fade.in').click(function () {
                             $('.successMsg,.modal-backdrop.fade.in').hide();
-                        })
+                        });
                         //$('.modal').attr('aria-hidden', true);
                     }
                 });
@@ -75,6 +76,59 @@ $(document).ready(function () {
 
     sendModal();
 
+    function generateHash() {
+        return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+    }
 
-})//readyEnd
+    function getWilgood() {
+        $('.form1-cover .modalSubmit').click(function (event) {
+            // event.preventDefault();
+            var form = $(this).closest('.form1-cover'),
+                COMMENT = form.attr('id');
+            var phone = form.find('input[name=phone]').val();
+            phone = phone.replace(/\s+/g,'');
+            if (phone !== '') {
+                $.ajax({
+                    url: 'https://wilgood.ru/handler_for_partners/',
+                    type: 'GET',
+                    data: 'type_partner=generatorprodaj&comment=' + COMMENT + '&type_response=html&phone=' + phone + '&unique_code=' + generateHash() + '&hash=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f',
+                }).done(json => {
+                    if (json) {
+                        console.log(json);
+                    }
+                });
+            }
+        });
+    }
 
+    getWilgood();
+
+    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+    $('.fakeRoistat').css('left', fakeRoistatWidth);
+
+    setTimeout(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+        }
+    }, 20000);
+
+    $('.fakeRoistat .close').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+    $('.modalOverlay').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+
+    $(document).mouseleave(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+            $('.fakeRoistat').addClass('check');
+        }
+    });
+});
