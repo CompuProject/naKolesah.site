@@ -56,6 +56,13 @@ switch ($post_data['type']) {
         addFormDataToTheDatabase('Форма заказа обратного звонка футер',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
+    case 'onlain-zapis-link-top':
+        $subject = "\"РЕМОНТ_СТЕКОЛ\" Сообщение с Лендинга - 'Записаться в ближайший автосервис'";
+        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
+        mail($to, $subject, $message, $headers);
+        addFormDataToTheDatabase('Записаться в ближайший автосервис',$post_data['phone'],$post_data['urlName']);
+        echo json_encode(['callback' => true]);
+        break;
     case 'fakeRoistat_modal':
         $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Lovec'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';

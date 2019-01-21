@@ -1,9 +1,12 @@
-//правки
-/////////////////////////////////////////////
-/*****************************************/
-
 
 $(document).ready(function () {
+    /*Подмена номера телефона*/
+    if (siteUrl == "remont-stekla") {
+        $(".changePhone").html("8 (800) 550-36-95");
+    } else if (siteUrl == "remont-stekol") {
+        $(".changePhone").html("8 (800) 550-06-84");
+    }
+
     //маска телефона для input popup
     $('input[name=phone]').click(function () {
         $(this).focus();
