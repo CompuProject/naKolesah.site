@@ -77,7 +77,7 @@ $(document).ready(function () {
     }
 
     sendModal();
-/*
+
     function generateHash() {
         return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
     }
@@ -132,5 +132,5 @@ $(document).ready(function () {
             $('.modalOverlay').show();
             $('.fakeRoistat').addClass('check');
         }
-    });*/
+    });
 });
