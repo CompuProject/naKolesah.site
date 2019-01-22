@@ -4,6 +4,11 @@
 
 
 $(document).ready(function () {
+    if (siteUrl == "zamena-grm") {
+        $(".changePhone").html("8 (800) 222-35-69");
+    } else if (siteUrl == "grm-zamena") {
+        $(".changePhone").html("8 (800) 222-35-74");
+    }
     //маска телефона для input popup
     $('input[name=phone]').click(function () {
         $(this).focus();

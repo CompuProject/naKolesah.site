@@ -8,115 +8,94 @@ $headers .= 'From: <remont-akpp@sales-kolesa.site>' . "\r\n";
 
 switch ($post_data['type']) {
     case 'callback-form-top':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Форма заказа обратного звонка'";
+        $subject = "\"ЗАМЕНА ГРМ\" Сообщение с Лендинга - 'Форма заказа обратного звонка'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
         addFormDataToTheDatabase('Форма заказа обратного звонка',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
-    case 'podobrat-shini-online':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'ПОДОБРАТЬ ШИНЫ ОНЛАЙН'";
-        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p><br><p>Диаметр колеса</p>: <b>'.$post_data['diameter'].'</b></p><br><p>Сезон</p>: <b>'.$post_data['sezon'].'</b></p><br><p>Сезон</p>: <b>'.$post_data['price'].'</b></p><br>';
+    case 'uzhat-stoimost-form':
+        $subject = "\"ЗАМЕНА ГРМ\" Сообщение с Лендинга - 'Узнать стоимость замены для моего авто'";
+        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p><br><p>Бренд:</p><b>'.$post_data['brand'].'</b></p><br>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('ПОДОБРАТЬ ШИНЫ ОНЛАЙН',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Узнать стоимость замены для моего авто',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
-    case 'podobrat-shini-online-mobile':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'ПОДОБРАТЬ ШИНЫ ОНЛАЙН'";
-        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p><br><p>Диаметр колеса</p>: <b>'.$post_data['diameter'].'</b></p><br><p>Сезон</p>: <b>'.$post_data['sezon'].'</b></p><br><p>Сезон</p>: <b>'.$post_data['price'].'</b></p><br>';
+    case 'uzhat-stoimost-form-mobile':
+        $subject = "\"ЗАМЕНА ГРМ\" Сообщение с Лендинга - 'Узнать стоимость замены для моего авто'";
+        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p><br><p>Бренд:</p><b>'.$post_data['brand'].'</b></p><br>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('ПОДОБРАТЬ ШИНЫ ОНЛАЙН',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Узнать стоимость замены для моего авто',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
-    case 'podbor-shin-form':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Подобрать шины'";
+    case 'zabronirovat-zapis':
+        $subject = "\"ЗАМЕНА ГРМ\" Сообщение с Лендинга - 'Забронировать запись на ближайшее время'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('Подобрать шины',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Забронировать запись на ближайшее время',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
-    case 'podbor-shin-form-mobile':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Подобрать шины'";
+    case 'zabronirovat-zapis-mobile':
+        $subject = "\"ЗАМЕНА ГРМ\" Сообщение с Лендинга - 'Забронировать запись на ближайшее время'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('Подобрать шины',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Забронировать запись на ближайшее время',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
-    case 'posmotret-varianty-form':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Посмотреть варианты'";
-        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p><br><p>Бренд:</p><b>'.$post_data['brand'].'</b></p>';
-        mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('Посмотреть варианты',$post_data['phone'],$post_data['urlName']);
-        echo json_encode(['callback' => true]);
-        break;
-    case 'posmotret-varianty-form-mobile':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Посмотреть варианты'";
-        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p><br><p>Бренд:</p><b>'.$post_data['brand'].'</b></p>';
-        mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('Посмотреть варианты',$post_data['phone'],$post_data['urlName']);
-        echo json_encode(['callback' => true]);
-        break;
-    case 'zapis-shinomontazh-form':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Записаться на шиномонтаж'";
+    case 'zapis-servis':
+        $subject = "\"ЗАМЕНА ГРМ\" Сообщение с Лендинга - 'Записаться в ближайший автосервис'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('Записаться на шиномонтаж',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Записаться в ближайший автосервис',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
-    case 'zapis-shinomontazh-form-mobile':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Записаться на шиномонтаж'";
+    case 'zapis-servis-mobile':
+        $subject = "\"ЗАМЕНА ГРМ\" Сообщение с Лендинга - 'Записаться в ближайший автосервис'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('Записаться на шиномонтаж',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Записаться в ближайший автосервис',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
-    case 'proverit-nalichie-mest':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Проверить наличие мест на складе'";
+    case 'zapis-vremya':
+        $subject = "\"ЗАМЕНА ГРМ\" Сообщение с Лендинга - 'Записаться в удобное время'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('Проверить наличие мест на складе',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Записаться в удобное время',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
-    case 'proverit-nalichie-mest-mobile':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Проверить наличие мест на складе'";
+    case 'zapis-vremya-mobile':
+        $subject = "\"ЗАМЕНА ГРМ\" Сообщение с Лендинга - 'Записаться в удобное время'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('Проверить наличие мест на складе',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Записаться в удобное время',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
-    case 'onlain-podbor-shin-form':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'ПОСМОТРЕТЬ ВАРИАНТЫ ДЛЯ МОЕГО АВТО'";
-        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p><br><p>Диаметр колеса</p>: <b>'.$post_data['diameter'].'</b></p><br><p>Сезон</p>: <b>'.$post_data['sezon'].'</b></p><br><p>Сезон</p>: <b>'.$post_data['price'].'</b></p><br>';
+    case 'raschet-stoimosti':
+        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Получить расчёт стоимости на телефон'";
+        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p><br><p>Бренд:</p> <b>'.$post_data['brand'].'</b></p><br><p>Год</p>: <b>'.$post_data['year'].'</b></p><br>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('ПОСМОТРЕТЬ ВАРИАНТЫ ДЛЯ МОЕГО АВТО',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Получить расчёт стоимости на телефон',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
-    case 'onlain-podbor-shin-form-mobile':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'ПОСМОТРЕТЬ ВАРИАНТЫ ДЛЯ МОЕГО АВТО'";
-        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p><br><p>Диаметр колеса</p>: <b>'.$post_data['diameter'].'</b></p><br><p>Сезон</p>: <b>'.$post_data['sezon'].'</b></p><br><p>Сезон</p>: <b>'.$post_data['price'].'</b></p><br>';
+    case 'raschet-stoimosti-mobile':
+        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Получить расчёт стоимости на телефон'";
+        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p><br><p>Бренд:</p> <b>'.$post_data['brand'].'</b></p><br><p>Год</p>: <b>'.$post_data['year'].'</b></p><br>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('ПОСМОТРЕТЬ ВАРИАНТЫ ДЛЯ МОЕГО АВТО',$post_data['phone'],$post_data['urlName']);
-        echo json_encode(['callback' => true]);
-        break;
-    case 'left_form_online_podbor':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'ПОСМОТРЕТЬ ВАРИАНТЫ ДЛЯ МОЕГО АВТО кнопка слева'";
-        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p><br><p>Диаметр колеса</p>: <b>'.$post_data['diameter'].'</b></p><br><p>Сезон</p>: <b>'.$post_data['sezon'].'</b></p><br><p>Сезон</p>: <b>'.$post_data['price'].'</b></p><br>';
-        mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('ПОСМОТРЕТЬ ВАРИАНТЫ ДЛЯ МОЕГО АВТО кнопка слева',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Получить расчёт стоимости на телефон',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
     case 'callback-form-footer':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Форма заказа обратного звонка футер'";
+        $subject = "\"ЗАМЕНА ГРМ\" Сообщение с Лендинга - 'Форма заказа обратного звонка - футер'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('Форма заказа обратного звонка футер',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Форма заказа обратного звонка - футер',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
     case 'callback-form-footer-mobile':
-        $subject = "\"ШИНЫ\" Сообщение с Лендинга - 'Форма заказа обратного звонка футер'";
+        $subject = "\"ЗАМЕНА ГРМ\" Сообщение с Лендинга - 'Форма заказа обратного звонка - футер'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
         mail($to, $subject, $message, $headers);
-        addFormDataToTheDatabase('Форма заказа обратного звонка футер',$post_data['phone'],$post_data['urlName']);
+        addFormDataToTheDatabase('Форма заказа обратного звонка - футер',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
     case 'fakeRoistat_modal':

@@ -4,6 +4,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        var siteUrl = location.href.replace('https://nakolesah.site/','').replace('/','');
+        var yaID = [];
+        yaID['zamena-grm']='51962525';
+        yaID['grm-zamena']='51962543';
+        <!-- Yandex.Metrika counter -->
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(yaID[siteUrl], "init", {
+            id:yaID[siteUrl],
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/51962525" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
     <script>window.plp = {
         "page_id": 1825323,
         "content_id": 2461892,
@@ -42,6 +62,7 @@
     };</script>
 </head>
 <body class="area ">
+<?var_dump($yaId[$siteUrl])?>
 <div class="area font-text-opensans font-header-ttnormsmedium">
 
     <script>if (!plp.screenSizes) {
@@ -168,7 +189,7 @@
                                                                                                     <p style="text-align: right; line-height: 0.8;">
                                                                                                         <span style="color: rgb(255, 255, 255);"><span
                                                                                                                 style="font-family: &quot;TTNorms Regular&quot;;"><span
-                                                                                                                style="font-size: 18px;">8 (800) 222-35-69</span></span></span>
+                                                                                                                style="font-size: 18px;" class="changePhone">8 (800) 222-35-69</span></span></span>
                                                                                                     </p>
                                                                                                     <p style="text-align: right; line-height: 0.8;">
                                                                                                         <span style="color: rgb(255, 255, 255);"><span
@@ -197,7 +218,8 @@
                                                                                                                 data-ga_category=""
                                                                                                                 data-ga_action=""
                                                                                                                 need_hover="false"
-                                                                                                                data-modal="custom">
+                                                                                                                data-modal="custom"
+                                                                                                                onclick="ym(yaID[siteUrl], 'reachGoal', 'ZAKAZ_N'); return true;">
                                                                                                             <span class="text">Заказать звонок</span>
                                                                                                         </button>
                                                                                                     </div>
@@ -232,7 +254,7 @@
                                                                                                                                         <div id="node7_meta"
                                                                                                                                              class="code">
                                                                                                                                             <div class="form1-cover"
-                                                                                                                                                 id="callback-form-footer"
+                                                                                                                                                 id="callback-form-top"
                                                                                                                                                  data-mod="uid2">
                                                                                                                                                 <div plp-form-container=""
                                                                                                                                                      colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
@@ -311,8 +333,7 @@
                                                                                                                                                                         <div class="btn-out center xs-none">
                                                                                                                                                                             <div class="btn-inner">
                                                                                                                                                                                 <button class="btn hvr-grow font-text modalSubmit"
-                                                                                                                                                                                        id="uid4"
-                                                                                                                                                                                >
+                                                                                                                                                                                        id="uid4" onclick="ym(yaID[siteUrl], 'reachGoal', 'ZAKAZ_O'); return true;">
                                                                                                                                                                                     <span class="text">Перезвоните мне</span>
                                                                                                                                                                                 </button>
                                                                                                                                                                             </div>
@@ -492,8 +513,9 @@
                                                                                     data-ga_category=""
                                                                                     data-ga_action="" need_hover="false"
                                                                                     data-modal="custom"><span
-                                                                                    class="text">Узнать стоимость замены для моего авто
-<span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
+                                                                                    class="text"
+                                                                                    onclick="ym(yaID[siteUrl], 'reachGoal', 'STOIMOST_N'); return true;">
+<span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span>Узнать стоимость замены для моего авто</button>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -739,8 +761,7 @@
                                                                                                                                             <div class="btn-out center xs-none">
                                                                                                                                                 <div class="btn-inner">
                                                                                                                                                     <button class="btn hvr-grow font-text modalSubmit"
-                                                                                                                                                            id="uid7"
-                                                                                                                                                    ">Узнать
+                                                                                                                                                            id="uid7" onclick="ym(yaID[siteUrl], 'reachGoal', 'STOIMOST_O'); return true;">Узнать
                                                                                                                                                     стоимость
                                                                                                                                                     замены
                                                                                                                                                     <span class="ripple rippleEffect"
@@ -784,7 +805,8 @@
                                                                                     data-action="modal" data-ym_goal=""
                                                                                     data-ga_category=""
                                                                                     data-ga_action="" need_hover="false"
-                                                                                    data-modal="custom"><span
+                                                                                    data-modal="custom"
+                                                                                    onclick="ym(yaID[siteUrl], 'reachGoal', 'BRON_N'); return true;"><span
                                                                                     class="text">Забронировать запись на ближайшее время</span>
                                                                             </button>
                                                                         </div>
@@ -893,8 +915,7 @@
                                                                                                                                             <div class="btn-out center xs-none">
                                                                                                                                                 <div class="btn-inner">
                                                                                                                                                     <button class="btn hvr-grow font-text modalSubmit"
-                                                                                                                                                            id="uid10"
-                                                                                                                                                    >
+                                                                                                                                                            id="uid10" onclick="ym(yaID[siteUrl], 'reachGoal', 'BRON_O'); return true;">
                                                                                                                                                         Записаться
                                                                                                                                                         на
                                                                                                                                                         ближайшее
@@ -1101,7 +1122,7 @@
                                                                                                     <p style="line-height: 0.8;">
                                                                                                         <span style="font-size: 16px;"><span
                                                                                                                 style="color: rgb(255, 255, 255);"><span
-                                                                                                                style="font-family: &quot;TTNorms Regular&quot;;">8 (800) 222-35-69</span></span></span>
+                                                                                                                style="font-family: &quot;TTNorms Regular&quot;;"  class="changePhone">8 (800) 222-35-69</span></span></span>
                                                                                                     </p>
                                                                                                     <p style="line-height: 0.8;">
                                                                                                         <span style="font-size: 16px;"><span
@@ -2034,7 +2055,8 @@
                                             <div class="btn-inner">
                                                 <button class="btn hvr-grow font-text btnModal" id="uid12" data-id=""
                                                         data-action="modal" data-ym_goal="" data-ga_category=""
-                                                        data-ga_action="" need_hover="false" data-modal="custom"><span
+                                                        data-ga_action="" need_hover="false" data-modal="custom"
+                                                        onclick="ym(yaID[siteUrl], 'reachGoal', 'ZAPIS_N'); return true;"><span
                                                         class="text">Записаться в ближайший автосервис
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                             </div>
@@ -5442,7 +5464,7 @@
                                                                                                     <p style="text-align: right; line-height: 0.8;">
                                                                                                         <span style="color: rgb(215, 215, 215);"><span
                                                                                                                 style="font-size: 16px;"><span
-                                                                                                                style="font-family: &quot;TTNorms Regular&quot;;">8 (800) 222-35-69</span></span></span>
+                                                                                                                style="font-family: &quot;TTNorms Regular&quot;;"  class="changePhone">8 (800) 222-35-69</span></span></span>
                                                                                                     </p></div>
                                                                                             </div>
                                                                                         </div>
@@ -5702,7 +5724,7 @@
                                                                                                     <p style="line-height: 0.8;">
                                                                                                         <span style="color: rgb(215, 215, 215);"><span
                                                                                                                 style="font-size: 16px;"><span
-                                                                                                                style="font-family: &quot;TTNorms Regular&quot;;">8 (800) 222-35-69</span></span></span>
+                                                                                                                style="font-family: &quot;TTNorms Regular&quot;;"  class="changePhone">8 (800) 222-35-69</span></span></span>
                                                                                                     </p></div>
                                                                                             </div>
                                                                                         </div>
