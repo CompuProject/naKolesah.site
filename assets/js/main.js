@@ -4,6 +4,11 @@
 
 
 $(document).ready(function () {
+    if (siteUrl == "") {
+        $(".changePhone").html("8 (800) 222-31-96");
+    } else if (siteUrl == "shini") {
+        $(".changePhone").html("8 (800) 550-06-58");
+    }
     //маска телефона для input popup
     $('input[name=phone]').click(function () {
         $(this).focus();
