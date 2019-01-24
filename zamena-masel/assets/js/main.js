@@ -50,7 +50,7 @@ $(document).ready(function () {
                 console.log('type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&year=' + year + '&price=' + price + '&urlName=' + location.href.replace('http://', ''));
 
                 $.ajax({
-                    url: '/testovii4/mail.php',
+                    url: '/zamena-masel/mail.php',
                     type: 'POST',
                     data: 'type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&year=' + year+ '&price=' + price + '&urlName=' + location.href.replace('http://', ''),
                     // data: data,
