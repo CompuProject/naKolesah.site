@@ -204,17 +204,16 @@ $(document).ready(function () {
     }
     getModal();
     function sendModal() {
-        $('.fakeRoistat_btn').click(function () {
+        $('.fakeRoistat_btn, #uid49').click(function () {
             var parentForm = $(this).closest('.inputForm');
-            var data = [];
-            var phone = $('#modal7_phone').val();
+            var phone = parentForm.find('input[name=phone]').val();
             var modalName = parentForm.attr('modalName');
             $('.errMsg').hide();
-            if ($('#modal7_phone').val() == '') {
+            if (phone == '') {
                 parentForm.find('input[name=phone]').after('<div class="errMsg">Не заполнено поле</div>');
                 parentForm.find('input[name=phone]').css('border-color', 'red');
             } else {
-                console.log(data);
+                console.log('type=' + modalName + '&phone=' + phone + '&urlName=' + location.href.replace('http://', ''));
                 $.ajax({
                     url: '/hranenie-shin/mail.php',
                     type: 'POST',

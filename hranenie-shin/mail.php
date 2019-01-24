@@ -70,6 +70,12 @@ switch ($post_data['type']) {
         addFormDataToTheDatabase('Забронировать место на складе',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
         break;
+    case 'zabronirovat_form':
+        $subject = "\"ХРАНЕНИЕ_ШИН\" Сообщение с Лендинга - 'Забронировать место на складе'";
+        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
+        mail($to, $subject, $message, $headers);
+        addFormDataToTheDatabase('Забронировать место на складе',$post_data['phone'],$post_data['urlName']);
+        break;
     case 'modal7':
         $subject = "\"ХРАНЕНИЕ_ШИН\" Сообщение с Лендинга - 'Lovec'";
         $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p>';
