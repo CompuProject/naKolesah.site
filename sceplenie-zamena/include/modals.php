@@ -158,7 +158,7 @@
         </h4>
     </div>
     <div class="callBackModal_content">
-        <form class="online-selection__form" name="online-selection">
+        <div class="online-selection__form" name="online-selection">
             <div class="step" id="step1">
                 <p class="modalName">
                     Шаг <span style="color: #d44831">1</span>/4
@@ -275,6 +275,6 @@
                     Это бесплатно и ни к чему вас не обязывает*
                 </p>
             </div>
-        </form>
+        </div>
     </div>
 </div>
