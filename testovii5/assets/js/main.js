@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     if (siteUrl == "zamena-masel") {
         $(".changePhone").html("8 (800) 550-85-93");
@@ -39,6 +38,8 @@ $(document).ready(function () {
             diameter = diameter.replace(/\s+/g,'');
             var year = parentForm.find('select[name=year] option:selected').text();
             year = year.replace(/\s+/g,'');
+            var sdiskami = parentForm.find('select[name=sdiskami] option:selected').text();
+            sdiskami = sdiskami.replace(/\s+/g,'');
             var price = parentForm.find('.irs-single').text();
             price = price.replace(/\s+/g,'');
             $('.errMsg').hide();
@@ -47,12 +48,12 @@ $(document).ready(function () {
                 parentForm.find('input[name=phone]').after('<div class="errMsg">Не заполнено поле</div>');
                 parentForm.find('input[name=phone]').css('border-color', 'red');
             } else {
-                console.log('type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&year=' + year + '&price=' + price + '&urlName=' + location.href.replace('http://', ''));
+                console.log('type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&sdiskami=' + sdiskami + '&year=' + year + '&price=' + price + '&urlName=' + location.href.replace('http://', ''));
 
                 $.ajax({
-                    url: '/testovii4/mail.php',
+                    url: '/testovii5/mail.php',
                     type: 'POST',
-                    data: 'type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&year=' + year+ '&price=' + price + '&urlName=' + location.href.replace('http://', ''),
+                    data: 'type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&sdiskami=' + sdiskami + '&year=' + year+ '&price=' + price + '&urlName=' + location.href.replace('http://', ''),
                     // data: data,
                     // dataType: 'html',
                     success: function (rezult) {
