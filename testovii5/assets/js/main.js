@@ -1,8 +1,9 @@
 $(document).ready(function () {
-    if (siteUrl == "zamena-masel") {
-        $(".changePhone").html("8 (800) 550-85-93");
-    } else if (siteUrl == "zamena-masla") {
-        $(".changePhone").html("8 (800) 550-85-73");
+    var site_url = location.href.replace('https://nakolesah.site/','').replace('/','');
+    if (site_url == 'hranenie') {
+        $('.phone_number').html('8 (800) 550-07-39');
+    } else if (site_url == 'hranenie-shin') {
+        $('.phone_number').html('8 (800) 222-15-98');
     }
     //маска телефона для input popup
     $('input[name=phone]').click(function () {
@@ -51,7 +52,7 @@ $(document).ready(function () {
                 console.log('type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&sdiskami=' + sdiskami + '&year=' + year + '&price=' + price + '&urlName=' + location.href.replace('http://', ''));
 
                 $.ajax({
-                    url: '/testovii5/mail.php',
+                    url: '/hranenie-shin/mail.php',
                     type: 'POST',
                     data: 'type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&sdiskami=' + sdiskami + '&year=' + year+ '&price=' + price + '&urlName=' + location.href.replace('http://', ''),
                     // data: data,

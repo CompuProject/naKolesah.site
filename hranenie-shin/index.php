@@ -7,149 +7,125 @@
     <link rel="icon" type='image/png'
           href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/e5d388c5baafaaab24a32e5bafc0181a.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<script>
-        window.plp = {
-            "page_id": 1684133,
-            "content_id": 2231798,
-            "lang": "ru", "time": 1543418173,
-            "screens": "screens-xs-sm-md-lg",
-            "animations": {"section": {"type": "scroll"}, "widget": {"type": "scroll"}}
-        };
-        window.plp_page_id = 1684133;
-        window.plp_content_id = 2231798;
-        window.plp_lang = "ru";
-        window.lptag = "ad923a21b8883b859dea43fe25650843T/XXEGxx+7G3OahU3eupYrspiDitxwHl3n4byQ82rPK+hhqGeVWS2OuOkQtlKMkS";
-        window.error_handler = function (e, fn_id) {
-            window.console && console.log && console.log(fn_id);
-            window['error_handler_' + fn_id] && eval(window['error_handler_' + fn_id]);
-            window.trackJs && trackJs.track(e);
-            window.console && console.error && console.error(e.message);
-        };
-        setTimeout(function () {
-            try {
-                x = new (XMLHttpRequest || ActiveXObject), x.open('PUT', '/', 1), x.send(window.lptag + '\n' + document.referrer + '\n' + (location.pathname + location.search))
-            } catch (a) {
-            }
-        }, 1e3);</script>-->
+    <script>window.plp = {
+        "page_id": 1699402,
+        "content_id": 2257050,
+        "lang": "ru",
+        "time": 1548398825,
+        "screens": "screens-xs-sm-md-lg",
+        "animations": {"section": {"type": "scroll"}, "widget": {"type": "scroll"}}
+    };
+    window.plp_page_id = 1699402;
+    window.plp_content_id = 2257050;
+    window.plp_lang = "ru";
+    window.lptag = "3a6b4443de74a97f17f8e1e239132c37GHNtXqjGFY+r0f20WD3p/gEvELmlhK0mqL0PP1HtS4fm/50KGHI8VgXWKhnWPd7l";
+    window.error_handler = function (e, fn_id) {
+        window.console && console.log && console.log(fn_id);
+        window['error_handler_' + fn_id] && eval(window['error_handler_' + fn_id]);
+        window.trackJs && trackJs.track(e);
+        window.console && console.error && console.error(e.message);
+    };
+    setTimeout(function () {
+        try {
+            x = new (XMLHttpRequest || ActiveXObject), x.open('PUT', '/', 1), x.send(window.lptag + '\n' + document.referrer + '\n' + (location.pathname + location.search))
+        } catch (a) {
+        }
+    }, 1e3);</script>
+    <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/vendors.css"></link>
+    <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/plp.css"></link>
+    <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/nodes.css"></link>
+    <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/swiper.css"></link>
 
-
-<!--
-    <script>window.plp = {"page_id":1674666,"content_id":2215659,"lang":"ru","time":1542194720,"screens":"screens-xs-sm-md-lg","animations":{"section":{"type":"scroll"},"widget":{"type":"scroll"}}};window.plp_page_id = 1674666;window.plp_content_id = 2215659;window.plp_lang = "ru";window.lptag = "7b9780ec10cc86ca9b467ab7622be721zlGIoqrlB8mfU06RMVaLFf3xj/w1JGaAom3SS1B5E8ELzy1sYP3ZVB7kWMk9QAuR";window.error_handler = function (e, fn_id) {    window.console && console.log && console.log(fn_id);    window['error_handler_' + fn_id] && eval(window['error_handler_' + fn_id]);};</script>
--->
-    <script>window.plp = {"page_id":1684133,"content_id":2231798,"lang":"ru","time":1543418173,"screens":"screens-xs-sm-md-lg","animations":{"section":{"type":"scroll"},"widget":{"type":"scroll"}}};window.plp_page_id = 1684133;window.plp_content_id = 2231798;window.plp_lang = "ru";window.lptag = "ad923a21b8883b859dea43fe25650843T/XXEGxx+7G3OahU3eupYrspiDitxwHl3n4byQ82rPK+hhqGeVWS2OuOkQtlKMkS";window.error_handler = function (e, fn_id) {    window.console && console.log && console.log(fn_id);    window['error_handler_' + fn_id] && eval(window['error_handler_' + fn_id]);};</script>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        var siteUrl = location.href.replace('https://nakolesah.site/','').replace('/','');
-        var yaID = [];
-        yaID['hranenie-shin']='51444910';
-        yaID['hranenie']='51444892';
-
+    <link type="text/css" rel="stylesheet" href="assets/css/main.css"></link>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript">window._trackJs = {
+        token: "4fd557ccb06a4bd28e7b90da188cd54b",
+        application: "production",
+        enabled: location.href.indexOf("notrackjs") < 0,
+    };</script>
+    <script type="text/javascript">
+        <?
+        $siteUrl = $_SERVER['REQUEST_URI'];
+        $yaId = [
+            "/hranenie/" => "51444892",
+            "/hranenie-shin/" => "51444910",
+        ];
+        ?>
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym")
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-        ym(Number(yaID[siteUrl]), "init", {
-            id:Number(yaID[siteUrl]),
+        ym(<?=$yaId[$siteUrl]?>, "init", {
+            id:<?=$yaId[$siteUrl]?>,
             clickmap:true,
             trackLinks:true,
             accurateTrackBounce:true,
             webvisor:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/51444910" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript><div><img src="https://mc.yandex.ru/watch/51962525" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
-
-    <!--<link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/vendors.css"></link>
-    <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/plp.css"></link>
-    <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/nodes.css"></link>
-    <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/swiper.css"></link>-->
-    <link type="text/css" rel="stylesheet" href="assets/css/vendors.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/plp.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/nodes.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/swiper.css">
-    <link type="text/css" rel="stylesheet" href="assets/css/styles.css">
-    <script type="text/javascript">window._trackJs = {
-        token: "4fd557ccb06a4bd28e7b90da188cd54b",
-        application: "production",
-        enabled: location.href.indexOf("notrackjs") < 0,
-    };</script>
-    <style>
-        #plleftmenu {
-            position: fixed;
-            top: 200px;
-            z-index: 99999;
-        }
-        #plleftmenu > .wrapper1 {
-            background-color: transparent !important;
-        }
-        #plleftmenu > .wrapper2 {
-            text-align: left !important;
-        }
-    </style>
 </head>
 <body class="area ">
 <div class="area font-text-opensans font-header-ttnormsmedium">
-    <script>
-        if (!plp.screenSizes) {
-            plp.screenSizes = {
-                sm: 768,
-                md: 992,
-                lg: 1200,
-            };
-        }
-        if (plp.screens === 'screens-xs') plp.screen = 'xs';
-        else if (plp.screens === 'screens-sm') plp.screen = 'sm';
-        else if (plp.screens === 'screens-md') plp.screen = 'md';
-        else if (plp.screens === 'screens-lg') plp.screen = 'lg';
-        else if (plp.screens === 'screens-xs-sm') {
-            if (document.body.clientWidth >= 768) plp.screen = 'sm';
-            else if (document.body.clientWidth <= 767) plp.screen = 'xs';
-        } else if (plp.screens === 'screens-xs-md') {
-            if (document.body.clientWidth >= 992) plp.screen = 'md';
-            else if (document.body.clientWidth <= 991) plp.screen = 'xs';
-        } else if (plp.screens === 'screens-xs-lg') {
-            if (document.body.clientWidth >= 1200) plp.screen = 'lg';
-            else if (document.body.clientWidth <= 1199) plp.screen = 'xs';
-        } else if (plp.screens === 'screens-sm-md') {
-            if (document.body.clientWidth >= 992) plp.screen = 'md';
-            else if (document.body.clientWidth <= 991) plp.screen = 'sm';
-        } else if (plp.screens === 'screens-sm-lg') {
-            if (document.body.clientWidth >= 1200) plp.screen = 'lg';
-            else if (document.body.clientWidth <= 1199) plp.screen = 'sm';
-        } else if (plp.screens === 'screens-md-lg') {
-            if (document.body.clientWidth >= 1200) plp.screen = 'lg';
-            else if (document.body.clientWidth <= 1199) plp.screen = 'md';
-        } else if (plp.screens === 'screens-xs-sm-md') {
-            if (document.body.clientWidth >= 992) plp.screen = 'md';
-            else if (document.body.clientWidth >= 768 && document.body.clientWidth <= 991) plp.screen = 'sm';
-            else if (document.body.clientWidth <= 767) plp.screen = 'xs';
-        } else if (plp.screens === 'screens-xs-sm-lg') {
-            if (document.body.clientWidth >= 1200) plp.screen = 'lg';
-            else if (document.body.clientWidth >= 768 && document.body.clientWidth <= 1199) plp.screen = 'sm';
-            else if (document.body.clientWidth <= 767) plp.screen = 'xs';
-        } else if (plp.screens === 'screens-xs-md-lg') {
-            if (document.body.clientWidth >= 1200) plp.screen = 'lg';
-            else if (document.body.clientWidth >= 992 && document.body.clientWidth <= 1199) plp.screen = 'md';
-            else if (document.body.clientWidth <= 991) plp.screen = 'xs';
-        } else if (plp.screens === 'screens-sm-md-lg') {
-            if (document.body.clientWidth >= 1200) plp.screen = 'lg';
-            else if (document.body.clientWidth >= 992 && document.body.clientWidth <= 1199) plp.screen = 'md';
-            else if (document.body.clientWidth <= 991) plp.screen = 'sm';
-        } else if (plp.screens === 'screens-xs-sm-md-lg') {
-            if (document.body.clientWidth >= 1200) plp.screen = 'lg';
-            else if (document.body.clientWidth >= 992 && document.body.clientWidth <= 1199) plp.screen = 'md';
-            else if (document.body.clientWidth >= 768 && document.body.clientWidth <= 991) plp.screen = 'sm';
-            else if (document.body.clientWidth <= 767) plp.screen = 'xs';
-        }
-        [].slice.call(document.body.childNodes).forEach(function (el) {
-            if (el.className && el.className.indexOf('area') >= 0) {
-                el.classList.add('screen-' + plp.screen);
-            }
-        });</script>
-    <script class="adaptive">
-        if (["xs"].indexOf(plp.screen) >= 0) document.write("<!--")
-    </script>
 
+    <script>if (!plp.screenSizes) {
+        plp.screenSizes = {
+            sm: 768,
+            md: 992,
+            lg: 1200,
+        };
+    }
+    if (plp.screens === 'screens-xs') plp.screen = 'xs';
+    else if (plp.screens === 'screens-sm') plp.screen = 'sm';
+    else if (plp.screens === 'screens-md') plp.screen = 'md';
+    else if (plp.screens === 'screens-lg') plp.screen = 'lg';
+    else if (plp.screens === 'screens-xs-sm') {
+        if (document.body.clientWidth >= 768) plp.screen = 'sm';
+        else if (document.body.clientWidth <= 767) plp.screen = 'xs';
+    } else if (plp.screens === 'screens-xs-md') {
+        if (document.body.clientWidth >= 992) plp.screen = 'md';
+        else if (document.body.clientWidth <= 991) plp.screen = 'xs';
+    } else if (plp.screens === 'screens-xs-lg') {
+        if (document.body.clientWidth >= 1200) plp.screen = 'lg';
+        else if (document.body.clientWidth <= 1199) plp.screen = 'xs';
+    } else if (plp.screens === 'screens-sm-md') {
+        if (document.body.clientWidth >= 992) plp.screen = 'md';
+        else if (document.body.clientWidth <= 991) plp.screen = 'sm';
+    } else if (plp.screens === 'screens-sm-lg') {
+        if (document.body.clientWidth >= 1200) plp.screen = 'lg';
+        else if (document.body.clientWidth <= 1199) plp.screen = 'sm';
+    } else if (plp.screens === 'screens-md-lg') {
+        if (document.body.clientWidth >= 1200) plp.screen = 'lg';
+        else if (document.body.clientWidth <= 1199) plp.screen = 'md';
+    } else if (plp.screens === 'screens-xs-sm-md') {
+        if (document.body.clientWidth >= 992) plp.screen = 'md';
+        else if (document.body.clientWidth >= 768 && document.body.clientWidth <= 991) plp.screen = 'sm';
+        else if (document.body.clientWidth <= 767) plp.screen = 'xs';
+    } else if (plp.screens === 'screens-xs-sm-lg') {
+        if (document.body.clientWidth >= 1200) plp.screen = 'lg';
+        else if (document.body.clientWidth >= 768 && document.body.clientWidth <= 1199) plp.screen = 'sm';
+        else if (document.body.clientWidth <= 767) plp.screen = 'xs';
+    } else if (plp.screens === 'screens-xs-md-lg') {
+        if (document.body.clientWidth >= 1200) plp.screen = 'lg';
+        else if (document.body.clientWidth >= 992 && document.body.clientWidth <= 1199) plp.screen = 'md';
+        else if (document.body.clientWidth <= 991) plp.screen = 'xs';
+    } else if (plp.screens === 'screens-sm-md-lg') {
+        if (document.body.clientWidth >= 1200) plp.screen = 'lg';
+        else if (document.body.clientWidth >= 992 && document.body.clientWidth <= 1199) plp.screen = 'md';
+        else if (document.body.clientWidth <= 991) plp.screen = 'sm';
+    } else if (plp.screens === 'screens-xs-sm-md-lg') {
+        if (document.body.clientWidth >= 1200) plp.screen = 'lg';
+        else if (document.body.clientWidth >= 992 && document.body.clientWidth <= 1199) plp.screen = 'md';
+        else if (document.body.clientWidth >= 768 && document.body.clientWidth <= 991) plp.screen = 'sm';
+        else if (document.body.clientWidth <= 767) plp.screen = 'xs';
+    }
+    [].slice.call(document.body.childNodes).forEach(function (el) {
+        if (el.className && el.className.indexOf('area') >= 0) {
+            el.classList.add('screen-' + plp.screen);
+        }
+    });</script>
+    <script class="adaptive">if (["xs"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
     <div class="node node0 section section-clear xs-hidden" id="plleftmenu" data-opacity="0.95">
         <div class="wrapper1">
             <div class="wrapper2">
@@ -161,16 +137,14 @@
                                     <div class="macros-button">
                                         <div class="btn-out center xs-none">
                                             <div class="btn-inner">
-                                                <button class="btn hvr-grow font-text" id="uid2" data-id=""
+                                                <button class="btn hvr-grow font-text btnModal" id="uid2" data-id=""
                                                         data-action="modal" data-ym_goal="RSCH" data-ga_category=""
                                                         data-ga_action="" need_hover="false" data-modal="custom"><img
                                                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAA5CAYAAAA/UKufAAAAP0lEQVRIS2NkoBAwUqifYdQAhtEwYBgNA1A+Gs0Lo2Ewmg4gNcpoXhgNg9F0MJoXYO3L0fJgtDwYLQ+GTXkAALI9ADrcoZ+4AAAAAElFTkSuQmCC"
                                                         style="width: 67.98px;"
                                                         data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/c1ccd1eed669e22a63cfa71521c365c7.png"
                                                         data-lazy-image_size="103,369"
-                                                        data-lazy-image_detect="css-width"
-                                                        onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('VIB');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('VIB');return true;}"
-                                                ></button>
+                                                        data-lazy-image_detect="css-width" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'VIB'); return true;"></button>
                                             </div>
                                         </div>
                                     </div>
@@ -185,14 +159,14 @@
                                                     <div class="modal-body">
                                                         <div class="cont">
                                                             <div class="node node2 widget widget-form2"
-                                                                 data-form="{name:Стоимость хранения,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                                 data-form="{&quot;name&quot;:&quot;Стоимость хранения&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quotquot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                  data-isquiz="false">
                                                                 <div class="wrapper1">
                                                                     <div class="wrapper2">
                                                                         <div style="max-width: 726px; position: relative; margin-left: auto; margin-right: auto;">
                                                                             <div class="metahtml">
                                                                                 <div id="node2_meta" class="code">
-                                                                                    <div id="left-widget-form" class="form1-cover">
+                                                                                    <div class="form1-cover" id="left-widget-get-tyres" data-mod="uid2">
                                                                                         <div plp-form-container=""
                                                                                              colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                             <div class="cont">
@@ -239,7 +213,7 @@
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
                                                                                                                 <div id="node6_meta"
-                                                                                                                     data-vals="{type:select-menu,text:Диаметр дисков,hidename:false,list:[{text:12,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:13,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:14,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0},{text:15,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0},{text:16,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0},{text:17,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0},{text:18,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0},{text:19,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0},{text:20,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0},{text:21,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0},{text:22,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0},{text:23,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:false,id:,min:0,max:100,step:1,align:right,fontsize:100,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                     data-vals="{&quot;type&quot;:&quot;select-menu&quot;,&quot;text&quot;:&quot;Диаметр дисков&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;12&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;13&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;14&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;15&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;16&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;17&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;18&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;19&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;20&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;21&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;22&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;23&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:false,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;right&quot;,&quot;fontsize&quot;:100,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="select-menu">
                                                                                                                         <div class="name">
@@ -247,43 +221,43 @@
                                                                                                                             дисков
                                                                                                                         </div>
                                                                                                                         <div class="form-control">
-                                                                                                                            <select il-action="listen" name="diametr">
+                                                                                                                            <select il-action="listen" name="diameter">
                                                                                                                                 <option></option>
-                                                                                                                                <option value="12">
+                                                                                                                                <option value="0">
                                                                                                                                     12
                                                                                                                                 </option>
                                                                                                                                 <option selected="true"
-                                                                                                                                        value="13">
+                                                                                                                                        value="1">
                                                                                                                                     13
                                                                                                                                 </option>
-                                                                                                                                <option value="14">
+                                                                                                                                <option value="2">
                                                                                                                                     14
                                                                                                                                 </option>
-                                                                                                                                <option value="15">
+                                                                                                                                <option value="3">
                                                                                                                                     15
                                                                                                                                 </option>
-                                                                                                                                <option value="16">
+                                                                                                                                <option value="4">
                                                                                                                                     16
                                                                                                                                 </option>
-                                                                                                                                <option value="17">
+                                                                                                                                <option value="5">
                                                                                                                                     17
                                                                                                                                 </option>
-                                                                                                                                <option value="18">
+                                                                                                                                <option value="6">
                                                                                                                                     18
                                                                                                                                 </option>
-                                                                                                                                <option value="19">
+                                                                                                                                <option value="7">
                                                                                                                                     19
                                                                                                                                 </option>
-                                                                                                                                <option value="20">
+                                                                                                                                <option value="8">
                                                                                                                                     20
                                                                                                                                 </option>
-                                                                                                                                <option value="21">
+                                                                                                                                <option value="9">
                                                                                                                                     21
                                                                                                                                 </option>
-                                                                                                                                <option value="22">
+                                                                                                                                <option value="10">
                                                                                                                                     22
                                                                                                                                 </option>
-                                                                                                                                <option value="23">
+                                                                                                                                <option value="11">
                                                                                                                                     23
                                                                                                                                 </option>
                                                                                                                             </select>
@@ -308,7 +282,7 @@
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
                                                                                                                 <div id="node7_meta"
-                                                                                                                     data-vals="{type:select-menu,text:ХРАНЕНИЕ С ДИСКАМИ/БЕЗ ДИСКОВ,hidename:false,list:[{text:Без дисков,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0},{text:С дисками,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:false,id:,min:0,max:100,step:1,align:right,fontsize:100,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                     data-vals="{&quot;type&quot;:&quot;select-menu&quot;,&quot;text&quot;:&quot;ХРАНЕНИЕ С ДИСКАМИ/БЕЗ ДИСКОВ&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Без дисков&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;С дисками&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:false,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;right&quot;,&quot;fontsize&quot;:100,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="select-menu">
                                                                                                                         <div class="name">
@@ -318,14 +292,14 @@
                                                                                                                             ДИСКОВ
                                                                                                                         </div>
                                                                                                                         <div class="form-control">
-                                                                                                                            <select il-action="listen" name="disk">
+                                                                                                                            <select il-action="listen" name="sdiskami">
                                                                                                                                 <option></option>
                                                                                                                                 <option selected="true"
-                                                                                                                                        value="Без дисков">
+                                                                                                                                        value="0">
                                                                                                                                     Без
                                                                                                                                     дисков
                                                                                                                                 </option>
-                                                                                                                                <option value="С дисками">
+                                                                                                                                <option value="1">
                                                                                                                                     С
                                                                                                                                     дисками
                                                                                                                                 </option>
@@ -352,7 +326,7 @@
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
                                                                                                                 <div id="node8_meta"
-                                                                                                                     data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                     data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="phone"
                                                                                                                          class="is-text">
@@ -363,9 +337,11 @@
                                                                                                                         </div>
                                                                                                                         <div class="input">
                                                                                                                             <input type="text"
-                                                                                                                                   name="phone" il-action="listen"
+                                                                                                                                   il-action="listen"
                                                                                                                                    autocomplete="tel"
-                                                                                                                                   class="form-control" value="">
+                                                                                                                                   class="form-control"
+                                                                                                                                   value=""
+                                                                                                                            name="phone">
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -392,9 +368,8 @@
                                                                                                             <div class="macros-button">
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
-                                                                                                                        <button class="btn hvr-grow"
-                                                                                                                                id="uid4"
-                                                                                                                                onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('VIB_Z');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('VIB_Z');return true;}"
+                                                                                                                        <button class="btn hvr-grow modalSubmit"
+                                                                                                                                id="uid4" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'VIB_Z'); return true;"
                                                                                                                         ><span
                                                                                                                                 class="text">УЗНАТЬ ТОЧНУЮ СТОИМОСТЬ ХРАНЕНИЯ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
@@ -456,14 +431,14 @@
                                                                             <div class="">
                                                                                 <div class="textable"><p
                                                                                         style="line-height: 0.5;"><span
-                                                                                        style="font-family: Russo One;"><span
+                                                                                        style="font-family: &quot;Russo One&quot;;"><span
                                                                                         style="font-size: 20px;"><span
                                                                                         style="color: inherit;">НА КОЛЁСАХ</span></span></span>
                                                                                 </p>
                                                                                     <p style="text-align: left; line-height: 0.5;">
                                                                                         <span style="color: rgb(255, 255, 255);"><span
                                                                                                 style="font-size: 14px;"><span
-                                                                                                style="font-family: Roboto Light;"><strong>22 автоцентра</strong> в каждом районе</span></span></span>
+                                                                                                style="font-family: &quot;Roboto Light&quot;;"><strong>22 автоцентра</strong> в каждом районе</span></span></span>
                                                                                     </p></div>
                                                                             </div>
                                                                         </div>
@@ -636,11 +611,11 @@
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="macros-button">
-                                        <div class="btn-out center xs-none"><a class="btn-inner" href="tel:+78002221598"
+                                        <div class="btn-out center xs-none"><a class="btn-inner" href="tel:+78005500739"
                                                                                target="_blank">
                                             <button class="btn font-text" id="uid83" data-id="" data-action="link"
                                                     data-ym_goal="ZVONOK" data-ga_category="" data-ga_action=""
-                                                    need_hover="true" onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('ZVONOK');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('ZVONOK');return true;}"><span class="text">ПОЗВОНИТЬ БЕСПЛАТНО</span>
+                                                    need_hover="true" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZVONOK'); return true;"><span class="text">ПОЗВОНИТЬ БЕСПЛАТНО</span>
                                             </button>
                                         </a></div>
                                     </div>
@@ -664,7 +639,7 @@
                                     <div class="">
                                         <div class="xs-force-center textable"><p style="line-height: 0.8;"><span
                                                 style="font-size: 16px;"><span
-                                                style="font-family: Roboto Light;">Более 14 лет на рынке</span></span>
+                                                style="font-family: &quot;Roboto Light&quot;;">Более 14 лет на рынке</span></span>
                                         </p></div>
                                     </div>
                                 </div>
@@ -674,7 +649,7 @@
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="">
-                                        <div class="xs-force-center textable gray-theme"><p>8 (800) 222-15-98</p></div>
+                                        <div class="xs-force-center textable gray-theme"><p class="phone_number">8 (800) 550-07-39</p></div>
                                     </div>
                                 </div>
                             </div>
@@ -701,7 +676,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 40px; background-position: left center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAADCAYAAACasY9UAAAAEklEQVQYV2NkoBAwUqifgWIDAAJJAATwXgcuAAAAAElFTkSuQmCC);"
+                                                                     style="height: 40px; background-position: left center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAADCAYAAACasY9UAAAAEklEQVQYV2NkoBAwUqifgWIDAAJJAATwXgcuAAAAAElFTkSuQmCC&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/2e4b683c21d789fe79f4ccbeebafb616.png"
                                                                      data-lazy-bgimage_size="840,188"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -722,11 +697,11 @@
                                                                 <div class="">
                                                                     <div class="xs-force-center textable"><p
                                                                             style="line-height: 0.8;"><span
-                                                                            style="font-family: Open Sans;"><span
+                                                                            style="font-family: &quot;Open Sans&quot;;"><span
                                                                             style="font-size: 18px;"><strong>22 автоцентра</strong> в каждом районе Москвы</span></span>
                                                                     </p>
                                                                         <p style="line-height: 0.8;"><span
-                                                                                style="font-family: Open Sans;"><span
+                                                                                style="font-family: &quot;Open Sans&quot;;"><span
                                                                                 style="font-size: 18px;"><strong>15 лет</strong> в бизнесе</span></span>
                                                                         </p></div>
                                                                 </div>
@@ -749,7 +724,7 @@
                                                                                         <div class="wrapper2">
                                                                                             <div class="">
                                                                                                 <div class="xs-force-center textable gray-theme">
-                                                                                                    <p class="phone_number" style="text-align: right; line-height: 0.8;">
+                                                                                                    <p style="text-align: right; line-height: 0.8;" class="phone_number">
                                                                                                         8 (800)
                                                                                                         550-07-39</p>
                                                                                                     <p style="text-align: right; line-height: 0.8;">
@@ -769,7 +744,7 @@
                                                                                             <div class="macros-button">
                                                                                                 <div class="btn-out right xs-none">
                                                                                                     <div class="btn-inner">
-                                                                                                        <button class="btn hvr-grow"
+                                                                                                        <button class="btn hvr-grow btnModal"
                                                                                                                 id="uid5"
                                                                                                                 data-id=""
                                                                                                                 data-action="modal"
@@ -778,8 +753,7 @@
                                                                                                                 data-ga_action=""
                                                                                                                 need_hover="false"
                                                                                                                 data-modal="custom"
-                                                                                                                onclick="if(siteUrl=='hranenie-shin'){yaCounter51444910.reachGoal('ZOZ');return true;}else if(siteUrl=='hranenie'){yaCounter51444892.reachGoal('ZOZ');return true;}"
-                                                                                                        >
+                                                                                                                onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZOZ'); return true;">
                                                                                                             <span class="text">ЗАКАЗАТЬ ЗВОНОК</span>
                                                                                                         </button>
                                                                                                     </div>
@@ -805,7 +779,7 @@
                                                                                                             <div class="modal-body">
                                                                                                                 <div class="cont">
                                                                                                                     <div class="node node58 widget widget-form2"
-                                                                                                                         data-form="{name:Заказать звонок,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                                                                                         data-form="{&quot;name&quot;:&quot;Заказать звонок&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                                                                          data-isquiz="false">
                                                                                                                         <div class="wrapper1">
                                                                                                                             <div class="wrapper2">
@@ -813,7 +787,7 @@
                                                                                                                                     <div class="metahtml">
                                                                                                                                         <div id="node58_meta"
                                                                                                                                              class="code">
-                                                                                                                                            <div id="callback-form" class="form1-cover">
+                                                                                                                                            <div class="form1-cover" id="callback-top" data-mod="uid5">
                                                                                                                                                 <div plp-form-container=""
                                                                                                                                                      colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                                                                                     <div class="cont">
@@ -867,7 +841,7 @@
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="metahtml">
                                                                                                                                                                         <div id="node62_meta"
-                                                                                                                                                                             data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                                                                             data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                                                                              class="code">
                                                                                                                                                                             <div plp-field="phone"
                                                                                                                                                                                  class="is-text">
@@ -877,7 +851,12 @@
                                                                                                                                                                                     *
                                                                                                                                                                                 </div>
                                                                                                                                                                                 <div class="input">
-                                                                                                                                                                                    <input name="phone" type="text" il-action="listen" autocomplete="tel" class="form-control" value="">
+                                                                                                                                                                                    <input type="text"
+                                                                                                                                                                                           il-action="listen"
+                                                                                                                                                                                           autocomplete="tel"
+                                                                                                                                                                                           class="form-control"
+                                                                                                                                                                                           value=""
+                                                                                                                                                                                    name="phone">
                                                                                                                                                                                 </div>
                                                                                                                                                                             </div>
                                                                                                                                                                         </div>
@@ -890,8 +869,13 @@
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="macros-button">
                                                                                                                                                                         <div class="btn-out center xs-none">
-                                                                                                                                                                            <div class="btn-inner"><button class="btn hvr-grow" id="uid7" onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('ZOZ_Z');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('ZOZ_Z');return true;}"><span class="text">ЗАКАЗАТЬ ЗВОНОК
-                                                                                                                                          <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
+                                                                                                                                                                            <div class="btn-inner">
+                                                                                                                                                                                <button class="btn hvr-grow modalSubmit"
+                                                                                                                                                                                        id="uid7" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZOZ_Z'); return true;"
+
+                                                                                                                                                                                ><span
+                                                                                                                                                                                        class="text">ЗАКАЗАТЬ ЗВОНОК
+<span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                                                                             </div>
                                                                                                                                                                         </div>
                                                                                                                                                                     </div>
@@ -1052,7 +1036,7 @@
     <script class="adaptive">if (["sm", "md", "lg"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
     <div class="node node83 section section-clear sm-hidden md-hidden lg-hidden" data-opacity="0.95">
         <div class="wrapper1"
-             style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAHCAYAAAABIM1CAAAAFklEQVQoU2NkoBAwUqifYdQABsrDAAAI4wAIuRq7EAAAAABJRU5ErkJggg==);"
+             style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAHCAYAAAABIM1CAAAAFklEQVQoU2NkoBAwUqifYdQABsrDAAAI4wAIuRq7EAAAAABJRU5ErkJggg==&quot;);"
              data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/28bcd73cd042d785e7bc34ee9f794835.png"
              data-lazy-bgimage_size="1920,906">
             <div class="wrapper2">
@@ -1103,21 +1087,21 @@
                                         <div class="xs-force-center textable"><p
                                                 style="line-height: 0.8; text-align: center;"><span
                                                 style="font-size: 16px;"><span
-                                                style="font-family: Open Sans;">Сэкономьте драгоценное</span></span>
+                                                style="font-family: &quot;Open Sans&quot;;">Сэкономьте драгоценное</span></span>
                                         </p>
                                             <p style="line-height: 0.8; text-align: center;"><span
                                                     style="font-size: 16px;"><span
-                                                    style="font-family: Open Sans;">место в вашей квартире</span></span>
+                                                    style="font-family: &quot;Open Sans&quot;;">место в вашей квартире</span></span>
                                             </p>
                                             <p style="line-height: 0.8; text-align: center;"><span
                                                     style="font-size: 16px;"><span
-                                                    style="font-family: Open Sans;">или гараже&nbsp;</span></span><span
+                                                    style="font-family: &quot;Open Sans&quot;;">или гараже&nbsp;</span></span><span
                                                     style="font-size: 16px;"><span
-                                                    style="font-family: Open Sans;">за символическую</span></span>
+                                                    style="font-family: &quot;Open Sans&quot;;">за символическую</span></span>
                                             </p>
                                             <p style="line-height: 0.8; text-align: center;"><span
                                                     style="font-size: 16px;"><span
-                                                    style="font-family: Open Sans;">плату</span></span></p>
+                                                    style="font-family: &quot;Open Sans&quot;;">плату</span></span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -1136,7 +1120,7 @@
                                     <div class="macros-button">
                                         <div class="btn-out center xs-none">
                                             <div class="btn-inner">
-                                                <button class="btn hvr-grow" id="uid84" data-id="" data-action="modal"
+                                                <button class="btn hvr-grow btnModal" id="uid84" data-id="" data-action="modal"
                                                         data-ym_goal="MS" data-ga_category="" data-ga_action=""
                                                         need_hover="false" data-modal="custom"><span class="text">ПРОВЕРИТЬ НАЛИЧИЕ МЕСТ НА СКЛАДЕ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
@@ -1154,14 +1138,14 @@
                                                     <div class="modal-body">
                                                         <div class="cont">
                                                             <div class="node node89 widget widget-form2"
-                                                                 data-form="{name:Проверка наличия мест,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                                 data-form="{&quot;name&quot;:&quot;Проверка наличия мест&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                  data-isquiz="false">
                                                                 <div class="wrapper1">
                                                                     <div class="wrapper2">
                                                                         <div style="max-width: 384px; position: relative; margin-left: auto; margin-right: auto;">
                                                                             <div class="metahtml">
                                                                                 <div id="node89_meta" class="code">
-                                                                                    <div class="form1-cover">
+                                                                                    <div class="form1-cover" id="get-tyres-mobile" data-mod="uid84">
                                                                                         <div plp-form-container=""
                                                                                              colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                             <div class="cont">
@@ -1172,7 +1156,7 @@
                                                                                                                 <h3 class="font-header spans xs-force-center textable">
                                                                                                                     <span style="letter-spacing: 0.05em; text-align: center;"
                                                                                                                           class="p"><span
-                                                                                                                            style="font-family: Open Sans;"><span
+                                                                                                                            style="font-family: &quot;Open Sans&quot;;"><span
                                                                                                                             style="font-size: 16px;"><strong>Наличие мест на складе</strong></span></span></span>
                                                                                                                 </h3>
                                                                                                             </div>
@@ -1218,7 +1202,7 @@
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
                                                                                                                 <div id="node93_meta"
-                                                                                                                     data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                     data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="phone"
                                                                                                                          class="is-text">
@@ -1232,7 +1216,8 @@
                                                                                                                                    il-action="listen"
                                                                                                                                    autocomplete="tel"
                                                                                                                                    class="form-control"
-                                                                                                                                   value="">
+                                                                                                                                   value=""
+                                                                                                                            name="phone">
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -1246,15 +1231,8 @@
                                                                                                             <div class="macros-button">
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
-                                                                                                                        <button class="btn hvr-grow"
-                                                                                                                                id="uid86"
-                                                                                                                                data-id=""
-                                                                                                                                data-action="send"
-                                                                                                                                data-ym_goal="MSO"
-                                                                                                                                data-ga_category=""
-                                                                                                                                data-ga_action=""
-                                                                                                                                need_hover="false"><span
-                                                                                                                                class="text">ПРОВЕРИТЬ НАЛИЧИЕ МЕСТ
+                                                                                                                        <button class="btn hvr-grow modalSubmit"
+                                                                                                                                id="uid86">ПРОВЕРИТЬ НАЛИЧИЕ МЕСТ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -1323,7 +1301,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 40px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==);"
+                                                                     style="height: 40px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/b05e5055b3fbee708b18e20e52766768.png"
                                                                      data-lazy-bgimage_size="100,100"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1374,7 +1352,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 40px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==);"
+                                                                     style="height: 40px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/2a96134e3e10258f28174b0ab01a010f.png"
                                                                      data-lazy-bgimage_size="100,100"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1422,7 +1400,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 40px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==);"
+                                                                     style="height: 40px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/a813e98907b7c731ec5299d831c97dff.png"
                                                                      data-lazy-bgimage_size="100,100"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1475,7 +1453,7 @@
         <div class="wrapper1"
              data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/28bcd73cd042d785e7bc34ee9f794835.png"
              data-lazy-bgimage_size="1920,906"
-             style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAHCAYAAAABIM1CAAAAFklEQVQoU2NkoBAwUqifYdQABsrDAAAI4wAIuRq7EAAAAABJRU5ErkJggg==);">
+             style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAHCAYAAAABIM1CAAAAFklEQVQoU2NkoBAwUqifYdQABsrDAAAI4wAIuRq7EAAAAABJRU5ErkJggg==&quot;);">
             <div class="wrapper2">
                 <div class="container">
                     <div class="cont">
@@ -1485,7 +1463,44 @@
                                     <div class="code">
 
 
+                                        <script>
+                                            $(document).ready(function () {
+                                                setInterval(function () {
+                                                    $('.ripple').remove();
 
+                                                    $(".ripple-effect button").each(function () {
+                                                        var posX = $(this).offset().left,
+                                                            posY = $(this).offset().top,
+                                                            buttonWidth = $(this).outerWidth(),
+                                                            buttonHeight = $(this).outerHeight(),
+                                                            maxWidth = buttonWidth,
+                                                            maxHeight = buttonHeight,
+                                                            x = maxWidth / 2,
+                                                            y = maxHeight / 2;
+
+                                                        // Сделаем равносторонним Пульс
+                                                        if (buttonWidth >= buttonHeight) {
+                                                            buttonHeight = buttonWidth;
+                                                        } else {
+                                                            buttonWidth = buttonHeight;
+                                                        }
+
+                                                        x = buttonWidth / 2;
+                                                        y = buttonHeight / 2;
+
+                                                        //Добавим элемент
+
+                                                        var arrLeft = [x, 0, -x],
+                                                            randLeft = Math.floor(Math.random() * arrLeft.length),
+                                                            arrTop = [maxHeight - y, 0, -y],
+                                                            randTop = Math.floor(Math.random() * arrTop.length);
+
+                                                        $(this).prepend("<span class='ripple rippleEffect' style='width:" + buttonWidth +
+                                                            "px; height:" + buttonHeight + "px; left:" + arrLeft[randLeft] + "px; top:" + arrTop[randTop] + "px;'></span>");
+                                                    });
+                                                }, 3000);
+                                            });
+                                        </script>
 
                                     </div>
                                 </div>
@@ -1522,7 +1537,7 @@
                                         <div class="xs-force-center textable"><p
                                                 style="line-height: 0.8; text-align: center;"><span
                                                 style="font-size: 24px;"><span
-                                                style="font-family: Open Sans;">Сэкономьте драгоценное место в вашей квартире или гараже за символическую плату</span></span>
+                                                style="font-family: &quot;Open Sans&quot;;">Сэкономьте драгоценное место в вашей квартире или гараже за символическую плату</span></span>
                                         </p></div>
                                     </div>
                                 </div>
@@ -1541,12 +1556,10 @@
                                     <div class="macros-button">
                                         <div class="btn-out center xs-none">
                                             <div class="btn-inner">
-                                                <button class="btn hvr-grow" id="uid18" data-id="" data-action="modal"
+                                                <button class="btn hvr-grow btnModal" id="uid18" data-id="" data-action="modal"
                                                         data-ym_goal="MS" data-ga_category="" data-ga_action=""
-                                                        need_hover="false" data-modal="custom"
-                                                        onclick="if(siteUrl=='hranenie-shin'){yaCounter51444910.reachGoal('PNM');return true;}else if(siteUrl=='hranenie'){yaCounter51444892.reachGoal('PNM');return true;}"
-                                                >
-                                                    <span class="text">ПРОВЕРИТЬ НАЛИЧИЕ МЕСТ НА СКЛАДЕ
+                                                        need_hover="false" data-modal="custom" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PNM'); return true;"
+                                                ><span class="text">ПРОВЕРИТЬ НАЛИЧИЕ МЕСТ НА СКЛАДЕ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                             </div>
                                         </div>
@@ -1562,14 +1575,14 @@
                                                     <div class="modal-body">
                                                         <div class="cont">
                                                             <div class="node node125 widget widget-form2"
-                                                                 data-form="{name:Проверка наличия мест,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                                 data-form="{&quot;name&quot;:&quot;Проверка наличия мест&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                  data-isquiz="false">
                                                                 <div class="wrapper1">
                                                                     <div class="wrapper2">
                                                                         <div style="max-width: 384px; position: relative; margin-left: auto; margin-right: auto;">
                                                                             <div class="metahtml">
                                                                                 <div id="node125_meta" class="code">
-                                                                                    <div id="get-tyres" class="form1-cover">
+                                                                                    <div class="form1-cover" id="get-tyres" data-mod="uid18">
                                                                                         <div plp-form-container=""
                                                                                              colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                             <div class="cont">
@@ -1624,7 +1637,7 @@
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
                                                                                                                 <div id="node129_meta"
-                                                                                                                     data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                     data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="phone"
                                                                                                                          class="is-text">
@@ -1634,9 +1647,12 @@
                                                                                                                             *
                                                                                                                         </div>
                                                                                                                         <div class="input">
-                                                                                                                            <input type="text" name="phone"
-                                                                                                                                   il-action="listen" autocomplete="tel"
-                                                                                                                                   class="form-control" value="">
+                                                                                                                            <input type="text"
+                                                                                                                                   il-action="listen"
+                                                                                                                                   autocomplete="tel"
+                                                                                                                                   class="form-control"
+                                                                                                                                   value=""
+                                                                                                                            name="phone">
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -1650,9 +1666,9 @@
                                                                                                             <div class="macros-button">
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
-                                                                                                                        <button class="btn hvr-grow"
-                                                                                                                                id="uid20" onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('PNM_Z');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('PNM_Z');return true;}"><span
-                                                                                                                                class="text">ПРОВЕРИТЬ НАЛИЧИЕ МЕСТ
+                                                                                                                        <button class="btn hvr-grow modalSubmit"
+                                                                                                                                id="uid20" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PNM_Z'); return true;"
+                                                                                                                        >ПРОВЕРИТЬ НАЛИЧИЕ МЕСТ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -1721,7 +1737,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 40px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==);"
+                                                                     style="height: 40px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/b05e5055b3fbee708b18e20e52766768.png"
                                                                      data-lazy-bgimage_size="100,100"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1762,7 +1778,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 40px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==);"
+                                                                     style="height: 40px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/2a96134e3e10258f28174b0ab01a010f.png"
                                                                      data-lazy-bgimage_size="100,100"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1803,7 +1819,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 40px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==);"
+                                                                     style="height: 40px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/a813e98907b7c731ec5299d831c97dff.png"
                                                                      data-lazy-bgimage_size="100,100"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1878,7 +1894,7 @@
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="bgimage"
-                                         style="height: 180px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC);"
+                                         style="height: 180px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC&quot;);"
                                          data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6e9b090bc4ea9a6b768f124a22e3b809.png"
                                          data-lazy-bgimage_size="547,367"><img class=""
                                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -1912,7 +1928,7 @@
                                     <div class="macros-button">
                                         <div class="btn-out center xs-none">
                                             <div class="btn-inner">
-                                                <button class="btn hvr-grow" id="uid87" data-id="" data-action="modal"
+                                                <button class="btn hvr-grow btnModal" id="uid87" data-id="" data-action="modal"
                                                         data-ym_goal="SD" data-ga_category="" data-ga_action=""
                                                         need_hover="false" data-modal="custom"><span class="text">СДАТЬ ШИНЫ В БЛИЖАЙШИЙ АВТОЦЕНТР
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
@@ -1930,14 +1946,14 @@
                                                     <div class="modal-body">
                                                         <div class="cont">
                                                             <div class="node node159 widget widget-form2"
-                                                                 data-form="{name:Сдать шины в ближайший центр,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                                 data-form="{&quot;name&quot;:&quot;Сдать шины в ближайший центр&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                  data-isquiz="false">
                                                                 <div class="wrapper1">
                                                                     <div class="wrapper2">
                                                                         <div style="max-width: 384px; position: relative; margin-left: auto; margin-right: auto;">
                                                                             <div class="metahtml">
                                                                                 <div id="node159_meta" class="code">
-                                                                                    <div class="form1-cover">
+                                                                                    <div class="form1-cover" id="second-get-tyres-form-mobile" data-mod="uid87">
                                                                                         <div plp-form-container=""
                                                                                              colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                             <div class="cont">
@@ -1948,7 +1964,7 @@
                                                                                                                 <h3 class="font-header spans xs-force-center textable">
                                                                                                                     <span style="letter-spacing: 0.05em; text-align: center;"
                                                                                                                           class="p"><span
-                                                                                                                            style="font-family: Open Sans;"><span
+                                                                                                                            style="font-family: &quot;Open Sans&quot;;"><span
                                                                                                                             style="font-size: 16px;"><strong>Заявка на хранение шин</strong></span></span></span>
                                                                                                                 </h3>
                                                                                                             </div>
@@ -1991,7 +2007,7 @@
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
                                                                                                                 <div id="node163_meta"
-                                                                                                                     data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                     data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&ququot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="phone"
                                                                                                                          class="is-text">
@@ -2005,7 +2021,8 @@
                                                                                                                                    il-action="listen"
                                                                                                                                    autocomplete="tel"
                                                                                                                                    class="form-control"
-                                                                                                                                   value="">
+                                                                                                                                   value=""
+                                                                                                                            name="phone">
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -2019,15 +2036,9 @@
                                                                                                             <div class="macros-button">
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
-                                                                                                                        <button class="btn hvr-grow"
+                                                                                                                        <button class="btn hvr-grow modalSubmit"
                                                                                                                                 id="uid89"
-                                                                                                                                data-id=""
-                                                                                                                                data-action="send"
-                                                                                                                                data-ym_goal="SDO"
-                                                                                                                                data-ga_category=""
-                                                                                                                                data-ga_action=""
-                                                                                                                                need_hover="false"><span
-                                                                                                                                class="text">ОСТАВИТЬ ЗАЯВКУ НА ХРАНЕНИЕ
+                                                                                                                                >ОСТАВИТЬ ЗАЯВКУ НА ХРАНЕНИЕ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -2094,7 +2105,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 330px; background-position: left center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC);"
+                                                                     style="height: 330px; background-position: left center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6e9b090bc4ea9a6b768f124a22e3b809.png"
                                                                      data-lazy-bgimage_size="547,367"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -2140,12 +2151,10 @@
                                     <div class="macros-button">
                                         <div class="btn-out center xs-none">
                                             <div class="btn-inner">
-                                                <button class="btn hvr-grow" id="uid21" data-id="" data-action="modal"
+                                                <button class="btn hvr-grow btnModal" id="uid21" data-id="" data-action="modal"
                                                         data-ym_goal="SD" data-ga_category="" data-ga_action=""
-                                                        need_hover="false" data-modal="custom"
-                                                        onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('SH');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('SH');return true;}"
-                                                >
-                                                    <span class="text">СДАТЬ ШИНЫ В БЛИЖАЙШИЙ АВТОЦЕНТР
+                                                        need_hover="false" data-modal="custom" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'SH'); return true;"
+                                                ><span class="text">СДАТЬ ШИНЫ В БЛИЖАЙШИЙ АВТОЦЕНТР
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                             </div>
                                         </div>
@@ -2161,14 +2170,14 @@
                                                     <div class="modal-body">
                                                         <div class="cont">
                                                             <div class="node node182 widget widget-form2"
-                                                                 data-form="{name:Сдать шины в ближайший центр,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                                 data-form="{&quot;name&quot;:&quot;Сдать шины в ближайший центр&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                  data-isquiz="false">
                                                                 <div class="wrapper1">
                                                                     <div class="wrapper2">
                                                                         <div style="max-width: 384px; position: relative; margin-left: auto; margin-right: auto;">
                                                                             <div class="metahtml">
                                                                                 <div id="node182_meta" class="code">
-                                                                                    <div id="second-get-tyres-form" class="form1-cover">
+                                                                                    <div class="form1-cover" id="second-get-tyres-form" data-mod="uid21">
                                                                                         <div plp-form-container=""
                                                                                              colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                             <div class="cont">
@@ -2221,7 +2230,7 @@
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
                                                                                                                 <div id="node186_meta"
-                                                                                                                     data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                     data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="phone"
                                                                                                                          class="is-text">
@@ -2232,11 +2241,11 @@
                                                                                                                         </div>
                                                                                                                         <div class="input">
                                                                                                                             <input type="text"
-                                                                                                                                   name="phone"
                                                                                                                                    il-action="listen"
                                                                                                                                    autocomplete="tel"
                                                                                                                                    class="form-control"
-                                                                                                                                   value="">
+                                                                                                                                   value=""
+                                                                                                                            name="phone">
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -2250,9 +2259,9 @@
                                                                                                             <div class="macros-button">
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
-                                                                                                                        <button class="btn hvr-grow"
-                                                                                                                                id="uid23" onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('SH_Z');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('SH_Z');return true;}"><span
-                                                                                                                                class="text">ОСТАВИТЬ ЗАЯВКУ НА ХРАНЕНИЕ
+                                                                                                                        <button class="btn hvr-grow modalSubmit"
+                                                                                                                                id="uid23" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'SH_Z'); return true;"
+                                                                                                                        >ОСТАВИТЬ ЗАЯВКУ НА ХРАНЕНИЕ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -2286,7 +2295,7 @@
     <script class="adaptive">if (["sm", "md", "lg"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
     <div class="node node193 section section-clear sm-hidden md-hidden lg-hidden" id="sklad" data-opacity="0.95">
         <div class="wrapper1"
-             style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==);"
+             style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==&quot;);"
              data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/401d4eed72f7b64f338a9a799537de4f.jpg"
              data-lazy-bgimage_size="1419,462">
             <div class="wrapper2">
@@ -2299,17 +2308,17 @@
                                         <div class="xs-force-center textable"><p
                                                 style="text-align: center; line-height: 0.7;"><span
                                                 style="font-size: 24px;"><span style="color: rgb(255, 255, 255);"><span
-                                                style="font-family: TTNorms Bold;">Технология хранения</span></span></span>
+                                                style="font-family: &quot;TTNorms Bold&quot;;">Технология хранения</span></span></span>
                                         </p>
                                             <p style="text-align: center; line-height: 0.7;"><span
                                                     style="font-size: 24px;"><span
                                                     style="color: rgb(255, 255, 255);"><span
-                                                    style="font-family: TTNorms Bold;">у которой нет аналогов</span></span></span>
+                                                    style="font-family: &quot;TTNorms Bold&quot;;">у которой нет аналогов</span></span></span>
                                             </p>
                                             <p style="text-align: center; line-height: 0.7;"><span
                                                     style="font-size: 24px;"><span
                                                     style="color: rgb(255, 255, 255);"><span
-                                                    style="font-family: TTNorms Bold;">в Росии</span></span></span>
+                                                    style="font-family: &quot;TTNorms Bold&quot;;">в Росии</span></span></span>
                                             </p></div>
                                     </div>
                                 </div>
@@ -2407,7 +2416,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==);"
+                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/2a9b7ecba95ea9df0386a6ae71f3e751.png"
                                                                      data-lazy-bgimage_size="100,100"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -2452,7 +2461,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==);"
+                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/d53dfe887046c13d8cc9289d81be12c9.png"
                                                                      data-lazy-bgimage_size="100,100"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -2496,7 +2505,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==);"
+                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/a978cb24ea2067157f2bb12c173be5fc.png"
                                                                      data-lazy-bgimage_size="100,100"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -2540,7 +2549,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==);"
+                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6fd6c6eb1c8a64d66721b8739af25d09.png"
                                                                      data-lazy-bgimage_size="100,100"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -2593,7 +2602,7 @@
                                     <div class="macros-button">
                                         <div class="btn-out center xs-none">
                                             <div class="btn-inner">
-                                                <button class="btn hvr-grow" id="uid92" data-id="" data-action="modal"
+                                                <button class="btn hvr-grow btnModal" id="uid92" data-id="" data-action="modal"
                                                         data-ym_goal="BRON" data-ga_category="" data-ga_action=""
                                                         need_hover="false" data-modal="custom"><span class="text">ЗАБРОНИРОВАТЬ МЕСТО НА СКЛАДЕ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
@@ -2611,14 +2620,14 @@
                                                     <div class="modal-body">
                                                         <div class="cont">
                                                             <div class="node node220 widget widget-form2"
-                                                                 data-form="{name:Забронировать место на складе,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                                 data-form="{&quot;name&quot;:&quot;Забронировать место на складе&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                  data-isquiz="false">
                                                                 <div class="wrapper1">
                                                                     <div class="wrapper2">
                                                                         <div style="max-width: 400px; position: relative; margin-left: auto; margin-right: auto;">
                                                                             <div class="metahtml">
                                                                                 <div id="node220_meta" class="code">
-                                                                                    <div class="form1-cover">
+                                                                                    <div class="form1-cover" id="bronirovanie-mobile" data-mod="uid92">
                                                                                         <div plp-form-container=""
                                                                                              colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                             <div class="cont">
@@ -2629,13 +2638,13 @@
                                                                                                                 <h3 class="font-header spans xs-force-center textable">
                                                                                                                     <span style="letter-spacing: 0.05em; text-align: center;"
                                                                                                                           class="p"><span
-                                                                                                                            style="font-family: Open Sans;"><span
+                                                                                                                            style="font-family: &quot;Open Sans&quot;;"><span
                                                                                                                             style="font-size: 16px;"><strong>Бронирование</strong></span></span></span><span
                                                                                                                         style="letter-spacing: 0.05em; text-align: center;"
                                                                                                                         class="p"><span
-                                                                                                                        style="font-family: Open Sans;"><span
+                                                                                                                        style="font-family: &quot;Open Sans&quot;;"><span
                                                                                                                         style="font-size: 16px;"><strong>места&nbsp;</strong></span></span><span
-                                                                                                                        style="font-family: Open Sans;"><span
+                                                                                                                        style="font-family: &quot;Open Sans&quot;;"><span
                                                                                                                         style="font-size: 16px;"><strong>на складе</strong></span></span></span>
                                                                                                                 </h3>
                                                                                                             </div>
@@ -2680,7 +2689,7 @@
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
                                                                                                                 <div id="node224_meta"
-                                                                                                                     data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                     data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="phone"
                                                                                                                          class="is-text">
@@ -2694,7 +2703,8 @@
                                                                                                                                    il-action="listen"
                                                                                                                                    autocomplete="tel"
                                                                                                                                    class="form-control"
-                                                                                                                                   value="">
+                                                                                                                                   value=""
+                                                                                                                            name="phone">
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -2708,15 +2718,9 @@
                                                                                                             <div class="macros-button">
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
-                                                                                                                        <button class="btn hvr-grow"
+                                                                                                                        <button class="btn hvr-grow modalSubmit"
                                                                                                                                 id="uid94"
-                                                                                                                                data-id=""
-                                                                                                                                data-action="send"
-                                                                                                                                data-ym_goal="BRONO"
-                                                                                                                                data-ga_category=""
-                                                                                                                                data-ga_action=""
-                                                                                                                                need_hover="false"><span
-                                                                                                                                class="text">ЗАБРОНИРОВАТЬ МЕСТО НА СКЛАДЕ
+                                                                                                                                >ЗАБРОНИРОВАТЬ МЕСТО НА СКЛАДЕ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -2752,7 +2756,7 @@
         <div class="wrapper1"
              data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/401d4eed72f7b64f338a9a799537de4f.jpg"
              data-lazy-bgimage_size="1419,462"
-             style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==);">
+             style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==&quot;);">
             <div class="wrapper2">
                 <div class="container">
                     <div class="cont">
@@ -2763,7 +2767,7 @@
                                         <div class="xs-force-center textable"><p
                                                 style="text-align: center; line-height: 0.8;"><span
                                                 style="color: rgb(255, 255, 255);"><span style="font-size: 36px;"><span
-                                                style="font-family: TTNorms Bold;">Технология хранения у которой нет аналогов в Росии</span></span></span>
+                                                style="font-family: &quot;TTNorms Bold&quot;;">Технология хранения у которой нет аналогов в Росии</span></span></span>
                                         </p></div>
                                     </div>
                                 </div>
@@ -2798,7 +2802,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==);"
+                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/2a9b7ecba95ea9df0386a6ae71f3e751.png"
                                                                      data-lazy-bgimage_size="100,100"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -2843,7 +2847,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==);"
+                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/d53dfe887046c13d8cc9289d81be12c9.png"
                                                                      data-lazy-bgimage_size="100,100"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -2950,7 +2954,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==);"
+                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/a978cb24ea2067157f2bb12c173be5fc.png"
                                                                      data-lazy-bgimage_size="100,100"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -2994,7 +2998,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==);"
+                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg==&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6fd6c6eb1c8a64d66721b8739af25d09.png"
                                                                      data-lazy-bgimage_size="100,100"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -3047,11 +3051,10 @@
                                     <div class="macros-button">
                                         <div class="btn-out center xs-none">
                                             <div class="btn-inner">
-                                                <button class="btn hvr-grow" id="uid26" data-id="" data-action="modal"
+                                                <button class="btn hvr-grow btnModal" id="uid26" data-id="" data-action="modal"
                                                         data-ym_goal="BRON" data-ga_category="" data-ga_action=""
-                                                        need_hover="false" data-modal="custom"><span class="text"
-                                                        onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('ZMS');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('ZMS');return true;}"
-                                                >ЗАБРОНИРОВАТЬ МЕСТО НА СКЛАДЕ
+                                                        need_hover="false" data-modal="custom" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZMS'); return true;"
+                                                ><span class="text">ЗАБРОНИРОВАТЬ МЕСТО НА СКЛАДЕ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                             </div>
                                         </div>
@@ -3067,14 +3070,14 @@
                                                     <div class="modal-body">
                                                         <div class="cont">
                                                             <div class="node node257 widget widget-form2"
-                                                                 data-form="{name:Забронировать место на складе,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                                 data-form="{&quot;name&quot;:&quot;Забронировать место на складе&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                  data-isquiz="false">
                                                                 <div class="wrapper1">
                                                                     <div class="wrapper2">
                                                                         <div style="max-width: 400px; position: relative; margin-left: auto; margin-right: auto;">
                                                                             <div class="metahtml">
                                                                                 <div id="node257_meta" class="code">
-                                                                                    <div id="bronirovanie" class="form1-cover">
+                                                                                    <div class="form1-cover" id="bronirovanie" data-mod="uid26">
                                                                                         <div plp-form-container=""
                                                                                              colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                             <div class="cont">
@@ -3128,7 +3131,7 @@
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
                                                                                                                 <div id="node261_meta"
-                                                                                                                     data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                     data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="phone"
                                                                                                                          class="is-text">
@@ -3139,11 +3142,11 @@
                                                                                                                         </div>
                                                                                                                         <div class="input">
                                                                                                                             <input type="text"
-                                                                                                                                   name="phone"
                                                                                                                                    il-action="listen"
                                                                                                                                    autocomplete="tel"
                                                                                                                                    class="form-control"
-                                                                                                                                   value="">
+                                                                                                                                   value=""
+                                                                                                                            name="phone">
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -3157,9 +3160,9 @@
                                                                                                             <div class="macros-button">
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
-                                                                                                                        <button class="btn hvr-grow"
-                                                                                                                                id="uid28" onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('ZMS_Z');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('ZMS_Z');return true;}"><span
-                                                                                                                                class="text">ЗАБРОНИРОВАТЬ МЕСТО НА СКЛАДЕ
+                                                                                                                        <button class="btn hvr-grow modalSubmit"
+                                                                                                                                id="uid28" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZMS_Z'); return true;"
+                                                                                                                        >ЗАБРОНИРОВАТЬ МЕСТО НА СКЛАДЕ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -3649,7 +3652,7 @@
     <script class="adaptive">if (["sm", "md", "lg"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
     <div class="node node298 section section-clear sm-hidden md-hidden lg-hidden" id="shema" data-opacity="0.95">
         <div class="wrapper1"
-             style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC);"
+             style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC&quot;);"
              data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/08dd4ee62fc61eba13a19170157281db.jpg"
              data-lazy-bgimage_size="807,540">
             <div class="wrapper2">
@@ -3662,12 +3665,12 @@
                                         <div class="xs-force-center textable"><p
                                                 style="text-align: center; line-height: 0.7;"><span
                                                 style="font-size: 24px;"><span style="color: rgb(255, 255, 255);"><span
-                                                style="font-family: TTNorms Bold;">Процесс передачи</span></span></span>
+                                                style="font-family: &quot;TTNorms Bold&quot;;">Процесс передачи</span></span></span>
                                         </p>
                                             <p style="text-align: center; line-height: 0.7;"><span
                                                     style="font-size: 24px;"><span
                                                     style="color: rgb(255, 255, 255);"><span
-                                                    style="font-family: TTNorms Bold;">колес на хранение</span></span></span>
+                                                    style="font-family: &quot;TTNorms Bold&quot;;">колес на хранение</span></span></span>
                                             </p></div>
                                     </div>
                                 </div>
@@ -3714,7 +3717,7 @@
                                                                         <div class="wrapper1">
                                                                             <div class="wrapper2">
                                                                                 <div class="bgimage"
-                                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==);"
+                                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==&quot;);"
                                                                                      data-lazy-bgimage="//u6.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/744007a4bbb70ccdb40d64d4348f9057.png"
                                                                                      data-lazy-bgimage_size="1500,542">
                                                                                     <img class=""
@@ -3738,7 +3741,7 @@
                                                                                             <span style="font-size: 18px;">или звоните по телефону:</span>
                                                                                         </p>
                                                                                         <p style="text-align: center; line-height: 0.8;">
-                                                                                            <span class="phone_number" style="font-size: 18px;">8 (800) 550-07-39</span>
+                                                                                            <span style="font-size: 18px;">8 (800) 222-39-18</span>
                                                                                         </p></div>
                                                                                 </div>
                                                                             </div>
@@ -3754,7 +3757,7 @@
                                                                         <div class="wrapper1">
                                                                             <div class="wrapper2">
                                                                                 <div class="bgimage"
-                                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==);"
+                                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==&quot;);"
                                                                                      data-lazy-bgimage="//u6.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/744007a4bbb70ccdb40d64d4348f9057.png"
                                                                                      data-lazy-bgimage_size="1500,542">
                                                                                     <img class=""
@@ -3797,7 +3800,7 @@
                                                                         <div class="wrapper1">
                                                                             <div class="wrapper2">
                                                                                 <div class="bgimage"
-                                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==);"
+                                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==&quot;);"
                                                                                      data-lazy-bgimage="//u6.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/744007a4bbb70ccdb40d64d4348f9057.png"
                                                                                      data-lazy-bgimage_size="1500,542">
                                                                                     <img class=""
@@ -3840,7 +3843,7 @@
                                                                         <div class="wrapper1">
                                                                             <div class="wrapper2">
                                                                                 <div class="bgimage"
-                                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==);"
+                                                                                     style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==&quot;);"
                                                                                      data-lazy-bgimage="//u6.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/744007a4bbb70ccdb40d64d4348f9057.png"
                                                                                      data-lazy-bgimage_size="1500,542">
                                                                                     <img class=""
@@ -3897,7 +3900,7 @@
                                     <div class="macros-button">
                                         <div class="btn-out center xs-none">
                                             <div class="btn-inner">
-                                                <button class="btn hvr-grow" id="uid105" data-id="" data-action="modal"
+                                                <button class="btn hvr-grow btnModal" id="uid105" data-id="" data-action="modal"
                                                         data-ym_goal="HRAN" data-ga_category="" data-ga_action=""
                                                         need_hover="false" data-modal="custom"><span class="text">ОСТАВИТЬ ЗАЯВКУ НА ХРАНЕНИЕ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
@@ -3915,14 +3918,14 @@
                                                     <div class="modal-body">
                                                         <div class="cont">
                                                             <div class="node node312 widget widget-form2"
-                                                                 data-form="{name:Заявка на хранение шин,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                                 data-form="{&quot;name&quot;:&quot;Заявка на хранение шин&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                  data-isquiz="false">
                                                                 <div class="wrapper1">
                                                                     <div class="wrapper2">
                                                                         <div style="max-width: 384px; position: relative; margin-left: auto; margin-right: auto;">
                                                                             <div class="metahtml">
                                                                                 <div id="node312_meta" class="code">
-                                                                                    <div class="form1-cover">
+                                                                                    <div class="form1-cover" id="hranenie-shin-mobile" data-mod="uid105">
                                                                                         <div plp-form-container=""
                                                                                              colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                             <div class="cont">
@@ -3933,11 +3936,11 @@
                                                                                                                 <h3 class="font-header spans xs-force-center textable">
                                                                                                                     <span style="letter-spacing: 0.05em; text-align: center;"
                                                                                                                           class="p"><span
-                                                                                                                            style="font-family: Open Sans;"><span
+                                                                                                                            style="font-family: &quot;Open Sans&quot;;"><span
                                                                                                                             style="font-size: 16px;"><strong>Заявка</strong></span></span></span><span
                                                                                                                         style="letter-spacing: 0.05em; text-align: center;"
                                                                                                                         class="p"><span
-                                                                                                                        style="font-family: Open Sans;"><span
+                                                                                                                        style="font-family: &quot;Open Sans&quot;;"><span
                                                                                                                         style="font-size: 16px;"><strong>на хранение шин</strong></span></span></span>
                                                                                                                 </h3>
                                                                                                             </div>
@@ -3980,7 +3983,7 @@
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
                                                                                                                 <div id="node316_meta"
-                                                                                                                     data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                     data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="phone"
                                                                                                                          class="is-text">
@@ -3994,7 +3997,8 @@
                                                                                                                                    il-action="listen"
                                                                                                                                    autocomplete="tel"
                                                                                                                                    class="form-control"
-                                                                                                                                   value="">
+                                                                                                                                   value=""
+                                                                                                                            name="phone">
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -4008,15 +4012,9 @@
                                                                                                             <div class="macros-button">
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
-                                                                                                                        <button class="btn hvr-grow"
+                                                                                                                        <button class="btn hvr-grow modalSubmit"
                                                                                                                                 id="uid107"
-                                                                                                                                data-id=""
-                                                                                                                                data-action="send"
-                                                                                                                                data-ym_goal="HRANO"
-                                                                                                                                data-ga_category=""
-                                                                                                                                data-ga_action=""
-                                                                                                                                need_hover="false"><span
-                                                                                                                                class="text">ОСТАВИТЬ ЗАЯВКУ НА ХРАНЕНИЕ
+                                                                                                                                >ОСТАВИТЬ ЗАЯВКУ НА ХРАНЕНИЕ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -4052,7 +4050,7 @@
         <div class="wrapper1"
              data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/08dd4ee62fc61eba13a19170157281db.jpg"
              data-lazy-bgimage_size="807,540"
-             style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC);">
+             style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC&quot;);">
             <div class="wrapper2">
                 <div class="container">
                     <div class="cont">
@@ -4063,7 +4061,7 @@
                                         <div class="xs-force-center textable"><p
                                                 style="text-align: center; line-height: 0.8;"><span
                                                 style="color: rgb(255, 255, 255);"><span style="font-size: 36px;"><span
-                                                style="font-family: TTNorms Bold;">Процесс передачи колес на хранение</span></span></span>
+                                                style="font-family: &quot;TTNorms Bold&quot;;">Процесс передачи колес на хранение</span></span></span>
                                         </p></div>
                                     </div>
                                 </div>
@@ -4118,7 +4116,7 @@
                                                                                                     <div class="wrapper1">
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="bgimage"
-                                                                                                                 style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==);"
+                                                                                                                 style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==&quot;);"
                                                                                                                  data-lazy-bgimage="//u6.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/744007a4bbb70ccdb40d64d4348f9057.png"
                                                                                                                  data-lazy-bgimage_size="1500,542">
                                                                                                                 <img class=""
@@ -4157,7 +4155,7 @@
                                                                                 <div class="">
                                                                                     <div class="xs-force-center textable">
                                                                                         <p style="text-align: center;">
-                                                                                            <span class="phone_number" style="font-size: 18px;">Оставляете заявку на сайте или звоните по телефону 8 (800) 550-07-39</span>
+                                                                                            <span style="font-size: 18px;">Оставляете заявку на сайте или звоните по телефону 8 (800) 222-39-18</span>
                                                                                         </p></div>
                                                                                 </div>
                                                                             </div>
@@ -4185,7 +4183,7 @@
                                                                                                     <div class="wrapper1">
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="bgimage"
-                                                                                                                 style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==);"
+                                                                                                                 style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==&quot;);"
                                                                                                                  data-lazy-bgimage="//u6.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/744007a4bbb70ccdb40d64d4348f9057.png"
                                                                                                                  data-lazy-bgimage_size="1500,542">
                                                                                                                 <img class=""
@@ -4252,7 +4250,7 @@
                                                                                                     <div class="wrapper1">
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="bgimage"
-                                                                                                                 style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==);"
+                                                                                                                 style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==&quot;);"
                                                                                                                  data-lazy-bgimage="//u6.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/744007a4bbb70ccdb40d64d4348f9057.png"
                                                                                                                  data-lazy-bgimage_size="1500,542">
                                                                                                                 <img class=""
@@ -4319,7 +4317,7 @@
                                                                                                     <div class="wrapper1">
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="bgimage"
-                                                                                                                 style="height: 60px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==);"
+                                                                                                                 style="height: 60px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg==&quot;);"
                                                                                                                  data-lazy-bgimage="//u6.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/744007a4bbb70ccdb40d64d4348f9057.png"
                                                                                                                  data-lazy-bgimage_size="1500,542">
                                                                                                                 <img class=""
@@ -4379,17 +4377,16 @@
                                     <div class="macros-button">
                                         <div class="btn-out center xs-none">
                                             <div class="btn-inner">
-                                                <button class="btn hvr-grow" id="uid39" data-id="" data-action="modal"
+                                                <button class="btn hvr-grow btnModal" id="uid39" data-id="" data-action="modal"
                                                         data-ym_goal="HRAN" data-ga_category="" data-ga_action=""
-                                                        need_hover="false" data-modal="custom"><span class="text"
-                                                        onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('OZH');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('OZH');return true;}"
-                                                >ОСТАВИТЬ ЗАЯВКУ НА ХРАНЕНИЕ
+                                                        need_hover="false" data-modal="custom" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'OZH'); return true;"><span class="text">ОСТАВИТЬ ЗАЯВКУ НА ХРАНЕНИЕ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="macros-modal">
-                                        <div class="modal fade nocolors" data-modal="custom" area-context="uid40">
+                                        <div class="modal fade nocolors" data-modal="custom" area-context="uid40" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', ''); return true;"
+                                        >
                                             <div class="modal-dialog" style="width: 426px;">
                                                 <div class="modal-content">
                                                     <div class="modal-header">
@@ -4399,14 +4396,14 @@
                                                     <div class="modal-body">
                                                         <div class="cont">
                                                             <div class="node node345 widget widget-form2"
-                                                                 data-form="{name:Заявка на хранение шин,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                                 data-form="{&quot;name&quot;:&quot;Заявка на хранение шин&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                  data-isquiz="false">
                                                                 <div class="wrapper1">
                                                                     <div class="wrapper2">
                                                                         <div style="max-width: 384px; position: relative; margin-left: auto; margin-right: auto;">
                                                                             <div class="metahtml">
                                                                                 <div id="node345_meta" class="code">
-                                                                                    <div id="tire-fitting" class="form1-cover">
+                                                                                    <div class="form1-cover" id="hranenie-shin" data-mod="uid39">
                                                                                         <div plp-form-container=""
                                                                                              colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                             <div class="cont">
@@ -4459,7 +4456,7 @@
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
                                                                                                                 <div id="node349_meta"
-                                                                                                                     data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                     data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="phone"
                                                                                                                          class="is-text">
@@ -4470,11 +4467,11 @@
                                                                                                                         </div>
                                                                                                                         <div class="input">
                                                                                                                             <input type="text"
-                                                                                                                                   name="phone"
                                                                                                                                    il-action="listen"
                                                                                                                                    autocomplete="tel"
                                                                                                                                    class="form-control"
-                                                                                                                                   value="">
+                                                                                                                                   value=""
+                                                                                                                            name="phone">
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -4488,8 +4485,9 @@
                                                                                                             <div class="macros-button">
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
-                                                                                                                        <button class="btn hvr-grow"
-                                                                                                                                id="uid41" onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('OZH_Z');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('OZH_Z');return true;}"><span
+                                                                                                                        <button class="btn hvr-grow modalSubmit"
+                                                                                                                                id="uid41" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'OZH_Z'); return true;"
+                                                                                                                        ><span
                                                                                                                                 class="text">ОСТАВИТЬ ЗАЯВКУ НА ХРАНЕНИЕ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
@@ -4618,7 +4616,7 @@
                                                                         <div class="wrapper1">
                                                                             <div class="wrapper2">
                                                                                 <div class="bgimage"
-                                                                                     style="height: 190px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC);"
+                                                                                     style="height: 190px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC&quot;);"
                                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/f78038e52ede0558bc54908ce373a806.jpg"
                                                                                      data-lazy-bgimage_size="807,540">
                                                                                     <img class=""
@@ -4745,7 +4743,7 @@
                                                                         <div class="wrapper1">
                                                                             <div class="wrapper2">
                                                                                 <div class="bgimage"
-                                                                                     style="height: 160px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAFklEQVQoU2NkoBAwUqifYdQAhuEQBgANtgAKhIZC3wAAAABJRU5ErkJggg==);"
+                                                                                     style="height: 160px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAFklEQVQoU2NkoBAwUqifYdQAhuEQBgANtgAKhIZC3wAAAABJRU5ErkJggg==&quot;);"
                                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/a8ca99b60c1a1004648a2f8b1520b3c5.jpg"
                                                                                      data-lazy-bgimage_size="781,462">
                                                                                     <img class=""
@@ -4781,7 +4779,7 @@
                                     <div class="macros-button">
                                         <div class="btn-out center xs-none">
                                             <div class="btn-inner">
-                                                <button class="btn hvr-grow" id="uid112" data-id="" data-action="modal"
+                                                <button class="btn hvr-grow btnModal" id="uid112" data-id="" data-action="modal"
                                                         data-ym_goal="BLJ" data-ga_category="" data-ga_action=""
                                                         need_hover="false" data-modal="custom"><span class="text">ЗАПИСАТЬСЯ НА ШИНОМОНТАЖ В БЛИЖАЙШИЙ АВТОЦЕНТР
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
@@ -4799,14 +4797,14 @@
                                                     <div class="modal-body">
                                                         <div class="cont">
                                                             <div class="node node374 widget widget-form2"
-                                                                 data-form="{name:Запись на шиномонтаж,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                                 data-form="{&quot;name&quot;:&quot;Запись на шиномонтаж&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                  data-isquiz="false">
                                                                 <div class="wrapper1">
                                                                     <div class="wrapper2">
                                                                         <div style="max-width: 384px; position: relative; margin-left: auto; margin-right: auto;">
                                                                             <div class="metahtml">
                                                                                 <div id="node374_meta" class="code">
-                                                                                    <div class="form1-cover">
+                                                                                    <div class="form1-cover" id="store-amount-mobile" data-mod="uid112">
                                                                                         <div plp-form-container=""
                                                                                              colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                             <div class="cont">
@@ -4860,7 +4858,7 @@
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
                                                                                                                 <div id="node378_meta"
-                                                                                                                     data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                     data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="phone"
                                                                                                                          class="is-text">
@@ -4874,7 +4872,8 @@
                                                                                                                                    il-action="listen"
                                                                                                                                    autocomplete="tel"
                                                                                                                                    class="form-control"
-                                                                                                                                   value="">
+                                                                                                                                   value=""
+                                                                                                                            name="phone">
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -4888,15 +4887,9 @@
                                                                                                             <div class="macros-button">
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
-                                                                                                                        <button class="btn hvr-grow"
+                                                                                                                        <button class="btn hvr-grow modalSubmit"
                                                                                                                                 id="uid114"
-                                                                                                                                data-id=""
-                                                                                                                                data-action="send"
-                                                                                                                                data-ym_goal="BLJO"
-                                                                                                                                data-ga_category=""
-                                                                                                                                data-ga_action=""
-                                                                                                                                need_hover="false"><span
-                                                                                                                                class="text">ЗАПИСАТЬСЯ НА ШИНОМОНТАЖ
+                                                                                                                                >ЗАПИСАТЬСЯ НА ШИНОМОНТАЖ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -5020,7 +5013,7 @@
                                                                         <div class="wrapper1">
                                                                             <div class="wrapper2">
                                                                                 <div class="bgimage"
-                                                                                     style="height: 350px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC);"
+                                                                                     style="height: 350px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC&quot;);"
                                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/f78038e52ede0558bc54908ce373a806.jpg"
                                                                                      data-lazy-bgimage_size="807,540">
                                                                                     <img class=""
@@ -5147,7 +5140,7 @@
                                                                         <div class="wrapper1">
                                                                             <div class="wrapper2">
                                                                                 <div class="bgimage"
-                                                                                     style="height: 350px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAFklEQVQoU2NkoBAwUqifYdQAhuEQBgANtgAKhIZC3wAAAABJRU5ErkJggg==);"
+                                                                                     style="height: 350px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAFklEQVQoU2NkoBAwUqifYdQAhuEQBgANtgAKhIZC3wAAAABJRU5ErkJggg==&quot;);"
                                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/a8ca99b60c1a1004648a2f8b1520b3c5.jpg"
                                                                                      data-lazy-bgimage_size="781,462">
                                                                                     <img class=""
@@ -5183,11 +5176,9 @@
                                     <div class="macros-button">
                                         <div class="btn-out center xs-none">
                                             <div class="btn-inner">
-                                                <button class="btn hvr-grow" id="uid46" data-id="" data-action="modal"
+                                                <button class="btn hvr-grow btnModal" id="uid46" data-id="" data-action="modal"
                                                         data-ym_goal="BLJ" data-ga_category="" data-ga_action=""
-                                                        need_hover="false" data-modal="custom"><span class="text"
-                                                        onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('ZSM');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('ZSM');return true;}"
-                                                >ЗАПИСАТЬСЯ НА ШИНОМОНТАЖ В БЛИЖАЙШИЙ АВТОЦЕНТР
+                                                        need_hover="false" data-modal="custom" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZSM'); return true;"><span class="text">ЗАПИСАТЬСЯ НА ШИНОМОНТАЖ В БЛИЖАЙШИЙ АВТОЦЕНТР
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                             </div>
                                         </div>
@@ -5203,14 +5194,14 @@
                                                     <div class="modal-body">
                                                         <div class="cont">
                                                             <div class="node node403 widget widget-form2"
-                                                                 data-form="{name:Запись на шиномонтаж,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                                 data-form="{&quot;name&quot;:&quot;Запись на шиномонтаж&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                  data-isquiz="false">
                                                                 <div class="wrapper1">
                                                                     <div class="wrapper2">
                                                                         <div style="max-width: 384px; position: relative; margin-left: auto; margin-right: auto;">
                                                                             <div class="metahtml">
                                                                                 <div id="node403_meta" class="code">
-                                                                                    <div id="store-amount" class="form1-cover">
+                                                                                    <div class="form1-cover" id="store-amount" data-mod="uid46">
                                                                                         <div plp-form-container=""
                                                                                              colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                             <div class="cont">
@@ -5263,7 +5254,7 @@
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
                                                                                                                 <div id="node407_meta"
-                                                                                                                     data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                     data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="phone"
                                                                                                                          class="is-text">
@@ -5274,11 +5265,11 @@
                                                                                                                         </div>
                                                                                                                         <div class="input">
                                                                                                                             <input type="text"
-                                                                                                                                   name="phone"
                                                                                                                                    il-action="listen"
                                                                                                                                    autocomplete="tel"
                                                                                                                                    class="form-control"
-                                                                                                                                   value="">
+                                                                                                                                   value=""
+                                                                                                                            name="phone">
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -5292,9 +5283,9 @@
                                                                                                             <div class="macros-button">
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
-                                                                                                                        <button class="btn hvr-grow"
-                                                                                                                                id="uid48" onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('ZSM_Z');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('ZSM_Z');return true;}"><span
-                                                                                                                                class="text">ЗАПИСАТЬСЯ НА ШИНОМОНТАЖ
+                                                                                                                        <button class="btn hvr-grow modalSubmit"
+                                                                                                                                id="uid48" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZSM_Z'); return true;"
+                                                                                                                        >ЗАПИСАТЬСЯ НА ШИНОМОНТАЖ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -5328,7 +5319,7 @@
     <script class="adaptive">if (["sm", "md", "lg"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
     <div class="node node414 section section-clear sm-hidden md-hidden lg-hidden" id="bron" data-opacity="0.95">
         <div class="wrapper1"
-             style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAYAAADwdn+XAAAAFklEQVQoU2NkoBAwUqifYdQAhkEQBgALLAAJYi2WEwAAAABJRU5ErkJggg==);"
+             style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAYAAADwdn+XAAAAFklEQVQoU2NkoBAwUqifYdQAhkEQBgALLAAJYi2WEwAAAABJRU5ErkJggg==&quot;);"
              data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/2d84116070746e4ee8c8be07854954c0.jpg"
              data-lazy-bgimage_size="1698,885">
             <div class="wrapper2">
@@ -5371,14 +5362,14 @@
                             </div>
                         </div>
                         <div class="node node416 widget widget-form2"
-                             data-form="{name:Забронировать место на складе,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                             data-form="{&quot;name&quot;:&quot;Забронировать место на складе&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                              data-isquiz="false">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div style="max-width: 442px; position: relative; margin-left: auto; margin-right: auto;">
                                         <div class="metahtml">
                                             <div id="node416_meta" class="code">
-                                                <div class="form1-cover">
+                                                <div class="form1-cover nohidemodal" id="zabronirovat_form-mobile">
                                                     <div plp-form-container=""
                                                          colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                         <div class="cont">
@@ -5408,7 +5399,7 @@
                                                                     <div class="wrapper2">
                                                                         <div class="metahtml">
                                                                             <div id="node418_meta"
-                                                                                 data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                 data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                  class="code">
                                                                                 <div plp-field="phone" class="is-text">
                                                                                     <div class="name">
@@ -5419,7 +5410,8 @@
                                                                                                il-action="listen"
                                                                                                autocomplete="tel"
                                                                                                class="form-control"
-                                                                                               value="">
+                                                                                               value=""
+                                                                                        name="phone">
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -5433,15 +5425,9 @@
                                                                         <div class="macros-button">
                                                                             <div class="btn-out center xs-none">
                                                                                 <div class="btn-inner">
-                                                                                    <button class="btn hvr-grow"
+                                                                                    <button class="btn hvr-grow modalSubmit"
                                                                                             id="uid115" data-id=""
-                                                                                            data-action="modal"
-                                                                                            data-ym_goal="BRONM"
-                                                                                            data-ga_category=""
-                                                                                            data-ga_action=""
-                                                                                            need_hover="false"
-                                                                                            data-modal="form"><span
-                                                                                            class="text">ЗАБРОНИРОВАТЬ МЕСТО НА СКЛАДЕ
+                                                                                            >ЗАБРОНИРОВАТЬ МЕСТО НА СКЛАДЕ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                 </div>
                                                                             </div>
@@ -5469,8 +5455,8 @@
                                                                                                             <div class="body">
                                                                                                                 <div class="cont"></div>
                                                                                                                 <form class="form text-top"
-                                                                                                                      data-form="{name:Виджет \Кнопка\,type:order,privacy:none,privacy_checkbox:Даю согласие на <обработку персональных данных>,after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);,integrations:[]}"
-                                                                                                                      data-fields="[{name:Имя,type:name,required:false,id:},{name:Электронная почта,type:email,required:true,id:}]">
+                                                                                                                      data-form="{&quot;name&quot;:&quot;Виджет \&quot;Кнопка\&quot;&quot;,&quot;type&quot;:&quot;order&quot;,&quot;privacy&quot;:&quot;none&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;,&quot;integrations&quot;:[]}"
+                                                                                                                      data-fields="[{&quot;name&quot;:&quot;Имя&quot;,&quot;type&quot;:&quot;name&quot;,&quot;required&quot;:false,&quot;id&quot;:&quot;&quot;},{&quot;name&quot;:&quot;Электронная почта&quot;,&quot;type&quot;:&quot;email&quot;,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;}]">
                                                                                                                     <div class="fields">
                                                                                                                         <div class="field"
                                                                                                                              data-type="name">
@@ -5544,7 +5530,7 @@
         <div class="wrapper1"
              data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/2d84116070746e4ee8c8be07854954c0.jpg"
              data-lazy-bgimage_size="1698,885"
-             style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAYAAADwdn+XAAAAFklEQVQoU2NkoBAwUqifYdQAhkEQBgALLAAJYi2WEwAAAABJRU5ErkJggg==);">
+             style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAYAAADwdn+XAAAAFklEQVQoU2NkoBAwUqifYdQAhkEQBgALLAAJYi2WEwAAAABJRU5ErkJggg==&quot;);">
             <div class="wrapper2">
                 <div class="container">
                     <div class="cont">
@@ -5587,14 +5573,14 @@
                                             <div class="col" style="width: 41.8551%;">
                                                 <div class="cont">
                                                     <div class="node node429 widget widget-form2"
-                                                         data-form="{name:Забронировать место на складе,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                         data-form="{&quot;name&quot;:&quot;Забронировать место на складе&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                          data-isquiz="false">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div style="max-width: 442px; position: relative; margin-left: auto; margin-right: auto;">
                                                                     <div class="metahtml">
                                                                         <div id="node429_meta" class="code">
-                                                                            <div class="form1-cover inputForm" modalName="zabronirovat_form">
+                                                                            <div class="form1-cover nohidemodal" id="zabronirovat_form" data-mod="uid49">
                                                                                 <div plp-form-container=""
                                                                                      colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                     <div class="cont">
@@ -5618,7 +5604,7 @@
                                                                                                 <div class="wrapper2">
                                                                                                     <div class="metahtml">
                                                                                                         <div id="node431_meta"
-                                                                                                             data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                             data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                              class="code">
                                                                                                             <div plp-field="phone"
                                                                                                                  class="is-text">
@@ -5632,7 +5618,8 @@
                                                                                                                            il-action="listen"
                                                                                                                            autocomplete="tel"
                                                                                                                            class="form-control"
-                                                                                                                           value="" name="phone">
+                                                                                                                           value=""
+                                                                                                                    name="phone">
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
@@ -5646,11 +5633,9 @@
                                                                                                     <div class="macros-button">
                                                                                                         <div class="btn-out center xs-none">
                                                                                                             <div class="btn-inner">
-                                                                                                                <button class="btn hvr-grow"
-                                                                                                                        id="uid49"
-
-                                                                                                                ><span
-                                                                                                                        class="text">ЗАБРОНИРОВАТЬ МЕСТО НА СКЛАДЕ
+                                                                                                                <button class="btn hvr-grow modalSubmit"
+                                                                                                                        id="uid49" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZMNS'); return true;"
+                                                                                                                >ЗАБРОНИРОВАТЬ МЕСТО НА СКЛАДЕ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                             </div>
                                                                                                         </div>
@@ -5679,9 +5664,9 @@
                                                                                                                                     <div class="vertical none size-default">
                                                                                                                                         <div class="body">
                                                                                                                                             <div class="cont"></div>
-                                                                                                                                            <form id="order" class="form text-top"
-                                                                                                                                                  data-form="{name:Виджет \Кнопка\,type:order,privacy:none,privacy_checkbox:Даю согласие на <обработку персональных данных>,after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);,integrations:[]}"
-                                                                                                                                                  data-fields="[{name:Имя,type:name,required:false,id:},{name:Электронная почта,type:email,required:true,id:}]">
+                                                                                                                                            <form class="form text-top"
+                                                                                                                                                  data-form="{&quot;name&quot;:&quot;Виджет \&quot;Кнопка\&quot;&quot;,&quot;type&quot;:&quot;order&quot;,&quot;privacy&quot;:&quot;none&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;,&quot;integrations&quot;:[]}"
+                                                                                                                                                  data-fields="[{&quot;name&quot;:&quot;Имя&quot;,&quot;type&quot;:&quot;name&quot;,&quot;required&quot;:false,&quot;id&quot;:&quot;&quot;},{&quot;name&quot;:&quot;Электронная почта&quot;,&quot;type&quot;:&quot;email&quot;,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;}]">
                                                                                                                                                 <div class="fields">
                                                                                                                                                     <div class="field"
                                                                                                                                                          data-type="name">
@@ -5689,7 +5674,7 @@
                                                                                                                                                             Имя
                                                                                                                                                         </div>
                                                                                                                                                         <div class="input">
-                                                                                                                                                            <input class="form-control text" name="name" value=""
+                                                                                                                                                            <input class="form-control text"
                                                                                                                                                                    style="border-radius: 5px;">
                                                                                                                                                         </div>
                                                                                                                                                     </div>
@@ -5701,7 +5686,7 @@
                                                                                                                                                                 class="required">&nbsp;*</span>
                                                                                                                                                         </div>
                                                                                                                                                         <div class="input">
-                                                                                                                                                            <input class="form-control text" name="email" value=""
+                                                                                                                                                            <input class="form-control text"
                                                                                                                                                                    style="border-radius: 5px;">
                                                                                                                                                         </div>
                                                                                                                                                     </div>
@@ -5710,7 +5695,11 @@
                                                                                                                                                     <div class="btn-out full xs-none">
                                                                                                                                                         <div class="btn-inner">
                                                                                                                                                             <button class="btn font-text submit"
-                                                                                                                                                                    id="uid51">
+                                                                                                                                                                    id="uid51"
+                                                                                                                                                                    data-ym_goal=""
+                                                                                                                                                                    data-ga_category=""
+                                                                                                                                                                    data-ga_action=""
+                                                                                                                                                                    need_hover="false">
                                                                                                                                                                 <span class="text">Отправить заявку!</span><input
                                                                                                                                                                     type="submit">
                                                                                                                                                             </button>
@@ -5766,7 +5755,7 @@
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="bgimage"
-                                         style="height: 30px; background-position: center center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAADCAYAAACasY9UAAAAEklEQVQYV2NkoBAwUqifgWIDAAJJAATwXgcuAAAAAElFTkSuQmCC);"
+                                         style="height: 30px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAADCAYAAACasY9UAAAAEklEQVQYV2NkoBAwUqifgWIDAAJJAATwXgcuAAAAAElFTkSuQmCC&quot;);"
                                          data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/86f887caebfe0495c226cbb250b2d2dc.png"
                                          data-lazy-bgimage_size="842,183"><img class=""
                                                                                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -5793,7 +5782,7 @@
                                 <div class="wrapper2">
                                     <div class="">
                                         <div class="xs-force-center textable gray-theme"><p><span
-                                                style="color: rgb(215, 215, 215);">8 (800) 222-15-98</span></p></div>
+                                                style="color: rgb(215, 215, 215);" class="phone_number">8 (800) 550-07-39</span></p></div>
                                     </div>
                                 </div>
                             </div>
@@ -5815,7 +5804,7 @@
                                     <div class="macros-button">
                                         <div class="btn-out center xs-none">
                                             <div class="btn-inner">
-                                                <button class="btn hvr-grow" id="uid118" data-id="" data-action="modal"
+                                                <button class="btn hvr-grow btnModal" id="uid118" data-id="" data-action="modal"
                                                         data-ym_goal="ZK" data-ga_category="" data-ga_action=""
                                                         need_hover="false" data-modal="custom"><span class="text">ЗАКАЗАТЬ ЗВОНОК</span>
                                                 </button>
@@ -5833,14 +5822,14 @@
                                                     <div class="modal-body">
                                                         <div class="cont">
                                                             <div class="node node447 widget widget-form2"
-                                                                 data-form="{name:Заказать звонок,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                                 data-form="{&quot;name&quot;:&quot;Заказать звонок&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                  data-isquiz="false">
                                                                 <div class="wrapper1">
                                                                     <div class="wrapper2">
                                                                         <div style="max-width: 384px; position: relative; margin-left: auto; margin-right: auto;">
                                                                             <div class="metahtml">
                                                                                 <div id="node447_meta" class="code">
-                                                                                    <div class="form1-cover">
+                                                                                    <div class="form1-cover" id="callback-bottom-mobile" data-mod="uid118">
                                                                                         <div plp-form-container=""
                                                                                              colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                             <div class="cont">
@@ -5895,7 +5884,7 @@
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
                                                                                                                 <div id="node451_meta"
-                                                                                                                     data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                     data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="phone"
                                                                                                                          class="is-text">
@@ -5905,8 +5894,12 @@
                                                                                                                             *
                                                                                                                         </div>
                                                                                                                         <div class="input">
-                                                                                                                            <input name="phone" type="text" il-action="listen"
-                                                                                                                                   autocomplete="tel" class="form-control" value="">
+                                                                                                                            <input type="text"
+                                                                                                                                   il-action="listen"
+                                                                                                                                   autocomplete="tel"
+                                                                                                                                   class="form-control"
+                                                                                                                                   value=""
+                                                                                                                            name="phone">
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -5920,15 +5913,9 @@
                                                                                                             <div class="macros-button">
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
-                                                                                                                        <button class="btn hvr-grow"
+                                                                                                                        <button class="btn hvr-grow modalSubmit"
                                                                                                                                 id="uid120"
-                                                                                                                                data-id=""
-                                                                                                                                data-action="send"
-                                                                                                                                data-ym_goal="ZKO"
-                                                                                                                                data-ga_category=""
-                                                                                                                                data-ga_action=""
-                                                                                                                                need_hover="false"><span
-                                                                                                                                class="text">ЗАКАЗАТЬ ЗВОНОК
+                                                                                                                                >ЗАКАЗАТЬ ЗВОНОК
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -5976,7 +5963,7 @@
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
-                                                                     style="height: 50px; background-position: left center; background-size: contain; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAADCAYAAACasY9UAAAAEklEQVQYV2NkoBAwUqifgWIDAAJJAATwXgcuAAAAAElFTkSuQmCC);"
+                                                                     style="height: 50px; background-position: left center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAADCAYAAACasY9UAAAAEklEQVQYV2NkoBAwUqifgWIDAAJJAATwXgcuAAAAAElFTkSuQmCC&quot;);"
                                                                      data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/86f887caebfe0495c226cbb250b2d2dc.png"
                                                                      data-lazy-bgimage_size="842,183"><img class=""
                                                                                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
@@ -6020,7 +6007,7 @@
                                                                                             <div class="">
                                                                                                 <div class="xs-force-center textable gray-theme">
                                                                                                     <p style="text-align: right;">
-                                                                                                        <span class="phone_number" style="color: rgb(215, 215, 215);">8 (800) 550-07-39</span>
+                                                                                                        <span style="color: rgb(215, 215, 215);" class="phone_number">8 (800) 550-07-39</span>
                                                                                                     </p></div>
                                                                                             </div>
                                                                                         </div>
@@ -6049,7 +6036,7 @@
                                                                                             <div class="macros-button">
                                                                                                 <div class="btn-out right xs-none">
                                                                                                     <div class="btn-inner">
-                                                                                                        <button class="btn hvr-grow"
+                                                                                                        <button class="btn hvr-grow btnModal"
                                                                                                                 id="uid52"
                                                                                                                 data-id=""
                                                                                                                 data-action="modal"
@@ -6058,9 +6045,7 @@
                                                                                                                 data-ga_action=""
                                                                                                                 need_hover="false"
                                                                                                                 data-modal="custom"
-                                                                                                                onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('ZZP');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('ZZP');return true;}"
-                                                                                                        >
-                                                                                                            <span class="text">
+                                                                                                                onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZZP'); return true;">
                                                                                                             <span class="text">ЗАКАЗАТЬ ЗВОНОК</span>
                                                                                                         </button>
                                                                                                     </div>
@@ -6086,7 +6071,7 @@
                                                                                                             <div class="modal-body">
                                                                                                                 <div class="cont">
                                                                                                                     <div class="node node466 widget widget-form2"
-                                                                                                                         data-form="{name:Заказать звонок,type:order,integrations:[],after:msg,msg:Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!,url:/,addhtml:,js:alert(\Этот код выполняется после успешного отправления заявки.\);}"
+                                                                                                                         data-form="{&quot;name&quot;:&quot;Заказать звонок&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                                                                          data-isquiz="false">
                                                                                                                         <div class="wrapper1">
                                                                                                                             <div class="wrapper2">
@@ -6094,7 +6079,7 @@
                                                                                                                                     <div class="metahtml">
                                                                                                                                         <div id="node466_meta"
                                                                                                                                              class="code">
-                                                                                                                                            <div id="callback-bottom" class="form1-cover">
+                                                                                                                                            <div class="form1-cover" id="callback-bottom" data-mod="uid52">
                                                                                                                                                 <div plp-form-container=""
                                                                                                                                                      colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                                                                                     <div class="cont">
@@ -6148,7 +6133,7 @@
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="metahtml">
                                                                                                                                                                         <div id="node470_meta"
-                                                                                                                                                                             data-vals="{type:phone,text:Номер телефона,hidename:false,list:[{text:Гамбургер,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg,size:[600,600]},value:0,name:Вариант 1},{text:Чай,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg,size:[600,600]},value:0,name:Вариант 2},{text:Мороженное,image:{file://u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg,size:[600,600]},value:0}],visual_width:30,visual_height:100,required:true,id:,min:0,max:100,step:1,align:sides,fontsize:120,format:%result% руб.,formula:,condition:,template:,variable:,valueOn:1,valueOff:0,privacy_button:Политика конфиденциальности,privacy_checkbox:Даю согласие на <обработку персональных данных>,privacy_text:Нажимая кнопку, вы даете согласие на <обработку персональных данных>,privacy_source:global}"
+                                                                                                                                                                             data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                                                                              class="code">
                                                                                                                                                                             <div plp-field="phone"
                                                                                                                                                                                  class="is-text">
@@ -6159,11 +6144,11 @@
                                                                                                                                                                                 </div>
                                                                                                                                                                                 <div class="input">
                                                                                                                                                                                     <input type="text"
-                                                                                                                                                                                           name="phone"
                                                                                                                                                                                            il-action="listen"
                                                                                                                                                                                            autocomplete="tel"
                                                                                                                                                                                            class="form-control"
-                                                                                                                                                                                           value="">
+                                                                                                                                                                                           value=""
+                                                                                                                                                                                    name="phone">
                                                                                                                                                                                 </div>
                                                                                                                                                                             </div>
                                                                                                                                                                         </div>
@@ -6177,15 +6162,8 @@
                                                                                                                                                                     <div class="macros-button">
                                                                                                                                                                         <div class="btn-out center xs-none">
                                                                                                                                                                             <div class="btn-inner">
-                                                                                                                                                                                <button class="btn hvr-grow"
-                                                                                                                                                                                        id="uid54"
-                                                                                                                                                                                        data-id=""
-                                                                                                                                                                                        data-action="send"
-                                                                                                                                                                                        data-ym_goal="ZKO"
-                                                                                                                                                                                        data-ga_category=""
-                                                                                                                                                                                        data-ga_action=""
-                                                                                                                                                                                        need_hover="false"
-                                                                                                                                                                                        onclick="if(siteUrl=='hranenie-shin'){yaCounter51444733.reachGoal('ZZP_Z');return true;}else if(siteUrl=='hranenie'){yaCounter51463640.reachGoal('ZZP_Z');return true;}"
+                                                                                                                                                                                <button class="btn hvr-grow modalSubmit"
+                                                                                                                                                                                        id="uid54" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZZP_Z'); return true;"
                                                                                                                                                                                 ><span
                                                                                                                                                                                         class="text">ЗАКАЗАТЬ ЗВОНОК
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
@@ -6286,72 +6264,6 @@
         <div class="eventmodals" disableevent="1"></div>
     </div>
 </div>
-<!--<script type="text/javascript" src="//s.filesonload.ru/assets/3.3/vendors.js"></script>
-<script type="text/javascript" src="//s.filesonload.ru/assets/3.3/plp.js"></script>
-<script type="text/javascript" src="//s.filesonload.ru/assets/3.3/nodes.js"></script>
-<script type="text/javascript" src="//s.filesonload.ru/assets/3.3/swiper.js"></script>-->
-<script type="text/javascript" src="assets/js/vendors.js"></script>
-<script type="text/javascript" src="assets/js/plp.js"></script>
-<script type="text/javascript" src="assets/js/nodes.js"></script>
-<script type="text/javascript" src="assets/js/swiper.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
-<script>
-    (function(w, d, s, h, id) {
-        w.roistatProjectId = id; w.roistatHost = h;
-        var p = d.location.protocol == "https:" ? "https://" : "http://";
-        var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init";
-        var js = d.createElement(s); js.charset="UTF-8"; js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
-    })(window, document, 'script', 'cloud.roistat.com', 'cb5eaad87366afa54f53f0b311781e73');
-</script>
-
-
-<div>
-    <div class="sweet-overlay" tabindex="-1"></div>
-    <div class="sweet-alert" tabindex="-1">
-        <div class="icon error"><span class="x-mark"><span class="line left"></span><span class="line right"></span></span></div>
-        <div class="icon warning"> <span class="body"></span> <span class="dot"></span> </div>
-        <div class="icon info"></div>
-        <div class="icon success">
-            <span class="line tip"></span> <span class="line long"></span>
-            <div class="placeholder"></div>
-            <div class="fix"></div>
-        </div>
-        <div class="icon custom"></div>
-        <h2>Title</h2>
-        <p>Text</p>
-        <button class="cancel" tabindex="2">Cancel</button><button class="confirm" tabindex="1">OK</button>
-    </div>
-</div>
-<div class="modalWindow fakeRoistat modal7 inputForm" modalName="modal7" comment="Обратный звонок">
-    <div class="container-fluid px-4 pb-4">
-        <div class="row">
-            <div class="col-12 modal_header text-right">
-                <button class="close nofonts">×</button>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12 fakeRoistat_header pt-2">У Вас есть вопросы? Мы можем позвонить Вам абсолютно бесплатно!</div>
-        </div>
-        <div class="row">
-            <div class="col-12 pt-2 fakeRoistat_text">Мы свяжемся с Вами и ответим на любые возникшие вопросы!</div>
-        </div>
-        <div class="row pt-4 justify-content-start">
-            <div class="col-12 col-lg-6 col-xl-6">
-                <div class="row">
-                    <div class="col-12 fakeRoistat_inputName">Ваш телефон:</div>
-                </div>
-                <div class="row">
-                    <div class="col-12 pt-2"><input type="tel" name="phone" class="modalInput" id="modal7_phone"></div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6 col-xl-6 align-self-end fakeRoistatBtnBlock modalBtnBlock">
-                <button class="fakeRoistat_btn px-5">Позвоните мне</button>
-            </div>
-        </div>
-    </div>
-</div>
 <div class="modalOverlay"></div>
 <div class="modalWindow successMsg">
     <div class="container-fluid">
@@ -6365,12 +6277,57 @@
         </div>
     </div>
 </div>
-<div class="leftBottomBtn btn_modal" id="modal7">
+<div class="modalWindow fakeRoistat form1-cover" data-mod="modal6" id="fakeRoistat_modal">
+    <div class="container-fluid px-4 pb-4">
+        <div class="row">
+            <div class="col-12 modal_header text-right">
+                <button class="close nofonts">×</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 fakeRoistat_header pt-2">У Вас есть вопросы? Мы можем позвонить Вам абсолютно бесплатно!</div>
+        </div>
+        <div class="row">
+            <div class="col-12 pt-2 fakeRoistat_text">Мы свяжемся с Вами и ответим на любые возникшие вопросы!</div>
+        </div>
+        <div class="row pt-4 justify-content-start">
+            <div class="col-12 col-lg-6 col-xl-6 fakeRoistat_inputBlock">
+                <div class="row">
+                    <div class="col-12 fakeRoistat_inputName">Ваш телефон:</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 pt-2"><input name="phone" class="modalInput" id="modal6_phone"></div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-6 align-self-end fakeRoistatBtnBlock modalBtnBlock">
+                <button class="modalSubmit px-5">Позвоните мне</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="leftBottomBtn btnModal" id="modal6">
     <img src="/sceplenie-zamena/assets/img/button.png">
 </div>
-<form id="gclp-frame-form" target="gclp-frame" method="post" style="display: none;"></form>
+<script type="text/javascript" src="//s.filesonload.ru/assets/3.3/vendors.js"></script>
+<script type="text/javascript" src="//s.filesonload.ru/assets/3.3/plp.js"></script>
+<script type="text/javascript" src="//s.filesonload.ru/assets/3.3/nodes.js"></script>
+<script type="text/javascript" src="//s.filesonload.ru/assets/3.3/swiper.js"></script>
 
-<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
-<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=2ba003b12993da304bc145f7bebc8b6f" charset="UTF-8" async></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script>
+    (function (w, d, s, h, id) {
+        w.roistatProjectId = id;
+        w.roistatHost = h;
+        var p = d.location.protocol == "https:" ? "https://" : "http://";
+        var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/" + id + "/init";
+        var js = d.createElement(s);
+        js.charset = "UTF-8";
+        js.async = 1;
+        js.src = p + h + u;
+        var js2 = d.getElementsByTagName(s)[0];
+        js2.parentNode.insertBefore(js, js2);
+    })(window, document, 'script', 'cloud.roistat.com', 'cb5eaad87366afa54f53f0b311781e73');
+</script>
 </body>
 </html>
