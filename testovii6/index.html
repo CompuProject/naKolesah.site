@@ -35,6 +35,9 @@
     <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/plp.css"></link>
     <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/nodes.css"></link>
     <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/swiper.css"></link>
+
+    <link type="text/css" rel="stylesheet" href="assets/css/main.css"></link>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript">window._trackJs = {
         token: "4fd557ccb06a4bd28e7b90da188cd54b",
         application: "production",
@@ -465,7 +468,7 @@
                                                                 <div style="max-width: 476px; position: relative; margin-left: auto; margin-right: auto;">
                                                                     <div class="metahtml">
                                                                         <div id="node43_meta" class="code">
-                                                                            <div class="form1-cover">
+                                                                            <div class="form1-cover nohidemodal" id="rasschitat-stoimost-form-mobile">
                                                                                 <div plp-form-container=""
                                                                                      colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                     <div class="cont">
@@ -495,7 +498,7 @@
                                                                                                                     авто
                                                                                                                 </div>
                                                                                                                 <div class="form-control">
-                                                                                                                    <select il-action="listen">
+                                                                                                                    <select il-action="listen" name="brand">
                                                                                                                         <option></option>
                                                                                                                         <option value="0">
                                                                                                                             LADA
@@ -640,7 +643,8 @@
                                                                                                                            il-action="listen"
                                                                                                                            autocomplete="tel"
                                                                                                                            class="form-control"
-                                                                                                                           value="">
+                                                                                                                           value=""
+                                                                                                                    name="phone">
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
@@ -666,14 +670,9 @@
                                                                                                     <div class="macros-button">
                                                                                                         <div class="btn-out center xs-none">
                                                                                                             <div class="btn-inner">
-                                                                                                                <button class="btn hvr-grow font-text"
+                                                                                                                <button class="btn hvr-grow font-text modalSubmit"
                                                                                                                         id="uid49"
-                                                                                                                        data-id=""
-                                                                                                                        data-action="send"
-                                                                                                                        data-ym_goal="RASCHITAT"
-                                                                                                                        data-ga_category=""
-                                                                                                                        data-ga_action=""
-                                                                                                                        need_hover="false"><span
+                                                                                                                        ><span
                                                                                                                         class="text">РАССЧИТАТЬ ТОЧНУЮ СТОИМОСТЬ
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                             </div>
@@ -829,7 +828,7 @@
                                                                                             <div class="macros-button">
                                                                                                 <div class="btn-out right xs-none">
                                                                                                     <div class="btn-inner">
-                                                                                                        <button class="btn font-text"
+                                                                                                        <button class="btn font-text btnModal"
                                                                                                                 id="uid2"
                                                                                                                 data-id=""
                                                                                                                 data-action="modal"
@@ -889,7 +888,7 @@
                                                                                                                                     <div class="metahtml">
                                                                                                                                         <div id="node81_meta"
                                                                                                                                              class="code">
-                                                                                                                                            <div class="form1-cover">
+                                                                                                                                            <div class="form1-cover" id="zapis-link-top" data-mod="uid2">
                                                                                                                                                 <div plp-form-container=""
                                                                                                                                                      colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                                                                                     <div class="cont">
@@ -912,7 +911,8 @@
                                                                                                                                                                                            il-action="listen"
                                                                                                                                                                                            autocomplete="tel"
                                                                                                                                                                                            class="form-control"
-                                                                                                                                                                                           value="">
+                                                                                                                                                                                           value=""
+                                                                                                                                                                                    name="phone">
                                                                                                                                                                                 </div>
                                                                                                                                                                             </div>
                                                                                                                                                                         </div>
@@ -926,15 +926,9 @@
                                                                                                                                                                     <div class="macros-button">
                                                                                                                                                                         <div class="btn-out center xs-none">
                                                                                                                                                                             <div class="btn-inner">
-                                                                                                                                                                                <button class="btn font-text"
+                                                                                                                                                                                <button class="btn font-text modalSubmit"
                                                                                                                                                                                         id="uid4"
-                                                                                                                                                                                        data-id=""
-                                                                                                                                                                                        data-action="send"
-                                                                                                                                                                                        data-ym_goal="ZAPISVSHOT"
-                                                                                                                                                                                        data-ga_category=""
-                                                                                                                                                                                        data-ga_action=""
-                                                                                                                                                                                        need_hover="false"><span
-                                                                                                                                                                                        class="text">ЗАПИСАТЬСЯ
+                                                                                                                                                                                        ><span class="text">ЗАПИСАТЬСЯ
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                                                                                             </div>
                                                                                                                                                                         </div>
@@ -970,7 +964,7 @@
                                                                                             <div class="macros-button">
                                                                                                 <div class="btn-out right xs-none">
                                                                                                     <div class="btn-inner">
-                                                                                                        <button class="btn hvr-grow font-text"
+                                                                                                        <button class="btn hvr-grow font-text btnModal"
                                                                                                                 id="uid5"
                                                                                                                 data-id=""
                                                                                                                 data-action="modal"
@@ -1012,7 +1006,7 @@
                                                                                                                                     <div class="metahtml">
                                                                                                                                         <div id="node94_meta"
                                                                                                                                              class="code">
-                                                                                                                                            <div class="form1-cover">
+                                                                                                                                            <div class="form1-cover" id="callback-form-top" data-mod="uid5">
                                                                                                                                                 <div plp-form-container=""
                                                                                                                                                      colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                                                                                     <div class="cont">
@@ -1080,7 +1074,8 @@
                                                                                                                                                                                            il-action="listen"
                                                                                                                                                                                            autocomplete="tel"
                                                                                                                                                                                            class="form-control"
-                                                                                                                                                                                           value="">
+                                                                                                                                                                                           value=""
+                                                                                                                                                                                    name="phone">
                                                                                                                                                                                 </div>
                                                                                                                                                                             </div>
                                                                                                                                                                         </div>
@@ -1094,14 +1089,9 @@
                                                                                                                                                                     <div class="macros-button">
                                                                                                                                                                         <div class="btn-out center xs-none">
                                                                                                                                                                             <div class="btn-inner">
-                                                                                                                                                                                <button class="btn hvr-grow font-text"
+                                                                                                                                                                                <button class="btn hvr-grow font-text modalSubmit"
                                                                                                                                                                                         id="uid7"
-                                                                                                                                                                                        data-id=""
-                                                                                                                                                                                        data-action="send"
-                                                                                                                                                                                        data-ym_goal="ZAKAZZVONKAO"
-                                                                                                                                                                                        data-ga_category=""
-                                                                                                                                                                                        data-ga_action=""
-                                                                                                                                                                                        need_hover="false"><span
+                                                                                                                                                                                        ><span
                                                                                                                                                                                         class="text">ЗАКАЗАТЬ ЗВОНОК
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                                                                                             </div>
@@ -1473,7 +1463,7 @@
                                                                 <div style="max-width: 476px; position: relative; margin-left: auto; margin-right: auto;">
                                                                     <div class="metahtml">
                                                                         <div id="node145_meta" class="code">
-                                                                            <div class="form1-cover">
+                                                                            <div class="form1-cover nohidemodal" id="rasschitat-stoimost-form">
                                                                                 <div plp-form-container=""
                                                                                      colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                     <div class="cont">
@@ -1503,7 +1493,7 @@
                                                                                                                     авто
                                                                                                                 </div>
                                                                                                                 <div class="form-control">
-                                                                                                                    <select il-action="listen">
+                                                                                                                    <select il-action="listen" name="brand">
                                                                                                                         <option></option>
                                                                                                                         <option value="0">
                                                                                                                             LADA
@@ -1648,7 +1638,8 @@
                                                                                                                            il-action="listen"
                                                                                                                            autocomplete="tel"
                                                                                                                            class="form-control"
-                                                                                                                           value="">
+                                                                                                                           value=""
+                                                                                                                    name="phone">
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
@@ -1679,15 +1670,9 @@
                                                                                                     <div class="macros-button">
                                                                                                         <div class="btn-out center xs-none">
                                                                                                             <div class="btn-inner">
-                                                                                                                <button class="btn hvr-grow font-text"
+                                                                                                                <button class="btn hvr-grow font-text modalSubmit"
                                                                                                                         id="uid10"
-                                                                                                                        data-id=""
-                                                                                                                        data-action="send"
-                                                                                                                        data-ym_goal="RASCHITAT"
-                                                                                                                        data-ga_category=""
-                                                                                                                        data-ga_action=""
-                                                                                                                        need_hover="false"><span
-                                                                                                                        class="text">РАССЧИТАТЬ ТОЧНУЮ СТОИМОСТЬ
+                                                                                                                        ><span class="text">РАССЧИТАТЬ ТОЧНУЮ СТОИМОСТЬ
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                             </div>
                                                                                                         </div>
@@ -1857,7 +1842,7 @@
                                     <div class="macros-button">
                                         <div class="btn-out center xs-none">
                                             <div class="btn-inner">
-                                                <button class="btn hvr-grow font-text" id="uid50" data-id=""
+                                                <button class="btn hvr-grow font-text btnModal" id="uid50" data-id=""
                                                         data-action="modal" data-ym_goal="ZAPISVKN" data-ga_category=""
                                                         data-ga_action="" need_hover="false" data-modal="custom"><span
                                                         class="text">БЫСТРАЯ ОНЛАЙН-ЗАПИСЬ В АВТОСЕРВИС
@@ -1903,7 +1888,7 @@
                                                                         <div style="max-width: 456px; position: relative; margin-left: auto; margin-right: auto;">
                                                                             <div class="metahtml">
                                                                                 <div id="node190_meta" class="code">
-                                                                                    <div class="form1-cover">
+                                                                                    <div class="form1-cover" id="bistraya-zapis-mobile" data-mod="uid50">
                                                                                         <div plp-form-container=""
                                                                                              colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                             <div class="cont">
@@ -1926,7 +1911,8 @@
                                                                                                                                    il-action="listen"
                                                                                                                                    autocomplete="tel"
                                                                                                                                    class="form-control"
-                                                                                                                                   value="">
+                                                                                                                                   value=""
+                                                                                                                            name="phone">
                                                                                                                         </div>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -1940,14 +1926,9 @@
                                                                                                             <div class="macros-button">
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
-                                                                                                                        <button class="btn font-text"
+                                                                                                                        <button class="btn font-text modalSubmit"
                                                                                                                                 id="uid52"
-                                                                                                                                data-id=""
-                                                                                                                                data-action="send"
-                                                                                                                                data-ym_goal="ZAPISVKNO"
-                                                                                                                                data-ga_category=""
-                                                                                                                                data-ga_action=""
-                                                                                                                                need_hover="false"><span
+                                                                                                                                ><span
                                                                                                                                 class="text">ЗАПИСАТЬСЯ
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                                     </div>
@@ -2709,7 +2690,7 @@
                                                                 <div class="macros-button">
                                                                     <div class="btn-out center xs-none">
                                                                         <div class="btn-inner">
-                                                                            <button class="btn hvr-grow font-text"
+                                                                            <button class="btn hvr-grow font-text btnModal"
                                                                                     id="uid11" data-id=""
                                                                                     data-action="modal"
                                                                                     data-ym_goal="ZAPISVKN"
@@ -2760,7 +2741,7 @@
                                                                                                         <div class="metahtml">
                                                                                                             <div id="node273_meta"
                                                                                                                  class="code">
-                                                                                                                <div class="form1-cover">
+                                                                                                                <div class="form1-cover" id="bistraya-zapis" data-mod="uid11">
                                                                                                                     <div plp-form-container=""
                                                                                                                          colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                                                         <div class="cont">
@@ -2783,7 +2764,8 @@
                                                                                                                                                                il-action="listen"
                                                                                                                                                                autocomplete="tel"
                                                                                                                                                                class="form-control"
-                                                                                                                                                               value="">
+                                                                                                                                                               value=""
+                                                                                                                                                        name="phone">
                                                                                                                                                     </div>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -2797,15 +2779,9 @@
                                                                                                                                         <div class="macros-button">
                                                                                                                                             <div class="btn-out center xs-none">
                                                                                                                                                 <div class="btn-inner">
-                                                                                                                                                    <button class="btn font-text"
+                                                                                                                                                    <button class="btn font-text modalSubmit"
                                                                                                                                                             id="uid13"
-                                                                                                                                                            data-id=""
-                                                                                                                                                            data-action="send"
-                                                                                                                                                            data-ym_goal="ZAPISVKNO"
-                                                                                                                                                            data-ga_category=""
-                                                                                                                                                            data-ga_action=""
-                                                                                                                                                            need_hover="false"><span
-                                                                                                                                                            class="text">ЗАПИСАТЬСЯ
+                                                                                                                                                            ><span class="text">ЗАПИСАТЬСЯ
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3360,7 +3336,7 @@
                                                                 <div class="macros-button">
                                                                     <div class="btn-out center xs-none">
                                                                         <div class="btn-inner">
-                                                                            <button class="btn hvr-grow font-text"
+                                                                            <button class="btn hvr-grow font-text btnModal"
                                                                                     id="uid58" data-id=""
                                                                                     data-action="modal"
                                                                                     data-ym_goal="ZAKAZZVONKA"
@@ -3394,7 +3370,7 @@
                                                                                                         <div class="metahtml">
                                                                                                             <div id="node335_meta"
                                                                                                                  class="code">
-                                                                                                                <div class="form1-cover">
+                                                                                                                <div class="form1-cover" id="callback-form-footer-mobile" data-mod="uid58">
                                                                                                                     <div plp-form-container=""
                                                                                                                          colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                                                         <div class="cont">
@@ -3454,7 +3430,8 @@
                                                                                                                                                                il-action="listen"
                                                                                                                                                                autocomplete="tel"
                                                                                                                                                                class="form-control"
-                                                                                                                                                               value="">
+                                                                                                                                                               value=""
+                                                                                                                                                        name="phone">
                                                                                                                                                     </div>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3468,14 +3445,9 @@
                                                                                                                                         <div class="macros-button">
                                                                                                                                             <div class="btn-out center xs-none">
                                                                                                                                                 <div class="btn-inner">
-                                                                                                                                                    <button class="btn hvr-grow font-text"
+                                                                                                                                                    <button class="btn hvr-grow font-text modalSubmit"
                                                                                                                                                             id="uid60"
-                                                                                                                                                            data-id=""
-                                                                                                                                                            data-action="send"
-                                                                                                                                                            data-ym_goal="ZAKAZZVONKAO"
-                                                                                                                                                            data-ga_category=""
-                                                                                                                                                            data-ga_action=""
-                                                                                                                                                            need_hover="false"><span
+                                                                                                                                                            <span
                                                                                                                                                             class="text">ЗАКАЗАТЬ ЗВОНОК
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                                                                 </div>
@@ -3576,7 +3548,7 @@
                                                                                             <div class="macros-button">
                                                                                                 <div class="btn-out right xs-none">
                                                                                                     <div class="btn-inner">
-                                                                                                        <button class="btn hvr-grow font-text"
+                                                                                                        <button class="btn hvr-grow font-text btnModal"
                                                                                                                 id="uid19"
                                                                                                                 data-id=""
                                                                                                                 data-action="modal"
@@ -3618,7 +3590,7 @@
                                                                                                                                     <div class="metahtml">
                                                                                                                                         <div id="node369_meta"
                                                                                                                                              class="code">
-                                                                                                                                            <div class="form1-cover">
+                                                                                                                                            <div class="form1-cover" id="callback-form-footer" data-mod="uid19">
                                                                                                                                                 <div plp-form-container=""
                                                                                                                                                      colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                                                                                     <div class="cont">
@@ -3686,7 +3658,8 @@
                                                                                                                                                                                            il-action="listen"
                                                                                                                                                                                            autocomplete="tel"
                                                                                                                                                                                            class="form-control"
-                                                                                                                                                                                           value="">
+                                                                                                                                                                                           value=""
+                                                                                                                                                                                    name="phone">
                                                                                                                                                                                 </div>
                                                                                                                                                                             </div>
                                                                                                                                                                         </div>
@@ -3700,15 +3673,9 @@
                                                                                                                                                                     <div class="macros-button">
                                                                                                                                                                         <div class="btn-out center xs-none">
                                                                                                                                                                             <div class="btn-inner">
-                                                                                                                                                                                <button class="btn hvr-grow font-text"
+                                                                                                                                                                                <button class="btn hvr-grow font-text modalSubmit"
                                                                                                                                                                                         id="uid21"
-                                                                                                                                                                                        data-id=""
-                                                                                                                                                                                        data-action="send"
-                                                                                                                                                                                        data-ym_goal="ZAKAZZVONKAO"
-                                                                                                                                                                                        data-ga_category=""
-                                                                                                                                                                                        data-ga_action=""
-                                                                                                                                                                                        need_hover="false"><span
-                                                                                                                                                                                        class="text">ЗАКАЗАТЬ ЗВОНОК
+                                                                                                                                                                                        ><span class="text">ЗАКАЗАТЬ ЗВОНОК
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                                                                                             </div>
                                                                                                                                                                         </div>
@@ -3807,10 +3774,58 @@
         <div class="eventmodals" disableevent="1"></div>
     </div>
 </div>
+<div class="modalOverlay"></div>
+<div class="modalWindow successMsg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm successMsg_header">Спасибо за обращение!</div>
+        </div>
+        <div class="row">
+            <div class="col-sm successMsg_text">Наш специалист свяжется с Вами в ближайшее время и подробно ответит на
+                все интересующие вопросы!
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modalWindow fakeRoistat form1-cover" data-mod="modal6" id="fakeRoistat_modal">
+    <div class="container-fluid px-4 pb-4">
+        <div class="row">
+            <div class="col-12 modal_header text-right">
+                <button class="close nofonts">×</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 fakeRoistat_header pt-2">У Вас есть вопросы? Мы можем позвонить Вам абсолютно бесплатно!</div>
+        </div>
+        <div class="row">
+            <div class="col-12 pt-2 fakeRoistat_text">Мы свяжемся с Вами и ответим на любые возникшие вопросы!</div>
+        </div>
+        <div class="row pt-4 justify-content-start">
+            <div class="col-12 col-lg-6 col-xl-6 fakeRoistat_inputBlock">
+                <div class="row">
+                    <div class="col-12 fakeRoistat_inputName">Ваш телефон:</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 pt-2"><input name="phone" class="modalInput" id="modal6_phone"></div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-xl-6 align-self-end fakeRoistatBtnBlock modalBtnBlock">
+                <button class="modalSubmit px-5">Позвоните мне</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="leftBottomBtn btnModal" id="modal6">
+    <img src="/sceplenie-zamena/assets/img/button.png">
+</div>
 <script type="text/javascript" src="//s.filesonload.ru/assets/3.3/vendors.js"></script>
 <script type="text/javascript" src="//s.filesonload.ru/assets/3.3/plp.js"></script>
 <script type="text/javascript" src="//s.filesonload.ru/assets/3.3/nodes.js"></script>
-<script type="text/javascript" src="//s.filesonload.ru/assets/3.3/swiper.js"></script><!-- Yandex.Metrika counter -->
+<script type="text/javascript" src="//s.filesonload.ru/assets/3.3/swiper.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+<!-- Yandex.Metrika counter -->
 <script type="text/javascript"> (function (d, w, c) {
     (w[c] = w[c] || []).push(function () {
         try {

@@ -6,6 +6,16 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html\r\n";
 $headers .= 'From: <hranenie-shin@sales-kolesa.site>' . "\r\n";
 var_dump($_POST);
+/*
+ * zapis-link-top
+ * callback-top-form
+ * rasschitat-stoimost-form
+ * rasschitat-stoimost-form-mobile
+ * bistraya-zapis
+ * bistraya-zapis-mobile
+ * callback-form-footer
+ * callback-form-footer-mobile
+ */
 switch ($post_data['type']) {
     case 'callback-top':
         $subject = "\"ХРАНЕНИЕ_ШИН\" Сообщение с Лендинга - 'Форма заказа обратного звонка'";

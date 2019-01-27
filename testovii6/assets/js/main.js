@@ -52,7 +52,7 @@ $(document).ready(function () {
                 console.log('type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&sdiskami=' + sdiskami + '&year=' + year + '&price=' + price + '&urlName=' + location.href.replace('http://', ''));
 
                 $.ajax({
-                    url: '/hranenie-shin/mail.php',
+                    url: '/testovii6/mail.php',
                     type: 'POST',
                     data: 'type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&sdiskami=' + sdiskami + '&year=' + year+ '&price=' + price + '&urlName=' + location.href.replace('http://', ''),
                     // data: data,
