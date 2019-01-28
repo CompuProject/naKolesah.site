@@ -2,8 +2,11 @@ $(document).ready(function () {
     var site_url = location.href.replace('https://nakolesah.site/','').replace('/','');
     if (site_url == 'hranenie') {
         $('.phone_number').html('8 (800) 550-07-39');
+        $('.whatsAppBtn').attr('href','tel:+78005500739');
     } else if (site_url == 'hranenie-shin') {
         $('.phone_number').html('8 (800) 222-15-98');
+        $('.whatsAppBtn').attr('href','tel:+78002221598');
+
     }
     //маска телефона для input popup
     $('input[name=phone]').click(function () {

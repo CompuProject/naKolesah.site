@@ -611,7 +611,7 @@
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="macros-button">
-                                        <div class="btn-out center xs-none"><a class="btn-inner" href="tel:+78005500739"
+                                        <div class="btn-out center xs-none"><a class="btn-inner whatsAppBtn" href="tel:+78005500739"
                                                                                target="_blank">
                                             <button class="btn font-text" id="uid83" data-id="" data-action="link"
                                                     data-ym_goal="ZVONOK" data-ga_category="" data-ga_action=""
