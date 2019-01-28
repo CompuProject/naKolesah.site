@@ -56,7 +56,7 @@
                     data: "type_partner=generatorprodaj&comment=Заказ обратного звонка&type_response=html&phone=" + r.val() + "&unique_code=" + e() + "&hash=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f"
                 }).done(function (e) {
                     e && (n({phone: r.val(),urlName: location.href.replace('http://','')}, "callback-top"), $(".area").click(), console.log(e),
-                        // o(),
+                         o(),
                         r.val(""))
 
                 }).fail(function (e) {
@@ -72,7 +72,7 @@
                     data: "type_partner=generatorprodaj&comment=ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ АКПП&type_response=html&phone=" + r.val() + "&unique_code=" + e() + "&hash=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f"
                 }).done(function (e) {
                     e && (n({phone: r.val(),urlName: location.href.replace('http://','')}, "get-tyres"), $(".area").click(),
-                        // o(),
+                         o(),
                         console.log(e), r.val(""))
                 }).fail(function (e) {
                     return console.log(e)
@@ -91,7 +91,7 @@
                         type_akpp: l.val(),
                         urlName: location.href.replace('http://','')
                     }, "left-widget-get-tyres"), $(".area").click(),
-                        // o(),
+                         o(),
                         console.log(e), i.val(""))
                 }).fail(function (e) {
                     return console.log(e)
@@ -105,7 +105,7 @@
                     data: "type_partner=generatorprodaj&comment=ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ&type_response=html&phone=" + r.val() + "&unique_code=" + e() + "&hash=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f"
                 }).done(function (e) {
                     e && (n({phone: r.val(),urlName: location.href.replace('http://','')}, "second-get-tyres-form"), $(".area").click(),
-                        // o(),
+                         o(),
                         console.log(e), r.val(""))
                 }).fail(function (e) {
                     return console.log(e)
@@ -119,7 +119,7 @@
                     data: "type_partner=generatorprodaj&comment=ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ АКПП&type_response=html&phone=" + r.val() + "&unique_code=" + e() + "&hash=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f"
                 }).done(function (e) {
                     e && (n({phone: r.val(),urlName: location.href.replace('http://','')}, "bronirovanie"), $(".area").click(),
-                        // o(),
+                         o(),
                         console.log(e), r.val(""))
                 }).fail(function (e) {
                     return console.log(e)
@@ -133,7 +133,7 @@
                     data: "type_partner=generatorprodaj&comment=ПЕРЕЗВОНИТЕ МНЕ&type_response=html&phone=" + r.val() + "&unique_code=" + e() + "&hash=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f"
                 }).done(function (e) {
                     e && (n({phone: r.val(),urlName: location.href.replace('http://','')}, "tire-fitting"), $(".area").click(),
-                        // o(),
+                         o(),
                         console.log(e), r.val(""))
                 }).fail(function (e) {
                     return console.log(e)
@@ -221,7 +221,6 @@ $(document).ready(function () {
                 parentForm.find('input[name=phone]').after('<div class="errMsg">Не заполнено поле</div>');
                 parentForm.find('input[name=phone]').css('border-color', 'red');
             } else {
-                console.log(data);
                 $.ajax({
                     url: '/hranenie-shin/mail.php',
                     type: 'POST',
@@ -229,7 +228,6 @@ $(document).ready(function () {
                     // data: data,
                     // dataType: 'html',
                     success: function (rezult) {
-                        $('.test').html(rezult);
                         parentForm.hide();
                         $('.modalOverlay').show().delay(3000).fadeOut();
                         $('.successMsg').show().delay(3000).fadeOut();
@@ -238,12 +236,26 @@ $(document).ready(function () {
                             $('.modalOverlay').hide();
                             $('.successMsg').hide();
                         });
+                        $.ajax({
+                            url: 'https://wilgood.ru/handler_for_partners/',
+                            type: 'GET',
+                            data: 'type_partner=generatorprodaj&type_response=html&phone=' + phone + '&unique_code=' + generateHash() + '&hash=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f',
+                        }).done(json => {
+                            if (json) {
+                                console.log(json);
+                            }
+                        });
+
                     }
                 });
             }
         });
     }
     sendModal();
+
+    function generateHash() {
+        return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+    }
 
     var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
     $('.fakeRoistat').css('left', fakeRoistatWidth);
@@ -289,7 +301,7 @@ $(document).ready(function () {
                 type_akpp: l.val(),
                 urlName: location.href.replace('http://','')
             }, "cost"), $(".area").click(),
-                // o(),
+                 o(),
                 console.log(e), i.val(""))
         }).fail(function (e) {
             return console.log(e)
