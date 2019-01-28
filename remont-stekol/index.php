@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta charset="utf-8"/>
-    <title>Сеть автосервисов в Москве</title>
+    <title>Сеть из 22-х автоцентров по всей Москве</title>
     <link rel="icon" type='image/png'
           href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/e5d388c5baafaaab24a32e5bafc0181a.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,8 +12,9 @@
         <?
         $siteUrl = $_SERVER['REQUEST_URI'];
         $yaId = [
-            "/zamena-masla/" => "51444766",
-            "/zamena-masel/" => "51444757",
+            "/remont-stekla/" => "51444874",
+            "/remont-stekol/" => "51444862",
+
         ];
         ?>
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -30,18 +31,19 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/51962525" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
-    <script>window.plp = {
-        "page_id": 1656319,
-        "content_id": 2185473,
+    <script>
+        window.plp = {
+        "page_id": 1652916,
+        "content_id": 2179710,
         "lang": "ru",
-        "time": 1548247260,
+        "time": 1547955228,
         "screens": "screens-xs-sm-md-lg",
         "animations": {"section": {"type": "scroll"}, "widget": {"type": "scroll"}}
     };
-    window.plp_page_id = 1656319;
-    window.plp_content_id = 2185473;
+    window.plp_page_id = 1652916;
+    window.plp_content_id = 2179710;
     window.plp_lang = "ru";
-    window.lptag = "b66b1e8b45951e72846153899ebde0ab44wAj0+xioOa9UWY2vgKfk4E+ANYtJyyz82gEWTa9LU5QwfvN6AKXop5Mml5Ywvd";
+    window.lptag = "66c98f9215d5e1e71cb4f8403d4dffc6eoWypvtaQmof0X+C5918EdNVy3stNE9PpCuMzuDY0bzNyQNlr6rxV+4hLUbwv6fW";
     window.error_handler = function (e, fn_id) {
         window.console && console.log && console.log(fn_id);
         window['error_handler_' + fn_id] && eval(window['error_handler_' + fn_id]);
@@ -53,15 +55,16 @@
             x = new (XMLHttpRequest || ActiveXObject), x.open('PUT', '/', 1), x.send(window.lptag + '\n' + document.referrer + '\n' + (location.pathname + location.search))
         } catch (a) {
         }
-    }, 1e3);</script>
+    }, 1e3);
+    </script>
     <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/vendors.css"></link>
     <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/plp.css"></link>
     <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/nodes.css"></link>
     <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/swiper.css"></link>
-
-    <link type="text/css" rel="stylesheet" href="assets/css/main.css"></link>
+    <link type="text/css" rel="stylesheet" href="/remont-stekol/assets/css/main.css"></link>
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript">window._trackJs = {
+    <script type="text/javascript">
+        window._trackJs = {
         token: "4fd557ccb06a4bd28e7b90da188cd54b",
         application: "production",
         enabled: location.href.indexOf("notrackjs") < 0,
@@ -71,14 +74,14 @@
         (function (d, w, c) {
         (w[c] = w[c] || []).push(function () {
             try {
-                w.yaCounter50707423 = new Ya.Metrika({
-                    id: 50707423,
+                w.yaCounter50690902 = new Ya.Metrika({
+                    id: 50690902,
                     clickmap: true,
                     trackLinks: true,
                     accurateTrackBounce: true,
                     webvisor: true
                 });
-                w.yaCounter = w.yaCounter50707423;
+                w.yaCounter = w.yaCounter50690902;
             } catch (e) {
             }
         });
@@ -93,9 +96,10 @@
         } else {
             f();
         }
-    })(document, window, "yandex_metrika_callbacks"); </script>
+    })(document, window, "yandex_metrika_callbacks");
+    </script>
     <noscript>
-        <div><img src="https://mc.yandex.ru/watch/50707423" style="position:absolute; left:-9999px;" alt=""/></div>
+        <div><img src="https://mc.yandex.ru/watch/50690902" style="position:absolute; left:-9999px;" alt=""/></div>
     </noscript> <!-- /Yandex.Metrika counter --></head>
 <body class="area ">
 <div class="area font-text-opensans font-header-ttnormsmedium">
@@ -221,7 +225,7 @@
                                                                                                        href="#adresa"
                                                                                                        target="_self">
                                                                                                         <button class="btn hvr-fade font-text"
-                                                                                                                id="uid46"
+                                                                                                                id="uid44"
                                                                                                                 data-id=""
                                                                                                                 data-action="link"
                                                                                                                 data-ym_goal=""
@@ -249,7 +253,7 @@
                                                                                                        href="#otzivi"
                                                                                                        target="_self">
                                                                                                         <button class="btn hvr-fade font-text"
-                                                                                                                id="uid47"
+                                                                                                                id="uid45"
                                                                                                                 data-id=""
                                                                                                                 data-action="link"
                                                                                                                 data-ym_goal=""
@@ -275,7 +279,7 @@
                                                                                                 <div class="btn-out center xs-none">
                                                                                                     <div class="btn-inner">
                                                                                                         <button class="btn hvr-fade font-text"
-                                                                                                                id="uid48"
+                                                                                                                id="uid46"
                                                                                                                 data-id=""
                                                                                                                 data-action="formscroll"
                                                                                                                 data-ym_goal=""
@@ -308,12 +312,11 @@
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="macros-button">
-                                        <div class="btn-out center xs-none"><a class="btn-inner" href="tel:+78005508593"
+                                        <div class="btn-out center xs-none"><a class="btn-inner" href="tel:+78005503695"
                                                                                target="_blank">
-                                            <button class="btn font-text" id="uid49" data-id="" data-action="link"
+                                            <button class="btn font-text" id="uid47" data-id="" data-action="link"
                                                     data-ym_goal="ZVONOK" data-ga_category="" data-ga_action=""
-                                                    need_hover="true" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZVONOK'); return true;"><span class="text"
-                                                                            >ПОЗВОНИТЬ БЕСПЛАТНО</span>
+                                                    need_hover="true" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZVONOK'); return true;"><span class="text">ПОЗВОНИТЬ БЕСПЛАТНО</span>
                                             </button>
                                         </a></div>
                                     </div>
@@ -346,7 +349,7 @@
                                 <div class="wrapper2">
                                     <div class="">
                                         <div class="xs-force-center textable gray-theme"><h4><span
-                                                style="font-size: 16px;" class="changePhone">8 (800) 550-85-73</span></h4></div>
+                                                style="font-size: 16px;" class="changePhone">8 (800) 550-36-95</span></h4></div>
                                     </div>
                                 </div>
                             </div>
@@ -369,99 +372,79 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="node node35 widget widget-blank">
-                            <div class="wrapper1">
-                                <div class="wrapper2">
-                                    <div class="padding"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="node node36 widget widget-text">
+                        <div class="node node35 widget widget-text">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="">
                                         <div class="xs-force-center textable"><p
-                                                style="text-align: center; line-height: 0.7;"><strong><span
+                                                style="text-align: center; line-height: 0.7;"><span
                                                 style="font-size: 20px;"><span
-                                                style="font-family: &quot;Roboto Slab&quot;;">Заменим масло</span></span></strong>
+                                                style="font-family: &quot;Roboto Slab&quot;;"><strong>Ремонт сколов и трещин</strong></span></span>
                                         </p>
                                             <p style="text-align: center; line-height: 0.7;"><strong><span
                                                     style="font-size: 20px;"><span
-                                                    style="font-family: &quot;Roboto Slab&quot;;">в любом автомобиле</span></span></strong>
+                                                    style="font-family: &quot;Roboto Slab&quot;;">любых размеров</span></span></strong>
                                             </p>
-                                            <p style="line-height: 0.8; text-align: center;"><strong><span
+                                            <p style="text-align: center; line-height: 0.7;"><strong><span
                                                     style="font-size: 20px;"><span
-                                                    style="font-family: &quot;Roboto Slab&quot;;">без очереди, <span
-                                                    style="color: rgb(201, 0, 0);">за 30 минут</span></span></span></strong>
-                                            </p></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="node node37 widget widget-text">
-                            <div class="wrapper1">
-                                <div class="wrapper2">
-                                    <div class="">
-                                        <div class="xs-force-center textable"><p style="line-height: 0.7;"><span
-                                                style="font-size: 12px;"><strong><span style="color: rgb(229, 56, 53);">● </span>В ДВИГАТЕЛЕ<span
-                                                style="color: rgb(229, 56, 53);"><strong>&nbsp;&nbsp;</strong></span><strong><span
-                                                style="color: rgb(229, 56, 53);">●</span>&nbsp;</strong>В АКПП<span
-                                                style="font-size: 12px;"><strong><strong>&nbsp;<span
-                                                style="color: rgb(229, 56, 53);">&nbsp;</span></strong></strong></span></strong><strong><span
-                                                style="color: rgb(229, 56, 53);">●</span>&nbsp;</strong><strong>В МКПП</strong></span>
-                                        </p>
-                                            <p style="line-height: 0.7;"><span style="font-size: 12px;"><strong><strong>&nbsp; <span
-                                                    style="color: rgb(229, 56, 53);">&nbsp;</span></strong><strong><span
-                                                    style="color: rgb(229, 56, 53);">●</span>&nbsp;</strong>ПРОМЫВКА СИСТЕМЫ</strong></span>
+                                                    style="font-family: &quot;Roboto Slab&quot;;"><span
+                                                    style="color: rgb(201, 0, 0);">от 800 руб.</span>,&nbsp;</span></span><span
+                                                    style="font-size: 20px;"><span
+                                                    style="font-family: &quot;Roboto Slab&quot;;">без очереди,</span></span></strong>
                                             </p>
-                                            <p style="line-height: 0.7;"><span style="font-size: 12px;"><strong><strong><span
-                                                    style="color: rgb(229, 56, 53);">●</span>&nbsp;</strong>ПОДБОР МАСЛА&nbsp;</strong><strong>И ФИЛЬТРОВ</strong></span>
+                                            <p style="text-align: center; line-height: 0.7;"><span
+                                                    style="font-size: 20px;"><span
+                                                    style="font-family: &quot;Roboto Slab&quot;;"><span
+                                                    style="color: rgb(201, 0, 0);"><strong>в течение 30 минут</strong></span></span></span>
                                             </p></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="node node38 widget widget-grid">
+                        <div class="node node36 widget widget-grid">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="grid valign-middle paddings-20px xs-wrap">
                                         <div class="gridwrap">
                                             <div class="col" style="width: 8.73913%;">
                                                 <div class="cont">
-                                                    <div class="node node39 widget widget-button">
+                                                    <div class="node node37 widget widget-video-button">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
-                                                                <div class="macros-button">
-                                                                    <div class="btn-out left xs-none">
-                                                                        <div class="btn-inner">
-                                                                            <button class="btn font-text" id="uid50"
-                                                                                    data-id="" data-action="modal"
-                                                                                    data-ym_goal="" data-ga_category=""
-                                                                                    data-ga_action="" need_hover="false"
-                                                                                    data-modal="custom"><img
-                                                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAAGklEQVQoU2NkoBAwUqifYdQAhtEwYKBCGAAAE40ADA7nRNsAAAAASUVORK5CYII="
-                                                                                    style="width: 412.5px;"
-                                                                                    data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/de2dc6744f7455ad2fc7f1f0e0599035.png"
-                                                                                    data-lazy-image_size="550,394"
-                                                                                    data-lazy-image_detect="css-width">
-                                                                            </button>
+                                                                <div class="metahtml">
+                                                                    <div id="node37_meta" class="code">
+                                                                        <div style="text-align: center;">
+                                                                            <div class="video-button3-bg">
+                                                                                <div class="video-button3-bgimg"
+                                                                                     style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAYAAADwdn+XAAAAFklEQVQoU2NkoBAwUqifYdQAhkEQBgALLAAJYi2WEwAAAABJRU5ErkJggg==&quot;);"
+                                                                                     data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/d8649a2b9ddc21af8cc93450c5f9a6c9.png"
+                                                                                     data-lazy-bgimage_size="1187,625"></div>
+                                                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAFklEQVQoU2NkoBAwUqifYdQAhuEQBgANtgAKhIZC3wAAAABJRU5ErkJggg==">
+                                                                                <div class="video-button3-wrap">
+                                                                                    <div plp-video-button=""
+                                                                                         data-modal="video"
+                                                                                         class="video-button3 btn-modal">
+                                                                                        <i class="fa fa-play"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="macros-modal">
-                                                                    <div class="modal fade nocolors" data-modal="custom"
-                                                                         area-context="uid51">
-                                                                        <div class="modal-dialog" style="width: 860px;">
+                                                                    <div class="modal fade nocolors" data-modal="video"
+                                                                         area-context="uid48">
+                                                                        <div class="modal-dialog" style="width: 720px;">
                                                                             <div class="modal-content">
                                                                                 <div class="modal-header">
                                                                                     <button class="close nofonts">×
                                                                                     </button>
-                                                                                    <h4 class="textable"><p><br></p>
-                                                                                    </h4>
+                                                                                    <h4 class="textable"><p>Заголовок
+                                                                                        окна</p></h4>
                                                                                 </div>
                                                                                 <div class="modal-body">
                                                                                     <div class="cont">
-                                                                                        <div class="node node40 widget widget-video">
+                                                                                        <div class="node node38 widget widget-video">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div class="macros-video">
@@ -472,7 +455,7 @@
                                                                                                                      data-lazy-image_size="720,405"
                                                                                                                      data-lazy-image_detect="fill-width">
                                                                                                                 <iframe class="wrap"
-                                                                                                                        data-lazy-iframe="//www.youtube.com/embed/GpS4AxjvuF8?rel=0&amp;autoplay=1"
+                                                                                                                        data-lazy-iframe="//www.youtube.com/embed/qN9UujO93ws?rel=0&amp;autoplay=1"
                                                                                                                         frameborder="0"
                                                                                                                         allowfullscreen="true"></iframe>
                                                                                                             </div>
@@ -494,26 +477,26 @@
                                             </div>
                                             <div class="col" style="width: 76.6957%;">
                                                 <div class="cont">
-                                                    <div class="node node41 widget widget-form2"
+                                                    <div class="node node39 widget widget-form2"
                                                          data-form="{&quot;name&quot;:&quot;Рассчитать точную стоимость&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                          data-isquiz="false">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div style="max-width: 476px; position: relative; margin-left: auto; margin-right: auto;">
                                                                     <div class="metahtml">
-                                                                        <div id="node41_meta" class="code">
-                                                                            <div class="form1-cover nohidemodal" id="rasschitat-stoimost-form-mobile" data-mod="uid52">
+                                                                        <div id="node39_meta" class="code">
+                                                                            <div class="form1-cover" id="raschet-stoimosti-form-mobile">
                                                                                 <div plp-form-container=""
                                                                                      colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                     <div class="cont">
-                                                                                        <div class="node node42 widget widget-text">
+                                                                                        <div class="node node40 widget widget-text">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div class="">
                                                                                                         <div class="xs-force-center textable">
                                                                                                             <p style="line-height: 0.8;">
                                                                                                                 <span style="font-size: 14px;"><span
-                                                                                                                        style="font-family: Roboto;">Стоимость замены масла</span></span>
+                                                                                                                        style="font-family: Roboto;">Стоимость ремонта стекла</span></span>
                                                                                                             </p>
                                                                                                             <p style="line-height: 0.8;">
                                                                                                                 <span style="font-size: 14px;"><span
@@ -523,11 +506,11 @@
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div class="node node43 widget widget-field">
+                                                                                        <div class="node node41 widget widget-field">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div class="metahtml">
-                                                                                                        <div id="node43_meta"
+                                                                                                        <div id="node41_meta"
                                                                                                              data-vals="{&quot;type&quot;:&quot;select-menu&quot;,&quot;text&quot;:&quot;марка авто&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;LADA (ВАЗ)&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Audi&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;BMW&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Chery&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Chevrolet&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Citroen&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Daewoo&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Ford&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Great Wall&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Honda&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Infiniti&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Jeep&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Kia&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Land Rover&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Lexus&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Lifan&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Mazda&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Mercedes-Benz&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Mitsubishi&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Nissan&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Opel&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Peugeot&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Porsche&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Renault&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Skoda&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Ssang Yong&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Subaru&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Suzuki&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Toyota&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Volkswagen&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Volvo&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;ГАЗ&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;УАЗ&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Другая&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:false,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;right&quot;,&quot;fontsize&quot;:100,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                              class="code">
                                                                                                             <div plp-field="select-menu">
@@ -662,11 +645,11 @@
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div class="node node44 widget widget-field">
+                                                                                        <div class="node node42 widget widget-field">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div class="metahtml">
-                                                                                                        <div id="node44_meta"
+                                                                                                        <div id="node42_meta"
                                                                                                              data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                              class="code">
                                                                                                             <div plp-field="phone"
@@ -690,26 +673,26 @@
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div class="node node45 widget widget-text">
+                                                                                        <div class="node node43 widget widget-text">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div class="">
                                                                                                         <div class="xs-force-center textable">
                                                                                                             <p style="text-align: center;">
-                                                                                                                <span style="font-size: 14px;">Точную стоимость замены вышлем Вам по смс</span>
+                                                                                                                <span style="font-size: 14px;">Точную стоимость работы вышлем Вам по смс</span>
                                                                                                             </p></div>
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div class="node node46 widget widget-button">
+                                                                                        <div class="node node44 widget widget-button">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div class="macros-button">
                                                                                                         <div class="btn-out center xs-none">
                                                                                                             <div class="btn-inner">
                                                                                                                 <button class="btn hvr-grow font-text modalSubmit"
-                                                                                                                        id="uid52"
+                                                                                                                        id="uid49"
                                                                                                                         ><span
                                                                                                                         class="text">РАССЧИТАТЬ ТОЧНУЮ СТОИМОСТЬ
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
@@ -732,25 +715,52 @@
                                             </div>
                                             <div class="col" style="width: 14.5652%;">
                                                 <div class="cont">
-                                                    <div class="node node62 widget widget-grid">
+                                                    <div class="node node60 widget widget-grid">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="grid valign-middle paddings-20px xs-wrap">
                                                                     <div class="gridwrap">
                                                                         <div class="col" style="width: 33.3333%;">
                                                                             <div class="cont">
-                                                                                <div class="node node63 widget widget-image">
+                                                                                <div class="node node61 widget widget-image">
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="bgimage"
-                                                                                                 style="height: 170px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC&quot;);"
-                                                                                                 data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/0694e1b469a4b4c22f5bca76c8a2684f.jpg"
-                                                                                                 data-lazy-bgimage_size="750,470">
+                                                                                                 style="height: 200px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAAGklEQVQoU2NkoBAwUqifYdQAhtEwYKBCGAAAE40ADA7nRNsAAAAASUVORK5CYII=&quot;);"
+                                                                                                 data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6af438fb48a51cd496ccb9fddd5557e7.png"
+                                                                                                 data-lazy-bgimage_size="330,247">
                                                                                                 <img class=""
                                                                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                                                                      alt=""></div>
                                                                                             <noscript><img
-                                                                                                    src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/0694e1b469a4b4c22f5bca76c8a2684f.jpg"
+                                                                                                    src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6af438fb48a51cd496ccb9fddd5557e7.png"
+                                                                                                    alt=""></noscript>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col" style="width: 33.3333%;">
+                                                                            <div class="cont">
+                                                                                <div class="node node62 widget widget-blank">
+                                                                                    <div class="wrapper1">
+                                                                                        <div class="wrapper2">
+                                                                                            <div class="padding"></div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="node node63 widget widget-image">
+                                                                                    <div class="wrapper1">
+                                                                                        <div class="wrapper2">
+                                                                                            <div class="bgimage"
+                                                                                                 style="height: 200px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAAGklEQVQoU2NkoBAwUqifYdQAhtEwYKBCGAAAE40ADA7nRNsAAAAASUVORK5CYII=&quot;);"
+                                                                                                 data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/5e167802393c0c94e6070ef1ac218e3b.png"
+                                                                                                 data-lazy-bgimage_size="330,247">
+                                                                                                <img class=""
+                                                                                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                                                                                     alt=""></div>
+                                                                                            <noscript><img
+                                                                                                    src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/5e167802393c0c94e6070ef1ac218e3b.png"
                                                                                                     alt=""></noscript>
                                                                                         </div>
                                                                                     </div>
@@ -770,41 +780,14 @@
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="bgimage"
-                                                                                                 style="height: 170px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC&quot;);"
-                                                                                                 data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/411d180dcc417794ae8abe27dd3cd1d8.jpg"
-                                                                                                 data-lazy-bgimage_size="743,466">
+                                                                                                 style="height: 200px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAAGklEQVQoU2NkoBAwUqifYdQAhtEwYKBCGAAAE40ADA7nRNsAAAAASUVORK5CYII=&quot;);"
+                                                                                                 data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/cacfe9de4f01c471fe1df67d7cf560ef.png"
+                                                                                                 data-lazy-bgimage_size="330,247">
                                                                                                 <img class=""
                                                                                                      src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                                                                                                      alt=""></div>
                                                                                             <noscript><img
-                                                                                                    src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/411d180dcc417794ae8abe27dd3cd1d8.jpg"
-                                                                                                    alt=""></noscript>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col" style="width: 33.3333%;">
-                                                                            <div class="cont">
-                                                                                <div class="node node66 widget widget-blank">
-                                                                                    <div class="wrapper1">
-                                                                                        <div class="wrapper2">
-                                                                                            <div class="padding"></div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="node node67 widget widget-image">
-                                                                                    <div class="wrapper1">
-                                                                                        <div class="wrapper2">
-                                                                                            <div class="bgimage"
-                                                                                                 style="height: 170px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC&quot;);"
-                                                                                                 data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/c2158b4873f74f7b1b9db14d2cec10bb.jpg"
-                                                                                                 data-lazy-bgimage_size="750,470">
-                                                                                                <img class=""
-                                                                                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                                                                     alt=""></div>
-                                                                                            <noscript><img
-                                                                                                    src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/c2158b4873f74f7b1b9db14d2cec10bb.jpg"
+                                                                                                    src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/cacfe9de4f01c471fe1df67d7cf560ef.png"
                                                                                                     alt=""></noscript>
                                                                                         </div>
                                                                                     </div>
@@ -829,19 +812,19 @@
         </div>
     </div><!-- ADAPTIVE -->
     <script class="adaptive">if (["xs"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
-    <div class="node node78 section section-clear fixation-top xs-hidden" data-opacity="0.98">
+    <div class="node node76 section section-clear fixation-top xs-hidden" data-opacity="0.98">
         <div class="wrapper1">
             <div class="wrapper2">
                 <div class="container">
                     <div class="cont">
-                        <div class="node node79 widget widget-grid">
+                        <div class="node node77 widget widget-grid">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="grid valign-middle paddings-20px xs-wrap">
                                         <div class="gridwrap">
                                             <div class="col" style="width: 23.5072%;">
                                                 <div class="cont">
-                                                    <div class="node node80 widget widget-image">
+                                                    <div class="node node78 widget widget-image">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
@@ -860,7 +843,7 @@
                                             </div>
                                             <div class="col" style="width: 28.3798%;">
                                                 <div class="cont">
-                                                    <div class="node node81 widget widget-text">
+                                                    <div class="node node79 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -878,7 +861,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node82 widget widget-text">
+                                                    <div class="node node80 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -895,26 +878,26 @@
                                             </div>
                                             <div class="col" style="width: 48.1129%;">
                                                 <div class="cont">
-                                                    <div class="node node83 widget widget-grid">
+                                                    <div class="node node81 widget widget-grid">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="grid valign-middle paddings-20px xs-wrap">
                                                                     <div class="gridwrap">
                                                                         <div class="col" style="width: 64.2235%;">
                                                                             <div class="cont">
-                                                                                <div class="node node84 widget widget-text">
+                                                                                <div class="node node82 widget widget-text">
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="">
                                                                                                 <div class="xs-force-center textable gray-theme">
                                                                                                     <h4 style="text-align: right;">
-                                                                                                        <span style="font-size: 22px;" class="changePhone">8 (800) 550-85-73</span>
+                                                                                                        <span style="font-size: 22px;" class="changePhone">8 (800) 550-36-95</span>
                                                                                                     </h4></div>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="node node85 widget widget-button">
+                                                                                <div class="node node83 widget widget-button">
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="macros-button">
@@ -953,7 +936,7 @@
                                                                                                             </div>
                                                                                                             <div class="modal-body">
                                                                                                                 <div class="cont">
-                                                                                                                    <div class="node node86 widget widget-text">
+                                                                                                                    <div class="node node84 widget widget-text">
                                                                                                                         <div class="wrapper1">
                                                                                                                             <div class="wrapper2">
                                                                                                                                 <div class="">
@@ -967,7 +950,7 @@
                                                                                                                             </div>
                                                                                                                         </div>
                                                                                                                     </div>
-                                                                                                                    <div class="node node87 widget widget-text">
+                                                                                                                    <div class="node node85 widget widget-text">
                                                                                                                         <div class="wrapper1">
                                                                                                                             <div class="wrapper2">
                                                                                                                                 <div class="">
@@ -985,24 +968,24 @@
                                                                                                                             </div>
                                                                                                                         </div>
                                                                                                                     </div>
-                                                                                                                    <div class="node node88 widget widget-form2"
+                                                                                                                    <div class="node node86 widget widget-form2"
                                                                                                                          data-form="{&quot;name&quot;:&quot;Запись в ближайший сервис&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                                                                          data-isquiz="false">
                                                                                                                         <div class="wrapper1">
                                                                                                                             <div class="wrapper2">
                                                                                                                                 <div style="max-width: 456px; position: relative; margin-left: auto; margin-right: auto;">
                                                                                                                                     <div class="metahtml">
-                                                                                                                                        <div id="node88_meta"
+                                                                                                                                        <div id="node86_meta"
                                                                                                                                              class="code">
-                                                                                                                                            <div class="form1-cover" id="zapis-link-top" data-mod="uid2">
+                                                                                                                                            <div class="form1-cover" id="onlain-zapis-link-top" data-mod="uid2">
                                                                                                                                                 <div plp-form-container=""
                                                                                                                                                      colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                                                                                     <div class="cont">
-                                                                                                                                                        <div class="node node89 widget widget-field">
+                                                                                                                                                        <div class="node node87 widget widget-field">
                                                                                                                                                             <div class="wrapper1">
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="metahtml">
-                                                                                                                                                                        <div id="node89_meta"
+                                                                                                                                                                        <div id="node87_meta"
                                                                                                                                                                              data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;1-ая ул. Измайловского Зверинца, д. 8&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;right&quot;,&quot;fontsize&quot;:100,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                                                                              class="code">
                                                                                                                                                                             <div plp-field="phone"
@@ -1026,7 +1009,7 @@
                                                                                                                                                                 </div>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
-                                                                                                                                                        <div class="node node90 widget widget-button">
+                                                                                                                                                        <div class="node node88 widget widget-button">
                                                                                                                                                             <div class="wrapper1">
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="macros-button">
@@ -1034,7 +1017,8 @@
                                                                                                                                                                             <div class="btn-inner">
                                                                                                                                                                                 <button class="btn font-text modalSubmit"
                                                                                                                                                                                         id="uid4"
-                                                                                                                                                                                        >ЗАПИСАТЬСЯ
+                                                                                                                                                                                        ><span
+                                                                                                                                                                                        class="text">ЗАПИСАТЬСЯ
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                                                                                             </div>
                                                                                                                                                                         </div>
@@ -1064,7 +1048,7 @@
                                                                         </div>
                                                                         <div class="col" style="width: 35.7765%;">
                                                                             <div class="cont">
-                                                                                <div class="node node100 widget widget-button">
+                                                                                <div class="node node98 widget widget-button">
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="macros-button">
@@ -1073,13 +1057,13 @@
                                                                                                         <button class="btn hvr-grow font-text btnModal"
                                                                                                                 id="uid5"
                                                                                                                 data-id=""
-                                                                                                                data-action="modal"
+                                                                                                                data-action=""
                                                                                                                 data-ym_goal="ZAKAZZVONKA"
                                                                                                                 data-ga_category=""
                                                                                                                 data-ga_action=""
                                                                                                                 need_hover="false"
                                                                                                                 data-modal="custom"
-                                                                                                                onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PEREZVON'); return true;">
+                                                                                                                onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PERZI'); return true;">
                                                                                                             <span class="text">Перезвоните мне</span>
                                                                                                         </button>
                                                                                                     </div>
@@ -1104,20 +1088,20 @@
                                                                                                             </div>
                                                                                                             <div class="modal-body">
                                                                                                                 <div class="cont">
-                                                                                                                    <div class="node node101 widget widget-form2"
+                                                                                                                    <div class="node node99 widget widget-form2"
                                                                                                                          data-form="{&quot;name&quot;:&quot;Заказать звонок&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                                                                          data-isquiz="false">
                                                                                                                         <div class="wrapper1">
                                                                                                                             <div class="wrapper2">
                                                                                                                                 <div style="max-width: 384px; position: relative; margin-left: auto; margin-right: auto;">
                                                                                                                                     <div class="metahtml">
-                                                                                                                                        <div id="node101_meta"
+                                                                                                                                        <div id="node99_meta"
                                                                                                                                              class="code">
                                                                                                                                             <div class="form1-cover" id="callback-form-top" data-mod="uid5">
                                                                                                                                                 <div plp-form-container=""
                                                                                                                                                      colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                                                                                     <div class="cont">
-                                                                                                                                                        <div class="node node102 widget widget-text">
+                                                                                                                                                        <div class="node node100 widget widget-text">
                                                                                                                                                             <div class="wrapper1">
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="">
@@ -1131,7 +1115,7 @@
                                                                                                                                                                 </div>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
-                                                                                                                                                        <div class="node node103 widget widget-text">
+                                                                                                                                                        <div class="node node101 widget widget-text">
                                                                                                                                                             <div class="wrapper1">
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="">
@@ -1155,18 +1139,18 @@
                                                                                                                                                                 </div>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
-                                                                                                                                                        <div class="node node104 widget widget-blank">
+                                                                                                                                                        <div class="node node102 widget widget-blank">
                                                                                                                                                             <div class="wrapper1">
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="padding"></div>
                                                                                                                                                                 </div>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
-                                                                                                                                                        <div class="node node105 widget widget-field">
+                                                                                                                                                        <div class="node node103 widget widget-field">
                                                                                                                                                             <div class="wrapper1">
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="metahtml">
-                                                                                                                                                                        <div id="node105_meta"
+                                                                                                                                                                        <div id="node103_meta"
                                                                                                                                                                              data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                                                                              class="code">
                                                                                                                                                                             <div plp-field="phone"
@@ -1190,14 +1174,14 @@
                                                                                                                                                                 </div>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
-                                                                                                                                                        <div class="node node106 widget widget-button">
+                                                                                                                                                        <div class="node node104 widget widget-button">
                                                                                                                                                             <div class="wrapper1">
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="macros-button">
                                                                                                                                                                         <div class="btn-out center xs-none">
                                                                                                                                                                             <div class="btn-inner">
                                                                                                                                                                                 <button class="btn hvr-grow font-text modalSubmit"
-                                                                                                                                                                                        id="uid7" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PEREZVON_Z'); return true;"
+                                                                                                                                                                                        id="uid7" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PERZI_Z'); return true;"
                                                                                                                                                                                         ><span
                                                                                                                                                                                         class="text">ЗАКАЗАТЬ ЗВОНОК
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
@@ -1245,12 +1229,12 @@
         </div>
     </div><!-- ADAPTIVE -->
     <script class="adaptive">if (["xs"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
-    <div class="node node133 section section-clear xs-hidden" data-opacity="0.95">
+    <div class="node node131 section section-clear xs-hidden" data-opacity="0.95">
         <div class="wrapper1">
             <div class="wrapper2">
                 <div class="container">
                     <div class="cont">
-                        <div class="node node134 widget widget-html">
+                        <div class="node node132 widget widget-html">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="code">
@@ -1299,6 +1283,31 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="node node133 widget widget-blank">
+                            <div class="wrapper1">
+                                <div class="wrapper2">
+                                    <div class="padding"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="node node134 widget widget-text">
+                            <div class="wrapper1">
+                                <div class="wrapper2">
+                                    <div class="">
+                                        <div class="xs-force-center textable"><p
+                                                style="line-height: 0.8; text-align: center;"><span
+                                                style="font-size: 32px;"><span
+                                                style="font-family: &quot;Roboto Slab&quot;;">Ремонт сколов и трещин любых размеров <span
+                                                style="color: rgb(201, 0, 0);">от 800 руб.</span>,</span></span></p>
+                                            <p style="line-height: 0.8; text-align: center;"><span
+                                                    style="font-size: 32px;"><span
+                                                    style="font-family: &quot;Roboto Slab&quot;;">без очереди, <span
+                                                    style="color: rgb(201, 0, 0);">в течение 30 минут</span></span></span>
+                                            </p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="node node135 widget widget-blank">
                             <div class="wrapper1">
                                 <div class="wrapper2">
@@ -1306,72 +1315,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="node node136 widget widget-text">
-                            <div class="wrapper1">
-                                <div class="wrapper2">
-                                    <div class="">
-                                        <div class="xs-force-center textable"><p
-                                                style="line-height: 0.8; text-align: center;"><span
-                                                style="font-size: 40px;"><span
-                                                style="font-family: &quot;Roboto Slab&quot;;">Заменим масло в любом автомобиле</span></span>
-                                        </p>
-                                            <p style="line-height: 0.8; text-align: center;"><span
-                                                    style="font-size: 40px;"><span
-                                                    style="font-family: &quot;Roboto Slab&quot;;">без очереди, <span
-                                                    style="color: rgb(201, 0, 0);">за 30 минут</span></span></span></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="node node137 widget widget-text">
-                            <div class="wrapper1">
-                                <div class="wrapper2">
-                                    <div class="">
-                                        <div class="xs-force-center textable"><p style="text-align: center;">
-                                            <strong><span style="font-size: 16px;"><span
-                                                    style="font-family: &quot;Open Sans&quot;;"><span
-                                                    style="color: rgb(201, 0, 0);">●</span> В ДВИГАТЕЛЕ<strong><span
-                                                    style="font-size: 16px;"><span
-                                                    style="font-family: &quot;Open Sans&quot;;">&nbsp; &nbsp;&nbsp;</span></span></strong><strong><span
-                                                    style="font-size: 16px;"><span
-                                                    style="font-family: &quot;Open Sans&quot;;"><span
-                                                    style="color: rgb(201, 0, 0);">●&nbsp;</span></span></span></strong>В АКПП &nbsp; &nbsp;</span></span></strong><strong><span
-                                                style="font-size: 16px;"><span
-                                                style="font-family: &quot;Open Sans&quot;;"><span
-                                                style="color: rgb(201, 0, 0);">●&nbsp;</span></span></span></strong><strong><span
-                                                style="font-size: 16px;"><span
-                                                style="font-family: &quot;Open Sans&quot;;">В МКПП<strong><span
-                                                style="font-size: 16px;"><span
-                                                style="font-family: &quot;Open Sans&quot;;">&nbsp; &nbsp;&nbsp;</span></span></strong><strong><span
-                                                style="font-size: 16px;"><span
-                                                style="font-family: &quot;Open Sans&quot;;"><span
-                                                style="color: rgb(201, 0, 0);">●&nbsp;</span></span></span></strong>ПРОМЫВКА СИСТЕМЫ<strong><span
-                                                style="font-size: 16px;"><span
-                                                style="font-family: &quot;Open Sans&quot;;">&nbsp; &nbsp;&nbsp;</span></span></strong><strong><span
-                                                style="font-size: 16px;"><span
-                                                style="font-family: &quot;Open Sans&quot;;"><span
-                                                style="color: rgb(201, 0, 0);">●&nbsp;</span></span></span></strong>ПОДБОР МАСЛА И ФИЛЬТРОВ</span></span></strong>
-                                        </p></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="node node138 widget widget-blank">
-                            <div class="wrapper1">
-                                <div class="wrapper2">
-                                    <div class="padding"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="node node139 widget widget-grid">
+                        <div class="node node136 widget widget-grid">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="grid valign-middle paddings-20px xs-wrap">
                                         <div class="gridwrap">
-                                            <div class="col" style="width: 39.5942%;">
+                                            <div class="col" style="width: 39.8551%;">
                                                 <div class="cont">
-                                                    <div class="node node140 widget widget-imagedtext">
+                                                    <div class="node node137 widget widget-imagedtext">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="tbl middle">
@@ -1379,8 +1330,8 @@
                                                                         <div class="wrap"><img class=""
                                                                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg=="
                                                                                                style="width: 45px; height: 45px;"
-                                                                                               data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/1f46bd72a5a0a6a7bfc18ce8392fee7c.png"
-                                                                                               data-lazy-image_size="100,100"
+                                                                                               data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/1c942e133bc5df8daf99b9dc0de0e0d8.png"
+                                                                                               data-lazy-image_size="128,128"
                                                                                                data-lazy-image_detect="css-width-height">
                                                                         </div>
                                                                     </div>
@@ -1390,12 +1341,12 @@
                                                                             <div class="textable"
                                                                                  style="margin-top: 0px; opacity: 1;"><p
                                                                                     style="line-height: 0.8;"><span
-                                                                                    style="font-size: 18px;"><span
-                                                                                    style="font-family: Roboto;">Широкий ассортимент масел</span></span>
+                                                                                    style="font-family: Roboto;"><span
+                                                                                    style="font-size: 20px;">Гарантия 1 год</span></span>
                                                                             </p>
                                                                                 <p style="line-height: 0.8;"><span
-                                                                                        style="font-size: 18px;"><span
-                                                                                        style="font-family: Roboto;">и фильтров в наличии</span></span>
+                                                                                        style="font-family: Roboto;"><span
+                                                                                        style="font-size: 20px;">на выполненные работы</span></span>
                                                                                 </p></div>
                                                                             <div class="cont"></div>
                                                                         </div>
@@ -1406,9 +1357,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col" style="width: 35.2464%;">
+                                            <div class="col" style="width: 36.8986%;">
                                                 <div class="cont">
-                                                    <div class="node node141 widget widget-imagedtext">
+                                                    <div class="node node138 widget widget-imagedtext">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="tbl middle">
@@ -1416,8 +1367,8 @@
                                                                         <div class="wrap"><img class=""
                                                                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg=="
                                                                                                style="width: 45px; height: 45px;"
-                                                                                               data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6743575efdd372d8fa194764ed15e02d.png"
-                                                                                               data-lazy-image_size="100,100"
+                                                                                               data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/b33c67cfe3299f878d5afb91c0dd74af.png"
+                                                                                               data-lazy-image_size="64,64"
                                                                                                data-lazy-image_detect="css-width-height">
                                                                         </div>
                                                                     </div>
@@ -1427,14 +1378,16 @@
                                                                             <div class="textable"
                                                                                  style="margin-top: 0px; opacity: 1;"><p
                                                                                     style="line-height: 0.8;"><span
-                                                                                    style="font-size: 18px;"><span
-                                                                                    style="font-family: Roboto;">22 автосервиса</span></span>
+                                                                                    style="font-family: Roboto;"><span
+                                                                                    style="font-size: 20px;">Мастера с опытом</span></span>
                                                                             </p>
                                                                                 <p style="line-height: 0.8;"><span
-                                                                                        style="font-size: 18px;"><span
-                                                                                        style="font-family: Roboto;">в каждом районе&nbsp;</span></span><span
-                                                                                        style="font-size: 18px;"><span
-                                                                                        style="font-family: Roboto;">города</span></span>
+                                                                                        style="font-family: Roboto;"><span
+                                                                                        style="font-size: 20px;">работы&nbsp;</span></span><span
+                                                                                        style="font-family: Roboto;"><span
+                                                                                        style="font-size: 20px;">от</span></span><span
+                                                                                        style="font-family: Roboto;"><span
+                                                                                        style="font-size: 20px;">&nbsp;6 лет</span></span>
                                                                                 </p></div>
                                                                             <div class="cont"></div>
                                                                         </div>
@@ -1445,9 +1398,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col" style="width: 25.1594%;">
+                                            <div class="col" style="width: 23.2464%;">
                                                 <div class="cont">
-                                                    <div class="node node142 widget widget-imagedtext">
+                                                    <div class="node node139 widget widget-imagedtext">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="tbl middle">
@@ -1455,8 +1408,8 @@
                                                                         <div class="wrap"><img class=""
                                                                                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg=="
                                                                                                style="width: 45px; height: 45px;"
-                                                                                               data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/74ab3bea010a378bdc3981eaddf6799a.png"
-                                                                                               data-lazy-image_size="100,100"
+                                                                                               data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/4c8ee67754bed5a2d43c55b9c51c01f9.png"
+                                                                                               data-lazy-image_size="64,64"
                                                                                                data-lazy-image_detect="css-width-height">
                                                                         </div>
                                                                     </div>
@@ -1466,14 +1419,12 @@
                                                                             <div class="textable"
                                                                                  style="margin-top: 0px; opacity: 1;"><p
                                                                                     style="line-height: 0.8;"><span
-                                                                                    style="font-size: 18px;"><span
-                                                                                    style="font-family: Roboto;">Скидки и бонусы</span></span>
+                                                                                    style="font-family: Roboto;"><span
+                                                                                    style="font-size: 20px;">Проффесиоальное</span></span>
                                                                             </p>
                                                                                 <p style="line-height: 0.8;"><span
-                                                                                        style="font-size: 18px;"><span
-                                                                                        style="font-family: Roboto;">постоянным&nbsp;</span></span><span
-                                                                                        style="font-size: 18px;"><span
-                                                                                        style="font-family: Roboto;">клиентам</span></span>
+                                                                                        style="font-family: Roboto;"><span
+                                                                                        style="font-size: 20px;">оборудование</span></span>
                                                                                 </p></div>
                                                                             <div class="cont"></div>
                                                                         </div>
@@ -1489,116 +1440,71 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="node node146 widget widget-blank">
+                        <div class="node node143 widget widget-blank">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="padding"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="node node147 widget widget-grid">
+                        <div class="node node144 widget widget-grid">
                             <div class="wrapper1">
                                 <div class="wrapper2">
-                                    <div class="grid valign-top paddings-20px xs-wrap">
+                                    <div class="grid valign-top paddings-0px xs-wrap">
                                         <div class="gridwrap">
-                                            <div class="col" style="width: 53.1304%;">
+                                            <div class="col" style="width: 54%;">
                                                 <div class="cont">
-                                                    <div class="node node148 widget widget-button">
+                                                    <div class="node node145 widget widget-image">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
-                                                                <div class="macros-button">
-                                                                    <div class="btn-out left xs-none">
-                                                                        <div class="btn-inner">
-                                                                            <button class="btn font-text" id="uid8"
-                                                                                    data-id="" data-action="modal"
-                                                                                    data-ym_goal="" data-ga_category=""
-                                                                                    data-ga_action="" need_hover="false"
-                                                                                    data-modal="custom"><img
-                                                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAAGklEQVQoU2NkoBAwUqifYdQAhtEwYKBCGAAAE40ADA7nRNsAAAAASUVORK5CYII="
-                                                                                    style="width: 550px;"
-                                                                                    data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/de2dc6744f7455ad2fc7f1f0e0599035.png"
-                                                                                    data-lazy-image_size="550,394"
-                                                                                    data-lazy-image_detect="css-width">
-                                                                            </button>
-                                                                        </div>
-                                                                    </div>
+                                                                <div class="xs-force-center bgnormal"
+                                                                     style="text-align: center;"><img class="" alt=""
+                                                                                                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAH0lEQVQ4T2NkoBAwUqifYdQAhtEwYBgNA1A+Gvi8AAAmmAARf9qcXAAAAABJRU5ErkJggg=="
+                                                                                                      style="width: 360.64px;"
+                                                                                                      data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/06b23e9910535d022e690add982aaa1a.png"
+                                                                                                      data-lazy-image_size="736,766"
+                                                                                                      data-lazy-image_detect="css-width">
                                                                 </div>
-                                                                <div class="macros-modal">
-                                                                    <div class="modal fade nocolors" data-modal="custom"
-                                                                         area-context="uid9">
-                                                                        <div class="modal-dialog" style="width: 860px;">
-                                                                            <div class="modal-content">
-                                                                                <div class="modal-header">
-                                                                                    <button class="close nofonts">×
-                                                                                    </button>
-                                                                                    <h4 class="textable"><p><br></p>
-                                                                                    </h4>
-                                                                                </div>
-                                                                                <div class="modal-body">
-                                                                                    <div class="cont">
-                                                                                        <div class="node node149 widget widget-video">
-                                                                                            <div class="wrapper1">
-                                                                                                <div class="wrapper2">
-                                                                                                    <div class="macros-video">
-                                                                                                        <div class="pad-in">
-                                                                                                            <div class="video video_720x405 video1">
-                                                                                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAFklEQVQoU2NkoBAwUqifYdQAhuEQBgANtgAKhIZC3wAAAABJRU5ErkJggg=="
-                                                                                                                     data-lazy-image="//s.filesonload.ru/img/video/1.png"
-                                                                                                                     data-lazy-image_size="720,405"
-                                                                                                                     data-lazy-image_detect="fill-width">
-                                                                                                                <iframe class="wrap"
-                                                                                                                        data-lazy-iframe="//www.youtube.com/embed/GpS4AxjvuF8?rel=0&amp;autoplay=1"
-                                                                                                                        frameborder="0"
-                                                                                                                        allowfullscreen="true"></iframe>
-                                                                                                            </div>
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
+                                                                <noscript><img
+                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/06b23e9910535d022e690add982aaa1a.png"
+                                                                        alt=""></noscript>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col" style="width: 46.8696%;">
+                                            <div class="col" style="width: 46%;">
                                                 <div class="cont">
-                                                    <div class="node node150 widget widget-form2"
+                                                    <div class="node node146 widget widget-form2"
                                                          data-form="{&quot;name&quot;:&quot;Виджет \&quot;Форма\&quot;&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                          data-isquiz="false">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div style="max-width: 476px; position: relative; margin-left: auto; margin-right: auto;">
                                                                     <div class="metahtml">
-                                                                        <div id="node150_meta" class="code">
-                                                                            <div class="form1-cover nohidemodal" id="rasschitat-stoimost-form">
+                                                                        <div id="node146_meta" class="code">
+                                                                            <div class="form1-cover" id="raschet-stoimosti-form">
                                                                                 <div plp-form-container=""
                                                                                      colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                     <div class="cont">
-                                                                                        <div class="node node151 widget widget-text">
+                                                                                        <div class="node node147 widget widget-text">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div class="">
                                                                                                         <div class="xs-force-center textable">
                                                                                                             <p style="text-align: center;">
                                                                                                                 <span style="font-size: 18px;"><span
-                                                                                                                        style="font-family: Roboto;">Стоимость замены масла от 800 руб.</span></span>
+                                                                                                                        style="font-family: Roboto;">Стоимость ремонта стекла от 800 руб.</span></span>
                                                                                                             </p></div>
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div class="node node152 widget widget-field">
+                                                                                        <div class="node node148 widget widget-field">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div class="metahtml">
-                                                                                                        <div id="node152_meta"
+                                                                                                        <div id="node148_meta"
                                                                                                              data-vals="{&quot;type&quot;:&quot;select-menu&quot;,&quot;text&quot;:&quot;марка авто&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;LADA (ВАЗ)&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Audi&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;BMW&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Chery&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Chevrolet&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Citroen&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Daewoo&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Ford&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Great Wall&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Honda&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Infiniti&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Jeep&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Kia&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Land Rover&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Lexus&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Lifan&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Mazda&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Mercedes-Benz&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Mitsubishi&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Nissan&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Opel&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Peugeot&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Porsche&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Renault&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Skoda&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Ssang Yong&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Subaru&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Suzuki&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Toyota&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Volkswagen&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Volvo&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;ГАЗ&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;УАЗ&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0},{&quot;text&quot;:&quot;Другая&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:false,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;right&quot;,&quot;fontsize&quot;:100,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                              class="code">
                                                                                                             <div plp-field="select-menu">
@@ -1733,11 +1639,11 @@
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div class="node node153 widget widget-field">
+                                                                                        <div class="node node149 widget widget-field">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div class="metahtml">
-                                                                                                        <div id="node153_meta"
+                                                                                                        <div id="node149_meta"
                                                                                                              data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                              class="code">
                                                                                                             <div plp-field="phone"
@@ -1761,7 +1667,7 @@
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div class="node node154 widget widget-text">
+                                                                                        <div class="node node150 widget widget-text">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div class="">
@@ -1769,8 +1675,7 @@
                                                                                                             <p style="text-align: center;">
                                                                                                                 Точную
                                                                                                                 стоимость
-                                                                                                                замены
-                                                                                                                масла
+                                                                                                                работы
                                                                                                                 вышлем
                                                                                                                 Вам по
                                                                                                                 смс</p>
@@ -1779,14 +1684,14 @@
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div class="node node155 widget widget-button">
+                                                                                        <div class="node node151 widget widget-button">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div class="macros-button">
                                                                                                         <div class="btn-out center xs-none">
                                                                                                             <div class="btn-inner">
                                                                                                                 <button class="btn hvr-grow font-text modalSubmit"
-                                                                                                                        id="uid10" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'TT'); return true;"
+                                                                                                                        id="uid8" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'STOMS'); return true;"
                                                                                                                         ><span
                                                                                                                         class="text">РАССЧИТАТЬ ТОЧНУЮ СТОИМОСТЬ
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
@@ -1812,33 +1717,118 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="node node175 widget widget-blank">
+                        <div class="node node171 widget widget-blank">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="padding"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="node node176 widget widget-grid">
+                        <div class="node node172 widget widget-video-button">
+                            <div class="wrapper1">
+                                <div class="wrapper2">
+                                    <div class="metahtml">
+                                        <div id="node172_meta" class="code">
+                                            <div style="text-align: center;">
+                                                <div class="video-button3-bg">
+                                                    <div class="video-button3-bgimg"
+                                                         style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAYAAADwdn+XAAAAFklEQVQoU2NkoBAwUqifYdQAhkEQBgALLAAJYi2WEwAAAABJRU5ErkJggg==&quot;);"
+                                                         data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/d8649a2b9ddc21af8cc93450c5f9a6c9.png"
+                                                         data-lazy-bgimage_size="1187,625"></div>
+                                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAFklEQVQoU2NkoBAwUqifYdQAhuEQBgANtgAKhIZC3wAAAABJRU5ErkJggg==">
+                                                    <div class="video-button3-wrap">
+                                                        <div plp-video-button="" data-modal="video"
+                                                             class="video-button3 btn-modal">
+                                                            <i class="fa fa-play"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="macros-modal">
+                                        <div class="modal fade nocolors" data-modal="video" area-context="uid9">
+                                            <div class="modal-dialog" style="width: 720px;">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button class="close nofonts">×</button>
+                                                        <h4 class="textable"><p>Заголовок окна</p></h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="cont">
+                                                            <div class="node node173 widget widget-video">
+                                                                <div class="wrapper1">
+                                                                    <div class="wrapper2">
+                                                                        <div class="macros-video">
+                                                                            <div class="pad-in">
+                                                                                <div class="video video_720x405 video1">
+                                                                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAFklEQVQoU2NkoBAwUqifYdQAhuEQBgANtgAKhIZC3wAAAABJRU5ErkJggg=="
+                                                                                         data-lazy-image="//s.filesonload.ru/img/video/1.png"
+                                                                                         data-lazy-image_size="720,405"
+                                                                                         data-lazy-image_detect="fill-width">
+                                                                                    <iframe class="wrap"
+                                                                                            data-lazy-iframe="//www.youtube.com/embed/qN9UujO93ws?rel=0&amp;autoplay=1"
+                                                                                            frameborder="0"
+                                                                                            allowfullscreen="true"></iframe>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="node node174 widget widget-blank">
+                            <div class="wrapper1">
+                                <div class="wrapper2">
+                                    <div class="padding"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="node node175 widget widget-grid">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="grid valign-middle paddings-20px xs-wrap">
                                         <div class="gridwrap">
                                             <div class="col" style="width: 33.3333%;">
                                                 <div class="cont">
+                                                    <div class="node node176 widget widget-image">
+                                                        <div class="wrapper1">
+                                                            <div class="wrapper2">
+                                                                <div class="bgimage"
+                                                                     style="height: 230px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAAGklEQVQoU2NkoBAwUqifYdQAhtEwYKBCGAAAE40ADA7nRNsAAAAASUVORK5CYII=&quot;);"
+                                                                     data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6af438fb48a51cd496ccb9fddd5557e7.png"
+                                                                     data-lazy-bgimage_size="330,247"><img class=""
+                                                                                                           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                                                                                           alt=""></div>
+                                                                <noscript><img
+                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6af438fb48a51cd496ccb9fddd5557e7.png"
+                                                                        alt=""></noscript>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col" style="width: 33.3333%;">
+                                                <div class="cont">
                                                     <div class="node node177 widget widget-image">
                                                         <div class="wrapper1">
-                                                            <div class="wrapper2"><a class="bgimage fancybox"
-                                                                                     href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/411d180dcc417794ae8abe27dd3cd1d8.jpg"
-                                                                                     data-group="йцг"
-                                                                                     style="height: 230px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC&quot;);"
-                                                                                     data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/411d180dcc417794ae8abe27dd3cd1d8.jpg"
-                                                                                     data-lazy-bgimage_size="743,466"><img
-                                                                    class=""
-                                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                                    alt=""></a>
+                                                            <div class="wrapper2">
+                                                                <div class="bgimage"
+                                                                     style="height: 230px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAAGklEQVQoU2NkoBAwUqifYdQAhtEwYKBCGAAAE40ADA7nRNsAAAAASUVORK5CYII=&quot;);"
+                                                                     data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/5e167802393c0c94e6070ef1ac218e3b.png"
+                                                                     data-lazy-bgimage_size="330,247"><img class=""
+                                                                                                           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                                                                                           alt=""></div>
                                                                 <noscript><img
-                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/411d180dcc417794ae8abe27dd3cd1d8.jpg"
+                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/5e167802393c0c94e6070ef1ac218e3b.png"
                                                                         alt=""></noscript>
                                                             </div>
                                                         </div>
@@ -1849,38 +1839,15 @@
                                                 <div class="cont">
                                                     <div class="node node178 widget widget-image">
                                                         <div class="wrapper1">
-                                                            <div class="wrapper2"><a class="bgimage fancybox"
-                                                                                     href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/c2158b4873f74f7b1b9db14d2cec10bb.jpg"
-                                                                                     data-group="йцг"
-                                                                                     style="height: 230px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC&quot;);"
-                                                                                     data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/c2158b4873f74f7b1b9db14d2cec10bb.jpg"
-                                                                                     data-lazy-bgimage_size="750,470"><img
-                                                                    class=""
-                                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                                    alt=""></a>
+                                                            <div class="wrapper2">
+                                                                <div class="bgimage"
+                                                                     style="height: 230px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAYAAAB24g05AAAAGklEQVQoU2NkoBAwUqifYdQAhtEwYKBCGAAAE40ADA7nRNsAAAAASUVORK5CYII=&quot;);"
+                                                                     data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/cacfe9de4f01c471fe1df67d7cf560ef.png"
+                                                                     data-lazy-bgimage_size="330,247"><img class=""
+                                                                                                           src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                                                                                           alt=""></div>
                                                                 <noscript><img
-                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/c2158b4873f74f7b1b9db14d2cec10bb.jpg"
-                                                                        alt=""></noscript>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col" style="width: 33.3333%;">
-                                                <div class="cont">
-                                                    <div class="node node179 widget widget-image">
-                                                        <div class="wrapper1">
-                                                            <div class="wrapper2"><a class="bgimage fancybox"
-                                                                                     href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/0694e1b469a4b4c22f5bca76c8a2684f.jpg"
-                                                                                     data-group="йцг"
-                                                                                     style="height: 230px; background-position: center center; background-size: contain; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC&quot;);"
-                                                                                     data-lazy-bgimage="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/0694e1b469a4b4c22f5bca76c8a2684f.jpg"
-                                                                                     data-lazy-bgimage_size="750,470"><img
-                                                                    class=""
-                                                                    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                                                    alt=""></a>
-                                                                <noscript><img
-                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/0694e1b469a4b4c22f5bca76c8a2684f.jpg"
+                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/cacfe9de4f01c471fe1df67d7cf560ef.png"
                                                                         alt=""></noscript>
                                                             </div>
                                                         </div>
@@ -1898,12 +1865,12 @@
         </div>
     </div><!-- ADAPTIVE -->
     <script class="adaptive">if (["sm", "md", "lg"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
-    <div class="node node187 section section-clear sm-hidden md-hidden lg-hidden" id="adresa" data-opacity="0.95">
+    <div class="node node186 section section-clear sm-hidden md-hidden lg-hidden" id="adresa" data-opacity="0.95">
         <div class="wrapper1">
             <div class="wrapper2">
                 <div class="container">
                     <div class="cont">
-                        <div class="node node188 widget widget-text">
+                        <div class="node node187 widget widget-text">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="">
@@ -1917,7 +1884,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="node node189 widget widget-text">
+                        <div class="node node188 widget widget-text">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="">
@@ -1928,14 +1895,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="node node190 widget widget-blank">
+                        <div class="node node189 widget widget-blank">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="padding"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="node node191 widget widget-html">
+                        <div class="node node190 widget widget-html">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="code">
@@ -1945,20 +1912,20 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="node node192 widget widget-blank">
+                        <div class="node node191 widget widget-blank">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="padding"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="node node193 widget widget-button">
+                        <div class="node node192 widget widget-button">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="macros-button">
                                         <div class="btn-out center xs-none">
                                             <div class="btn-inner">
-                                                <button class="btn hvr-grow font-text btnModal" id="uid53" data-id=""
+                                                <button class="btn hvr-grow font-text btnModal" id="uid50" data-id=""
                                                         data-action="modal" data-ym_goal="ZAPISVKN" data-ga_category=""
                                                         data-ga_action="" need_hover="false" data-modal="custom"><span
                                                         class="text">БЫСТРАЯ ОНЛАЙН-ЗАПИСЬ В АВТОСЕРВИС
@@ -1967,7 +1934,7 @@
                                         </div>
                                     </div>
                                     <div class="macros-modal">
-                                        <div class="modal fade nocolors" data-modal="custom" area-context="uid54">
+                                        <div class="modal fade nocolors" data-modal="custom" area-context="uid51">
                                             <div class="modal-dialog" style="width: 542px;">
                                                 <div class="modal-content">
                                                     <div class="modal-header">
@@ -1976,7 +1943,7 @@
                                                     </div>
                                                     <div class="modal-body">
                                                         <div class="cont">
-                                                            <div class="node node194 widget widget-text">
+                                                            <div class="node node193 widget widget-text">
                                                                 <div class="wrapper1">
                                                                     <div class="wrapper2">
                                                                         <div class="">
@@ -1996,23 +1963,23 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="node node195 widget widget-form2"
+                                                            <div class="node node194 widget widget-form2"
                                                                  data-form="{&quot;name&quot;:&quot;Запись на сервис&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                  data-isquiz="false">
                                                                 <div class="wrapper1">
                                                                     <div class="wrapper2">
                                                                         <div style="max-width: 456px; position: relative; margin-left: auto; margin-right: auto;">
                                                                             <div class="metahtml">
-                                                                                <div id="node195_meta" class="code">
-                                                                                    <div class="form1-cover" id="bistraya-zapis-online-form-mobile" data-mod="uid53">
+                                                                                <div id="node194_meta" class="code">
+                                                                                    <div class="form1-cover" id="zapis-onlain-form-mobile" data-mod="uid50">
                                                                                         <div plp-form-container=""
                                                                                              colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                             <div class="cont">
-                                                                                                <div class="node node196 widget widget-field">
+                                                                                                <div class="node node195 widget widget-field">
                                                                                                     <div class="wrapper1">
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="metahtml">
-                                                                                                                <div id="node196_meta"
+                                                                                                                <div id="node195_meta"
                                                                                                                      data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;1-ая ул. Измайловского Зверинца, д. 8&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;right&quot;,&quot;fontsize&quot;:100,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                      class="code">
                                                                                                                     <div plp-field="phone"
@@ -2036,15 +2003,16 @@
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                                <div class="node node197 widget widget-button">
+                                                                                                <div class="node node196 widget widget-button">
                                                                                                     <div class="wrapper1">
                                                                                                         <div class="wrapper2">
                                                                                                             <div class="macros-button">
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
                                                                                                                         <button class="btn font-text modalSubmit"
-                                                                                                                                id="uid55"
-                                                                                                                                >ЗАПИСАТЬСЯ
+                                                                                                                                id="uid52"
+                                                                                                                                ><span
+                                                                                                                                class="text">ЗАПИСАТЬСЯ
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -2076,12 +2044,12 @@
         </div>
     </div><!-- ADAPTIVE -->
     <script class="adaptive">if (["sm", "md", "lg"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
-    <div class="node node211 section section-clear sm-hidden md-hidden lg-hidden" id="otzivi" data-opacity="0.95">
+    <div class="node node210 section section-clear sm-hidden md-hidden lg-hidden" id="otzivi" data-opacity="0.95">
         <div class="wrapper1">
             <div class="wrapper2">
                 <div class="container">
                     <div class="cont">
-                        <div class="node node212 widget widget-text">
+                        <div class="node node211 widget widget-text">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="">
@@ -2093,11 +2061,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="node node213 widget widget-slider">
+                        <div class="node node212 widget widget-slider">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="metahtml">
-                                        <div id="node213_meta" class="code">
+                                        <div id="node212_meta" class="code">
                                             <div class="slider1-root">
                                                 <div plp-slider-previous="" class="slider1-previous">
                                                     <i class="fa fa-chevron-left"></i>
@@ -2107,25 +2075,25 @@
                                                      class="slider1-container swiper-container lazy-all">
                                                     <div class="swiper-wrapper">
                                                         <div class="swiper-slide">
-                                                            <div class="cont-wrapper">
+                                                            <div class="cont-wrapper active">
                                                                 <div class="cont">
-                                                                    <div class="node node214 widget widget-image">
+                                                                    <div class="node node213 widget widget-image">
                                                                         <div class="wrapper1">
                                                                             <div class="wrapper2">
                                                                                 <div class="xs-force-center bgnormal"
                                                                                      style="text-align: center;"><a
                                                                                         class="fancybox"
-                                                                                        href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/0801275133673a1381c318fd00a795e5.png"
-                                                                                        data-group="jn"><img class=""
-                                                                                                             alt=""
-                                                                                                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
-                                                                                                             style="width: 730px;"
-                                                                                                             data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/0801275133673a1381c318fd00a795e5.png"
-                                                                                                             data-lazy-image_size="730,276"
-                                                                                                             data-lazy-image_detect="css-width"></a>
+                                                                                        href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/504a8c7c0448665773c6bf48248a0449.png"
+                                                                                        data-group="123"><img class=""
+                                                                                                              alt=""
+                                                                                                              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
+                                                                                                              style="width: 730px;"
+                                                                                                              data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/504a8c7c0448665773c6bf48248a0449.png"
+                                                                                                              data-lazy-image_size="730,311"
+                                                                                                              data-lazy-image_detect="css-width"></a>
                                                                                 </div>
                                                                                 <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/0801275133673a1381c318fd00a795e5.png"
+                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/504a8c7c0448665773c6bf48248a0449.png"
                                                                                         alt=""></noscript>
                                                                             </div>
                                                                         </div>
@@ -2134,7 +2102,34 @@
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide">
-                                                            <div class="cont-wrapper active">
+                                                            <div class="cont-wrapper">
+                                                                <div class="cont">
+                                                                    <div class="node node214 widget widget-image">
+                                                                        <div class="wrapper1">
+                                                                            <div class="wrapper2">
+                                                                                <div class="xs-force-center bgnormal"
+                                                                                     style="text-align: center;"><a
+                                                                                        class="fancybox"
+                                                                                        href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/576d3a751c4948b97a555e472b3f917e.png"
+                                                                                        data-group="123"><img class=""
+                                                                                                              alt=""
+                                                                                                              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
+                                                                                                              style="width: 730px;"
+                                                                                                              data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/576d3a751c4948b97a555e472b3f917e.png"
+                                                                                                              data-lazy-image_size="730,292"
+                                                                                                              data-lazy-image_detect="css-width"></a>
+                                                                                </div>
+                                                                                <noscript><img
+                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/576d3a751c4948b97a555e472b3f917e.png"
+                                                                                        alt=""></noscript>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="cont-wrapper">
                                                                 <div class="cont">
                                                                     <div class="node node215 widget widget-image">
                                                                         <div class="wrapper1">
@@ -2142,17 +2137,17 @@
                                                                                 <div class="xs-force-center bgnormal"
                                                                                      style="text-align: center;"><a
                                                                                         class="fancybox"
-                                                                                        href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/f96c36c4508675989ff54c7e9e14615e.png"
-                                                                                        data-group="jn"><img class=""
-                                                                                                             alt=""
-                                                                                                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
-                                                                                                             style="width: 730px;"
-                                                                                                             data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/f96c36c4508675989ff54c7e9e14615e.png"
-                                                                                                             data-lazy-image_size="730,297"
-                                                                                                             data-lazy-image_detect="css-width"></a>
+                                                                                        href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/4f4067259c7ca5b4f709b05ed2a29956.png"
+                                                                                        data-group="123"><img class=""
+                                                                                                              alt=""
+                                                                                                              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg=="
+                                                                                                              style="width: 725px;"
+                                                                                                              data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/4f4067259c7ca5b4f709b05ed2a29956.png"
+                                                                                                              data-lazy-image_size="725,252"
+                                                                                                              data-lazy-image_detect="css-width"></a>
                                                                                 </div>
                                                                                 <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/f96c36c4508675989ff54c7e9e14615e.png"
+                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/4f4067259c7ca5b4f709b05ed2a29956.png"
                                                                                         alt=""></noscript>
                                                                             </div>
                                                                         </div>
@@ -2169,17 +2164,17 @@
                                                                                 <div class="xs-force-center bgnormal"
                                                                                      style="text-align: center;"><a
                                                                                         class="fancybox"
-                                                                                        href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/00d5f28ef1de03dd4bda74fa13a7995f.png"
-                                                                                        data-group="jn"><img class=""
-                                                                                                             alt=""
-                                                                                                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
-                                                                                                             style="width: 726px;"
-                                                                                                             data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/00d5f28ef1de03dd4bda74fa13a7995f.png"
-                                                                                                             data-lazy-image_size="726,295"
-                                                                                                             data-lazy-image_detect="css-width"></a>
+                                                                                        href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/d000c4e8083c492708bc3953c8326d99.png"
+                                                                                        data-group="123"><img class=""
+                                                                                                              alt=""
+                                                                                                              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAHCAYAAAABIM1CAAAAFklEQVQoU2NkoBAwUqifYdQABsrDAAAI4wAIuRq7EAAAAABJRU5ErkJggg=="
+                                                                                                              style="width: 730px;"
+                                                                                                              data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/d000c4e8083c492708bc3953c8326d99.png"
+                                                                                                              data-lazy-image_size="730,334"
+                                                                                                              data-lazy-image_detect="css-width"></a>
                                                                                 </div>
                                                                                 <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/00d5f28ef1de03dd4bda74fa13a7995f.png"
+                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/d000c4e8083c492708bc3953c8326d99.png"
                                                                                         alt=""></noscript>
                                                                             </div>
                                                                         </div>
@@ -2196,17 +2191,17 @@
                                                                                 <div class="xs-force-center bgnormal"
                                                                                      style="text-align: center;"><a
                                                                                         class="fancybox"
-                                                                                        href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/1fdb084eadd92a971ae8760c2e038e3e.png"
-                                                                                        data-group=""><img class=""
-                                                                                                           alt=""
-                                                                                                           src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
-                                                                                                           style="width: 726px;"
-                                                                                                           data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/1fdb084eadd92a971ae8760c2e038e3e.png"
-                                                                                                           data-lazy-image_size="726,313"
-                                                                                                           data-lazy-image_detect="css-width"></a>
+                                                                                        href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/1ee4105fe771b3d5b506bc9573eea71c.png"
+                                                                                        data-group="123"><img class=""
+                                                                                                              alt=""
+                                                                                                              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAYAAADwdn+XAAAAFklEQVQoU2NkoBAwUqifYdQAhkEQBgALLAAJYi2WEwAAAABJRU5ErkJggg=="
+                                                                                                              style="width: 730px;"
+                                                                                                              data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/1ee4105fe771b3d5b506bc9573eea71c.png"
+                                                                                                              data-lazy-image_size="730,377"
+                                                                                                              data-lazy-image_detect="css-width"></a>
                                                                                 </div>
                                                                                 <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/1fdb084eadd92a971ae8760c2e038e3e.png"
+                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/1ee4105fe771b3d5b506bc9573eea71c.png"
                                                                                         alt=""></noscript>
                                                                             </div>
                                                                         </div>
@@ -2223,17 +2218,17 @@
                                                                                 <div class="xs-force-center bgnormal"
                                                                                      style="text-align: center;"><a
                                                                                         class="fancybox"
-                                                                                        href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6c1795bdce458c6a57be1339f5c4a3dc.png"
-                                                                                        data-group="jn"><img class=""
-                                                                                                             alt=""
-                                                                                                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
-                                                                                                             style="width: 730px;"
-                                                                                                             data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6c1795bdce458c6a57be1339f5c4a3dc.png"
-                                                                                                             data-lazy-image_size="730,282"
-                                                                                                             data-lazy-image_detect="css-width"></a>
+                                                                                        href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/b2d0807551fa982aebee8aee254e4c29.png"
+                                                                                        data-group="123"><img class=""
+                                                                                                              alt=""
+                                                                                                              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC"
+                                                                                                              style="width: 730px;"
+                                                                                                              data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/b2d0807551fa982aebee8aee254e4c29.png"
+                                                                                                              data-lazy-image_size="730,460"
+                                                                                                              data-lazy-image_detect="css-width"></a>
                                                                                 </div>
                                                                                 <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6c1795bdce458c6a57be1339f5c4a3dc.png"
+                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/b2d0807551fa982aebee8aee254e4c29.png"
                                                                                         alt=""></noscript>
                                                                             </div>
                                                                         </div>
@@ -2250,44 +2245,17 @@
                                                                                 <div class="xs-force-center bgnormal"
                                                                                      style="text-align: center;"><a
                                                                                         class="fancybox"
-                                                                                        href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6bf4a4ba518464c0cfbdee0eb56105e2.png"
-                                                                                        data-group="jn"><img class=""
-                                                                                                             alt=""
-                                                                                                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
-                                                                                                             style="width: 730px;"
-                                                                                                             data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6bf4a4ba518464c0cfbdee0eb56105e2.png"
-                                                                                                             data-lazy-image_size="730,292"
-                                                                                                             data-lazy-image_detect="css-width"></a>
+                                                                                        href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/527a5569fea960b409c9e7e81e5911a6.png"
+                                                                                        data-group="123"><img class=""
+                                                                                                              alt=""
+                                                                                                              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAFklEQVQoU2NkoBAwUqifYdQAhuEQBgANtgAKhIZC3wAAAABJRU5ErkJggg=="
+                                                                                                              style="width: 728px;"
+                                                                                                              data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/527a5569fea960b409c9e7e81e5911a6.png"
+                                                                                                              data-lazy-image_size="728,418"
+                                                                                                              data-lazy-image_detect="css-width"></a>
                                                                                 </div>
                                                                                 <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6bf4a4ba518464c0cfbdee0eb56105e2.png"
-                                                                                        alt=""></noscript>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="swiper-slide">
-                                                            <div class="cont-wrapper">
-                                                                <div class="cont">
-                                                                    <div class="node node220 widget widget-image">
-                                                                        <div class="wrapper1">
-                                                                            <div class="wrapper2">
-                                                                                <div class="xs-force-center bgnormal"
-                                                                                     style="text-align: center;"><a
-                                                                                        class="fancybox"
-                                                                                        href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/d4413925a81b49075f65090e2b20e8c8.png"
-                                                                                        data-group="jn"><img class=""
-                                                                                                             alt=""
-                                                                                                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
-                                                                                                             style="width: 725px;"
-                                                                                                             data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/d4413925a81b49075f65090e2b20e8c8.png"
-                                                                                                             data-lazy-image_size="725,272"
-                                                                                                             data-lazy-image_detect="css-width"></a>
-                                                                                </div>
-                                                                                <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/d4413925a81b49075f65090e2b20e8c8.png"
+                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/527a5569fea960b409c9e7e81e5911a6.png"
                                                                                         alt=""></noscript>
                                                                             </div>
                                                                         </div>
@@ -2315,21 +2283,21 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="node node221 widget widget-blank">
+                        <div class="node node220 widget widget-blank">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="padding"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="node node222 widget widget-grid">
+                        <div class="node node221 widget widget-grid">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="grid valign-middle paddings-20px xs-wrap">
                                         <div class="gridwrap">
                                             <div class="col" style="width: 25%;">
                                                 <div class="cont">
-                                                    <div class="node node223 widget widget-image">
+                                                    <div class="node node222 widget widget-image">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
@@ -2344,7 +2312,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node224 widget widget-text">
+                                                    <div class="node node223 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -2361,7 +2329,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node225 widget widget-line">
+                                                    <div class="node node224 widget widget-line">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="alignment" style="text-align: center;">
@@ -2371,14 +2339,14 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node226 widget widget-blank">
+                                                    <div class="node node225 widget widget-blank">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="padding"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node227 widget widget-text">
+                                                    <div class="node node226 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -2397,14 +2365,14 @@
                                             </div>
                                             <div class="col" style="width: 25%;">
                                                 <div class="cont">
-                                                    <div class="node node228 widget widget-blank">
+                                                    <div class="node node227 widget widget-blank">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="padding"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node229 widget widget-image">
+                                                    <div class="node node228 widget widget-image">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
@@ -2419,7 +2387,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node230 widget widget-text">
+                                                    <div class="node node229 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -2436,7 +2404,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node231 widget widget-line">
+                                                    <div class="node node230 widget widget-line">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="alignment" style="text-align: center;">
@@ -2446,14 +2414,14 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node232 widget widget-blank">
+                                                    <div class="node node231 widget widget-blank">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="padding"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node233 widget widget-text">
+                                                    <div class="node node232 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -2472,14 +2440,14 @@
                                             </div>
                                             <div class="col" style="width: 25%;">
                                                 <div class="cont">
-                                                    <div class="node node234 widget widget-blank">
+                                                    <div class="node node233 widget widget-blank">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="padding"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node235 widget widget-image">
+                                                    <div class="node node234 widget widget-image">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
@@ -2494,7 +2462,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node236 widget widget-text">
+                                                    <div class="node node235 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -2511,7 +2479,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node237 widget widget-line">
+                                                    <div class="node node236 widget widget-line">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="alignment" style="text-align: center;">
@@ -2521,14 +2489,14 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node238 widget widget-blank">
+                                                    <div class="node node237 widget widget-blank">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="padding"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node239 widget widget-text">
+                                                    <div class="node node238 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -2547,14 +2515,14 @@
                                             </div>
                                             <div class="col" style="width: 25%;">
                                                 <div class="cont">
-                                                    <div class="node node240 widget widget-blank">
+                                                    <div class="node node239 widget widget-blank">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="padding"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node241 widget widget-image">
+                                                    <div class="node node240 widget widget-image">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
@@ -2569,7 +2537,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node242 widget widget-text">
+                                                    <div class="node node241 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -2586,7 +2554,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node243 widget widget-line">
+                                                    <div class="node node242 widget widget-line">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="alignment" style="text-align: center;">
@@ -2596,14 +2564,14 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node244 widget widget-blank">
+                                                    <div class="node node243 widget widget-blank">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="padding"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node245 widget widget-text">
+                                                    <div class="node node244 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -2631,12 +2599,12 @@
         </div>
     </div><!-- ADAPTIVE -->
     <script class="adaptive">if (["xs"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
-    <div class="node node252 section section-clear xs-hidden" id="zapis" data-opacity="0.95">
+    <div class="node node251 section section-clear xs-hidden" id="zapis" data-opacity="0.95">
         <div class="wrapper1">
             <div class="wrapper2">
                 <div class="container">
                     <div class="cont">
-                        <div class="node node253 widget widget-text">
+                        <div class="node node252 widget widget-text">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="">
@@ -2649,7 +2617,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="node node254 widget widget-text">
+                        <div class="node node253 widget widget-text">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="">
@@ -2660,21 +2628,21 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="node node255 widget widget-blank">
+                        <div class="node node254 widget widget-blank">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="padding"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="node node256 widget widget-grid">
+                        <div class="node node255 widget widget-grid">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="grid valign-bottom paddings-20px xs-wrap">
                                         <div class="gridwrap">
                                             <div class="col" style="width: 50%;">
                                                 <div class="cont">
-                                                    <div class="node node257 widget widget-html">
+                                                    <div class="node node256 widget widget-html">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="code">
@@ -2689,14 +2657,14 @@
                                             </div>
                                             <div class="col" style="width: 50%;">
                                                 <div class="cont">
-                                                    <div class="node node258 widget widget-grid">
+                                                    <div class="node node257 widget widget-grid">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="grid valign-middle paddings-0px xs-wrap">
                                                                     <div class="gridwrap">
                                                                         <div class="col" style="width: 50%;">
                                                                             <div class="cont">
-                                                                                <div class="node node259 widget widget-image">
+                                                                                <div class="node node258 widget widget-image">
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="bgimage"
@@ -2712,7 +2680,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="node node260 widget widget-text">
+                                                                                <div class="node node259 widget widget-text">
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="">
@@ -2729,7 +2697,7 @@
                                                                         </div>
                                                                         <div class="col" style="width: 50%;">
                                                                             <div class="cont">
-                                                                                <div class="node node261 widget widget-image">
+                                                                                <div class="node node260 widget widget-image">
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="bgimage"
@@ -2745,7 +2713,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="node node262 widget widget-text">
+                                                                                <div class="node node261 widget widget-text">
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="">
@@ -2765,21 +2733,21 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node267 widget widget-blank">
+                                                    <div class="node node266 widget widget-blank">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="padding"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node268 widget widget-grid">
+                                                    <div class="node node267 widget widget-grid">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="grid valign-middle paddings-0px xs-wrap">
                                                                     <div class="gridwrap">
                                                                         <div class="col" style="width: 50%;">
                                                                             <div class="cont">
-                                                                                <div class="node node269 widget widget-image">
+                                                                                <div class="node node268 widget widget-image">
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="bgimage"
@@ -2795,7 +2763,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="node node270 widget widget-text">
+                                                                                <div class="node node269 widget widget-text">
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="">
@@ -2812,7 +2780,7 @@
                                                                         </div>
                                                                         <div class="col" style="width: 50%;">
                                                                             <div class="cont">
-                                                                                <div class="node node271 widget widget-image">
+                                                                                <div class="node node270 widget widget-image">
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="bgimage"
@@ -2828,7 +2796,7 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="node node272 widget widget-text">
+                                                                                <div class="node node271 widget widget-text">
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="">
@@ -2848,27 +2816,27 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node277 widget widget-blank">
+                                                    <div class="node node276 widget widget-blank">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="padding"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node278 widget widget-button">
+                                                    <div class="node node277 widget widget-button">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="macros-button">
                                                                     <div class="btn-out center xs-none">
                                                                         <div class="btn-inner">
                                                                             <button class="btn hvr-grow font-text btnModal"
-                                                                                    id="uid11" data-id=""
+                                                                                    id="uid10" data-id=""
                                                                                     data-action="modal"
                                                                                     data-ym_goal="ZAPISVKN"
                                                                                     data-ga_category=""
                                                                                     data-ga_action="" need_hover="false"
                                                                                     data-modal="custom"
-                                                                                    onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'BISTR'); return true;"><span
+                                                                                    onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'BYZO'); return true;"><span
                                                                                     class="text">БЫСТРАЯ ЗАПИСЬ ОНЛАЙН
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                         </div>
@@ -2876,7 +2844,7 @@
                                                                 </div>
                                                                 <div class="macros-modal">
                                                                     <div class="modal fade nocolors" data-modal="custom"
-                                                                         area-context="uid12">
+                                                                         area-context="uid11">
                                                                         <div class="modal-dialog" style="width: 494px;">
                                                                             <div class="modal-content">
                                                                                 <div class="modal-header">
@@ -2887,7 +2855,7 @@
                                                                                 </div>
                                                                                 <div class="modal-body">
                                                                                     <div class="cont">
-                                                                                        <div class="node node279 widget widget-text">
+                                                                                        <div class="node node278 widget widget-text">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div class="">
@@ -2900,7 +2868,7 @@
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div class="node node280 widget widget-text">
+                                                                                        <div class="node node279 widget widget-text">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div class="">
@@ -2917,24 +2885,24 @@
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
-                                                                                        <div class="node node281 widget widget-form2"
+                                                                                        <div class="node node280 widget widget-form2"
                                                                                              data-form="{&quot;name&quot;:&quot;Запись в ближайший сервис&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                                              data-isquiz="false">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div style="max-width: 456px; position: relative; margin-left: auto; margin-right: auto;">
                                                                                                         <div class="metahtml">
-                                                                                                            <div id="node281_meta"
+                                                                                                            <div id="node280_meta"
                                                                                                                  class="code">
-                                                                                                                <div class="form1-cover" id="bistraya-zapis-online-form" data-mod="uid11">
+                                                                                                                <div class="form1-cover" id="zapis-onlain-form" data-mod="uid10">
                                                                                                                     <div plp-form-container=""
                                                                                                                          colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                                                         <div class="cont">
-                                                                                                                            <div class="node node282 widget widget-field">
+                                                                                                                            <div class="node node281 widget widget-field">
                                                                                                                                 <div class="wrapper1">
                                                                                                                                     <div class="wrapper2">
                                                                                                                                         <div class="metahtml">
-                                                                                                                                            <div id="node282_meta"
+                                                                                                                                            <div id="node281_meta"
                                                                                                                                                  data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;1-ая ул. Измайловского Зверинца, д. 8&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;right&quot;,&quot;fontsize&quot;:100,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                                                  class="code">
                                                                                                                                                 <div plp-field="phone"
@@ -2958,15 +2926,16 @@
                                                                                                                                     </div>
                                                                                                                                 </div>
                                                                                                                             </div>
-                                                                                                                            <div class="node node283 widget widget-button">
+                                                                                                                            <div class="node node282 widget widget-button">
                                                                                                                                 <div class="wrapper1">
                                                                                                                                     <div class="wrapper2">
                                                                                                                                         <div class="macros-button">
                                                                                                                                             <div class="btn-out center xs-none">
                                                                                                                                                 <div class="btn-inner">
                                                                                                                                                     <button class="btn font-text modalSubmit"
-                                                                                                                                                            id="uid13" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'BISTR_Z'); return true;"
-                                                                                                                                                           >ЗАПИСАТЬСЯ
+                                                                                                                                                            id="uid12" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'BYZO_Z'); return true;"
+                                                                                                                                                            ><span
+                                                                                                                                                            class="text">ЗАПИСАТЬСЯ
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3005,12 +2974,12 @@
         </div>
     </div><!-- ADAPTIVE -->
     <script class="adaptive">if (["xs"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
-    <div class="node node301 section section-clear xs-hidden" id="otzivi" data-opacity="0.95">
+    <div class="node node300 section section-clear xs-hidden" id="otzivi" data-opacity="0.95">
         <div class="wrapper1">
             <div class="wrapper2">
                 <div class="container">
                     <div class="cont">
-                        <div class="node node302 widget widget-text">
+                        <div class="node node301 widget widget-text">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="">
@@ -3022,28 +2991,52 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="node node303 widget widget-blank">
+                        <div class="node node302 widget widget-blank">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="padding"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="node node304 widget widget-slider">
+                        <div class="node node303 widget widget-slider">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="metahtml">
-                                        <div id="node304_meta" class="code">
+                                        <div id="node303_meta" class="code">
                                             <div class="slider3-root">
                                                 <div plp-slider-previous="" class="slider3-previous">
                                                     <i class="fa fa-chevron-left"></i>
                                                 </div>
-                                                <div plp-slider-container="" data-red-libs="swiper" data-pause="500000"
+                                                <div plp-slider-container="" data-red-libs="swiper" data-pause="600000"
                                                      data-animated="false" data-fixheight="false"
                                                      class="slider3-container swiper-container lazy-all">
                                                     <div class="swiper-wrapper">
                                                         <div class="swiper-slide">
-                                                            <div class="cont-wrapper active">
+                                                            <div class="cont-wrapper">
+                                                                <div class="cont">
+                                                                    <div class="node node304 widget widget-image">
+                                                                        <div class="wrapper1">
+                                                                            <div class="wrapper2">
+                                                                                <div class="xs-force-center bgnormal"
+                                                                                     style="text-align: center;"><img
+                                                                                        class="" alt=""
+                                                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
+                                                                                        style="width: 730px;"
+                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/504a8c7c0448665773c6bf48248a0449.png"
+                                                                                        data-lazy-image_size="730,311"
+                                                                                        data-lazy-image_detect="css-width">
+                                                                                </div>
+                                                                                <noscript><img
+                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/504a8c7c0448665773c6bf48248a0449.png"
+                                                                                        alt=""></noscript>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide">
+                                                            <div class="cont-wrapper">
                                                                 <div class="cont">
                                                                     <div class="node node305 widget widget-image">
                                                                         <div class="wrapper1">
@@ -3053,12 +3046,12 @@
                                                                                         class="" alt=""
                                                                                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
                                                                                         style="width: 730px;"
-                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/0801275133673a1381c318fd00a795e5.png"
-                                                                                        data-lazy-image_size="730,276"
+                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/576d3a751c4948b97a555e472b3f917e.png"
+                                                                                        data-lazy-image_size="730,292"
                                                                                         data-lazy-image_detect="css-width">
                                                                                 </div>
                                                                                 <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/0801275133673a1381c318fd00a795e5.png"
+                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/576d3a751c4948b97a555e472b3f917e.png"
                                                                                         alt=""></noscript>
                                                                             </div>
                                                                         </div>
@@ -3075,14 +3068,14 @@
                                                                                 <div class="xs-force-center bgnormal"
                                                                                      style="text-align: center;"><img
                                                                                         class="" alt=""
-                                                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
-                                                                                        style="width: 730px;"
-                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/f96c36c4508675989ff54c7e9e14615e.png"
-                                                                                        data-lazy-image_size="730,297"
+                                                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAFCAYAAABM6GxJAAAAE0lEQVQoU2NkoBAwUqifYRgYAAAFFAAGbxc9ogAAAABJRU5ErkJggg=="
+                                                                                        style="width: 725px;"
+                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/4f4067259c7ca5b4f709b05ed2a29956.png"
+                                                                                        data-lazy-image_size="725,252"
                                                                                         data-lazy-image_detect="css-width">
                                                                                 </div>
                                                                                 <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/f96c36c4508675989ff54c7e9e14615e.png"
+                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/4f4067259c7ca5b4f709b05ed2a29956.png"
                                                                                         alt=""></noscript>
                                                                             </div>
                                                                         </div>
@@ -3091,7 +3084,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide">
-                                                            <div class="cont-wrapper">
+                                                            <div class="cont-wrapper active">
                                                                 <div class="cont">
                                                                     <div class="node node307 widget widget-image">
                                                                         <div class="wrapper1">
@@ -3099,14 +3092,14 @@
                                                                                 <div class="xs-force-center bgnormal"
                                                                                      style="text-align: center;"><img
                                                                                         class="" alt=""
-                                                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
-                                                                                        style="width: 726px;"
-                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/00d5f28ef1de03dd4bda74fa13a7995f.png"
-                                                                                        data-lazy-image_size="726,295"
+                                                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAHCAYAAAABIM1CAAAAFklEQVQoU2NkoBAwUqifYdQABsrDAAAI4wAIuRq7EAAAAABJRU5ErkJggg=="
+                                                                                        style="width: 730px;"
+                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/d000c4e8083c492708bc3953c8326d99.png"
+                                                                                        data-lazy-image_size="730,334"
                                                                                         data-lazy-image_detect="css-width">
                                                                                 </div>
                                                                                 <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/00d5f28ef1de03dd4bda74fa13a7995f.png"
+                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/d000c4e8083c492708bc3953c8326d99.png"
                                                                                         alt=""></noscript>
                                                                             </div>
                                                                         </div>
@@ -3123,14 +3116,14 @@
                                                                                 <div class="xs-force-center bgnormal"
                                                                                      style="text-align: center;"><img
                                                                                         class="" alt=""
-                                                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
-                                                                                        style="width: 726px;"
-                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/1fdb084eadd92a971ae8760c2e038e3e.png"
-                                                                                        data-lazy-image_size="726,313"
+                                                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAICAYAAADwdn+XAAAAFklEQVQoU2NkoBAwUqifYdQAhkEQBgALLAAJYi2WEwAAAABJRU5ErkJggg=="
+                                                                                        style="width: 730px;"
+                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/1ee4105fe771b3d5b506bc9573eea71c.png"
+                                                                                        data-lazy-image_size="730,377"
                                                                                         data-lazy-image_detect="css-width">
                                                                                 </div>
                                                                                 <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/1fdb084eadd92a971ae8760c2e038e3e.png"
+                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/1ee4105fe771b3d5b506bc9573eea71c.png"
                                                                                         alt=""></noscript>
                                                                             </div>
                                                                         </div>
@@ -3147,14 +3140,14 @@
                                                                                 <div class="xs-force-center bgnormal"
                                                                                      style="text-align: center;"><img
                                                                                         class="" alt=""
-                                                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
+                                                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC"
                                                                                         style="width: 730px;"
-                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/2934a4ca115e144022117ae18934cea9.png"
-                                                                                        data-lazy-image_size="730,283"
+                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/b2d0807551fa982aebee8aee254e4c29.png"
+                                                                                        data-lazy-image_size="730,460"
                                                                                         data-lazy-image_detect="css-width">
                                                                                 </div>
                                                                                 <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/2934a4ca115e144022117ae18934cea9.png"
+                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/b2d0807551fa982aebee8aee254e4c29.png"
                                                                                         alt=""></noscript>
                                                                             </div>
                                                                         </div>
@@ -3171,62 +3164,14 @@
                                                                                 <div class="xs-force-center bgnormal"
                                                                                      style="text-align: center;"><img
                                                                                         class="" alt=""
-                                                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
-                                                                                        style="width: 730px;"
-                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6bf4a4ba518464c0cfbdee0eb56105e2.png"
-                                                                                        data-lazy-image_size="730,292"
-                                                                                        data-lazy-image_detect="css-width">
-                                                                                </div>
-                                                                                <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/6bf4a4ba518464c0cfbdee0eb56105e2.png"
-                                                                                        alt=""></noscript>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="swiper-slide">
-                                                            <div class="cont-wrapper">
-                                                                <div class="cont">
-                                                                    <div class="node node311 widget widget-image">
-                                                                        <div class="wrapper1">
-                                                                            <div class="wrapper2">
-                                                                                <div class="xs-force-center bgnormal"
-                                                                                     style="text-align: center;"><img
-                                                                                        class="" alt=""
-                                                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
+                                                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAFklEQVQoU2NkoBAwUqifYdQAhuEQBgANtgAKhIZC3wAAAABJRU5ErkJggg=="
                                                                                         style="width: 728px;"
-                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/40b4bc16e3e93ba5c371af98feb34f0e.png"
-                                                                                        data-lazy-image_size="728,293"
+                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/527a5569fea960b409c9e7e81e5911a6.png"
+                                                                                        data-lazy-image_size="728,418"
                                                                                         data-lazy-image_detect="css-width">
                                                                                 </div>
                                                                                 <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/40b4bc16e3e93ba5c371af98feb34f0e.png"
-                                                                                        alt=""></noscript>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="swiper-slide">
-                                                            <div class="cont-wrapper">
-                                                                <div class="cont">
-                                                                    <div class="node node312 widget widget-image">
-                                                                        <div class="wrapper1">
-                                                                            <div class="wrapper2">
-                                                                                <div class="xs-force-center bgnormal"
-                                                                                     style="text-align: center;"><img
-                                                                                        class="" alt=""
-                                                                                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAGCAYAAADKfB7nAAAAFElEQVQoU2NkoBAwUqifYdQABgYABtsAB9WDzgEAAAAASUVORK5CYII="
-                                                                                        style="width: 728px;"
-                                                                                        data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/40b4bc16e3e93ba5c371af98feb34f0e.png"
-                                                                                        data-lazy-image_size="728,293"
-                                                                                        data-lazy-image_detect="css-width">
-                                                                                </div>
-                                                                                <noscript><img
-                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/40b4bc16e3e93ba5c371af98feb34f0e.png"
+                                                                                        src="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/527a5569fea960b409c9e7e81e5911a6.png"
                                                                                         alt=""></noscript>
                                                                             </div>
                                                                         </div>
@@ -3248,21 +3193,21 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="node node313 widget widget-blank">
+                        <div class="node node311 widget widget-blank">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="padding"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="node node314 widget widget-grid">
+                        <div class="node node312 widget widget-grid">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="grid valign-middle paddings-20px xs-wrap">
                                         <div class="gridwrap">
                                             <div class="col" style="width: 25%;">
                                                 <div class="cont">
-                                                    <div class="node node315 widget widget-image">
+                                                    <div class="node node313 widget widget-image">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
@@ -3277,7 +3222,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node316 widget widget-text">
+                                                    <div class="node node314 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -3294,7 +3239,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node317 widget widget-line">
+                                                    <div class="node node315 widget widget-line">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="alignment" style="text-align: left;">
@@ -3304,14 +3249,14 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node318 widget widget-blank">
+                                                    <div class="node node316 widget widget-blank">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="padding"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node319 widget widget-text">
+                                                    <div class="node node317 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -3330,7 +3275,7 @@
                                             </div>
                                             <div class="col" style="width: 25%;">
                                                 <div class="cont">
-                                                    <div class="node node320 widget widget-image">
+                                                    <div class="node node318 widget widget-image">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
@@ -3345,7 +3290,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node321 widget widget-text">
+                                                    <div class="node node319 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -3362,7 +3307,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node322 widget widget-line">
+                                                    <div class="node node320 widget widget-line">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="alignment" style="text-align: left;">
@@ -3372,14 +3317,14 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node323 widget widget-blank">
+                                                    <div class="node node321 widget widget-blank">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="padding"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node324 widget widget-text">
+                                                    <div class="node node322 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -3398,7 +3343,7 @@
                                             </div>
                                             <div class="col" style="width: 25%;">
                                                 <div class="cont">
-                                                    <div class="node node325 widget widget-image">
+                                                    <div class="node node323 widget widget-image">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
@@ -3413,7 +3358,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node326 widget widget-text">
+                                                    <div class="node node324 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -3430,7 +3375,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node327 widget widget-line">
+                                                    <div class="node node325 widget widget-line">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="alignment" style="text-align: left;">
@@ -3440,14 +3385,14 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node328 widget widget-blank">
+                                                    <div class="node node326 widget widget-blank">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="padding"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node329 widget widget-text">
+                                                    <div class="node node327 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -3466,7 +3411,7 @@
                                             </div>
                                             <div class="col" style="width: 25%;">
                                                 <div class="cont">
-                                                    <div class="node node330 widget widget-image">
+                                                    <div class="node node328 widget widget-image">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="bgimage"
@@ -3481,7 +3426,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node331 widget widget-text">
+                                                    <div class="node node329 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -3498,7 +3443,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node332 widget widget-line">
+                                                    <div class="node node330 widget widget-line">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="alignment" style="text-align: left;">
@@ -3508,14 +3453,14 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node333 widget widget-blank">
+                                                    <div class="node node331 widget widget-blank">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="padding"></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="node node334 widget widget-text">
+                                                    <div class="node node332 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -3543,19 +3488,19 @@
         </div>
     </div><!-- ADAPTIVE -->
     <script class="adaptive">if (["sm", "md", "lg"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
-    <div class="node node341 section section-clear sm-hidden md-hidden lg-hidden" data-opacity="0.95">
+    <div class="node node339 section section-clear sm-hidden md-hidden lg-hidden" data-opacity="0.95">
         <div class="wrapper1">
             <div class="wrapper2">
                 <div class="container">
                     <div class="cont">
-                        <div class="node node342 widget widget-grid">
+                        <div class="node node340 widget widget-grid">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="grid valign-middle paddings-20px xs-wrap">
                                         <div class="gridwrap">
                                             <div class="col" style="width: 33.3333%;">
                                                 <div class="cont">
-                                                    <div class="node node343 widget widget-text">
+                                                    <div class="node node341 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -3571,13 +3516,14 @@
                                             </div>
                                             <div class="col" style="width: 17.4203%;">
                                                 <div class="cont">
-                                                    <div class="node node344 widget widget-text">
+                                                    <div class="node node342 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
                                                                     <div class="xs-force-center textable gray-theme">
-                                                                        <h4><span style="font-size: 16px;"><span
-                                                                                style="color: rgb(215, 215, 215);" class="changePhone">8 (800) 550-85-73</span></span>
+                                                                        <h4><span
+                                                                                style="color: rgb(194, 194, 194);"><span
+                                                                                style="font-size: 16px;" class="changePhone">8 (800) 550-36-95</span></span>
                                                                         </h4></div>
                                                                 </div>
                                                             </div>
@@ -3587,14 +3533,14 @@
                                             </div>
                                             <div class="col" style="width: 49.2464%;">
                                                 <div class="cont">
-                                                    <div class="node node345 widget widget-button">
+                                                    <div class="node node343 widget widget-button">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="macros-button">
                                                                     <div class="btn-out center xs-none">
                                                                         <div class="btn-inner">
                                                                             <button class="btn hvr-grow font-text btnModal"
-                                                                                    id="uid63" data-id=""
+                                                                                    id="uid60" data-id=""
                                                                                     data-action="modal"
                                                                                     data-ym_goal="ZAKAZZVONKA"
                                                                                     data-ga_category=""
@@ -3607,7 +3553,7 @@
                                                                 </div>
                                                                 <div class="macros-modal">
                                                                     <div class="modal fade nocolors" data-modal="custom"
-                                                                         area-context="uid64">
+                                                                         area-context="uid61">
                                                                         <div class="modal-dialog" style="width: 398px;">
                                                                             <div class="modal-content">
                                                                                 <div class="modal-header">
@@ -3618,20 +3564,20 @@
                                                                                 </div>
                                                                                 <div class="modal-body">
                                                                                     <div class="cont">
-                                                                                        <div class="node node346 widget widget-form2"
+                                                                                        <div class="node node344 widget widget-form2"
                                                                                              data-form="{&quot;name&quot;:&quot;Заказать звонок&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                                              data-isquiz="false">
                                                                                             <div class="wrapper1">
                                                                                                 <div class="wrapper2">
                                                                                                     <div style="max-width: 384px; position: relative; margin-left: auto; margin-right: auto;">
                                                                                                         <div class="metahtml">
-                                                                                                            <div id="node346_meta"
+                                                                                                            <div id="node344_meta"
                                                                                                                  class="code">
-                                                                                                                <div class="form1-cover" id="callback-form-footer-mobile" data-mod="uid63">
+                                                                                                                <div class="form1-cover" id="callback-form-footer-mobile" data-mod="uid60">
                                                                                                                     <div plp-form-container=""
                                                                                                                          colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                                                         <div class="cont">
-                                                                                                                            <div class="node node347 widget widget-text">
+                                                                                                                            <div class="node node345 widget widget-text">
                                                                                                                                 <div class="wrapper1">
                                                                                                                                     <div class="wrapper2">
                                                                                                                                         <div class="">
@@ -3645,7 +3591,7 @@
                                                                                                                                     </div>
                                                                                                                                 </div>
                                                                                                                             </div>
-                                                                                                                            <div class="node node348 widget widget-text">
+                                                                                                                            <div class="node node346 widget widget-text">
                                                                                                                                 <div class="wrapper1">
                                                                                                                                     <div class="wrapper2">
                                                                                                                                         <div class="">
@@ -3661,18 +3607,18 @@
                                                                                                                                     </div>
                                                                                                                                 </div>
                                                                                                                             </div>
-                                                                                                                            <div class="node node349 widget widget-blank">
+                                                                                                                            <div class="node node347 widget widget-blank">
                                                                                                                                 <div class="wrapper1">
                                                                                                                                     <div class="wrapper2">
                                                                                                                                         <div class="padding"></div>
                                                                                                                                     </div>
                                                                                                                                 </div>
                                                                                                                             </div>
-                                                                                                                            <div class="node node350 widget widget-field">
+                                                                                                                            <div class="node node348 widget widget-field">
                                                                                                                                 <div class="wrapper1">
                                                                                                                                     <div class="wrapper2">
                                                                                                                                         <div class="metahtml">
-                                                                                                                                            <div id="node350_meta"
+                                                                                                                                            <div id="node348_meta"
                                                                                                                                                  data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                                                  class="code">
                                                                                                                                                 <div plp-field="phone"
@@ -3696,15 +3642,15 @@
                                                                                                                                     </div>
                                                                                                                                 </div>
                                                                                                                             </div>
-                                                                                                                            <div class="node node351 widget widget-button">
+                                                                                                                            <div class="node node349 widget widget-button">
                                                                                                                                 <div class="wrapper1">
                                                                                                                                     <div class="wrapper2">
                                                                                                                                         <div class="macros-button">
                                                                                                                                             <div class="btn-out center xs-none">
                                                                                                                                                 <div class="btn-inner">
                                                                                                                                                     <button class="btn hvr-grow font-text modalSubmit"
-                                                                                                                                                            id="uid65"
-                                                                                                                                                           ><span
+                                                                                                                                                            id="uid62"
+                                                                                                                                                            ><span
                                                                                                                                                             class="text">ЗАКАЗАТЬ ЗВОНОК
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                                                                 </div>
@@ -3744,19 +3690,19 @@
         </div>
     </div><!-- ADAPTIVE -->
     <script class="adaptive">if (["xs"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
-    <div class="node node374 section section-clear xs-hidden" data-opacity="0.95">
+    <div class="node node372 section section-clear xs-hidden" data-opacity="0.95">
         <div class="wrapper1">
             <div class="wrapper2">
                 <div class="container">
                     <div class="cont">
-                        <div class="node node375 widget widget-grid">
+                        <div class="node node373 widget widget-grid">
                             <div class="wrapper1">
                                 <div class="wrapper2">
                                     <div class="grid valign-middle paddings-20px xs-wrap">
                                         <div class="gridwrap">
                                             <div class="col" style="width: 33.3333%;">
                                                 <div class="cont">
-                                                    <div class="node node376 widget widget-text">
+                                                    <div class="node node374 widget widget-text">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="">
@@ -3775,21 +3721,21 @@
                                             </div>
                                             <div class="col" style="width: 49.2464%;">
                                                 <div class="cont">
-                                                    <div class="node node377 widget widget-grid">
+                                                    <div class="node node375 widget widget-grid">
                                                         <div class="wrapper1">
                                                             <div class="wrapper2">
                                                                 <div class="grid valign-middle paddings-20px xs-wrap">
                                                                     <div class="gridwrap">
                                                                         <div class="col" style="width: 66.3626%;">
                                                                             <div class="cont">
-                                                                                <div class="node node378 widget widget-text">
+                                                                                <div class="node node376 widget widget-text">
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="">
                                                                                                 <div class="xs-force-center textable gray-theme">
                                                                                                     <h4 style="text-align: right;">
-                                                                                                        <span style="color: rgb(194, 194, 194);"><span
-                                                                                                                style="font-size: 16px;" class="changePhone">8 (800) 550-85-73</span></span>
+                                                                                                        <span style="font-size: 18px;"><span
+                                                                                                                style="color: rgb(194, 194, 194);" class="changePhone">8 (800) 550-36-95</span></span>
                                                                                                     </h4></div>
                                                                                             </div>
                                                                                         </div>
@@ -3799,14 +3745,14 @@
                                                                         </div>
                                                                         <div class="col" style="width: 33.6374%;">
                                                                             <div class="cont">
-                                                                                <div class="node node379 widget widget-button">
+                                                                                <div class="node node377 widget widget-button">
                                                                                     <div class="wrapper1">
                                                                                         <div class="wrapper2">
                                                                                             <div class="macros-button">
                                                                                                 <div class="btn-out right xs-none">
                                                                                                     <div class="btn-inner">
                                                                                                         <button class="btn hvr-grow font-text btnModal"
-                                                                                                                id="uid22"
+                                                                                                                id="uid20"
                                                                                                                 data-id=""
                                                                                                                 data-action="modal"
                                                                                                                 data-ym_goal="ZAKAZZVONKA"
@@ -3814,7 +3760,7 @@
                                                                                                                 data-ga_action=""
                                                                                                                 need_hover="false"
                                                                                                                 data-modal="custom"
-                                                                                                                onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PER'); return true;">
+                                                                                                                onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'POL'); return true;">
                                                                                                             <span class="text">Перезвоните мне</span>
                                                                                                         </button>
                                                                                                     </div>
@@ -3823,7 +3769,7 @@
                                                                                             <div class="macros-modal">
                                                                                                 <div class="modal fade nocolors"
                                                                                                      data-modal="custom"
-                                                                                                     area-context="uid23">
+                                                                                                     area-context="uid21">
                                                                                                     <div class="modal-dialog"
                                                                                                          style="width: 398px;">
                                                                                                         <div class="modal-content">
@@ -3839,20 +3785,20 @@
                                                                                                             </div>
                                                                                                             <div class="modal-body">
                                                                                                                 <div class="cont">
-                                                                                                                    <div class="node node380 widget widget-form2"
+                                                                                                                    <div class="node node378 widget widget-form2"
                                                                                                                          data-form="{&quot;name&quot;:&quot;Виджет \&quot;Форма\&quot;&quot;,&quot;type&quot;:&quot;order&quot;,&quot;integrations&quot;:[],&quot;after&quot;:&quot;msg&quot;,&quot;msg&quot;:&quot;Спасибо!\nВаша заявка отправлена.\nВ ближайшее время мы с Вами свяжемся!&quot;,&quot;url&quot;:&quot;/&quot;,&quot;addhtml&quot;:&quot;&quot;,&quot;js&quot;:&quot;alert(\&quot;Этот код выполняется после успешного отправления заявки.\&quot;);&quot;}"
                                                                                                                          data-isquiz="false">
                                                                                                                         <div class="wrapper1">
                                                                                                                             <div class="wrapper2">
                                                                                                                                 <div style="max-width: 384px; position: relative; margin-left: auto; margin-right: auto;">
                                                                                                                                     <div class="metahtml">
-                                                                                                                                        <div id="node380_meta"
+                                                                                                                                        <div id="node378_meta"
                                                                                                                                              class="code">
-                                                                                                                                            <div class="form1-cover" id="callback-form-footer" data-mod="uid22">
+                                                                                                                                            <div class="form1-cover" id="callback-form-footer" data-mod="uid20">
                                                                                                                                                 <div plp-form-container=""
                                                                                                                                                      colorside="cover_bgcolored?cover_bgcolor.colorside():_colorside">
                                                                                                                                                     <div class="cont">
-                                                                                                                                                        <div class="node node381 widget widget-text">
+                                                                                                                                                        <div class="node node379 widget widget-text">
                                                                                                                                                             <div class="wrapper1">
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="">
@@ -3866,7 +3812,7 @@
                                                                                                                                                                 </div>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
-                                                                                                                                                        <div class="node node382 widget widget-text">
+                                                                                                                                                        <div class="node node380 widget widget-text">
                                                                                                                                                             <div class="wrapper1">
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="">
@@ -3890,18 +3836,18 @@
                                                                                                                                                                 </div>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
-                                                                                                                                                        <div class="node node383 widget widget-blank">
+                                                                                                                                                        <div class="node node381 widget widget-blank">
                                                                                                                                                             <div class="wrapper1">
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="padding"></div>
                                                                                                                                                                 </div>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
-                                                                                                                                                        <div class="node node384 widget widget-field">
+                                                                                                                                                        <div class="node node382 widget widget-field">
                                                                                                                                                             <div class="wrapper1">
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="metahtml">
-                                                                                                                                                                        <div id="node384_meta"
+                                                                                                                                                                        <div id="node382_meta"
                                                                                                                                                                              data-vals="{&quot;type&quot;:&quot;phone&quot;,&quot;text&quot;:&quot;Номер телефона&quot;,&quot;hidename&quot;:false,&quot;list&quot;:[{&quot;text&quot;:&quot;Гамбургер&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/85600fbdcfcd98c68092c8ee78fef443.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 1&quot;},{&quot;text&quot;:&quot;Чай&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/d07611e14f2f6512eb82382ddb5812dd.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0,&quot;name&quot;:&quot;Вариант 2&quot;},{&quot;text&quot;:&quot;Мороженное&quot;,&quot;image&quot;:{&quot;file&quot;:&quot;//u6.filesonload.ru/c16a5320fa475530d9583c34fd356ef5/ca0be5f5cd84b6891c5a611b252bc904.jpg&quot;,&quot;size&quot;:[600,600]},&quot;value&quot;:0}],&quot;visual_width&quot;:30,&quot;visual_height&quot;:100,&quot;required&quot;:true,&quot;id&quot;:&quot;&quot;,&quot;min&quot;:&quot;0&quot;,&quot;max&quot;:&quot;100&quot;,&quot;step&quot;:&quot;1&quot;,&quot;align&quot;:&quot;sides&quot;,&quot;fontsize&quot;:120,&quot;format&quot;:&quot;%result% руб.&quot;,&quot;formula&quot;:&quot;&quot;,&quot;condition&quot;:&quot;&quot;,&quot;template&quot;:&quot;&quot;,&quot;variable&quot;:&quot;&quot;,&quot;valueOn&quot;:&quot;1&quot;,&quot;valueOff&quot;:&quot;0&quot;,&quot;privacy_button&quot;:&quot;Политика конфиденциальности&quot;,&quot;privacy_checkbox&quot;:&quot;Даю согласие на <обработку персональных данных>&quot;,&quot;privacy_text&quot;:&quot;Нажимая кнопку, вы даете согласие на <обработку персональных данных>&quot;,&quot;privacy_source&quot;:&quot;global&quot;}"
                                                                                                                                                                              class="code">
                                                                                                                                                                             <div plp-field="phone"
@@ -3925,15 +3871,16 @@
                                                                                                                                                                 </div>
                                                                                                                                                             </div>
                                                                                                                                                         </div>
-                                                                                                                                                        <div class="node node385 widget widget-button">
+                                                                                                                                                        <div class="node node383 widget widget-button">
                                                                                                                                                             <div class="wrapper1">
                                                                                                                                                                 <div class="wrapper2">
                                                                                                                                                                     <div class="macros-button">
                                                                                                                                                                         <div class="btn-out center xs-none">
                                                                                                                                                                             <div class="btn-inner">
                                                                                                                                                                                 <button class="btn hvr-grow font-text modalSubmit"
-                                                                                                                                                                                        id="uid24" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PER_Z'); return true;"
-                                                                                                                                                                                       >ЗАКАЗАТЬ ЗВОНОК
+                                                                                                                                                                                        id="uid22" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'POL_Z'); return true;"
+                                                                                                                                                                                        ><span
+                                                                                                                                                                                        class="text">ЗАКАЗАТЬ ЗВОНОК
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                                                                                             </div>
                                                                                                                                                                         </div>
@@ -3981,7 +3928,7 @@
     <div class="node section section-helper">
         <div class="macros-modal">
             <div class="modal fade nocolors robots-noindex robots-nocontent" data-modal="agreement"
-                 area-context="uid38"><!--googleoff: all--><!--noindex-->
+                 area-context="uid36"><!--googleoff: all--><!--noindex-->
                 <div class="modal-dialog" style="width: 600px;">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -3990,7 +3937,7 @@
                         </div>
                         <div class="modal-body">
                             <div class="cont">
-                                <div class="node node432 widget widget-text">
+                                <div class="node node430 widget widget-text">
                                     <div class="wrapper1">
                                         <div class="wrapper2">
                                             <div class="">
@@ -4005,7 +3952,7 @@
                 </div><!--/noindex--><!--googleon: all--></div>
         </div>
         <div class="macros-modal">
-            <div class="modal fade nocolors" data-modal="cookie" area-context="uid39">
+            <div class="modal fade nocolors" data-modal="cookie" area-context="uid37">
                 <div class="modal-dialog" style="width: 600px;">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -4014,7 +3961,7 @@
                         </div>
                         <div class="modal-body">
                             <div class="cont">
-                                <div class="node node433 widget widget-text">
+                                <div class="node node431 widget widget-text">
                                     <div class="wrapper1">
                                         <div class="wrapper2">
                                             <div class="">
