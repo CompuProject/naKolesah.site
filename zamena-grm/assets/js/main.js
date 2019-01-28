@@ -4,6 +4,7 @@
 
 
 $(document).ready(function () {
+    var siteUrl = location.href.replace('https://nakolesah.site/','').replace('/','');
     if (siteUrl == "zamena-grm") {
         $(".changePhone").html("8 (800) 222-35-69");
     } else if (siteUrl == "grm-zamena") {

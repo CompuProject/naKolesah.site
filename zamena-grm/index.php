@@ -4,7 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
         <?
         $siteUrl = $_SERVER['REQUEST_URI'];
         $yaId = [
@@ -12,14 +13,9 @@
             "/grm-zamena/" => "51962543",
         ];
         ?>
-        var siteUrl = location.href.replace('https://nakolesah.site/','').replace('/','');
-//        var yaID = [];
-//        yaID['zamena-grm']='51962525';
-//        yaID['grm-zamena']='51962543';
-        <!-- Yandex.Metrika counter -->
-            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
         ym(<?=$yaId[$siteUrl]?>, "init", {
             id:<?=$yaId[$siteUrl]?>,
@@ -31,6 +27,7 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/51962525" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+
     <script>window.plp = {
         "page_id": 1825323,
         "content_id": 2461892,
@@ -339,7 +336,7 @@
                                                                                                                                                                         <div class="btn-out center xs-none">
                                                                                                                                                                             <div class="btn-inner">
                                                                                                                                                                                 <button class="btn hvr-grow font-text modalSubmit"
-                                                                                                                                                                                        id="uid4" onclick="<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZAKAZ_O'); return true;">
+                                                                                                                                                                                        id="uid4" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZAKAZ_O'); return true;">
                                                                                                                                                                                     <span class="text">Перезвоните мне</span>
                                                                                                                                                                                 </button>
                                                                                                                                                                             </div>
@@ -518,9 +515,9 @@
                                                                                     data-action="modal" data-ym_goal=""
                                                                                     data-ga_category=""
                                                                                     data-ga_action="" need_hover="false"
-                                                                                    data-modal="custom"><span
+                                                                                    data-modal="custom" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'STOIMOST_N'); return true;"><span
                                                                                     class="text"
-                                                                                    onclick="<?=$yaId[$siteUrl]?>, 'reachGoal', 'STOIMOST_N'); return true;">
+                                                                                    >
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span>Узнать стоимость замены для моего авто</button>
                                                                         </div>
                                                                     </div>
@@ -767,7 +764,7 @@
                                                                                                                                             <div class="btn-out center xs-none">
                                                                                                                                                 <div class="btn-inner">
                                                                                                                                                     <button class="btn hvr-grow font-text modalSubmit"
-                                                                                                                                                            id="uid7" onclick="<?=$yaId[$siteUrl]?>, 'reachGoal', 'STOIMOST_O'); return true;">Узнать
+                                                                                                                                                            id="uid7" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'STOIMOST_O'); return true;">Узнать
                                                                                                                                                     стоимость
                                                                                                                                                     замены
                                                                                                                                                     <span class="ripple rippleEffect"
@@ -812,7 +809,7 @@
                                                                                     data-ga_category=""
                                                                                     data-ga_action="" need_hover="false"
                                                                                     data-modal="custom"
-                                                                                    onclick="<?=$yaId[$siteUrl]?>, 'reachGoal', 'BRON_N'); return true;"><span
+                                                                                    onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'BRON_N'); return true;"><span
                                                                                     class="text">Забронировать запись на ближайшее время</span>
                                                                             </button>
                                                                         </div>
@@ -921,7 +918,7 @@
                                                                                                                                             <div class="btn-out center xs-none">
                                                                                                                                                 <div class="btn-inner">
                                                                                                                                                     <button class="btn hvr-grow font-text modalSubmit"
-                                                                                                                                                            id="uid10" onclick="<?=$yaId[$siteUrl]?>, 'reachGoal', 'BRON_O'); return true;">
+                                                                                                                                                            id="uid10" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'BRON_O'); return true;">
                                                                                                                                                         Записаться
                                                                                                                                                         на
                                                                                                                                                         ближайшее
@@ -2062,7 +2059,7 @@
                                                 <button class="btn hvr-grow font-text btnModal" id="uid12" data-id=""
                                                         data-action="modal" data-ym_goal="" data-ga_category=""
                                                         data-ga_action="" need_hover="false" data-modal="custom"
-                                                        onclick="<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZAPIS_N'); return true;"><span
+                                                        onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZAPIS_N'); return true;"><span
                                                         class="text">Записаться в ближайший автосервис
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                             </div>
