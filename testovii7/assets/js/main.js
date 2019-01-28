@@ -1,9 +1,11 @@
 $(document).ready(function () {
     var site_url = location.href.replace('https://nakolesah.site/','').replace('/','');
-    if (site_url == 'hranenie') {
-        $('.phone_number').html('8 (800) 550-07-39');
-    } else if (site_url == 'hranenie-shin') {
-        $('.phone_number').html('8 (800) 222-15-98');
+    if (site_url == 'shinomontazh') {
+        $('.phone_number').html('8 (800) 222-39-18');
+        $('.whatsAppBtn').attr('href','tel:+78002223918');
+    } else if (site_url == 'shinomontaj') {
+        $('.phone_number').html('8 (800) 222-16-73');
+        $('.whatsAppBtn').attr('href','tel:+78002221673');
     }
     //маска телефона для input popup
     $('input[name=phone]').click(function () {
@@ -52,7 +54,7 @@ $(document).ready(function () {
                 console.log('type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&sdiskami=' + sdiskami + '&year=' + year + '&price=' + price + '&urlName=' + location.href.replace('http://', ''));
 
                 $.ajax({
-                    url: '/testovii7/mail.php',
+                    url: '/shinomontazh/mail.php',
                     type: 'POST',
                     data: 'type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&sdiskami=' + sdiskami + '&year=' + year+ '&price=' + price + '&urlName=' + location.href.replace('http://', ''),
                     // data: data,

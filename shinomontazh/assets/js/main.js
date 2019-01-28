@@ -1,1 +1,142 @@
-!function(){function n(e,o,t){function a(l,i){if(!o[l]){if(!e[l]){var c="function"==typeof require&&require;if(!i&&c)return c(l,!0);if(r)return r(l,!0);var p=new Error("Cannot find module '"+l+"'");throw p.code="MODULE_NOT_FOUND",p}var u=o[l]={exports:{}};e[l][0].call(u.exports,function(n){return a(e[l][1][n]||n)},u,u.exports,n,e,o,t)}return o[l].exports}for(var r="function"==typeof require&&require,l=0;l<t.length;l++)a(t[l]);return a}return n}()({1:[function(n,e,o){"use strict";!function(){function n(){return Math.random().toString(36).substring(2,15)+Math.random().toString(36).substring(2,15)}function e(n,e){var o=n,t="type="+e;for(var a in o)t+="&"+a+"="+o[a];$.ajax({url:"mail.php",type:"POST",data:t}).done(function(n){console.log(JSON.parse(n))}).fail(function(n){return console.log(n)})}var o=function(){var n=$('<div class="popup-overlay js-window"><div class="popup-window js-popup" style="display: none;"><div class="popup-window__body"><div class="wrapper1"><div class="wrapper1"><div class="check"></div><p class="invoice">Спасибо!</p><p class="invoice">Ваша заявка отправлена.</p><p class="invoice">В ближайшее время мы с Вами свяжемся!</p></div></div></div></div></div></div>');$("body").prepend(n),$(".js-popup").slideDown("slow"),$(".js-window").click(function(n){$(this).remove()})};$("#uid7").click(function(t){t.preventDefault();var a=$("#callback-form"),r=a.find("input[name=phone]");r.val()&&$.ajax({url:"https://wilgood.ru/handler_for_partners/",type:"POST",data:"type_partner="+n()+"&comment=Заказ обратного звонка&type_response=html&phone="+r.val()+"&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f"}).done(function(n){n&&(e({phone:r.val()},"callback-top"),$(".area").click(),console.log(n),o(),r.val(""))}).fail(function(n){return console.log(n)})}),$("#uid20").click(function(t){t.preventDefault();var a=$("#get-tyres"),r=a.find("input[name=phone]");r.val()&&$.ajax({url:"https://wilgood.ru/handler_for_partners/",type:"POST",data:"type_partner="+n()+"&comment=ЗАПИСАТЬСЯ НА ШИНОМОНТАЖ В УДОБНОЕ ВРЕМЯ&type_response=html&phone="+r.val()+"&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f"}).done(function(n){n&&(e({phone:r.val()},"get-tyres"),$(".area").click(),o(),console.log(n),r.val(""))}).fail(function(n){return console.log(n)})}),$("#uid4").click(function(t){t.preventDefault();var a=$("#left-widget-form"),r=a.find("input[name=phone]");r.val()&&$.ajax({url:"https://wilgood.ru/handler_for_partners/",type:"POST",data:"type_partner="+n()+"&comment=Запись на шиномонтаж&type_response=html&phone="+r.val()+"&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f"}).done(function(n){n&&(e({phone:r.val()},"left-widget-get-tyres"),$(".area").click(),o(),console.log(n),r.val(""))}).fail(function(n){return console.log(n)})}),$("#uid25").click(function(t){t.preventDefault();var a=$("#second-get-tyres-form"),r=a.find("input[name=phone]");r.val()&&$.ajax({url:"https://wilgood.ru/handler_for_partners/",type:"POST",data:"type_partner="+n()+"&comment=Запись на шиномонтаж&type_response=html&phone="+r.val()+"&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f"}).done(function(n){n&&(e({phone:r.val()},"get-tyres"),$(".area").click(),o(),console.log(n),r.val(""))}).fail(function(n){return console.log(n)})}),$("#uid30").click(function(t){t.preventDefault();var a=$("#check-variants"),r=a.find("select[name=car]"),l=a.find("input[name=phone]");l.val()&&$.ajax({url:"https://wilgood.ru/handler_for_partners/",type:"POST",data:"type_partner="+n()+"&brand="+r.val()+"&comment=Подбор дисков по марке авто&type_response=html&phone="+l.val()+"&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f"}).done(function(n){n&&(e({phone:l.val(),car:r.val()},"check-variants"),$(".area").click(),o(),console.log(n),l.val(""))}).fail(function(n){return console.log(n)})}),$("#uid40").click(function(t){t.preventDefault();var a=$("#tire-fitting"),r=a.find("input[name=phone]");r.val()&&$.ajax({url:"https://wilgood.ru/handler_for_partners/",type:"POST",data:"type_partner="+n()+"&comment=Заявка на хранение шин&type_response=html&phone="+r.val()+"&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f"}).done(function(n){n&&(e({phone:r.val()},"tire-fitting"),$(".area").click(),o(),console.log(n),r.val(""))}).fail(function(n){return console.log(n)})}),$("#uid50").click(function(t){t.preventDefault();var a=$("#store-amount"),r=a.find("input[name=phone]");r.val()&&$.ajax({url:"https://wilgood.ru/handler_for_partners/",type:"POST",data:"type_partner="+n()+"&comment=Запись на шиномонтаж&type_response=html&phone="+r.val()+"&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f"}).done(function(n){n&&(e({phone:r.val()},"store-amount"),$(".area").click(),o(),console.log(n),r.val(""))}).fail(function(n){return console.log(n)})}),$("#uid85").click(function(t){t.preventDefault();var a=$("#store-amount-two"),r=a.find("input[name=phone]");r.val()&&$.ajax({url:"https://wilgood.ru/handler_for_partners/",type:"POST",data:"type_partner="+n()+"&comment=Запись на шиномонтаж&type_response=html&phone="+r.val()+"&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f"}).done(function(n){n&&(e({phone:r.val()},"store-amount"),$(".area").click(),o(),console.log(n),r.val(""))}).fail(function(n){return console.log(n)})}),$("#uid53").click(function(t){t.preventDefault();var a=$("#callback-bottom"),r=a.find("input[name=phone]");r.val()&&$.ajax({url:"https://wilgood.ru/handler_for_partners/",type:"POST",data:"type_partner="+n()+"&comment=Заказ обратного звонка&type_response=html&phone="+r.val()+"&unique_code=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f"}).done(function(n){n&&(e({phone:r.val()},"callback-bottom"),$(".area").click(),console.log(n),o(),r.val(""))}).fail(function(n){return console.log(n)})})}()},{}]},{},[1]);
+$(document).ready(function () {
+    var site_url = location.href.replace('https://nakolesah.site/','').replace('/','');
+    if (site_url == 'shinomontazh') {
+        $('.phone_number').html('8 (800) 222-39-18');
+        $('.whatsAppBtn').attr('href','tel:+78002223918');
+    } else if (site_url == 'shinomontaj') {
+        $('.phone_number').html('8 (800) 222-16-73');
+        $('.whatsAppBtn').attr('href','tel:+78002221673');
+    }
+    //маска телефона для input popup
+    $('input[name=phone]').click(function () {
+        $(this).focus();
+    });
+    $('input[name=phone]').mask('+7 (999) 999-99-99');
+
+    //обработка кнопки вызова modal
+    function getModal() {
+        $('.btnModal').click(function (e) {
+            e.preventDefault();
+            var modalId = $(this).attr('id');
+            $('.form1-cover[data-mod=' + modalId + ']').show();
+            $('.form1-cover[data-mod=' + modalId + ']').closest('.modal').show();
+            if (modalId == "modal6") {
+                $('.modalOverlay').show();
+            }
+        });
+    };
+    getModal();
+
+    //обработка форм
+    function sendModal() {
+        $('.form1-cover .modalSubmit').click(function (e) {
+            e.preventDefault();
+            var parentForm = $(this).closest('.form1-cover');
+            var phone = parentForm.find('input[name=phone]').val();
+            phone = phone.replace(/\s+/g,'');
+            var modalName = parentForm.attr('id');
+            var brand = parentForm.find('select[name=brand] option:selected').text();
+            brand = brand.replace(/\s+/g,'');
+            var diameter = parentForm.find('select[name=diameter] option:selected').text();
+            diameter = diameter.replace(/\s+/g,'');
+            var year = parentForm.find('select[name=year] option:selected').text();
+            year = year.replace(/\s+/g,'');
+            var sdiskami = parentForm.find('select[name=sdiskami] option:selected').text();
+            sdiskami = sdiskami.replace(/\s+/g,'');
+            var price = parentForm.find('.irs-single').text();
+            price = price.replace(/\s+/g,'');
+            $('.errMsg').hide();
+
+            if (phone == '') {
+                parentForm.find('input[name=phone]').after('<div class="errMsg">Не заполнено поле</div>');
+                parentForm.find('input[name=phone]').css('border-color', 'red');
+            } else {
+                console.log('type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&sdiskami=' + sdiskami + '&year=' + year + '&price=' + price + '&urlName=' + location.href.replace('http://', ''));
+
+                $.ajax({
+                    url: '/shinomontazh/mail.php',
+                    type: 'POST',
+                    data: 'type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&sdiskami=' + sdiskami + '&year=' + year+ '&price=' + price + '&urlName=' + location.href.replace('http://', ''),
+                    // data: data,
+                    // dataType: 'html',
+                    success: function (rezult) {
+
+
+                        if (!parentForm.hasClass('nohidemodal')) {
+                            parentForm.hide();
+                            $('.modal').hide();
+                        } else {
+                            $('.modalOverlay').show();
+                        };
+
+                        $('.successMsg').show().delay(3000).fadeOut();
+                        $('.modal-backdrop.fade.in').delay(3000).fadeOut();
+                        $('.modalOverlay').delay(3000).fadeOut();
+                        $('.successMsg,.modal-backdrop.fade.in,.modalOverlay').click(function () {
+                            $('.successMsg,.modal-backdrop.fade.in,.modalOverlay').hide();
+                        });
+
+                    }
+                });
+            }
+        });
+    }
+
+    sendModal();
+
+    function generateHash() {
+        return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
+    }
+
+    function getWilgood() {
+        $('.form1-cover .modalSubmit').click(function (event) {
+            // event.preventDefault();
+            var form = $(this).closest('.form1-cover'),
+                COMMENT = form.attr('id');
+            var phone = form.find('input[name=phone]').val();
+            phone = phone.replace(/\s+/g,'');
+            if (phone !== '') {
+                $.ajax({
+                    url: 'https://wilgood.ru/handler_for_partners/',
+                    type: 'GET',
+                    data: 'type_partner=generatorprodaj&comment=' + COMMENT + '&type_response=html&phone=' + phone + '&unique_code=' + generateHash() + '&hash=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f',
+                }).done(json => {
+                    if (json) {
+                        console.log(json);
+                    }
+                });
+            }
+        });
+    }
+
+    getWilgood();
+
+    var fakeRoistatWidth = ($(window).width() - $('.fakeRoistat').width()) / 2;
+    $('.fakeRoistat').css('left', fakeRoistatWidth);
+
+    setTimeout(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+        }
+    }, 20000);
+
+    $('.fakeRoistat .close').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+    $('.modalOverlay').click(function () {
+        $('body').css('overflow', 'auto');
+        $('.fakeRoistat').hide();
+        $('.modalOverlay').hide();
+    });
+
+    $(document).mouseleave(function () {
+        if (!$('.fakeRoistat').hasClass('check')) {
+            $('.fakeRoistat').slideDown(500);
+            $('.modalOverlay').show();
+            $('.fakeRoistat').addClass('check');
+        }
+    });
+});

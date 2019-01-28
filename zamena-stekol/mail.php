@@ -23,7 +23,7 @@ switch ($post_data['type']) {
         break;
     case 'rasschitat-stoimost-form':
         $subject = "\"Замена стекол\" Сообщение с Лендинга - 'РАССЧИТАТЬ ТОЧНУЮ СТОИМОСТЬ'";
-        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p><p>Диаметр диска: <b>'.$post_data['brand'].'</b></p>';
+        $message = '<p>Номер телефона клиента: <b>'.$post_data['phone'].'</b></p><p>Бренд: <b>'.$post_data['brand'].'</b></p>';
         mail($to, $subject, $message, $headers);
         addFormDataToTheDatabase('РАССЧИТАТЬ ТОЧНУЮ СТОИМОСТЬ',$post_data['phone'],$post_data['urlName']);
         echo json_encode(['callback' => true]);
