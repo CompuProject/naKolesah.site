@@ -7,12 +7,19 @@ $headers .= "Content-type:text/html\r\n";
 $headers .= 'From: <hranenie-shin@sales-kolesa.site>' . "\r\n";
 var_dump($_POST);
 /*
- * zapis-link-top
+ *
  * callback-top-form
- * rasschitat-stoimost-form
- * rasschitat-stoimost-form-mobile
- * bistraya-zapis
- * bistraya-zapis-mobile
+ * aside-form
+ * zapis-montazh
+ * zapis-montazh-mobile
+ * zapis-blizhaishii
+ * zapis-blizhaishii-mobile
+ * podbor-shin
+ * podbor-shin-mobile
+ * shini-hranenie
+ * shini-hranenie-mobile
+ * zapis-montazh-bottom
+ * zapis-montazh-bottom-mobile
  * callback-form-footer
  * callback-form-footer-mobile
  */

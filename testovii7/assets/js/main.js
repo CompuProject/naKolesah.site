@@ -52,7 +52,7 @@ $(document).ready(function () {
                 console.log('type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&sdiskami=' + sdiskami + '&year=' + year + '&price=' + price + '&urlName=' + location.href.replace('http://', ''));
 
                 $.ajax({
-                    url: '/testovii7/mail1.php',
+                    url: '/testovii7/mail.php',
                     type: 'POST',
                     data: 'type=' + modalName + '&phone=' + phone + '&brand=' + brand + '&diameter=' + diameter + '&sdiskami=' + sdiskami + '&year=' + year+ '&price=' + price + '&urlName=' + location.href.replace('http://', ''),
                     // data: data,
@@ -81,7 +81,7 @@ $(document).ready(function () {
     }
 
     sendModal();
-/*
+
     function generateHash() {
         return Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
     }
@@ -136,5 +136,5 @@ $(document).ready(function () {
             $('.modalOverlay').show();
             $('.fakeRoistat').addClass('check');
         }
-    });*/
+    });
 });
