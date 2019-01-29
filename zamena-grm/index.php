@@ -1917,6 +1917,7 @@
         </div>
     </div><!-- ADAPTIVE -->
     <script class="adaptive">if (["xs"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
+    <a name="adresa"></a>
     <div class="node node127 section section-clear xs-hidden" data-opacity="0.95">
         <div class="wrapper1">
             <div class="wrapper2">
@@ -3069,6 +3070,7 @@
         </div>
     </div><!-- ADAPTIVE -->
     <script class="adaptive">if (["xs"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
+    <a name="preimushestva"></a>
     <div class="node node225 section section-clear xs-hidden" data-opacity="0.95">
         <div class="wrapper1"
              style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAGElEQVQoU2NkoBAwUqifYdQAhtEwACYiABCBAAscfVqOAAAAAElFTkSuQmCC&quot;);"
@@ -3481,6 +3483,7 @@
         </div>
     </div><!-- ADAPTIVE -->
     <script class="adaptive">if (["xs"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
+    <a name="komanda"></a>
     <div class="node node269 section section-clear xs-hidden" data-opacity="0.95">
         <div class="wrapper1">
             <div class="wrapper2">
@@ -4310,6 +4313,7 @@
         </div>
     </div><!-- ADAPTIVE -->
     <script class="adaptive">if (["xs"].indexOf(plp.screen) >= 0) document.write("<!--")</script>
+    <a name="stoimost"></a>
     <div class="node node342 section section-clear xs-hidden" data-opacity="0.95">
         <div class="wrapper1">
             <div class="wrapper2">
