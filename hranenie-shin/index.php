@@ -45,7 +45,7 @@
     };</script>
     <script type="text/javascript">
         <?
-        $siteUrl = $_SERVER['REQUEST_URI'];
+        $siteUrl = str_replace('index.php','',$_SERVER['SCRIPT_NAME']);
         $yaId = [
             "/hranenie/" => "51444892",
             "/hranenie-shin/" => "51444910",

@@ -10,7 +10,7 @@
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         <?
-        $siteUrl = $_SERVER['REQUEST_URI'];
+        $siteUrl = str_replace('index.php','',$_SERVER['SCRIPT_NAME']);
         $yaId = [
             "/zamena-masla/" => "51444766",
             "/zamena-masel/" => "51444757",

@@ -7,7 +7,7 @@
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         <?
-        $siteUrl = $_SERVER['REQUEST_URI'];
+        $siteUrl = str_replace('index.php','',$_SERVER['SCRIPT_NAME']);
         $yaId = [
             "/zamena-grm/" => "51962525",
             "/grm-zamena/" => "51962543",
@@ -67,7 +67,6 @@
 </head>
 <body class="area ">
 <div class="area font-text-opensans font-header-ttnormsmedium">
-
     <script>if (!plp.screenSizes) {
         plp.screenSizes = {
             sm: 768,
