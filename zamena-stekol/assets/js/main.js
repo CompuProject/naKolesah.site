@@ -2,8 +2,10 @@ $(document).ready(function () {
     var site_url = location.href.replace('https://nakolesah.site/','').replace('/','');
     if (site_url == 'zamena-stekla') {
         $('.phone_number').html('8 (800) 550-85-94');
+        $('.whatsAppBtn').attr('href','tel:+78005508594');
     } else if (site_url == 'zamena-stekol') {
         $('.phone_number').html('8 (800) 550-35-98');
+        $('.whatsAppBtn').attr('href','tel:+78005503598');
     }
     //маска телефона для input popup
     $('input[name=phone]').click(function () {

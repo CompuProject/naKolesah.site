@@ -2,8 +2,10 @@
 $(document).ready(function () {
     if (siteUrl == "zamena-masel") {
         $(".changePhone").html("8 (800) 550-85-93");
+        $('.whatsAppBtn').attr('href','tel:+78005508593');
     } else if (siteUrl == "zamena-masla") {
         $(".changePhone").html("8 (800) 550-85-73");
+        $('.whatsAppBtn').attr('href','tel:+78005508573');
     }
     //маска телефона для input popup
     $('input[name=phone]').click(function () {
