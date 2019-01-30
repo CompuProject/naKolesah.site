@@ -4,6 +4,7 @@
 
 
 $(document).ready(function () {
+    var siteUrl = location.href.replace('https://nakolesah.site/','').replace('/','');
     if (siteUrl == "") {
         $(".changePhone").html("8 (800) 222-31-96");
     } else if (siteUrl == "shini") {
