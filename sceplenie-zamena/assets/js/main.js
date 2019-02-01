@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    var siteUrl = location.href.replace('https://nakolesah.site/','').replace('/','');
     $("input[name=phone]").click(function () {
         $(this).focus();
     });

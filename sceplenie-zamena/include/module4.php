@@ -30,7 +30,7 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-lg-auto col-xl-auto pt-5">
-            <button class="btn modalBtn px-5 py-4 btn_modal" id="modal5" onclick="ym(yaID[siteUrl], 'reachGoal', 'QV'); return true;">Узнать предварительную стоимость<span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></button>
+            <button class="btn modalBtn px-5 py-4 btn_modal" id="modal5" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'QV'); return true;">Узнать предварительную стоимость<span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></button>
         </div>
     </div>
 </div>

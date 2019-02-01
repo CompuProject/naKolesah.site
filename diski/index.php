@@ -7,6 +7,29 @@
     <link rel="icon" type='image/png'
           href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/e5d388c5baafaaab24a32e5bafc0181a.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        <?
+        $siteUrl = str_replace('index.php','',$_SERVER['SCRIPT_NAME']);
+        $yaId = [
+            "/diski/" => "51352711",
+            "/avtodiski/" => "51353530",
+        ];
+        ?>
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(<?=$yaId[$siteUrl]?>, "init", {
+            id:<?=$yaId[$siteUrl]?>,
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/51962525" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
     <script>
         window.plp = {
         "page_id": 1695801,
@@ -73,33 +96,6 @@
 
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script>window.plp = {"page_id":1780491,"content_id":2251305,"lang":"ru","time":1547705571,"screens":"screens-xs-sm-md-lg","animations":{"section":{"type":"scroll"},"widget":{"type":"scroll"}}};window.plp_page_id = 1780491;window.plp_content_id = 2251305;window.plp_lang = "ru";window.lptag = "8d49baa665d9e6fe5bd179e57b7398fffplZ98FGkxA0KNJcG5vXKxOMjnqnW5xh11T/A/ytHohejZ6QHxFIGtcdLK0KhxHP";window.error_handler = function (e, fn_id) {    window.console && console.log && console.log(fn_id);    window['error_handler_' + fn_id] && eval(window['error_handler_' + fn_id]);};</script>
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        var siteUrl = location.href.replace('http://nakolesah.site/','').replace('/','');
-        var yaID = [];
-        yaID['remont-akpp']='51566537';
-        yaID['akpp-remont']='51566771';
-
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-        ym(yaID[siteUrl], "init", {
-            id:yaID[siteUrl],
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
-        });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/51566537" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
-
-
-
-
-
-
     <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/vendors.css"></link>
     <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/plp.css"></link>
     <link type="text/css" rel="stylesheet" href="//s.filesonload.ru/assets/3.3/nodes.css"></link>
@@ -234,7 +230,7 @@
                                                         style="width: 74.16px;"
                                                         data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/97ebe47d8061d19fd63064e56e15bb36.png"
                                                         data-lazy-image_size="103,369"
-                                                        data-lazy-image_detect="css-width"></button>
+                                                        data-lazy-image_detect="css-width" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'VIDJET'); return true;"></button>
                                             </div>
                                         </div>
                                     </div>
@@ -340,7 +336,7 @@
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
                                                                                                                         <button class="btn hvr-grow modalSubmit"
-                                                                                                                                id="uid4"><span
+                                                                                                                                id="uid4" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'VIDJET_Z'); return true;"><span
                                                                                                                                 class="text">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
@@ -585,7 +581,7 @@
                                                                                target="_blank">
                                             <button class="btn font-text" id="uid96" data-id="" data-action="link"
                                                     data-ym_goal="ZVONOK" data-ga_category="" data-ga_action=""
-                                                    need_hover="true"><span class="text">ПОЗВОНИТЬ БЕСПЛАТНО</span>
+                                                    need_hover="true" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZVONOK'); return true;"><span class="text">ПОЗВОНИТЬ БЕСПЛАТНО</span>
                                             </button>
                                         </a></div>
                                     </div>
@@ -727,7 +723,9 @@
                                                                                                                 data-ga_category=""
                                                                                                                 data-ga_action=""
                                                                                                                 need_hover="false"
-                                                                                                                data-modal="custom">
+                                                                                                                data-modal="custom"
+                                                                                                                onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZAKAZ_ZVONKA'); return true;"
+                                                                                                        >
                                                                                                             <span class="text">ЗАКАЗАТЬ ЗВОНОК</span>
                                                                                                         </button>
                                                                                                     </div>
@@ -845,7 +843,7 @@
                                                                                                                                                                         <div class="btn-out center xs-none">
                                                                                                                                                                             <div class="btn-inner">
                                                                                                                                                                                 <button class="btn hvr-grow modalSubmit"
-                                                                                                                                                                                        id="uid8"><span
+                                                                                                                                                                                        id="uid8" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZAKAZ_ZVONKA_Z'); return true;"                                                                                                                                                                                ><span
                                                                                                                                                                                         class="text">ЗАКАЗАТЬ ЗВОНОК
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                                                                             </div>
@@ -1649,7 +1647,7 @@
                                             <div class="btn-inner">
                                                 <button class="btn hvr-grow btnModal" id="uid19" data-id="" data-action="modal"
                                                         data-ym_goal="NAL" data-ga_category="" data-ga_action=""
-                                                        need_hover="false" data-modal="custom"><span class="text">ПРОВЕРИТЬ НАЛИЧИЕ ДИСКОВ ДЛЯ МОЕГО АВТО
+                                                        need_hover="false" data-modal="custom" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PROVERIT'); return true;"><span class="text">ПРОВЕРИТЬ НАЛИЧИЕ ДИСКОВ ДЛЯ МОЕГО АВТО
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                             </div>
                                         </div>
@@ -1896,7 +1894,7 @@
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
                                                                                                                         <button class="btn hvr-grow modalSubmit"
-                                                                                                                                id="uid21"><span
+                                                                                                                                id="uid21" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PROVERIT_Z'); return true;"><span
                                                                                                                                 class="text">ПРОВЕРИТЬ НАЛИЧИЕ ДИСКОВ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
@@ -3590,7 +3588,8 @@
                                             <div class="btn-inner">
                                                 <button class="btn hvr-grow btnModal" id="uid26" data-id="" data-action="modal"
                                                         data-ym_goal="PODB" data-ga_category="" data-ga_action=""
-                                                        need_hover="false" data-modal="custom"><span class="text">ПОДОБРАТЬ ДИСКИ
+                                                        need_hover="false" data-modal="custom" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'DISKI'); return true;"
+                                                ><span class="text">ПОДОБРАТЬ ДИСКИ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                             </div>
                                         </div>
@@ -4315,13 +4314,7 @@
                                                                                                                             <div class="btn-out center xs-none">
                                                                                                                                 <div class="btn-inner">
                                                                                                                                     <button class="btn hvr-grow modalSubmit"
-                                                                                                                                            id="uid37"
-
-                                                                                                                                            
-
-
-
-                                                                                                                                            ><span
+                                                                                                                                            id="uid37" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'DISKI_Z'); return true;"><span
                                                                                                                                             class="text">ПОСМОТРЕТЬ ЛУЧШИЕ ДИСКИ ДЛЯ МОЕГО АВТО
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                                 </div>
@@ -5748,7 +5741,7 @@
                                             <div class="btn-inner">
                                                 <button class="btn hvr-grow btnModal" id="uid48" data-id="" data-action="modal"
                                                         data-ym_goal="RASSR" data-ga_category="" data-ga_action=""
-                                                        need_hover="false" data-modal="custom"><span class="text">ПРИОБРЕСТИ СТИЛЬНЫЕ ДИСКИ В РАССРОЧКУ
+                                                        need_hover="false" data-modal="custom" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'RASSROCHKA'); return true;"><span class="text">ПРИОБРЕСТИ СТИЛЬНЫЕ ДИСКИ В РАССРОЧКУ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                             </div>
                                         </div>
@@ -5854,7 +5847,8 @@
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
                                                                                                                         <button class="btn hvr-grow modalSubmit"
-                                                                                                                                id="uid50">СВЯЗАТЬСЯ СО СПЕЦИАЛИСТОМ
+                                                                                                                                id="uid50" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'DISKIZ_Z'); return true;"
+                                                                                                                        >СВЯЗАТЬСЯ СО СПЕЦИАЛИСТОМ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
                                                                                                                 </div>
@@ -7306,7 +7300,7 @@
                                                                                         <div class="btn-out center xs-none">
                                                                                             <div class="btn-inner">
                                                                                                 <button class="btn hvr-grow js-next-step"
-                                                                                                        id="uid59" data-action="slidenext"  il-action="slidenext"><span
+                                                                                                        id="uid59" data-action="slidenext"  il-action="slidenext" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'DALEE'); return true;"><span
                                                                                                         class="text">⠀⠀⠀ДАЛЕЕ⠀⠀⠀
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                             </div>
@@ -7789,13 +7783,7 @@
                                                                                         <div class="btn-out center xs-none">
                                                                                             <div class="btn-inner">
                                                                                                 <button class="btn hvr-grow modalSubmit"
-                                                                                                        id="uid64"
-
-                                                                                                        
-
-
-
-                                                                                                        ><span
+                                                                                                        id="uid64" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'QVIZ_Z'); return true;"><span
                                                                                                         class="text">ПОСМОТРЕТЬ ЛУЧШИЕ ДИСКИ ДЛЯ МОЕГО АВТО
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                             </div>

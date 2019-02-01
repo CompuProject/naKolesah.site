@@ -20,7 +20,7 @@
     </div>
     <div class="row justify-content-center">
         <div class="col-lg-auto col-xl-auto text-center pt-3">
-            <button class="btn modalBtn px-5 py-4 btn_modal" id="modal3" onclick="ym(yaID[siteUrl], 'reachGoal', 'DG'); return true;">Записаться на диагностику сцепления в удобное время<span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></button>
+            <button class="btn modalBtn px-5 py-4 btn_modal" id="modal3" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'DG'); return true;">Записаться на диагностику сцепления в удобное время<span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></button>
         </div>
     </div>
     <a name="about"></a>

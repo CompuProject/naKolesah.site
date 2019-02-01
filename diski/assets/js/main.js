@@ -4,6 +4,7 @@
 
 
 $(document).ready(function () {
+    var siteUrl = location.href.replace('http://nakolesah.site/','').replace('/','');
     //маска телефона для input popup
     $('input[name=phone]').click(function () {
         $(this).focus();

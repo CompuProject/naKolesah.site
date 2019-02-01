@@ -61,7 +61,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg col-xl pt-3 modalBtnBlock text-center ">
-                                <button class="btn modalBtn px-5 py-4" onclick="ym(yaID[siteUrl], 'reachGoal', 'UD_Z'); return true;">Записаться на удобное время<span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></button>
+                                <button class="btn modalBtn px-5 py-4" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'UD_Z'); return true;">Записаться на удобное время<span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></button>
                             </div>
                         </div>
                     </div>

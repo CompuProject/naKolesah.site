@@ -53,7 +53,7 @@
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
         <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal1_phone"></div>
         <div class="modalBtnBlock text-center pt-3">
-            <button class="btn modalBtn px-5 py-4" onclick="ym(yaID[siteUrl], 'reachGoal', 'PR_Z'); return true;">ПЕРЕЗВОНИТЕ МНЕ</button>
+            <button class="btn modalBtn px-5 py-4" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PR_Z'); return true;">ПЕРЕЗВОНИТЕ МНЕ</button>
         </div>
     </div>
 </div>
@@ -111,7 +111,7 @@
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
         <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal2_phone"></div>
         <div class="modalBtnBlock text-center pt-3">
-            <button class="btn modalBtn px-5 py-4" onclick="ym(yaID[siteUrl], 'reachGoal', 'ST_Z'); return true;">УЗНАТЬ СТОИМОСТЬ ЗАМЕНЫ</button>
+            <button class="btn modalBtn px-5 py-4" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ST_Z'); return true;">УЗНАТЬ СТОИМОСТЬ ЗАМЕНЫ</button>
         </div>
         <div class="modalBtnBlockDescription text-center pt-2">Проверка займет не более 10 минут*</div>
     </div>
@@ -129,7 +129,7 @@
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
         <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal3_phone"></div>
         <div class="modalBtnBlock text-center pt-3">
-            <button class="btn modalBtn px-5 py-4" onclick="ym(yaID[siteUrl], 'reachGoal', 'DG_Z'); return true;">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ</button>
+            <button class="btn modalBtn px-5 py-4" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'DG_Z'); return true;">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ</button>
         </div>
     </div>
 </div>
@@ -145,7 +145,7 @@
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
         <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal4_phone"></div>
         <div class="modalBtnBlock text-center pt-3">
-            <button class="btn modalBtn px-5 py-4" onclick="ym(yaID[siteUrl], 'reachGoal', 'SPE_Z'); return true;">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ</button>
+            <button class="btn modalBtn px-5 py-4" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'SPE_Z'); return true;">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ</button>
         </div>
     </div>
 </div>
@@ -268,7 +268,7 @@
                 <div class="modalInputName">Номер телефона *</div>
                 <div class="modalInputBlock"><input class="modalInput" name="phone" type="tel" required id="modal5_phone"></div>
                 <div class="modalBtnBlock text-center pt-3">
-                    <button class="btn modalBtn px-5 py-4" onclick="ym(yaID[siteUrl], 'reachGoal', 'QV_Z'); return true;">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ</button>
+                    <button class="btn modalBtn px-5 py-4" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'QV_Z'); return true;">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ</button>
                 </div>
 
                 <p class="online-selection__form-free text-center pt-2">

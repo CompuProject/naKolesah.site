@@ -15,7 +15,7 @@
             </div>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pt-3">
-                    <button class="btn modalBtn px-5 py-4 btn_modal" id="modal2" onclick="ym(yaID[siteUrl], 'reachGoal', 'ST'); return true;">Узнать стоимость замены сцепления на моем авто<span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></button>
+                    <button class="btn modalBtn px-5 py-4 btn_modal" id="modal2" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ST'); return true;">Узнать стоимость замены сцепления на моем авто<span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></button>
                 </div>
             </div>
             <div class="row pt-4">

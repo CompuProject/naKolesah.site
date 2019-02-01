@@ -51,7 +51,7 @@
 							<option value="Другая">Другая</option>
 						</select>
 					</label>
-					<button class="big-yellow-button js-next-step" type="button" onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('DL');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('DL');return true;}">
+					<button class="big-yellow-button js-next-step" type="button" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'DL'); return true;">
                         <span class="text">
                             Далее
                             <span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span>
@@ -127,7 +127,7 @@
                         Это бесплатно и ни к чему вас не обязывает*
                     </p>
 					<label>Номер телефона *<input name="phone" type="tel" required></label>
-					<button class="big-yellow-button" id="online-selection_btn" onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('PLDDA');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('PLDDA');return true;}">
+					<button class="big-yellow-button" id="online-selection_btn" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZAKAZ_N'); return true;">
                         <span class="text">
                             Посмотреть лучшие диски для моего авто
                             <span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span>

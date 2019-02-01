@@ -7,6 +7,29 @@
     <link rel="icon" type='image/png'
           href="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/e5d388c5baafaaab24a32e5bafc0181a.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        <?
+        $siteUrl = str_replace('index.php','',$_SERVER['SCRIPT_NAME']);
+        $yaId = [
+            "/zamena-stekla/" => "51444802",
+            "/zamena-stekol/" => "51444793",
+        ];
+        ?>
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(<?=$yaId[$siteUrl]?>, "init", {
+            id:<?=$yaId[$siteUrl]?>,
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/51962525" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
     <script>window.plp = {
         "page_id": 1637960,
         "content_id": 2193105,
@@ -259,7 +282,7 @@
                                                                                target="_blank">
                                             <button class="btn font-text" id="uid46" data-id="" data-action="link"
                                                     data-ym_goal="ZVONOK" data-ga_category="" data-ga_action=""
-                                                    need_hover="true"><span class="text">ПОЗВОНИТЬ БЕСПЛАТНО</span>
+                                                    need_hover="true" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZVONOK'); return true;"><span class="text">ПОЗВОНИТЬ БЕСПЛАТНО</span>
                                             </button>
                                         </a></div>
                                     </div>
@@ -972,7 +995,8 @@
                                                                                                                 data-ga_category=""
                                                                                                                 data-ga_action=""
                                                                                                                 need_hover="false"
-                                                                                                                data-modal="custom">
+                                                                                                                data-modal="custom"
+                                                                                                                onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'OPA'); return true;">
                                                                                                             <span class="text">Перезвоните мне</span>
                                                                                                         </button>
                                                                                                     </div>
@@ -1090,8 +1114,8 @@
                                                                                                                                                                         <div class="btn-out center xs-none">
                                                                                                                                                                             <div class="btn-inner">
                                                                                                                                                                                 <button class="btn hvr-grow font-text modalSubmit"
-                                                                                                                                                                                        id="uid7"
-                                                                                                                                                                                        ><span
+                                                                                                                                                                                        id="uid7" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'OPA_Z'); return true;"
+                                                                                                                                                                                ><span
                                                                                                                                                                                         class="text">ЗАКАЗАТЬ ЗВОНОК
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                                                                                             </div>
@@ -1671,8 +1695,8 @@
                                                                                                         <div class="btn-out center xs-none">
                                                                                                             <div class="btn-inner">
                                                                                                                 <button class="btn hvr-grow font-text modalSubmit"
-                                                                                                                        id="uid10"
-                                                                                                                        ><span class="text">РАССЧИТАТЬ ТОЧНУЮ СТОИМОСТЬ
+                                                                                                                        id="uid10" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'RAST_ST'); return true;"
+                                                                                                                ><span class="text">РАССЧИТАТЬ ТОЧНУЮ СТОИМОСТЬ
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                             </div>
                                                                                                         </div>
@@ -2696,7 +2720,8 @@
                                                                                     data-ym_goal="ZAPISVKN"
                                                                                     data-ga_category=""
                                                                                     data-ga_action="" need_hover="false"
-                                                                                    data-modal="custom"><span
+                                                                                    data-modal="custom" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'BUSTRZ'); return true;"
+                                                                            ><span
                                                                                     class="text">БЫСТРАЯ ЗАПИСЬ ОНЛАЙН
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                         </div>
@@ -2780,8 +2805,8 @@
                                                                                                                                             <div class="btn-out center xs-none">
                                                                                                                                                 <div class="btn-inner">
                                                                                                                                                     <button class="btn font-text modalSubmit"
-                                                                                                                                                            id="uid13"
-                                                                                                                                                            ><span class="text">ЗАПИСАТЬСЯ
+                                                                                                                                                            id="uid13" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'BUSTRZ_Z'); return true;"
+                                                                                                                                                    ><span class="text">ЗАПИСАТЬСЯ
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                                                                 </div>
                                                                                                                                             </div>
@@ -3556,7 +3581,8 @@
                                                                                                                 data-ga_category=""
                                                                                                                 data-ga_action=""
                                                                                                                 need_hover="false"
-                                                                                                                data-modal="custom">
+                                                                                                                data-modal="custom"
+                                                                                                                onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PODV'); return true;">
                                                                                                             <span class="text">Перезвоните мне</span>
                                                                                                         </button>
                                                                                                     </div>
@@ -3674,8 +3700,8 @@
                                                                                                                                                                         <div class="btn-out center xs-none">
                                                                                                                                                                             <div class="btn-inner">
                                                                                                                                                                                 <button class="btn hvr-grow font-text modalSubmit"
-                                                                                                                                                                                        id="uid21"
-                                                                                                                                                                                        ><span class="text">ЗАКАЗАТЬ ЗВОНОК
+                                                                                                                                                                                        id="uid21" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PODV_Z'); return true;"
+                                                                                                                                                                                ><span class="text">ЗАКАЗАТЬ ЗВОНОК
 <span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></span></button>
                                                                                                                                                                             </div>
                                                                                                                                                                         </div>

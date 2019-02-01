@@ -17,26 +17,28 @@
     <script src="/sceplenie-zamena/assets/js/jquery-3.3.1.min.js"></script>
     <script src="/sceplenie-zamena/assets/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
-
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
-        var siteUrl = location.href.replace('https://nakolesah.site/','').replace('/','');
-        var yaID = [];
-        yaID['sceplenie-zamena']='51599156';
-        yaID['sceplenie']='51599021';
+        <?
+        $siteUrl = str_replace('index.php','',$_SERVER['SCRIPT_NAME']);
+        $yaId = [
+            "/sceplenie-zamena/" => "51599156",
+            "/sceplenie/" => "51599021",
+        ];
+        ?>
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-        ym(yaID[siteUrl], "init", {
-            id:yaID[siteUrl],
+        ym(<?=$yaId[$siteUrl]?>, "init", {
+            id:<?=$yaId[$siteUrl]?>,
             clickmap:true,
             trackLinks:true,
             accurateTrackBounce:true,
             webvisor:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/51573023" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript><div><img src="https://mc.yandex.ru/watch/51962525" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 </head>
 <body>
@@ -62,7 +64,7 @@
             </div>
         </div>
         <div class="col-lg-2 col-xl-2">
-            <button class="btn modalBtn px-4 py-3 btn_modal" id="modal1" onclick="ym(yaID[siteUrl], 'reachGoal', 'PR'); return true;">Перезвоните мне</button>
+            <button class="btn modalBtn px-4 py-3 btn_modal" id="modal1" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PR'); return true;">Перезвоните мне</button>
         </div>
     </div>
 </div>
@@ -93,7 +95,7 @@
     <div class="row greenBtnRow">
         <div class="col-12 pt-2 text-center">
             <a href="tel:+78005506718" target="_blank" class="greenBtnLink">
-                <button class="greenBtn" onclick="ym(yaID[siteUrl], 'reachGoal', 'ZVONOK'); return true;">Позвонить бесплатно</button>
+                <button class="greenBtn" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZVONOK'); return true;">Позвонить бесплатно</button>
             </a>
         </div>
     </div>

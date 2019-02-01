@@ -9,7 +9,7 @@
         </div>
         <div class="footer__phone--callback">
             <button class="btn_modal" id="modal1"
-                    onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('PMN');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('PMN');return true;}">
+                    onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PMN'); return true;">
 			<span class="text">
 				Перезвоните мне
 				<span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span>
@@ -32,7 +32,7 @@
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
         <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal1_phone"></div>
         <div class="modalBtnBlock">
-            <button onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('PZ_O');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('PZ_O');return true;}">
+            <button onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PZ_O'); return true;">
                 ЗАКАЗАТЬ ЗВОНОК<span class="ripple rippleEffect"
                                      style="width:250px; height:250px; left:-180px; top:-77px;"></span></button>
         </div>
@@ -91,7 +91,7 @@
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
         <div class="modalInputBlock"><input class="modalInput" id="modal2_phone"></div>
         <div class="modalBtnBlock">
-            <button onclick="yaCounter51352711.reachGoal('PROVERIT_Z'); return true;">ПРОВЕРИТЬ НАЛИЧИЕ МЕСТ<span
+            <button onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PROVERIT_Z'); return true;">ПРОВЕРИТЬ НАЛИЧИЕ МЕСТ<span
                         class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span>
             </button>
         </div>
@@ -224,7 +224,7 @@
                                 </p>
                 <div class="modalBtnBlock">
                     <button class="big-yellow-button" type="submit"
-                            onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('PLD');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('PLD');return true;}">
+                            onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PLD'); return true;">
                         Посмотреть лучшие диски для моего авто<span class="ripple rippleEffect"
                                                                     style="width:250px; height:250px; left:-180px; top:-77px;"></span>
                     </button>
@@ -248,7 +248,7 @@
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
         <div class="modalInputBlock"><input class="modalInput" id="modal4_phone"></div>
         <div class="modalBtnBlock">
-            <button onclick="yaCounter51352711.reachGoal('RASSROCHKA_Z'); return true;">СВЯЗАТЬСЯ СО СПЕЦИАЛИСТОМ<span
+            <button onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'RASSROCHKA_Z'); return true;">СВЯЗАТЬСЯ СО СПЕЦИАЛИСТОМ<span
                         class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span>
             </button>
         </div>
@@ -267,7 +267,7 @@
         <div class="modalInputName">НОМЕР ТЕЛЕФОНА *</div>
         <div class="modalInputBlock"><input name="phone" class="modalInput" id="modal5_phone"></div>
         <div class="modalBtnBlock">
-            <button onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('BK_O');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('BK_O');return true;}">
+            <button onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'BK_O'); return true;">
                 СВЯЗАТЬСЯ СО СПЕЦИАЛИСТОМ<span class="ripple rippleEffect"
                                                style="width:250px; height:250px; left:-180px; top:-77px;"></span>
             </button>
@@ -307,7 +307,7 @@
     <img src="/sceplenie-zamena/assets/img/button.png">
 </div>
 <div class="leftModalBtn btn_modal" id="modal5"
-     onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('BK');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('BK');return true;}">
+     onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'BK'); return true;">
     <img src="//u10.filesonload.ru/s/46opna051/cc9ef35356d18c722781599f1b8cae78/97ebe47d8061d19fd63064e56e15bb36.png">
 </div>
 <script src="assets/js/bootstrap.min.js"></script>

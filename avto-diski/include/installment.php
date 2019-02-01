@@ -28,7 +28,7 @@
 			</div>
 		</div>
 		<div class="container installment__button">
-			<button class="big-yellow-button btn_modal" id="modal4" onclick="yaCounter51352711.reachGoal('RASSROCHKA'); return true;">
+			<button class="big-yellow-button btn_modal" id="modal4" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'RASSROCHKA'); return true;">
                 <span class="text">
                     стильные диски в рассрочку
                     <span class="ripple rippleEffect" style="width:250px; height:250px; left:-180px; top:-77px;"></span>

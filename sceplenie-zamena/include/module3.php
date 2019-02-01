@@ -36,7 +36,7 @@
             </div>
             <div class="row justify-content-start">
                 <div class="col-lg-auto col-xl-auto pt-4 ">
-                    <button class="btn modalBtn px-5 py-4 btn_modal" id="modal4" onclick="ym(yaID[siteUrl], 'reachGoal', 'SPE'); return true;">Получить бесплатную консультацию специалиста<span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></button>
+                    <button class="btn modalBtn px-5 py-4 btn_modal" id="modal4" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'SPE'); return true;">Получить бесплатную консультацию специалиста<span class="ripple rippleEffect" style="width:270px; height:196px; left:-150px; top:-70px;"></span></button>
                 </div>
             </div>
         </div>

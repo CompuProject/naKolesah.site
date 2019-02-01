@@ -30,24 +30,26 @@ function isMobile()
     </script>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
-        var siteUrl = location.href.replace('https://nakolesah.site/','').replace('/','');
-        var yaID = [];
-        yaID['avto-diski']='51444733';
-        yaID['diski-avto']='51463640';
-
+        <?
+        $siteUrl = str_replace('index.php','',$_SERVER['SCRIPT_NAME']);
+        $yaId = [
+            "/zamena-stekla/" => "51444802",
+            "/zamena-stekol/" => "51444793",
+        ];
+        ?>
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym")
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-        ym(Number(yaID[siteUrl]), "init", {
-            id:Number(yaID[siteUrl]),
+        ym(<?=$yaId[$siteUrl]?>, "init", {
+            id:<?=$yaId[$siteUrl]?>,
             clickmap:true,
             trackLinks:true,
             accurateTrackBounce:true,
             webvisor:true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/51352711" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript><div><img src="https://mc.yandex.ru/watch/51962525" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
 </head>
 <body>
@@ -109,7 +111,7 @@ function isMobile()
                     <p>Бесплатный звонок по РФ</p>
                 </div>
                 <div class="header__top-phone-callback">
-                    <button class="btn_modal" id="modal1" onclick="if(siteUrl=='avto-diski'){yaCounter51444733.reachGoal('PZ');return true;}else if(siteUrl=='diski-avto'){yaCounter51463640.reachGoal('PZ');return true;}">
+                    <button class="btn_modal" id="modal1" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'PZ'); return true;">
 						<span class="text">
                                 Перезвоните мне
                                 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span>
