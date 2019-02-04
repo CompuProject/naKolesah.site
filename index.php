@@ -51,6 +51,7 @@
             "/" => "51353653",
             "/shini/" => "51353989",
         ];
+        $partnerType = str_replace("/","",$siteUrl);
         ?>
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
@@ -82,7 +83,7 @@
         }
     </style>
 </head>
-<body class="area ">
+<body class="area " partnerType = "<?=$partnerType?>">
 <div class="area font-text-opensans font-header-ttnormsmedium">
     <script>if (!plp.screenSizes) {
         plp.screenSizes = {

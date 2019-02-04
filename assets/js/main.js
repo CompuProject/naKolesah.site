@@ -91,6 +91,7 @@ $(document).ready(function () {
     function getWilgood() {
         $('.form1-cover .modalSubmit').click(function (event) {
             // event.preventDefault();
+            var siteName = $('body').attr('partnertype');
             var form = $(this).closest('.form1-cover'),
                 COMMENT = form.attr('id');
             var phone = form.find('input[name=phone]').val();
@@ -99,7 +100,7 @@ $(document).ready(function () {
                 $.ajax({
                     url: 'https://wilgood.ru/handler_for_partners/',
                     type: 'GET',
-                    data: 'type_partner=generatorprodaj&comment=' + COMMENT + '&type_response=html&phone=' + phone + '&unique_code=' + generateHash() + '&hash=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f',
+                    data: 'type_partner=generatorprodaj-'+siteName+'&comment=' + COMMENT + '&type_response=html&phone=' + phone + '&unique_code=' + generateHash() + '&hash=Agf0FDw6gkRuqsfOQB7cqK9k60qD17f',
                 }).done(json => {
                     if (json) {
                         console.log(json);
