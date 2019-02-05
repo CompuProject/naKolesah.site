@@ -43,30 +43,35 @@
         };
     </script>
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        <?
-        $siteUrl = str_replace('index.php','',$_SERVER['SCRIPT_NAME']);
-        $yaId = [
-            "/diagnostika/" => "51444706",
-            "/diagnostika-avto/" => "52175605",
-        ];
-        $promoDate = "8 февраля";
-        ?>
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-        ym(<?=$yaId[$siteUrl]?>, "init", {
-            id:<?=$yaId[$siteUrl]?>,
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
-        });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/51962525" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
-</head>
+    <script type="text/javascript"> (function (d, w, c) {
+            (w[c] = w[c] || []).push(function () {
+                try {
+                    w.yaCounter51238720 = new Ya.Metrika({
+                        id: 51238720,
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true,
+                        webvisor: true
+                    });
+                    w.yaCounter = w.yaCounter51238720;
+                } catch (e) {
+                }
+            });
+            var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () {
+                n.parentNode.insertBefore(s, n);
+            };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else {
+                f();
+            }
+        })(document, window, "yandex_metrika_callbacks"); </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/51238720" style="position:absolute; left:-9999px;" alt=""/></div>
+    </noscript> <!-- /Yandex.Metrika counter --></head>
 <body class="area ">
 <div class="area font-text-opensans font-header-ttnormsmedium">
     <script>if (!plp.screenSizes) {
@@ -139,8 +144,7 @@
                                             <div class="btn-inner">
                                                 <button class="btn hvr-grow font-text" id="uid2" data-id=""
                                                         data-action="modal" data-ym_goal="VIDJET" data-ga_category=""
-                                                        data-ga_action="" need_hover="false" data-modal="custom" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'VIDJET'); return true;"
-                                                ><img
+                                                        data-ga_action="" need_hover="false" data-modal="custom"><img
                                                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAA5CAYAAAA/UKufAAAAP0lEQVRIS2NkoBAwUqifYdQAhtEwYBgNA1A+Gs0Lo2Ewmg4gNcpoXhgNg9F0MJoXYO3L0fJgtDwYLQ+GTXkAALI9ADrcoZ+4AAAAAElFTkSuQmCC"
                                                             style="width: 66.78px;"
                                                             data-lazy-image="//u10.filesonload.ru/cc9ef35356d18c722781599f1b8cae78/c5e6ebaacc824b6b5749c6591f937958.png"
@@ -249,7 +253,7 @@
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
                                                                                                                         <button class="btn hvr-grow modalSubmit"
-                                                                                                                                id="uid4" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'VIDJET_Z'); return true;"><span
+                                                                                                                                id="uid4"><span
                                                                                                                                     class="text">ЗАБРОНИРОВАТЬ ВРЕМЯ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
@@ -374,7 +378,7 @@
                                                                                                                 data-ga_category=""
                                                                                                                 data-ga_action=""
                                                                                                                 need_hover="false"
-                                                                                                                data-modal="custom" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZK'); return true;">
+                                                                                                                data-modal="custom">
                                                                                                             <span class="text">ЗАКАЗАТЬ ЗВОНОК</span>
                                                                                                         </button>
                                                                                                     </div>
@@ -491,7 +495,7 @@
                                                                                                                                                                         <div class="btn-out center xs-none">
                                                                                                                                                                             <div class="btn-inner">
                                                                                                                                                                                 <button class="btn hvr-grow modalSubmit"
-                                                                                                                                                                                        id="uid7" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZK_Z'); return true;">
+                                                                                                                                                                                        id="uid7">
                                                                                                                                                                                         <span
                                                                                                                                                                                             class="text">ЗАКАЗАТЬ ЗВОНОК
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
@@ -816,7 +820,7 @@
                                                                                target="_blank">
                                                 <button class="btn font-text" id="uid78" data-id="" data-action="link"
                                                         data-ym_goal="ZVONOK" data-ga_category="" data-ga_action=""
-                                                        need_hover="true" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZVONOK'); return true;"><span class="text">ПОЗВОНИТЬ БЕСПЛАТНО</span>
+                                                        need_hover="true"><span class="text">ПОЗВОНИТЬ БЕСПЛАТНО</span>
                                                 </button>
                                             </a></div>
                                     </div>
@@ -931,7 +935,7 @@
                                 <div class="wrapper2">
                                     <div class="">
                                         <div class="xs-force-center textable"><p style="text-align: center;"><span
-                                                        style="font-size: 16px;"><span style="color: rgb(255, 241, 0);"><strong>БЕСПЛАТНО</strong></span><strong>&nbsp;ДО <?=$promoDate?></strong></span>
+                                                        style="font-size: 16px;"><span style="color: rgb(255, 241, 0);"><strong>БЕСПЛАТНО</strong></span><strong>&nbsp;ДО 14 ДЕКАБРЯ</strong></span>
                                             </p></div>
                                     </div>
                                 </div>
@@ -1190,7 +1194,7 @@
                                 <div class="wrapper2">
                                     <div class="">
                                         <div class="xs-force-center textable"><p style="text-align: center;"><span
-                                                        style="font-size: 26px;"><span style="color: rgb(255, 241, 0);"><strong>БЕСПЛАТНО</strong></span><strong>&nbsp;ДО <?=$promoDate?></strong></span>
+                                                        style="font-size: 26px;"><span style="color: rgb(255, 241, 0);"><strong>БЕСПЛАТНО</strong></span><strong>&nbsp;ДО 14 ДЕКАБРЯ</strong></span>
                                             </p></div>
                                     </div>
                                 </div>
@@ -1204,8 +1208,7 @@
                                             <div class="btn-inner">
                                                 <button class="btn hvr-grow" id="uid16" data-id="" data-action="modal"
                                                         data-ym_goal="DG" data-ga_category="" data-ga_action=""
-                                                        need_hover="false" data-modal="custom" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'DIAG'); return true;"
-                                                ><span class="text">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ В УДОБНОЕ ВРЕМЯ
+                                                        need_hover="false" data-modal="custom"><span class="text">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ В УДОБНОЕ ВРЕМЯ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                             </div>
                                         </div>
@@ -1310,7 +1313,7 @@
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
                                                                                                                         <button class="btn hvr-grow modalSubmit"
-                                                                                                                                id="uid18" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'DIAG_Z'); return true;"><span
+                                                                                                                                id="uid18"><span
                                                                                                                                     class="text">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
@@ -1648,7 +1651,7 @@
                                             <div class="btn-inner">
                                                 <button class="btn hvr-grow" id="uid19" data-id="" data-action="modal"
                                                         data-ym_goal="DIG" data-ga_category="" data-ga_action=""
-                                                        need_hover="false" data-modal="custom"><span class="text" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZAPIS'); return true;">ЗАПИСАТЬСЯ В БЛИЖАЙШИЙ К ДОМУ АВТОСЕРВИС
+                                                        need_hover="false" data-modal="custom"><span class="text">ЗАПИСАТЬСЯ В БЛИЖАЙШИЙ К ДОМУ АВТОСЕРВИС
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                             </div>
                                         </div>
@@ -1758,7 +1761,7 @@
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
                                                                                                                         <button class="btn hvr-grow modalSubmit"
-                                                                                                                                id="uid21" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'ZAPIS_Z'); return true;"><span
+                                                                                                                                id="uid21"><span
                                                                                                                                     class="text">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
@@ -2722,7 +2725,7 @@
                                 <div class="wrapper2">
                                     <div class="">
                                         <div class="xs-force-center textable"><p style="text-align: center;"><span
-                                                        style="font-size: 16px;"><span style="color: rgb(255, 241, 0);"><strong>БЕСПЛАТНО</strong></span><strong>&nbsp;ДО <?=$promoDate?></strong></span>
+                                                        style="font-size: 16px;"><span style="color: rgb(255, 241, 0);"><strong>БЕСПЛАТНО</strong></span><strong>&nbsp;ДО 14 ДЕКАБРЯ</strong></span>
                                             </p></div>
                                     </div>
                                 </div>
@@ -5216,7 +5219,7 @@
                                 <div class="wrapper2">
                                     <div class="">
                                         <div class="xs-force-center textable"><p style="text-align: center;"><span
-                                                        style="font-size: 22px;"><span style="color: rgb(255, 241, 0);"><strong>БЕСПЛАТНО</strong></span><strong>&nbsp;ДО <?=$promoDate?></strong></span>
+                                                        style="font-size: 22px;"><span style="color: rgb(255, 241, 0);"><strong>БЕСПЛАТНО</strong></span><strong>&nbsp;ДО 14 ДЕКАБРЯ</strong></span>
                                             </p></div>
                                     </div>
                                 </div>
@@ -5230,7 +5233,7 @@
                                             <div class="btn-inner">
                                                 <button class="btn hvr-grow" id="uid34" data-id="" data-action="modal"
                                                         data-ym_goal="DIAG" data-ga_category="" data-ga_action=""
-                                                        need_hover="false" data-modal="custom"><span class="text" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'VREMYA'); return true;">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ В УДОБНОЕ ВРЕМЯ
+                                                        need_hover="false" data-modal="custom"><span class="text">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ В УДОБНОЕ ВРЕМЯ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                             </div>
                                         </div>
@@ -5335,7 +5338,7 @@
                                                                                                                 <div class="btn-out center xs-none">
                                                                                                                     <div class="btn-inner">
                                                                                                                         <button class="btn hvr-grow modalSubmit"
-                                                                                                                                id="uid36" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'VREMYA_Z'); return true;"><span
+                                                                                                                                id="uid36"><span
                                                                                                                                     class="text">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                                                     </div>
@@ -6437,7 +6440,7 @@
                                 <div class="wrapper2">
                                     <div class="">
                                         <div class="xs-force-center textable"><p style="text-align: center;"><span
-                                                        style="font-size: 16px;"><span style="color: rgb(255, 241, 0);"><strong>БЕСПЛАТНО</strong></span><strong>&nbsp;ДО <?=$promoDate?></strong></span>
+                                                        style="font-size: 16px;"><span style="color: rgb(255, 241, 0);"><strong>БЕСПЛАТНО</strong></span><strong>&nbsp;ДО 14 ДЕКАБРЯ</strong></span>
                                             </p></div>
                                     </div>
                                 </div>
@@ -6560,7 +6563,7 @@
                                 <div class="wrapper2">
                                     <div class="">
                                         <div class="xs-force-center textable"><p style="text-align: center;"><span
-                                                        style="font-size: 22px;"><span style="color: rgb(255, 241, 0);"><strong>БЕСПЛАТНО</strong></span><strong>&nbsp;ДО <?=$promoDate?></strong></span>
+                                                        style="font-size: 22px;"><span style="color: rgb(255, 241, 0);"><strong>БЕСПЛАТНО</strong></span><strong>&nbsp;ДО 14 ДЕКАБРЯ</strong></span>
                                             </p></div>
                                     </div>
                                 </div>
@@ -6609,7 +6612,7 @@
                                                                             <div class="btn-out center xs-none">
                                                                                 <div class="btn-inner">
                                                                                     <button class="btn hvr-grow modalSubmit"
-                                                                                            id="uid48" onclick="ym(<?=$yaId[$siteUrl]?>, 'reachGoal', 'FORMA_Z'); return true;"><span
+                                                                                            id="uid48"><span
                                                                                                 class="text">ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ В УДОБНОЕ ВРЕМЯ
 <span class="ripple rippleEffect" style="width:196px; height:196px; left:-98px; top:-48px;"></span></span></button>
                                                                                 </div>
